@@ -1,0 +1,12 @@
+{
+  "color": {
+    "alias": {
+      "text": {
+        "title": {
+          "value": "{color.global.orange.500}",
+          "type": "color"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "color": {
+    "alias": {
+      "background": {
+        "default": {
+          "value": "{color.global.grey.800}",
+          "type": "color"
+        }
+      },
+      "surface": {
+        "default": {
+          "value": "{color.global.grey.700}",
+          "type": "color"
+        }
+      },
+      "text": {
+        "title": {
+          "value": "{color.global.grey.100}",
+          "type": "color"
+        },
+        "body": {
+          "value": "{color.global.grey.200}",
+          "type": "color"
+        }
+      },
+      "fill-primary": {
+        "default": {
+          "value": "{color.global.orange.700}",
+          "type": "color"
+        }
+      }
+    }
+  }
+}

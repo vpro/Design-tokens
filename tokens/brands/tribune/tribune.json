@@ -240,7 +240,7 @@
       "xl": {
         "value": {
           "fontFamily": "{bureau-grotesque}",
-          "fontWeight": "{font-weight.medium}",
+          "fontWeight": "{font-weight.bold}",
           "lineHeight": "{line-height.compact}",
           "fontSize": "{font-size-500}",
           "letterSpacing": "{letter-spacing.normal}"

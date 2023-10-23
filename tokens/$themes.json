@@ -7,7 +7,7 @@
       "human-publieke tribune": "enabled",
       "globals/global": "source",
       "brands/whitelabel/whitelabel": "source",
-      "brands/human/human": "enabled"
+      "brands/tribune/tribune": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:271:403",
     "$figmaModeId": "271:0",
@@ -63,7 +63,7 @@
     "selectedTokenSets": {
       "globals/global": "source",
       "brands/whitelabel/whitelabel": "source",
-      "brands/human/human": "enabled"
+      "brands/tribune/tribune": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:271:446",
     "$figmaModeId": "271:1",

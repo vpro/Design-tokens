@@ -1,8 +1,8 @@
 {
   "tokenSetOrder": [
     "globals/global",
-    "whitelabel/whitelabel",
-    "human/human",
+    "brands/whitelabel/whitelabel",
+    "brands/human/human",
     "human-publieke tribune",
     "dark"
   ]

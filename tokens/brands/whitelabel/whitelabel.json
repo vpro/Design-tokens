@@ -243,7 +243,7 @@
     "heading": {
       "xl": {
         "value": {
-          "fontFamily": "{helvetica}",
+          "fontFamily": "{font-family-helvetica}",
           "fontWeight": "Regular",
           "lineHeight": "{line-height.compact}",
           "fontSize": "{font-size-700}",
@@ -253,7 +253,7 @@
       },
       "lg": {
         "value": {
-          "fontFamily": "{helvetica}",
+          "fontFamily": "{font-family-helvetica}",
           "lineHeight": "{line-height.compact}",
           "fontSize": "{font-size-500}",
           "letterSpacing": "{letter-spacing.normal}",
@@ -263,7 +263,7 @@
       },
       "md": {
         "value": {
-          "fontFamily": "{helvetica}",
+          "fontFamily": "{font-family-helvetica}",
           "fontWeight": "Regular",
           "lineHeight": "{line-height.relaxed}",
           "fontSize": "{font-size-400}",
@@ -273,7 +273,7 @@
       },
       "sm": {
         "value": {
-          "fontFamily": "{helvetica}",
+          "fontFamily": "{font-family-helvetica}",
           "fontWeight": "Regular",
           "lineHeight": "{line-height.relaxed}",
           "fontSize": "{font-size-300}",
@@ -283,8 +283,8 @@
       },
       "xs": {
         "value": {
-          "fontFamily": "{helvetica}",
-          "fontWeight": "Medium",
+          "fontFamily": "{font-family-helvetica}",
+          "fontWeight": "Regular",
           "lineHeight": "{line-height.relaxed}",
           "fontSize": "{font-size-200}",
           "letterSpacing": "{letter-spacing.normal}"
@@ -293,7 +293,7 @@
       },
       "xxs": {
         "value": {
-          "fontFamily": "{helvetica}",
+          "fontFamily": "{font-family-helvetica}",
           "fontWeight": "Regular",
           "lineHeight": "{line-height.relaxed}",
           "fontSize": "{font-size-200}",
@@ -305,7 +305,7 @@
     "subtitle": {
       "lg": {
         "value": {
-          "fontFamily": "{helvetica}",
+          "fontFamily": "{font-family-helvetica}",
           "fontWeight": "Bold",
           "lineHeight": "{line-height.compact}",
           "fontSize": "{font-size-300}",
@@ -315,7 +315,7 @@
       },
       "md": {
         "value": {
-          "fontFamily": "{helvetica}",
+          "fontFamily": "{font-family-helvetica}",
           "fontWeight": "Medium",
           "lineHeight": "{line-height.relaxed}",
           "fontSize": "{font-size-200}",
@@ -325,7 +325,7 @@
       },
       "sm": {
         "value": {
-          "fontFamily": "{helvetica}",
+          "fontFamily": "{font-family-helvetica}",
           "fontWeight": "Regular",
           "lineHeight": "{line-height.relaxed}",
           "fontSize": "{font-size-100}",
@@ -335,7 +335,7 @@
       },
       "xs": {
         "value": {
-          "fontFamily": "{helvetica}",
+          "fontFamily": "{font-family-helvetica}",
           "fontWeight": "Regular",
           "lineHeight": "{line-height.relaxed}",
           "fontSize": "{font-size-100}",
@@ -345,7 +345,7 @@
       },
       "xxs": {
         "value": {
-          "fontFamily": "{helvetica}",
+          "fontFamily": "{font-family-helvetica}",
           "fontWeight": "Light",
           "lineHeight": "{line-height.relaxed}",
           "fontSize": "{font-size-100}",
@@ -357,7 +357,7 @@
     "body": {
       "lg": {
         "value": {
-          "fontFamily": "{helvetica}",
+          "fontFamily": "{font-family-helvetica}",
           "fontWeight": "Regular",
           "lineHeight": "{line-height.reading}",
           "fontSize": "{font-size-300}",
@@ -367,7 +367,7 @@
       },
       "md": {
         "value": {
-          "fontFamily": "{helvetica}",
+          "fontFamily": "{font-family-helvetica}",
           "fontWeight": "Regular",
           "lineHeight": "{line-height.reading}",
           "fontSize": "{font-size-200}",
@@ -377,7 +377,7 @@
       },
       "sm": {
         "value": {
-          "fontFamily": "{helvetica}",
+          "fontFamily": "{font-family-helvetica}",
           "fontWeight": "Light",
           "lineHeight": "{line-height.reading}",
           "fontSize": "{font-size-100}",

@@ -4,9 +4,7 @@
     "name": "publieke tribune",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "human-publieke tribune": "enabled",
       "globals/global": "source",
-      "brands/whitelabel/whitelabel": "source",
       "brands/tribune/tribune": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:271:403",
@@ -58,12 +56,11 @@
   },
   {
     "id": "3ae9d74d778a3db5f77f414ad850f580eb5e915f",
-    "name": "human",
+    "name": "whitelabel",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "globals/global": "source",
-      "brands/whitelabel/whitelabel": "source",
-      "brands/tribune/tribune": "enabled"
+      "brands/whitelabel/whitelabel": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:271:446",
     "$figmaModeId": "271:1",

@@ -239,8 +239,8 @@
     "heading": {
       "xl": {
         "value": {
-          "fontFamily": "{bureau-grotesque}",
-          "fontWeight": "{font-weight.bold}",
+          "fontFamily": "{font-family-bureau}",
+          "fontWeight": "Regular",
           "lineHeight": "{line-height.compact}",
           "fontSize": "{font-size-500}",
           "letterSpacing": "{letter-spacing.normal}"
@@ -249,8 +249,8 @@
       },
       "lg": {
         "value": {
-          "fontFamily": "{bureau-grotesque}",
-          "fontWeight": "{font-weight.medium}",
+          "fontFamily": "{font-family-bureau}",
+          "fontWeight": "Regular",
           "lineHeight": "{line-height.compact}",
           "fontSize": "{font-size-400}",
           "letterSpacing": "{letter-spacing.normal}"
@@ -259,8 +259,8 @@
       },
       "md": {
         "value": {
-          "fontFamily": "{bureau-grotesque}",
-          "fontWeight": "{font-weight.medium}",
+          "fontFamily": "{font-family-bureau}",
+          "fontWeight": "Regular",
           "lineHeight": "{line-height.relaxed}",
           "fontSize": "{font-size-300}",
           "letterSpacing": "{letter-spacing.normal}"
@@ -269,8 +269,8 @@
       },
       "sm": {
         "value": {
-          "fontFamily": "{bureau-grotesque}",
-          "fontWeight": "{font-weight.medium}",
+          "fontFamily": "{font-family-bureau}",
+          "fontWeight": "Regular",
           "lineHeight": "{line-height.relaxed}",
           "fontSize": "{font-size-200}",
           "letterSpacing": "{letter-spacing.normal}"
@@ -279,8 +279,8 @@
       },
       "xs": {
         "value": {
-          "fontFamily": "{bureau-grotesque}",
-          "fontWeight": "{font-weight.medium}",
+          "fontFamily": "{font-family-bureau}",
+          "fontWeight": "Regular",
           "lineHeight": "{line-height.relaxed}",
           "fontSize": "{font-size-100}",
           "letterSpacing": "{letter-spacing.normal}"
@@ -289,8 +289,8 @@
       },
       "xxs": {
         "value": {
-          "fontFamily": "{bureau-grotesque}",
-          "fontWeight": "{font-weight.medium}",
+          "fontFamily": "{font-family-bureau}",
+          "fontWeight": "Regular",
           "lineHeight": "{line-height.relaxed}",
           "fontSize": "{font-size-100}",
           "letterSpacing": "{letter-spacing.tight}"
@@ -301,7 +301,7 @@
     "subtitle": {
       "lg": {
         "value": {
-          "fontFamily": "{helvetica}",
+          "fontFamily": "{font-family-helvetica}",
           "fontWeight": "{font-weight.bold}",
           "lineHeight": "{line-height.compact}",
           "fontSize": "{font-size-300}",
@@ -311,7 +311,7 @@
       },
       "md": {
         "value": {
-          "fontFamily": "{helvetica}",
+          "fontFamily": "{font-family-helvetica}",
           "fontWeight": "{font-weight.medium}",
           "lineHeight": "{line-height.relaxed}",
           "fontSize": "{font-size-200}",
@@ -321,7 +321,7 @@
       },
       "sm": {
         "value": {
-          "fontFamily": "{helvetica}",
+          "fontFamily": "{font-family-helvetica}",
           "fontWeight": "{font-weight.medium}",
           "lineHeight": "{line-height.relaxed}",
           "fontSize": "{font-size-100}",
@@ -331,7 +331,7 @@
       },
       "xs": {
         "value": {
-          "fontFamily": "{helvetica}",
+          "fontFamily": "{font-family-helvetica}",
           "fontWeight": "{font-weight.medium}",
           "lineHeight": "{line-height.relaxed}",
           "fontSize": "{font-size-100}",
@@ -341,7 +341,7 @@
       },
       "xxs": {
         "value": {
-          "fontFamily": "{helvetica}",
+          "fontFamily": "{font-family-helvetica}",
           "fontWeight": "{font-weight.normal}",
           "lineHeight": "{line-height.relaxed}",
           "fontSize": "{font-size-100}",
@@ -353,7 +353,7 @@
     "body": {
       "lg": {
         "value": {
-          "fontFamily": "{helvetica}",
+          "fontFamily": "{font-family-helvetica}",
           "fontWeight": "{font-weight.medium}",
           "lineHeight": "{line-height.reading}",
           "fontSize": "{font-size-300}",
@@ -363,7 +363,7 @@
       },
       "md": {
         "value": {
-          "fontFamily": "{helvetica}",
+          "fontFamily": "{font-family-helvetica}",
           "fontWeight": "{font-weight.medium}",
           "lineHeight": "{line-height.reading}",
           "fontSize": "{font-size-200}",
@@ -373,7 +373,7 @@
       },
       "sm": {
         "value": {
-          "fontFamily": "{helvetica}",
+          "fontFamily": "{font-family-helvetica}",
           "fontWeight": "{font-weight.normal}",
           "lineHeight": "{line-height.reading}",
           "fontSize": "{font-size-100}",

@@ -103,7 +103,7 @@
       },
       "text": {
         "default": {
-          "value": "{color.alias.brand.secondary}",
+          "value": "{color.global.turquoise.500}",
           "type": "color"
         },
         "hover": {

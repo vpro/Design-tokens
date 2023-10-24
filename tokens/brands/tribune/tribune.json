@@ -103,7 +103,7 @@
       },
       "text": {
         "default": {
-          "value": "{color.global.turquoise.500}",
+          "value": "{color.global.green.700}",
           "type": "color"
         },
         "hover": {

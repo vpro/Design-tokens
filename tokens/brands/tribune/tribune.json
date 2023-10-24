@@ -103,7 +103,7 @@
       },
       "text": {
         "default": {
-          "value": "{color.global.orange.500}",
+          "value": "{color.global.orange.700}",
           "type": "color",
           "description": "Changed default text to orange"
         },

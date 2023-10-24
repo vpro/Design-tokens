@@ -103,7 +103,7 @@
       },
       "text": {
         "default": {
-          "value": "{color.global.orange.500}",
+          "value": "{color.global.royal.700}",
           "type": "color"
         },
         "hover": {

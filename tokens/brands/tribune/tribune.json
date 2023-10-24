@@ -103,7 +103,7 @@
       },
       "text": {
         "default": {
-          "value": "{color.global.royal.700}",
+          "value": "{color.alias.brand.secondary}",
           "type": "color"
         },
         "hover": {

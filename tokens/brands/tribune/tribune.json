@@ -103,8 +103,9 @@
       },
       "text": {
         "default": {
-          "value": "{color.global.green.700}",
-          "type": "color"
+          "value": "{color.global.orange.500}",
+          "type": "color",
+          "description": "Changed default text to orange"
         },
         "hover": {
           "value": "{color.global.grey.700}",

@@ -1,6 +1,6 @@
 {
   "name": "villa-design-tokens",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Figma Design Tokens",
   "main": "index.js",
   "scripts": {

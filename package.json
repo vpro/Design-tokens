@@ -1,7 +1,7 @@
 {
-  "name": "@vpro/villa-design-tokens",
+  "name": "villa-design-tokens",
   "description": "Design Tokens published by Design Token Studio with VPRO's Figma Design System",
-  "author": "vpro",
+  "author": "VPRO",
   "version": "1.0.5",
   "repository": {
     "type": "git",

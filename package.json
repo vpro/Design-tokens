@@ -4,7 +4,7 @@
     "type": "git",
     "url": "https://github.com/vpro/Design-tokens"
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Figma Design Tokens",
   "main": "index.js",
   "scripts": {

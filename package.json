@@ -1,5 +1,9 @@
 {
   "name": "villa-design-tokens",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vpro/Design-tokens"
+  },
   "version": "1.0.1",
   "description": "Figma Design Tokens",
   "main": "index.js",

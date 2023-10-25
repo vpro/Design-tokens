@@ -3,8 +3,7 @@
   "description": "Design Tokens published by Design Token Studio with VPRO's Figma Design System",
   "author": "vpro",
   "version": "1.0.3",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/vpro/Design-tokens"
-  }
+  "publishConfig": {
+    "registry": "https://nexus.vpro.nl/content/repositories/npm-vpro/"
+  },
 }

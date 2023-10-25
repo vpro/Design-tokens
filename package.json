@@ -5,5 +5,5 @@
   "version": "1.0.3",
   "publishConfig": {
     "registry": "https://nexus.vpro.nl/content/repositories/npm-vpro/"
-  },
+  }
 }

@@ -1,15 +1,10 @@
 {
-  "name": "villa-design-tokens",
+  "name": "@vpro/villa-design-tokens",
+  "description": "Design Tokens published by Design Token Studio with VPRO's Figma Design System",
+  "author": "vpro",
+  "version": "1.0.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/vpro/Design-tokens"
-  },
-  "version": "1.0.2",
-  "description": "Figma Design Tokens",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC"
+  }
 }

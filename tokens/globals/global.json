@@ -3,12 +3,20 @@
     "value": "Simplistic Sans",
     "type": "fontFamilies"
   },
+  "font-family-simplistic-outline": {
+    "value": "Simplistic Sans Outline",
+    "type": "fontFamilies"
+  },
   "font-family-vesta": {
     "value": "VPRO Vesta",
     "type": "fontFamilies"
   },
   "font-family-bureau": {
     "value": "BureauGrotesque FiveOne",
+    "type": "fontFamilies"
+  },
+  "font-family-helvetica": {
+    "value": "Helvetica Neue",
     "type": "fontFamilies"
   },
   "font-size-50": {
@@ -105,10 +113,6 @@
     "value": "0.05em",
     "type": "letterSpacing",
     "description": "Breathable"
-  },
-  "font-family-helvetica": {
-    "value": "Helvetica Neue",
-    "type": "fontFamilies"
   },
   "spacing-100": {
     "value": "4px",

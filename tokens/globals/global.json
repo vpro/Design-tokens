@@ -119,23 +119,23 @@
     "description": "Breathable"
   },
   "spacing-100": {
-    "value": "4px",
+    "value": "4",
     "type": "spacing"
   },
   "spacing-200": {
-    "value": "8px",
+    "value": "8",
     "type": "spacing"
   },
   "spacing-300": {
-    "value": "12px",
+    "value": "12",
     "type": "spacing"
   },
   "spacing-400": {
-    "value": "16px",
+    "value": "16",
     "type": "spacing"
   },
   "spacing-500": {
-    "value": "32px",
+    "value": "32",
     "type": "spacing"
   },
   "spacing-600": {
@@ -143,7 +143,7 @@
     "type": "spacing"
   },
   "spacing-700": {
-    "value": "128px",
+    "value": "128",
     "type": "spacing"
   },
   "color": {

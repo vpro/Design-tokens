@@ -79,6 +79,10 @@
     "value": "600",
     "type": "fontWeights"
   },
+  "font-weight-700": {
+    "value": "700",
+    "type": "fontWeights"
+  },
   "line-height-100": {
     "value": "100%",
     "type": "lineHeights",
@@ -119,27 +123,27 @@
     "type": "spacing"
   },
   "spacing-200": {
-    "value": "{spacing-100}*2",
+    "value": "8px",
     "type": "spacing"
   },
   "spacing-300": {
-    "value": "{spacing-200}*2",
+    "value": "12px",
     "type": "spacing"
   },
   "spacing-400": {
-    "value": "{spacing-300}*2",
+    "value": "16px",
     "type": "spacing"
   },
   "spacing-500": {
-    "value": "{spacing-400}*2",
+    "value": "32px",
     "type": "spacing"
   },
   "spacing-600": {
-    "value": "{spacing-500}*2",
+    "value": "64",
     "type": "spacing"
   },
   "spacing-700": {
-    "value": "{spacing-600}*2",
+    "value": "128px",
     "type": "spacing"
   },
   "color": {

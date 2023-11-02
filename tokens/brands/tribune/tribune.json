@@ -85,11 +85,11 @@
       },
       "brand": {
         "accent": {
-          "value": "{color.global.gold.700}",
+          "value": "{color.global.violet.500}",
           "type": "color"
         },
         "primary": {
-          "value": "{color.global.grey.900}",
+          "value": "{color.global.plum.700}",
           "type": "color"
         },
         "secondary": {
@@ -121,7 +121,7 @@
       },
       "text": {
         "default": {
-          "value": "{color.global.red.500}",
+          "value": "{color.global.grey.900}",
           "type": "color"
         },
         "hover": {

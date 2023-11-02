@@ -143,10 +143,6 @@
         "warning": {
           "value": "{color.global.orange.500}",
           "type": "color"
-        },
-        "body": {
-          "value": "{color.global.grey.900}",
-          "type": "color"
         }
       },
       "icon": {

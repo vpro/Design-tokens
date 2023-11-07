@@ -10,7 +10,7 @@
         "type": "fontFamilies"
       },
       "subheading": {
-        "value": "{font-family-simplistic-outline}",
+        "value": "{font-family-simplistic}",
         "type": "fontFamilies"
       }
     }
@@ -121,7 +121,7 @@
       },
       "text": {
         "default": {
-          "value": "{color.global.gold.700}",
+          "value": "{color.global.grey.900}",
           "type": "color"
         },
         "hover": {

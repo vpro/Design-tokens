@@ -5,7 +5,8 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "globals/global": "source",
-      "brands/tribune/tribune": "enabled"
+      "brands/tribune/tribune": "enabled",
+      "brands/human/human": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:271:403",
     "$figmaModeId": "271:0",
@@ -60,7 +61,8 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "globals/global": "source",
-      "brands/whitelabel/whitelabel": "source"
+      "brands/whitelabel/whitelabel": "source",
+      "brands/human/human": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:271:446",
     "$figmaModeId": "271:1",

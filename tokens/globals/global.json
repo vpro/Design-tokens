@@ -1,119 +1,119 @@
 {
-  "font-family-simplistic": {
+  "fontFamily-simplistic": {
     "value": "Simplistic Sans",
     "type": "fontFamilies"
   },
-  "font-family-simplistic-outline": {
+  "fontFamily-simplistic-outline": {
     "value": "Simplistic Sans Outline",
     "type": "fontFamilies"
   },
-  "font-family-vesta": {
+  "fontFamily-vesta": {
     "value": "VPRO Vesta",
     "type": "fontFamilies"
   },
-  "font-family-bureau": {
+  "fontFamily-bureau": {
     "value": "BureauGrotesque FiveOne",
     "type": "fontFamilies"
   },
-  "font-family-helvetica": {
+  "fontFamily-helvetica": {
     "value": "Helvetica Neue",
     "type": "fontFamilies"
   },
-  "font-size-50": {
+  "fontSize-50": {
     "value": "12px",
     "type": "fontSizes"
   },
-  "font-size-75": {
+  "fontSize-75": {
     "value": "14px",
     "type": "fontSizes"
   },
-  "font-size-100": {
+  "fontSize-100": {
     "value": "16px",
     "type": "fontSizes"
   },
-  "font-size-200": {
+  "fontSize-200": {
     "value": "20px",
     "type": "fontSizes"
   },
-  "font-size-300": {
+  "fontSize-300": {
     "value": "24px",
     "type": "fontSizes"
   },
-  "font-size-400": {
+  "fontSize-400": {
     "value": "32px",
     "type": "fontSizes"
   },
-  "font-size-500": {
+  "fontSize-500": {
     "value": "48px",
     "type": "fontSizes"
   },
-  "font-size-600": {
+  "fontSize-600": {
     "value": "56px",
     "type": "fontSizes"
   },
-  "font-size-700": {
+  "fontSize-700": {
     "value": "64px",
     "type": "fontSizes"
   },
-  "font-weight-100": {
+  "fontWeight-100": {
     "value": "100",
     "type": "fontWeights"
   },
-  "font-weight-200": {
+  "fontWeight-200": {
     "value": "200",
     "type": "fontWeights"
   },
-  "font-weight-300": {
+  "fontWeight-300": {
     "value": "300",
     "type": "fontWeights"
   },
-  "font-weight-400": {
+  "fontWeight-400": {
     "value": "400",
     "type": "fontWeights"
   },
-  "font-weight-500": {
+  "fontWeight-500": {
     "value": "500",
     "type": "fontWeights"
   },
-  "font-weight-600": {
+  "fontWeight-600": {
     "value": "600",
     "type": "fontWeights"
   },
-  "font-weight-700": {
+  "fontWeight-700": {
     "value": "700",
     "type": "fontWeights"
   },
-  "line-height-100": {
+  "lineHeight-100": {
     "value": "100%",
     "type": "lineHeights",
     "description": "Typically for captions or dense text"
   },
-  "line-height-200": {
+  "lineHeight-200": {
     "value": "140%",
     "type": "lineHeights",
     "description": "Standard for body text"
   },
-  "line-height-300": {
+  "lineHeight-300": {
     "value": "160%",
     "type": "lineHeights",
     "description": "Breathable body text or for headers"
   },
-  "line-height-400": {
+  "lineHeight-400": {
     "value": "180%",
     "type": "lineHeights",
     "description": "For larger headers"
   },
-  "letter-spacing-100": {
+  "letterSpacing-100": {
     "value": "-0.05em",
     "type": "letterSpacing",
     "description": "Tight"
   },
-  "letter-spacing-200": {
+  "letterSpacing-200": {
     "value": "0em",
     "type": "letterSpacing",
     "description": "Normal"
   },
-  "letter-spacing-300": {
+  "letterSpacing-300": {
     "value": "0.05em",
     "type": "letterSpacing",
     "description": "Breathable"
@@ -355,21 +355,5 @@
         }
       }
     }
-  },
-  "radius-small": {
-    "value": "4",
-    "type": "borderRadius"
-  },
-  "radius-medium": {
-    "value": "16",
-    "type": "borderRadius"
-  },
-  "radius-big": {
-    "value": "64",
-    "type": "borderRadius"
-  },
-  "radius-none": {
-    "value": "0",
-    "type": "borderRadius"
   }
 }

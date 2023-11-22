@@ -1,8 +1,8 @@
 {
   "tokenSetOrder": [
     "globals/global",
-    "brands/human/human",
-    "brands/whitelabel/whitelabel",
-    "brands/tribune/tribune"
+    "brands/human",
+    "brands/whitelabel",
+    "website/tribune"
   ]
 }

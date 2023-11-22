@@ -1,0 +1,16 @@
+{
+  "fontfamily": {
+    "body": {
+      "value": "{fontfamily.global.vesta}",
+      "type": "fontFamilies"
+    },
+    "heading": {
+      "value": "{fontfamily.global.simplistic-outline}",
+      "type": "fontFamilies"
+    },
+    "subheading": {
+      "value": "{fontfamily.global.bureau}",
+      "type": "fontFamilies"
+    }
+  }
+}

@@ -1,150 +1,174 @@
 {
-  "fontFamily-simplistic": {
-    "value": "Simplistic Sans",
-    "type": "fontFamilies"
+  "fontfamily": {
+    "global": {
+      "simplistic": {
+        "value": "Simplistic Sans",
+        "type": "fontFamilies"
+      },
+      "simplistic-outline": {
+        "value": "Simplistic Sans Outline",
+        "type": "fontFamilies"
+      },
+      "vesta": {
+        "value": "VPRO Vesta",
+        "type": "fontFamilies"
+      },
+      "bureau": {
+        "value": "BureauGrotesque FiveOne",
+        "type": "fontFamilies"
+      },
+      "helvetica": {
+        "value": "Helvetica Neue",
+        "type": "fontFamilies"
+      }
+    }
   },
-  "fontFamily-simplistic-outline": {
-    "value": "Simplistic Sans Outline",
-    "type": "fontFamilies"
+  "fontsize": {
+    "global": {
+      "50": {
+        "value": "12px",
+        "type": "fontSizes"
+      },
+      "75": {
+        "value": "14px",
+        "type": "fontSizes"
+      },
+      "100": {
+        "value": "16px",
+        "type": "fontSizes"
+      },
+      "200": {
+        "value": "20px",
+        "type": "fontSizes"
+      },
+      "300": {
+        "value": "24px",
+        "type": "fontSizes"
+      },
+      "400": {
+        "value": "32px",
+        "type": "fontSizes"
+      },
+      "500": {
+        "value": "48px",
+        "type": "fontSizes"
+      },
+      "600": {
+        "value": "56px",
+        "type": "fontSizes"
+      },
+      "700": {
+        "value": "64px",
+        "type": "fontSizes"
+      }
+    }
   },
-  "fontFamily-vesta": {
-    "value": "VPRO Vesta",
-    "type": "fontFamilies"
+  "fontweight": {
+    "global": {
+      "100": {
+        "value": "100",
+        "type": "fontWeights"
+      },
+      "200": {
+        "value": "200",
+        "type": "fontWeights"
+      },
+      "300": {
+        "value": "300",
+        "type": "fontWeights"
+      },
+      "400": {
+        "value": "400",
+        "type": "fontWeights"
+      },
+      "500": {
+        "value": "500",
+        "type": "fontWeights"
+      },
+      "600": {
+        "value": "600",
+        "type": "fontWeights"
+      },
+      "700": {
+        "value": "700",
+        "type": "fontWeights"
+      }
+    }
   },
-  "fontFamily-bureau": {
-    "value": "BureauGrotesque FiveOne",
-    "type": "fontFamilies"
+  "lineheight": {
+    "global": {
+      "100": {
+        "value": "100%",
+        "type": "lineHeights",
+        "description": "Typically for captions or dense text"
+      },
+      "200": {
+        "value": "140%",
+        "type": "lineHeights",
+        "description": "Standard for body text"
+      },
+      "300": {
+        "value": "160%",
+        "type": "lineHeights",
+        "description": "Breathable body text or for headers"
+      },
+      "400": {
+        "value": "180%",
+        "type": "lineHeights",
+        "description": "For larger headers"
+      }
+    }
   },
-  "fontFamily-helvetica": {
-    "value": "Helvetica Neue",
-    "type": "fontFamilies"
+  "letterspacing": {
+    "global": {
+      "100": {
+        "value": "-0.05em",
+        "type": "letterSpacing",
+        "description": "Tight"
+      },
+      "200": {
+        "value": "0em",
+        "type": "letterSpacing",
+        "description": "Normal"
+      },
+      "300": {
+        "value": "0.05em",
+        "type": "letterSpacing",
+        "description": "Breathable"
+      }
+    }
   },
-  "fontSize-50": {
-    "value": "12px",
-    "type": "fontSizes"
-  },
-  "fontSize-75": {
-    "value": "14px",
-    "type": "fontSizes"
-  },
-  "fontSize-100": {
-    "value": "16px",
-    "type": "fontSizes"
-  },
-  "fontSize-200": {
-    "value": "20px",
-    "type": "fontSizes"
-  },
-  "fontSize-300": {
-    "value": "24px",
-    "type": "fontSizes"
-  },
-  "fontSize-400": {
-    "value": "32px",
-    "type": "fontSizes"
-  },
-  "fontSize-500": {
-    "value": "48px",
-    "type": "fontSizes"
-  },
-  "fontSize-600": {
-    "value": "56px",
-    "type": "fontSizes"
-  },
-  "fontSize-700": {
-    "value": "64px",
-    "type": "fontSizes"
-  },
-  "fontWeight-100": {
-    "value": "100",
-    "type": "fontWeights"
-  },
-  "fontWeight-200": {
-    "value": "200",
-    "type": "fontWeights"
-  },
-  "fontWeight-300": {
-    "value": "300",
-    "type": "fontWeights"
-  },
-  "fontWeight-400": {
-    "value": "400",
-    "type": "fontWeights"
-  },
-  "fontWeight-500": {
-    "value": "500",
-    "type": "fontWeights"
-  },
-  "fontWeight-600": {
-    "value": "600",
-    "type": "fontWeights"
-  },
-  "fontWeight-700": {
-    "value": "700",
-    "type": "fontWeights"
-  },
-  "lineHeight-100": {
-    "value": "100%",
-    "type": "lineHeights",
-    "description": "Typically for captions or dense text"
-  },
-  "lineHeight-200": {
-    "value": "140%",
-    "type": "lineHeights",
-    "description": "Standard for body text"
-  },
-  "lineHeight-300": {
-    "value": "160%",
-    "type": "lineHeights",
-    "description": "Breathable body text or for headers"
-  },
-  "lineHeight-400": {
-    "value": "180%",
-    "type": "lineHeights",
-    "description": "For larger headers"
-  },
-  "letterSpacing-100": {
-    "value": "-0.05em",
-    "type": "letterSpacing",
-    "description": "Tight"
-  },
-  "letterSpacing-200": {
-    "value": "0em",
-    "type": "letterSpacing",
-    "description": "Normal"
-  },
-  "letterSpacing-300": {
-    "value": "0.05em",
-    "type": "letterSpacing",
-    "description": "Breathable"
-  },
-  "spacing-100": {
-    "value": "4px",
-    "type": "spacing"
-  },
-  "spacing-200": {
-    "value": "8px",
-    "type": "spacing"
-  },
-  "spacing-300": {
-    "value": "12px",
-    "type": "spacing"
-  },
-  "spacing-400": {
-    "value": "16px",
-    "type": "spacing"
-  },
-  "spacing-500": {
-    "value": "32px",
-    "type": "spacing"
-  },
-  "spacing-600": {
-    "value": "64px",
-    "type": "spacing"
-  },
-  "spacing-700": {
-    "value": "128px",
-    "type": "spacing"
+  "spacing": {
+    "global": {
+      "100": {
+        "value": "4px",
+        "type": "spacing"
+      },
+      "200": {
+        "value": "8px",
+        "type": "spacing"
+      },
+      "300": {
+        "value": "12px",
+        "type": "spacing"
+      },
+      "400": {
+        "value": "16px",
+        "type": "spacing"
+      },
+      "500": {
+        "value": "32px",
+        "type": "spacing"
+      },
+      "600": {
+        "value": "64px",
+        "type": "spacing"
+      },
+      "700": {
+        "value": "128px",
+        "type": "spacing"
+      }
+    }
   },
   "color": {
     "global": {

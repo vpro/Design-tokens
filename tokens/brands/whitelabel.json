@@ -28,7 +28,7 @@
       "max": {
         "value": {
           "fontFamily": "{fontfamily.body}",
-          "fontWeight": "{fontweight.bold}",
+          "fontWeight": "{fontweight.normal}",
           "fontSize": "{fontsize.global.180}",
           "lineHeight": "{lineheight.body}",
           "letterSpacing": "{letterspacing.normal}"

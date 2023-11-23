@@ -1,7 +1,7 @@
 [
   {
     "id": "777064ce917add4f326ee05cd12e08dafd7c1943",
-    "name": "Whitelabel",
+    "name": "whitelabel",
     "selectedTokenSets": {
       "global": "source",
       "brands/whitelabel": "enabled"
@@ -10,7 +10,7 @@
   },
   {
     "id": "3ae9d74d778a3db5f77f414ad850f580eb5e915f",
-    "name": "Human",
+    "name": "human",
     "selectedTokenSets": {
       "global": "source",
       "brands/human": "enabled"
@@ -60,7 +60,7 @@
   },
   {
     "id": "977d3aba54ee6e7bda3e444b28e0d3df650ae91b",
-    "name": "Human - De Publieke Tribune",
+    "name": "human-tribune",
     "selectedTokenSets": {
       "global": "source",
       "brands/human": "source",

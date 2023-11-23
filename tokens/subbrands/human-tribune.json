@@ -1,0 +1,10 @@
+{
+  "color": {
+    "brand": {
+      "accent": {
+        "value": "{color.global.orange.300}",
+        "type": "color"
+      }
+    }
+  }
+}

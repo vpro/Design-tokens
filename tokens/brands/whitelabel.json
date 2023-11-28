@@ -314,19 +314,7 @@
   "color": {
     "brand": {
       "accent": {
-        "value": "{color.global.gold.700}",
-        "type": "color"
-      },
-      "primary": {
-        "value": "{color.global.grey.500}",
-        "type": "color"
-      },
-      "secondary": {
-        "value": "{color.global.rose.100}",
-        "type": "color"
-      },
-      "tertiary": {
-        "value": "{color.global.grey.150}",
+        "value": "{color.global.grey.550}",
         "type": "color"
       }
     },
@@ -387,10 +375,6 @@
       },
       "subtle": {
         "value": "{color.global.grey.400}",
-        "type": "color"
-      },
-      "tertiary": {
-        "value": "{color.global.grey.350}",
         "type": "color"
       },
       "disabled": {

@@ -2,7 +2,7 @@
   "color": {
     "brand": {
       "accent": {
-        "value": "{color.global.orange.300}",
+        "value": "{color.global.orange.50}",
         "type": "color"
       }
     }

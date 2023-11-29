@@ -271,7 +271,7 @@
   },
   "fontweight": {
     "normal": {
-      "value": "{fontweight.global.300}",
+      "value": "{fontweight.global.400}",
       "type": "fontWeights"
     },
     "medium": {

@@ -41,7 +41,7 @@
         "lg": {
           "value": {
             "fontFamily": "{fontfamily.label}",
-            "fontWeight": "{fontweight.normal}",
+            "fontWeight": "{fontweight.medium}",
             "fontSize": "{fontsize.global.100}",
             "lineHeight": "{lineheight.tight}",
             "letterSpacing": "{letterspacing.normal}"
@@ -51,7 +51,7 @@
         "md": {
           "value": {
             "fontFamily": "{fontfamily.label}",
-            "fontWeight": "{fontweight.normal}",
+            "fontWeight": "{fontweight.medium}",
             "fontSize": "{fontsize.global.60}",
             "lineHeight": "{lineheight.tight}",
             "letterSpacing": "{letterspacing.normal}"
@@ -61,7 +61,7 @@
         "sm": {
           "value": {
             "fontFamily": "{fontfamily.label}",
-            "fontWeight": "{fontweight.normal}",
+            "fontWeight": "{fontweight.medium}",
             "fontSize": "{fontsize.global.40}",
             "lineHeight": "{lineheight.tight}",
             "letterSpacing": "{letterspacing.normal}"
@@ -73,7 +73,7 @@
         "lg": {
           "value": {
             "fontFamily": "{fontfamily.label}",
-            "fontWeight": "{fontweight.normal}",
+            "fontWeight": "{fontweight.medium}",
             "fontSize": "{fontsize.global.120}",
             "lineHeight": "{lineheight.tight}",
             "letterSpacing": "{letterspacing.normal}"
@@ -83,7 +83,7 @@
         "md": {
           "value": {
             "fontFamily": "{fontfamily.label}",
-            "fontWeight": "{fontweight.normal}",
+            "fontWeight": "{fontweight.medium}",
             "fontSize": "{fontsize.global.80}",
             "lineHeight": "{lineheight.tight}",
             "letterSpacing": "{letterspacing.normal}"
@@ -93,7 +93,7 @@
         "sm": {
           "value": {
             "fontFamily": "{fontfamily.label}",
-            "fontWeight": "{fontweight.normal}",
+            "fontWeight": "{fontweight.medium}",
             "fontSize": "{fontsize.global.20}",
             "lineHeight": "{lineheight.tight}",
             "letterSpacing": "{letterspacing.normal}"

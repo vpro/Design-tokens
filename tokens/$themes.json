@@ -9,7 +9,6 @@
       "color.background.tertiairy": "S:97b33c41a7299d321c7bb19d16ab8be4303d9cc5,",
       "color.surface.default": "S:d6dfbfd59fa773f03b6d857281c9ce3ed048ca81,",
       "color.surface.secondary": "S:92ab3e46fee1654e3fac983089cd039b24afd72e,",
-      "color.surface.tertiairy": "S:fb742e4e69446c1b8196a3aa66327d85ab6fd8d9,",
       "color.functional.error": "S:4a3a0bc44b3569b761be71c9e544ed81f84a9c9c,",
       "color.functional.warning": "S:90d6d28c35af1a1110cc05d9bb5451c3cfabe309,",
       "color.functional.success": "S:33709c03d13bdf21356dea419f2f087bf5194e09,",
@@ -68,7 +67,8 @@
       "text.heading.max.md": "S:ea043214f711805eed393b2c93e9a7dfb223cfba,",
       "text.heading.max.sm": "S:98485719380d8b8a749c7d492c2823db1edafdae,",
       "text.heading.max.xs": "S:58c33ae678b4b709059fece4eb09a7daf6200452,",
-      "text.heading.max.xxs": "S:3fea91508b691bc388c8037ce954d7f1955614e0,"
+      "text.heading.max.xxs": "S:3fea91508b691bc388c8037ce954d7f1955614e0,",
+      "color.surface.disabled": "S:fb742e4e69446c1b8196a3aa66327d85ab6fd8d9,"
     },
     "selectedTokenSets": {
       "global": "source",
@@ -103,7 +103,6 @@
       "color.background.tertiairy": "S:a517a621705c02d6f2d91f05dd0fe1109551aea1,",
       "color.surface.default": "S:d7528d8a7bf6bf7e40a9cc5139b44cce7f6865e2,",
       "color.surface.secondary": "S:f413fbde1e80acbd65face812323a3b394a44af9,",
-      "color.surface.tertiairy": "S:5ff806d49ba770435bd88d4a3fcdc6efb9711917,",
       "color.functional.error": "S:c2e28a68aa0ee2ca61ce27ec26a68dd5ddc55c9c,",
       "color.functional.warning": "S:bf62a8e4c1ded707a4e8244aeaca092cb6046c8e,",
       "color.functional.success": "S:2a9ae9a5ec79a15b1112d8ebab1992c73b73667e,",
@@ -144,7 +143,8 @@
       "text.heading.max.md": "S:826347d1153bdd787f07bfa97018b63b39d7da68,",
       "text.heading.max.sm": "S:b72001284e47d2a5c695626b7f9fc67ad665c988,",
       "text.heading.max.xs": "S:6140c3c71213e1b230df38bb23db9b6b6e8cb0b1,",
-      "text.heading.max.xxs": "S:a0e9cf2acd440fb0544be5b33db02b326c9fd0ab,"
+      "text.heading.max.xxs": "S:a0e9cf2acd440fb0544be5b33db02b326c9fd0ab,",
+      "color.surface.disabled": "S:5ff806d49ba770435bd88d4a3fcdc6efb9711917,"
     },
     "selectedTokenSets": {
       "global": "source",

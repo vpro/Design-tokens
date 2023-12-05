@@ -334,14 +334,14 @@
     },
     "surface": {
       "default": {
-        "value": "{color.global.grey.100}",
-        "type": "color"
-      },
-      "secondary": {
         "value": "{color.global.grey.150}",
         "type": "color"
       },
-      "tertiairy": {
+      "secondary": {
+        "value": "{color.global.grey.100}",
+        "type": "color"
+      },
+      "disabled": {
         "value": "{color.global.grey.200}",
         "type": "color"
       }

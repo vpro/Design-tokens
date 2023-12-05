@@ -18,7 +18,7 @@
       "min": {
         "value": {
           "fontFamily": "{fontfamily.body}",
-          "fontWeight": "{fontweight.normal}",
+          "fontWeight": "{fontweight.medium}",
           "fontSize": "{fontsize.global.140}",
           "lineHeight": "{lineheight.normal}",
           "letterSpacing": "{letterspacing.normal}"
@@ -28,7 +28,7 @@
       "max": {
         "value": {
           "fontFamily": "{fontfamily.body}",
-          "fontWeight": "{fontweight.normal}",
+          "fontWeight": "{fontweight.medium}",
           "fontSize": "{fontsize.global.180}",
           "lineHeight": "{lineheight.normal}",
           "letterSpacing": "{letterspacing.normal}"
@@ -248,7 +248,7 @@
         },
         "xs": {
           "value": {
-            "fontFamily": "{fontfamily.global.bureau}",
+            "fontFamily": "{fontfamily.heading}",
             "fontWeight": "{fontweight.bold}",
             "fontSize": "{fontsize.global.260}",
             "lineHeight": "{lineheight.tight}",
@@ -258,7 +258,7 @@
         },
         "xxs": {
           "value": {
-            "fontFamily": "{fontfamily.body}",
+            "fontFamily": "{fontfamily.heading}",
             "fontWeight": "{fontweight.bold}",
             "fontSize": "{fontsize.global.220}",
             "lineHeight": "{lineheight.tight}",

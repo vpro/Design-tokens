@@ -125,8 +125,7 @@
     },
     "selectedTokenSets": {
       "global": "source",
-      "brands/human": "enabled",
-      "brands/whitelabel": "enabled"
+      "brands/human": "enabled"
     }
   }
 ]

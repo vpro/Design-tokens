@@ -259,7 +259,7 @@
         "xxs": {
           "value": {
             "fontFamily": "{fontfamily.body}",
-            "fontWeight": "{fontweight.normal}",
+            "fontWeight": "{fontweight.bold}",
             "fontSize": "{fontsize.global.220}",
             "lineHeight": "{lineheight.tight}",
             "letterSpacing": "{letterspacing.normal}"

@@ -19,7 +19,7 @@
         "value": {
           "fontFamily": "{fontfamily.body}",
           "fontWeight": "{fontweight.normal}",
-          "fontSize": "{fontsize.global.140}",
+          "fontSize": "{fontsize.global.60}",
           "lineHeight": "{lineheight.normal}",
           "letterSpacing": "{letterspacing.normal}"
         },

@@ -1,6 +1,7 @@
 {
   "tokenSetOrder": [
     "global",
+    "base",
     "brands/whitelabel",
     "brands/human",
     "subbrands/human-tribune",

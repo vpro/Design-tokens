@@ -1,62 +1,58 @@
 {
   "fontfamily": {
     "body": {
-      "value": "{fontfamily.global.bureau}",
+      "value": "{fontfamily.global.helvetica}",
       "type": "fontFamilies"
     },
     "label": {
-      "value": "{fontfamily.global.bureau}",
+      "value": "{fontfamily.global.helvetica}",
       "type": "fontFamilies"
     },
     "heading": {
-      "value": "{fontfamily.global.bureau-condensed}",
+      "value": "{fontfamily.global.helvetica}",
       "type": "fontFamilies"
     }
   },
   "fontweight": {
-    "light": {
-      "value": "{fontweight.global.200}",
+    "body": {
+      "value": "{fontweight.normal}",
       "type": "fontWeights"
     },
-    "normal": {
-      "value": "{fontweight.global.400}",
+    "label": {
+      "value": "{fontweight.medium}",
       "type": "fontWeights"
     },
-    "medium": {
-      "value": "{fontweight.global.500}",
-      "type": "fontWeights"
-    },
-    "bold": {
-      "value": "{fontweight.global.700}",
+    "heading": {
+      "value": "{fontweight.bold}",
       "type": "fontWeights"
     }
   },
   "lineheight": {
-    "tight": {
-      "value": "{lineheight.global.100}",
+    "body": {
+      "value": "{lineheight.normal}",
       "type": "lineHeights"
     },
-    "normal": {
-      "value": "{lineheight.global.200}",
+    "label": {
+      "value": "{lineheight.tight}",
       "type": "lineHeights"
     },
-    "loose": {
-      "value": "{lineheight.global.300}",
+    "heading": {
+      "value": "{lineheight.tight}",
       "type": "lineHeights"
     }
   },
   "letterspacing": {
-    "tight": {
-      "value": "{letterspacing.global.100}",
-      "type": "letterSpacing"
+    "body": {
+      "value": "{lineheight.normal}",
+      "type": "lineHeights"
     },
-    "normal": {
-      "value": "{letterspacing.global.200}",
-      "type": "letterSpacing"
+    "label": {
+      "value": "{lineheight.normal}",
+      "type": "lineHeights"
     },
-    "loose": {
-      "value": "{letterspacing.global.300}",
-      "type": "letterSpacing"
+    "heading": {
+      "value": "{lineheight.normal}",
+      "type": "lineHeights"
     }
   },
   "color": {

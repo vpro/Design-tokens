@@ -73,7 +73,7 @@
     "selectedTokenSets": {
       "global": "source",
       "brands/whitelabel": "enabled",
-      "base": "disabled"
+      "base": "enabled"
     }
   },
   {
@@ -126,8 +126,7 @@
     },
     "selectedTokenSets": {
       "global": "source",
-      "brands/human": "enabled",
-      "base": "disabled"
+      "brands/human": "enabled"
     }
   }
 ]

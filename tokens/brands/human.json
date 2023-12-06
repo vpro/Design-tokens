@@ -1,15 +1,15 @@
 {
   "fontfamily": {
     "body": {
-      "value": "{fontfamily.global.helvetica}",
+      "value": "{fontfamily.global.bureau}",
       "type": "fontFamilies"
     },
     "label": {
-      "value": "{fontfamily.global.helvetica}",
+      "value": "{fontfamily.global.bureau}",
       "type": "fontFamilies"
     },
     "heading": {
-      "value": "{fontfamily.global.helvetica}",
+      "value": "{fontfamily.global.bureau-condensed}",
       "type": "fontFamilies"
     }
   },

@@ -3,8 +3,6 @@
     "global",
     "base",
     "brands/whitelabel",
-    "brands/human",
-    "subbrands/human-tribune",
-    "mode/dark"
+    "brands/human"
   ]
 }

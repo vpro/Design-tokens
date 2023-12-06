@@ -94,24 +94,6 @@
         "type": "color"
       }
     },
-    "functional": {
-      "error": {
-        "value": "{color.global.red.100}",
-        "type": "color"
-      },
-      "warning": {
-        "value": "{color.global.orange.100}",
-        "type": "color"
-      },
-      "success": {
-        "value": "{color.global.green.100}",
-        "type": "color"
-      },
-      "info": {
-        "value": "{color.global.blue.100}",
-        "type": "color"
-      }
-    },
     "text": {
       "title": {
         "value": "{color.global.grey.500}",

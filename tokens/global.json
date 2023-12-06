@@ -202,38 +202,6 @@
       }
     }
   },
-  "spacing": {
-    "global": {
-      "100": {
-        "value": "4px",
-        "type": "spacing"
-      },
-      "200": {
-        "value": "8px",
-        "type": "spacing"
-      },
-      "300": {
-        "value": "16px",
-        "type": "spacing"
-      },
-      "400": {
-        "value": "32px",
-        "type": "spacing"
-      },
-      "500": {
-        "value": "64px",
-        "type": "spacing"
-      },
-      "600": {
-        "value": "128px",
-        "type": "spacing"
-      },
-      "700": {
-        "value": "256px",
-        "type": "spacing"
-      }
-    }
-  },
   "color": {
     "global": {
       "grey": {

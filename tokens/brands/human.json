@@ -1,18 +1,4 @@
 {
-  "fontfamily": {
-    "body": {
-      "value": "{fontfamily.global.bureau}",
-      "type": "fontFamilies"
-    },
-    "label": {
-      "value": "{fontfamily.global.bureau}",
-      "type": "fontFamilies"
-    },
-    "heading": {
-      "value": "{fontfamily.global.bureau-condensed}",
-      "type": "fontFamilies"
-    }
-  },
   "text": {
     "body": {
       "min": {
@@ -269,13 +255,27 @@
       }
     }
   },
+  "fontfamily": {
+    "body": {
+      "value": "{fontfamily.global.bureau}",
+      "type": "fontFamilies"
+    },
+    "label": {
+      "value": "{fontfamily.global.bureau}",
+      "type": "fontFamilies"
+    },
+    "heading": {
+      "value": "{fontfamily.global.bureau-condensed}",
+      "type": "fontFamilies"
+    }
+  },
   "fontweight": {
-    "normal": {
+    "light": {
       "value": "{fontweight.global.300}",
       "type": "fontWeights"
     },
     "medium": {
-      "value": "{fontweight.global.500}",
+      "value": "{fontweight.global.400}",
       "type": "fontWeights"
     },
     "bold": {

@@ -9,12 +9,12 @@
         "value": "Simplistic Sans",
         "type": "fontFamilies"
       },
-      "simplistic-outline": {
-        "value": "Simplistic Sans Outline",
-        "type": "fontFamilies"
-      },
       "bureau": {
         "value": "Bureau Grot",
+        "type": "fontFamilies"
+      },
+      "simplistic-outline": {
+        "value": "Simplistic Sans Outline",
         "type": "fontFamilies"
       },
       "bureau-condensed": {

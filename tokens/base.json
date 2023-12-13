@@ -2,24 +2,28 @@
   "text": {
     "body": {
       "min": {
-        "value": {
-          "fontFamily": "{fontfamily.body}",
-          "fontWeight": "{fontweight.normal}",
-          "fontSize": "{fontsize.global.140}",
-          "lineHeight": "{lineheight.body}",
-          "letterSpacing": "{letterspacing.body}"
-        },
-        "type": "typography"
+        "md": {
+          "value": {
+            "fontFamily": "{fontfamily.body}",
+            "fontWeight": "{fontweight.normal}",
+            "fontSize": "{fontsize.global.140}",
+            "lineHeight": "{lineheight.body}",
+            "letterSpacing": "{letterspacing.body}"
+          },
+          "type": "typography"
+        }
       },
       "max": {
-        "value": {
-          "fontFamily": "{fontfamily.body}",
-          "fontWeight": "{fontweight.normal}",
-          "fontSize": "{fontsize.global.180}",
-          "lineHeight": "{lineheight.body}",
-          "letterSpacing": "{letterspacing.body}"
-        },
-        "type": "typography"
+        "md": {
+          "value": {
+            "fontFamily": "{fontfamily.body}",
+            "fontWeight": "{fontweight.normal}",
+            "fontSize": "{fontsize.global.180}",
+            "lineHeight": "{lineheight.body}",
+            "letterSpacing": "{letterspacing.body}"
+          },
+          "type": "typography"
+        }
       }
     },
     "label": {
@@ -271,34 +275,6 @@
     "bold": {
       "value": "700",
       "type": "fontWeights"
-    }
-  },
-  "lineheight": {
-    "tight": {
-      "value": "{lineheight.global.100}",
-      "type": "lineHeights"
-    },
-    "normal": {
-      "value": "{lineheight.global.200}",
-      "type": "lineHeights"
-    },
-    "loose": {
-      "value": "{lineheight.global.300}",
-      "type": "lineHeights"
-    }
-  },
-  "letterspacing": {
-    "tight": {
-      "value": "{letterspacing.global.100}",
-      "type": "letterSpacing"
-    },
-    "normal": {
-      "value": "{letterspacing.global.200}",
-      "type": "letterSpacing"
-    },
-    "loose": {
-      "value": "{letterspacing.global.300}",
-      "type": "letterSpacing"
     }
   },
   "spacing": {

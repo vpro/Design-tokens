@@ -13,46 +13,32 @@
       "type": "fontFamilies"
     }
   },
-  "fontweight": {
-    "body": {
-      "value": "{fontweight.normal}",
-      "type": "fontWeights"
-    },
-    "label": {
-      "value": "{fontweight.medium}",
-      "type": "fontWeights"
-    },
-    "heading": {
-      "value": "{fontweight.bold}",
-      "type": "fontWeights"
-    }
-  },
   "lineheight": {
     "body": {
-      "value": "{lineheight.normal}",
+      "value": "{lineheight.global.200}",
       "type": "lineHeights"
     },
     "label": {
-      "value": "{lineheight.tight}",
+      "value": "{lineheight.global.100}",
       "type": "lineHeights"
     },
     "heading": {
-      "value": "{lineheight.tight}",
+      "value": "{lineheight.global.100}",
       "type": "lineHeights"
     }
   },
   "letterspacing": {
     "body": {
-      "value": "{lineheight.normal}",
-      "type": "lineHeights"
+      "value": "{letterspacing.global.200}",
+      "type": "letterSpacing"
     },
     "label": {
-      "value": "{lineheight.normal}",
-      "type": "lineHeights"
+      "value": "{letterspacing.global.200}",
+      "type": "letterSpacing"
     },
     "heading": {
-      "value": "{lineheight.normal}",
-      "type": "lineHeights"
+      "value": "{letterspacing.global.200}",
+      "type": "letterSpacing"
     }
   },
   "color": {

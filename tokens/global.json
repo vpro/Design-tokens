@@ -24,6 +24,10 @@
       "helvetica": {
         "value": "Helvetica Neue",
         "type": "fontFamilies"
+      },
+      "roboto": {
+        "value": "Roboto",
+        "type": "fontFamilies"
       }
     }
   },

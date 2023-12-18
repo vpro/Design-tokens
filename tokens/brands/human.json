@@ -1,11 +1,11 @@
 {
   "fontfamily": {
     "body": {
-      "value": "{fontfamily.global.bureau}",
+      "value": "{fontfamily.global.roboto}",
       "type": "fontFamilies"
     },
     "label": {
-      "value": "{fontfamily.global.bureau}",
+      "value": "{fontfamily.body}",
       "type": "fontFamilies"
     },
     "heading": {

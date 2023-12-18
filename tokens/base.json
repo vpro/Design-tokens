@@ -2,6 +2,16 @@
   "text": {
     "body": {
       "min": {
+        "lg": {
+          "value": {
+            "fontFamily": "{fontfamily.body}",
+            "fontWeight": "{fontweight.normal}",
+            "fontSize": "{fontsize.global.140}",
+            "lineHeight": "{lineheight.body}",
+            "letterSpacing": "{letterspacing.body}"
+          },
+          "type": "typography"
+        },
         "md": {
           "value": {
             "fontFamily": "{fontfamily.body}",
@@ -11,14 +21,44 @@
             "letterSpacing": "{letterspacing.body}"
           },
           "type": "typography"
+        },
+        "sm": {
+          "value": {
+            "fontFamily": "{fontfamily.body}",
+            "fontWeight": "{fontweight.normal}",
+            "fontSize": "{fontsize.global.120}",
+            "lineHeight": "{lineheight.body}",
+            "letterSpacing": "{letterspacing.body}"
+          },
+          "type": "typography"
         }
       },
       "max": {
-        "md": {
+        "lg": {
           "value": {
             "fontFamily": "{fontfamily.body}",
             "fontWeight": "{fontweight.normal}",
             "fontSize": "{fontsize.global.180}",
+            "lineHeight": "{lineheight.body}",
+            "letterSpacing": "{letterspacing.body}"
+          },
+          "type": "typography"
+        },
+        "md": {
+          "value": {
+            "fontFamily": "{fontfamily.body}",
+            "fontWeight": "{fontweight.normal}",
+            "fontSize": "{fontsize.global.140}",
+            "lineHeight": "{lineheight.body}",
+            "letterSpacing": "{letterspacing.body}"
+          },
+          "type": "typography"
+        },
+        "sm": {
+          "value": {
+            "fontFamily": "{fontfamily.body}",
+            "fontWeight": "{fontweight.normal}",
+            "fontSize": "{fontsize.global.140}",
             "lineHeight": "{lineheight.body}",
             "letterSpacing": "{letterspacing.body}"
           },
@@ -52,7 +92,7 @@
           "value": {
             "fontFamily": "{fontfamily.label}",
             "fontWeight": "{fontweight.medium}",
-            "fontSize": "{fontsize.global.40}",
+            "fontSize": "{fontsize.global.20}",
             "lineHeight": "{lineheight.label}",
             "letterSpacing": "{letterspacing.label}"
           },
@@ -84,7 +124,7 @@
           "value": {
             "fontFamily": "{fontfamily.label}",
             "fontWeight": "{fontweight.medium}",
-            "fontSize": "{fontsize.global.20}",
+            "fontSize": "{fontsize.global.40}",
             "lineHeight": "{lineheight.label}",
             "letterSpacing": "{letterspacing.label}"
           },

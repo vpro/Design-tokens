@@ -9,7 +9,7 @@
       "type": "fontFamilies"
     },
     "heading": {
-      "value": "{fontfamily.global.bureau}",
+      "value": "{fontfamily.global.bureau-condensed}",
       "type": "fontFamilies"
     }
   },

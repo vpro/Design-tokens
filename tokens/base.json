@@ -31,6 +31,15 @@
             "letterSpacing": "{letterspacing.body}"
           },
           "type": "typography"
+        },
+        "xl": {
+          "value": {
+            "fontFamily": "{fontfamily.body}",
+            "fontWeight": "{fontweight.normal}",
+            "fontSize": "{fontsize.global.260}",
+            "lineHeight": "{lineheight.body}"
+          },
+          "type": "typography"
         }
       },
       "max": {

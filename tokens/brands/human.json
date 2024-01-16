@@ -15,7 +15,7 @@
   },
   "lineheight": {
     "body": {
-      "value": "{lineheight.global.300}",
+      "value": "{lineheight.global.200}",
       "type": "lineHeights"
     },
     "label": {

@@ -37,7 +37,7 @@
       "type": "letterSpacing"
     },
     "heading": {
-      "value": "{letterspacing.global.200}",
+      "value": "{letterspacing.global.300}",
       "type": "letterSpacing"
     }
   },

@@ -5,7 +5,7 @@
       "type": "fontFamilies"
     },
     "utility": {
-      "value": "{fontfamily.body}",
+      "value": "{fontfamily.global.roboto}",
       "type": "fontFamilies"
     },
     "heading": {

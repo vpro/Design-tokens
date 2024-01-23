@@ -412,7 +412,7 @@
       "type": "fontWeights"
     },
     "medium": {
-      "value": "{fontweight.global.500}",
+      "value": "500",
       "type": "fontWeights"
     },
     "bold": {

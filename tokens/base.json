@@ -89,7 +89,7 @@
       "max": {
         "intro": {
           "value": {
-            "fontFamily": "{fontfamily.global.bureau}",
+            "fontFamily": "{fontfamily.display}",
             "fontWeight": "{fontweight.medium}",
             "fontSize": "{fontsize.global.200}",
             "lineHeight": "{lineheight.global.400}",
@@ -99,7 +99,7 @@
         },
         "name": {
           "value": {
-            "fontFamily": "{fontfamily.heading}",
+            "fontFamily": "{fontfamily.display}",
             "fontWeight": "{fontweight.bold}",
             "fontSize": "{fontsize.global.380}",
             "lineHeight": "{lineheight.heading}",
@@ -109,7 +109,7 @@
         },
         "quote": {
           "value": {
-            "fontFamily": "{fontfamily.heading}",
+            "fontFamily": "{fontfamily.display}",
             "fontWeight": "{fontweight.medium}",
             "fontSize": "{fontsize.global.220}",
             "lineHeight": "{lineheight.global.400}"
@@ -120,7 +120,7 @@
       "min": {
         "intro": {
           "value": {
-            "fontFamily": "{fontfamily.global.bureau}",
+            "fontFamily": "{fontfamily.display}",
             "fontWeight": "{fontweight.medium}",
             "fontSize": "{fontsize.global.180}",
             "lineHeight": "{lineheight.global.400}",
@@ -130,7 +130,7 @@
         },
         "name": {
           "value": {
-            "fontFamily": "{fontfamily.heading}",
+            "fontFamily": "{fontfamily.display}",
             "fontWeight": "{fontweight.bold}",
             "fontSize": "{fontsize.global.360}",
             "lineHeight": "{lineheight.heading}",
@@ -140,7 +140,7 @@
         },
         "quote": {
           "value": {
-            "fontFamily": "{fontfamily.heading}",
+            "fontFamily": "{fontfamily.display}",
             "fontWeight": "{fontweight.medium}",
             "fontSize": "{fontsize.global.200}",
             "lineHeight": "{lineheight.global.400}"
@@ -164,7 +164,7 @@
         "lg": {
           "value": {
             "fontFamily": "{fontfamily.utility}",
-            "fontWeight": "{fontweight.medium}",
+            "fontWeight": "{fontweight.normal}",
             "fontSize": "{fontsize.global.120}",
             "lineHeight": "{lineheight.utility}",
             "letterSpacing": "{letterspacing.utility}"
@@ -174,17 +174,17 @@
         "md": {
           "value": {
             "fontFamily": "{fontfamily.utility}",
-            "fontWeight": "{fontweight.medium}",
             "fontSize": "{fontsize.global.80}",
             "lineHeight": "{lineheight.utility}",
-            "letterSpacing": "{letterspacing.utility}"
+            "letterSpacing": "{letterspacing.utility}",
+            "fontWeight": "{fontweight.normal}"
           },
           "type": "typography"
         },
         "sm": {
           "value": {
             "fontFamily": "{fontfamily.utility}",
-            "fontWeight": "{fontweight.medium}",
+            "fontWeight": "{fontweight.normal}",
             "fontSize": "{fontsize.global.40}",
             "lineHeight": "{lineheight.utility}",
             "letterSpacing": "{letterspacing.utility}"
@@ -206,7 +206,7 @@
         "lg": {
           "value": {
             "fontFamily": "{fontfamily.utility}",
-            "fontWeight": "{fontweight.medium}",
+            "fontWeight": "{fontweight.normal}",
             "fontSize": "{fontsize.global.100}",
             "lineHeight": "{lineheight.utility}",
             "letterSpacing": "{letterspacing.utility}"
@@ -216,7 +216,7 @@
         "md": {
           "value": {
             "fontFamily": "{fontfamily.utility}",
-            "fontWeight": "{fontweight.medium}",
+            "fontWeight": "{fontweight.normal}",
             "fontSize": "{fontsize.global.60}",
             "lineHeight": "{lineheight.utility}",
             "letterSpacing": "{letterspacing.utility}"
@@ -226,7 +226,7 @@
         "sm": {
           "value": {
             "fontFamily": "{fontfamily.utility}",
-            "fontWeight": "{fontweight.medium}",
+            "fontWeight": "{fontweight.normal}",
             "fontSize": "{fontsize.global.20}",
             "lineHeight": "{lineheight.utility}",
             "letterSpacing": "{letterspacing.utility}"
@@ -412,7 +412,7 @@
       "type": "fontWeights"
     },
     "medium": {
-      "value": "Book",
+      "value": "{fontweight.global.500}",
       "type": "fontWeights"
     },
     "bold": {

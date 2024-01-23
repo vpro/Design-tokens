@@ -11,6 +11,10 @@
     "heading": {
       "value": "{fontfamily.global.helvetica}",
       "type": "fontFamilies"
+    },
+    "display": {
+      "value": "{fontfamily.global.helvetica}",
+      "type": "fontFamilies"
     }
   },
   "lineheight": {
@@ -25,6 +29,10 @@
     "heading": {
       "value": "{lineheight.global.100}",
       "type": "lineHeights"
+    },
+    "display": {
+      "value": "{lineheight.global.100}",
+      "type": "lineHeights"
     }
   },
   "letterspacing": {
@@ -37,6 +45,10 @@
       "type": "letterSpacing"
     },
     "heading": {
+      "value": "{letterspacing.global.200}",
+      "type": "letterSpacing"
+    },
+    "display": {
       "value": "{letterspacing.global.200}",
       "type": "letterSpacing"
     }

@@ -4,7 +4,7 @@
       "value": "{fontfamily.global.helvetica}",
       "type": "fontFamilies"
     },
-    "label": {
+    "utility": {
       "value": "{fontfamily.global.helvetica}",
       "type": "fontFamilies"
     },
@@ -18,7 +18,7 @@
       "value": "{lineheight.global.200}",
       "type": "lineHeights"
     },
-    "label": {
+    "utility": {
       "value": "{lineheight.global.100}",
       "type": "lineHeights"
     },
@@ -32,7 +32,7 @@
       "value": "{letterspacing.global.200}",
       "type": "letterSpacing"
     },
-    "label": {
+    "utility": {
       "value": "{letterspacing.global.200}",
       "type": "letterSpacing"
     },

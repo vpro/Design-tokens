@@ -19,7 +19,7 @@
   },
   "lineheight": {
     "body": {
-      "value": "{lineheight.global.200}",
+      "value": "{lineheight.global.300}",
       "type": "lineHeights"
     },
     "utility": {
@@ -89,6 +89,10 @@
       },
       "brand": {
         "value": "{color.brand.primary}",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "{color.global.grey.300}",
         "type": "color"
       }
     },
@@ -185,10 +189,6 @@
       },
       "hover": {
         "value": "{color.global.grey.500}",
-        "type": "color"
-      },
-      "disabled": {
-        "value": "{color.global.grey.200}",
         "type": "color"
       },
       "active": {

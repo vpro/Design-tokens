@@ -45,11 +45,11 @@
       "type": "letterSpacing"
     },
     "heading": {
-      "value": "{letterspacing.global.300}",
+      "value": "{letterspacing.global.200}",
       "type": "letterSpacing"
     },
     "display": {
-      "value": "{letterspacing.global.300}",
+      "value": "{letterspacing.global.200}",
       "type": "letterSpacing"
     }
   },
@@ -89,6 +89,10 @@
       },
       "brand": {
         "value": "{color.brand.primary}",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "{color.global.grey.300}",
         "type": "color"
       }
     },
@@ -155,11 +159,11 @@
           "type": "color"
         },
         "hover": {
-          "value": "{color.global.grey.400}",
+          "value": "{color.global.orange.125}",
           "type": "color"
         },
         "active": {
-          "value": "{color.global.grey.450}",
+          "value": "{color.global.orange.150}",
           "type": "color"
         }
       },
@@ -185,10 +189,6 @@
       },
       "hover": {
         "value": "{color.global.orange.100}",
-        "type": "color"
-      },
-      "disabled": {
-        "value": "{color.global.orange.50}",
         "type": "color"
       },
       "active": {

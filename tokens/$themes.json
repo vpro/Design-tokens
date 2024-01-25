@@ -28,15 +28,11 @@
       "color.icon.inverse": "S:5d6d0f54de61557891b1ecfea5fac83c762d2369,",
       "color.icon.error": "S:189c1212b178c8da2b0dbe0f104f0914b6d0a70c,",
       "color.icon.warning": "S:9edfd3ab2134c03aee203198dccecf9c931ac927,",
-      "color.primary.interactive.default": "S:3029562e936e200353489af6899c551809a66465,",
-      "color.primary.interactive.hover": "S:e9b58c98125742b7854d466151fc23850ee81468,",
-      "color.primary.interactive.active": "S:2748565552e899024e9d6cda9e2cb887b27d696f,",
       "color.primary.on-interactive.default": "S:f14b8c79d935e0a3ec629e8de95e3fd237fad7d4,",
       "color.primary.on-interactive.hover": "S:eea300bbcb4e896b36479eadcbf6b468641bcffc,",
       "color.primary.on-interactive.active": "S:562a6e8ce697ff4846b6e3db231e34cd24f3e4fa,",
       "color.border.default": "S:5d004def39629fe133396b2c258def5f90a69fdf,",
       "color.border.hover": "S:39e06639ab6ec47b6a9ca5f50c8a66a8a1366091,",
-      "color.border.disabled": "S:bc0729598c733ce4eb96881f721a6cb0187fa6a9,",
       "color.border.active": "S:abf4aa6c3da7cf18298e3bae46e705e3ab29bd03,",
       "color.border.error": "S:3a6a26daccb3d65b75474c0c624bae15ff7e21c6,",
       "color.border.filled": "S:244d1104b2bf3ec64c73934cda2e7158b9a93033,",
@@ -90,7 +86,10 @@
       "text.heading.max.md": "S:57e74c9bf91bc05ad6715914829528f7f04121ba,",
       "text.heading.max.sm": "S:c924540f17b428700231e3ad764e5d39b95762e3,",
       "text.heading.max.xs": "S:3b8284f01b91e2ed92bbba5017d23ac173d577dc,",
-      "text.heading.max.xxs": "S:0b2032692588e06043249ae487ac7b419b8cd254,"
+      "text.heading.max.xxs": "S:0b2032692588e06043249ae487ac7b419b8cd254,",
+      "color.primary.interactive.default": "S:3029562e936e200353489af6899c551809a66465,",
+      "color.primary.interactive.hover": "S:e9b58c98125742b7854d466151fc23850ee81468,",
+      "color.primary.interactive.active": "S:2748565552e899024e9d6cda9e2cb887b27d696f,"
     },
     "selectedTokenSets": {
       "global": "source",
@@ -104,7 +103,6 @@
     "$figmaStyleReferences": {
       "color.border.default": "S:ebc1785d10e0a5d11e8b128db8cfc04f84518aff,",
       "color.border.hover": "S:92819682befb8eade013e8f0146dc93ed2793537,",
-      "color.border.disabled": "S:38c1cc80fcf7f6bfd7b37af0409eb79e6094a48f,",
       "color.border.active": "S:08eb9ff8a753983802f0fea6363fae02a7649b9f,",
       "color.border.error": "S:537fd113c1afc88fdd51b9b1fc5695b2c28b7bda,",
       "color.border.filled": "S:335d0681bde4122aaa69aec22907b03bccc69c05,",
@@ -172,9 +170,6 @@
       "color.functional.success": "S:5030ca79632a4438d4607d5e1f606e12c5ef6371,",
       "color.functional.info": "S:551a29ca38427bc3fec968df6059ca8111c3afdc,",
       "text.body.min.xl": "S:795beb3a499e963b3ef8819efd99f95ffa0e763e,",
-      "color.primary.interactive.default": "S:6d2198548d71108e8e6ebad09a3afe8f901f58c5,",
-      "color.primary.interactive.hover": "S:d03298b9495d554abd65f024ae1eb50d7b4691db,",
-      "color.primary.interactive.active": "S:93af04365d6d7f89b4ce64d425adbab45a465746,",
       "color.primary.on-interactive.default": "S:30b7d7e230bf23f74dfa23103a55337523b8ccf6,",
       "color.primary.on-interactive.hover": "S:90cafb709886b3285d788558494d5fc879a7fcf7,",
       "color.primary.on-interactive.active": "S:54a017cc5c1cc11b044f46e7636542e4035fd5cb,",
@@ -195,7 +190,10 @@
       "text.display.min.name": "S:9067e4885a7ac9ace96843596aacdd1ec6ea05b0,",
       "text.display.min.quote": "S:031c752fe790996b743b1040029dc74ea0ddd68f,",
       "text.utility.max.xl": "S:e4ee9d8ce02f4f99979992858e6f05d0aca60aa0,",
-      "text.utility.min.xl": "S:af06df104d47b76fcc7d0f55ce3186f9211794a7,"
+      "text.utility.min.xl": "S:af06df104d47b76fcc7d0f55ce3186f9211794a7,",
+      "color.primary.interactive.default": "S:6d2198548d71108e8e6ebad09a3afe8f901f58c5,",
+      "color.primary.interactive.hover": "S:d03298b9495d554abd65f024ae1eb50d7b4691db,",
+      "color.primary.interactive.active": "S:93af04365d6d7f89b4ce64d425adbab45a465746,"
     },
     "selectedTokenSets": {
       "global": "source",

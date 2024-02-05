@@ -90,7 +90,7 @@
       "color.primary.interactive.default": "S:3029562e936e200353489af6899c551809a66465,",
       "color.primary.interactive.hover": "S:e9b58c98125742b7854d466151fc23850ee81468,",
       "color.primary.interactive.active": "S:2748565552e899024e9d6cda9e2cb887b27d696f,",
-      "color.surface.disabled": "S:dd033dbc3df5f37e45166256b12b39d66fd14efc,"
+      "color.surface.tertiary": "S:dd033dbc3df5f37e45166256b12b39d66fd14efc,"
     },
     "selectedTokenSets": {
       "global": "source",

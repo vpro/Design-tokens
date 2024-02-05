@@ -453,19 +453,19 @@
   "color": {
     "functional": {
       "error": {
-        "value": "{color.global.red.100}",
+        "value": "{color.global.red.125}",
         "type": "color"
       },
       "warning": {
-        "value": "{color.global.orange.100}",
+        "value": "{color.global.yellow.100}",
         "type": "color"
       },
       "success": {
-        "value": "{color.global.green.100}",
+        "value": "{color.global.green.125}",
         "type": "color"
       },
       "info": {
-        "value": "{color.global.blue.100}",
+        "value": "{color.global.blue.125}",
         "type": "color"
       }
     }

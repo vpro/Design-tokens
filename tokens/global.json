@@ -273,6 +273,10 @@
           "value": "#FF0000",
           "type": "color"
         },
+        "125": {
+          "value": "#E01B00",
+          "type": "color"
+        },
         "150": {
           "value": "#800000",
           "type": "color"
@@ -329,6 +333,10 @@
           "value": "#007DC5",
           "type": "color"
         },
+        "125": {
+          "value": "#0062A2",
+          "type": "color"
+        },
         "150": {
           "value": "#003F63",
           "type": "color"
@@ -355,6 +363,10 @@
         },
         "100": {
           "value": "#00A651",
+          "type": "color"
+        },
+        "125": {
+          "value": "#008037",
           "type": "color"
         },
         "150": {

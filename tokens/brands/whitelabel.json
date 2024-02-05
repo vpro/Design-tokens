@@ -87,12 +87,16 @@
         "value": "{color.global.grey.100}",
         "type": "color"
       },
-      "brand": {
-        "value": "{color.brand.primary}",
+      "tertiary": {
+        "value": "{color.global.grey.300}",
         "type": "color"
       },
-      "disabled": {
-        "value": "{color.global.grey.300}",
+      "dark": {
+        "value": "{color.global.grey.500}",
+        "type": "color"
+      },
+      "brand": {
+        "value": "{color.brand.primary}",
         "type": "color"
       }
     },
@@ -165,6 +169,10 @@
         "active": {
           "value": "{color.global.blue.150}",
           "type": "color"
+        },
+        "outline": {
+          "value": "{color.global.blue.50}",
+          "type": "color"
         }
       },
       "on-interactive": {
@@ -178,6 +186,20 @@
         },
         "active": {
           "value": "{color.global.grey.100}",
+          "type": "color"
+        }
+      },
+      "border-interactive": {
+        "default": {
+          "value": "{color.primary.interactive.default}",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{color.primary.interactive.hover}",
+          "type": "color"
+        },
+        "active": {
+          "value": "{color.primary.interactive.active}",
           "type": "color"
         }
       }
@@ -216,6 +238,10 @@
       "active": {
         "value": "{color.global.grey.500}",
         "type": "color"
+      },
+      "inverse": {
+        "value": "{color.global.grey.100}",
+        "type": "color"
       }
     },
     "secondary": {
@@ -244,6 +270,22 @@
         },
         "active": {
           "value": "{color.global.grey.100}",
+          "type": "color"
+        }
+      },
+      "border-interactive": {
+        "default": {
+          "value": "{color.secondary.interactive.default}",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{color.secondary.interactive.hover}",
+          "type": "color"
+        }
+      },
+      "bg-outline": {
+        "hover": {
+          "value": "{color.global.grey.200}",
           "type": "color"
         }
       }

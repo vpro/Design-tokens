@@ -272,6 +272,20 @@
           "value": "{color.global.grey.100}",
           "type": "color"
         }
+      },
+      "border-interactive": {
+        "default": {
+          "value": "{color.secondary.interactive.default}",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{color.secondary.interactive.hover}",
+          "type": "color"
+        },
+        "active": {
+          "value": "{color.secondary.interactive.active}",
+          "type": "color"
+        }
       }
     }
   }

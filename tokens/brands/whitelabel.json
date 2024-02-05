@@ -281,11 +281,9 @@
         "hover": {
           "value": "{color.secondary.interactive.hover}",
           "type": "color"
-        }
-      },
-      "bg-outline": {
-        "hover": {
-          "value": "{color.global.grey.200}",
+        },
+        "active": {
+          "value": "{color.secondary.interactive.active}",
           "type": "color"
         }
       }

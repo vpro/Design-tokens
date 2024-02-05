@@ -197,6 +197,10 @@
         "hover": {
           "value": "{color.primary.interactive.hover}",
           "type": "color"
+        },
+        "active": {
+          "value": "{color.primary.interactive.active}",
+          "type": "color"
         }
       }
     },

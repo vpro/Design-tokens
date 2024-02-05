@@ -90,7 +90,16 @@
       "color.primary.interactive.default": "S:3029562e936e200353489af6899c551809a66465,",
       "color.primary.interactive.hover": "S:e9b58c98125742b7854d466151fc23850ee81468,",
       "color.primary.interactive.active": "S:2748565552e899024e9d6cda9e2cb887b27d696f,",
-      "color.surface.tertiary": "S:dd033dbc3df5f37e45166256b12b39d66fd14efc,"
+      "color.surface.tertiary": "S:dd033dbc3df5f37e45166256b12b39d66fd14efc,",
+      "color.surface.dark": "S:04a2233d421ff7f2d5f61852bda7f3a102eeef21,",
+      "color.primary.border-interactive.default": "S:35586aa24abf203a565717eb6b8c132b43a4d5ab,",
+      "color.primary.border-interactive.hover": "S:7b3b075014efd56700066934f5b5867b1f373c85,",
+      "color.link.inverse": "S:fad4b18b3a9633d872cc42935c855bdbc36bda76,",
+      "color.secondary.border-interactive.default": "S:1b6bbe1f11b317b3bfed73cc1fc9a11612b8eefc,",
+      "color.secondary.border-interactive.hover": "S:17b850363d69d8eae170f47d6d5c8f2f55f875c1,",
+      "color.secondary.bg-outline.hover": "S:79922acc6ac505e4dfbd52ca38af63ffe1a3a43e,",
+      "color.primary.border-interactive.active": "S:6787b154cbf74bbe92febaab19441a5614631acc,",
+      "color.primary.interactive.outline": "S:1be352613115b24032357ea619adad1bc888a570,"
     },
     "selectedTokenSets": {
       "global": "source",

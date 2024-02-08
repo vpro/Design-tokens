@@ -242,6 +242,10 @@
       "inverse": {
         "value": "{color.global.grey.100}",
         "type": "color"
+      },
+      "inverse-hover": {
+        "value": "#9E9E9E",
+        "type": "color"
       }
     },
     "secondary": {

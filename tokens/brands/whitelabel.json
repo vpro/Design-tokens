@@ -265,6 +265,10 @@
         "active": {
           "value": "{color.global.grey.450}",
           "type": "color"
+        },
+        "outline": {
+          "value": "{color.global.grey.200}",
+          "type": "color"
         }
       },
       "on-interactive": {

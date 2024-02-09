@@ -98,6 +98,10 @@
       "brand": {
         "value": "{color.brand.primary}",
         "type": "color"
+      },
+      "disabled": {
+        "value": "{color.global.grey.300}",
+        "type": "color"
       }
     },
     "text": {
@@ -244,7 +248,7 @@
         "type": "color"
       },
       "inverse-hover": {
-        "value": "#9E9E9E",
+        "value": "{color.global.grey.300}",
         "type": "color"
       }
     },

@@ -103,7 +103,9 @@
       "color.link.inverse-hover": "S:54800c9f284a1d9ca261ef00e701196c112630f7,",
       "color.secondary.border-interactive.active": "S:2ccedcc3bb7c1d9356b08afb5f190583c3b3ad31,",
       "text.utility.max.xxl": "S:5946269fecfabb1fbae445d562754c7a22a19d13,",
-      "text.utility.min.xxl": "S:c59dff4c9b0f3b49068c2a9e2913208009e1284c,"
+      "text.utility.min.xxl": "S:c59dff4c9b0f3b49068c2a9e2913208009e1284c,",
+      "color.link.subtle": "S:5f6b661396d9183181e57da69ec75172ca0199e8,",
+      "color.link.subtle-hover": "S:c17c7e049cf7529754fb68d78b81d63b1d2ff9fc,"
     },
     "selectedTokenSets": {
       "global": "source",

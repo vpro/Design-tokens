@@ -103,9 +103,7 @@
       "color.link.inverse-hover": "S:54800c9f284a1d9ca261ef00e701196c112630f7,",
       "color.secondary.border-interactive.active": "S:2ccedcc3bb7c1d9356b08afb5f190583c3b3ad31,",
       "text.utility.max.xxl": "S:5946269fecfabb1fbae445d562754c7a22a19d13,",
-      "text.utility.min.xxl": "S:c59dff4c9b0f3b49068c2a9e2913208009e1284c,",
-      "color.link.subtle": "S:5f6b661396d9183181e57da69ec75172ca0199e8,",
-      "color.link.subtle-hover": "S:c17c7e049cf7529754fb68d78b81d63b1d2ff9fc,"
+      "text.utility.min.xxl": "S:c59dff4c9b0f3b49068c2a9e2913208009e1284c,"
     },
     "selectedTokenSets": {
       "global": "source",
@@ -219,7 +217,12 @@
       "color.link.inverse": "S:e942e1881e15007ace91b4849ad8838fce39b85f,",
       "color.secondary.border-interactive.default": "S:6cc988c086c28317de286abfb529c25f7798bc5d,",
       "color.secondary.border-interactive.hover": "S:49965240fe789bac0d9266576d111dc1c005466c,",
-      "color.secondary.border-interactive.active": "S:c6d63444bba23f59123ef4d342beae1b8b5c8960,"
+      "color.secondary.border-interactive.active": "S:c6d63444bba23f59123ef4d342beae1b8b5c8960,",
+      "color.link.inverse-hover": "S:1dea6d80af574ef79c5ee62fcf32bbe45767fb87,",
+      "color.link.subtle": "S:b17cf1f853d1699a35288a43dfb7f37a9345125e,",
+      "color.link.subtle-hover": "S:e32a69fe9516ab24118ef48d4645ee42e20f5ca4,",
+      "text.utility.max.xxl": "S:290a9115fe3661f6b8a05014412f623b2f7aa09e,",
+      "text.utility.min.xxl": "S:93a3b1aa6063897d9788ec98973da9306bbf9465,"
     },
     "selectedTokenSets": {
       "global": "source",

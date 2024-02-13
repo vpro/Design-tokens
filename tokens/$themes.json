@@ -99,7 +99,11 @@
       "color.secondary.border-interactive.hover": "S:17b850363d69d8eae170f47d6d5c8f2f55f875c1,",
       "color.secondary.bg-outline.hover": "S:79922acc6ac505e4dfbd52ca38af63ffe1a3a43e,",
       "color.primary.border-interactive.active": "S:6787b154cbf74bbe92febaab19441a5614631acc,",
-      "color.primary.interactive.outline": "S:1be352613115b24032357ea619adad1bc888a570,"
+      "color.primary.interactive.outline": "S:1be352613115b24032357ea619adad1bc888a570,",
+      "color.link.inverse-hover": "S:54800c9f284a1d9ca261ef00e701196c112630f7,",
+      "color.secondary.border-interactive.active": "S:2ccedcc3bb7c1d9356b08afb5f190583c3b3ad31,",
+      "text.utility.max.xxl": "S:5946269fecfabb1fbae445d562754c7a22a19d13,",
+      "text.utility.min.xxl": "S:c59dff4c9b0f3b49068c2a9e2913208009e1284c,"
     },
     "selectedTokenSets": {
       "global": "source",

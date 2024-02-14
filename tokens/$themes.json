@@ -99,11 +99,11 @@
       "color.secondary.border-interactive.hover": "S:17b850363d69d8eae170f47d6d5c8f2f55f875c1,",
       "color.secondary.bg-outline.hover": "S:79922acc6ac505e4dfbd52ca38af63ffe1a3a43e,",
       "color.primary.border-interactive.active": "S:6787b154cbf74bbe92febaab19441a5614631acc,",
-      "color.primary.interactive.outline": "S:1be352613115b24032357ea619adad1bc888a570,",
       "color.link.inverse-hover": "S:54800c9f284a1d9ca261ef00e701196c112630f7,",
       "color.secondary.border-interactive.active": "S:2ccedcc3bb7c1d9356b08afb5f190583c3b3ad31,",
       "text.utility.max.xxl": "S:5946269fecfabb1fbae445d562754c7a22a19d13,",
-      "text.utility.min.xxl": "S:c59dff4c9b0f3b49068c2a9e2913208009e1284c,"
+      "text.utility.min.xxl": "S:c59dff4c9b0f3b49068c2a9e2913208009e1284c,",
+      "color.primary.interactive.outline-hover": "S:1be352613115b24032357ea619adad1bc888a570,"
     },
     "selectedTokenSets": {
       "global": "source",
@@ -210,7 +210,6 @@
       "color.primary.interactive.active": "S:93af04365d6d7f89b4ce64d425adbab45a465746,",
       "color.surface.tertiary": "S:123a7941f7d9a67e29fac4f258359409db00432b,",
       "color.surface.dark": "S:af5feb3091335c3699789e0e24f1786e288066a1,",
-      "color.primary.interactive.outline": "S:7945b4b98dff52a614df51d1aaa9e609375f4611,",
       "color.primary.border-interactive.default": "S:a2c2060b0c4e01e00595f1d24c19c2059b3cb029,",
       "color.primary.border-interactive.hover": "S:e101901a3d9db34e2f2e497b2adc0deb6e859d73,",
       "color.primary.border-interactive.active": "S:2eef510aba3ccb841f4f2a202cb30e042cc84f5d,",
@@ -222,7 +221,8 @@
       "color.link.subtle": "S:b17cf1f853d1699a35288a43dfb7f37a9345125e,",
       "color.link.subtle-hover": "S:e32a69fe9516ab24118ef48d4645ee42e20f5ca4,",
       "text.utility.max.xxl": "S:290a9115fe3661f6b8a05014412f623b2f7aa09e,",
-      "text.utility.min.xxl": "S:93a3b1aa6063897d9788ec98973da9306bbf9465,"
+      "text.utility.min.xxl": "S:93a3b1aa6063897d9788ec98973da9306bbf9465,",
+      "color.primary.interactive.outline-hover": "S:7945b4b98dff52a614df51d1aaa9e609375f4611,"
     },
     "selectedTokenSets": {
       "global": "source",

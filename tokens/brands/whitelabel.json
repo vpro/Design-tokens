@@ -91,6 +91,10 @@
         "value": "{color.global.grey.300}",
         "type": "color"
       },
+      "disabled": {
+        "value": "{color.global.grey.300}",
+        "type": "color"
+      },
       "dark": {
         "value": "{color.global.grey.500}",
         "type": "color"
@@ -170,7 +174,7 @@
           "value": "{color.global.blue.150}",
           "type": "color"
         },
-        "outline": {
+        "outline-hover": {
           "value": "{color.global.blue.50}",
           "type": "color"
         }
@@ -207,6 +211,10 @@
     "border": {
       "default": {
         "value": "{color.global.grey.250}",
+        "type": "color"
+      },
+      "inverse": {
+        "value": "{color.global.grey.300}",
         "type": "color"
       },
       "hover": {
@@ -272,6 +280,10 @@
         },
         "active": {
           "value": "{color.global.grey.450}",
+          "type": "color"
+        },
+        "outline-hover": {
+          "value": "{color.global.grey.200}",
           "type": "color"
         }
       },

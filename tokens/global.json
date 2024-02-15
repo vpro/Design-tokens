@@ -423,5 +423,46 @@
         }
       }
     }
+  },
+  "motion": {
+    "style": {
+      "ease-in-out": {
+        "value": "cubic-bezier(0.42, 0, 0.58, 1)",
+        "type": "other",
+        "description": "Responds quickly and finishes with control. A great default for any user interaction."
+      },
+      "ease-out": {
+        "value": "cubic-bezier(0.19, 0.91, 0.38, 1)",
+        "type": "other"
+      },
+      "ease-in": {
+        "value": "cubic-bezier(0.42, 0, 1, 1)",
+        "type": "other"
+      },
+      "linear": {
+        "value": "cubic-bezier(0, 0, 1, 1)",
+        "type": "other"
+      }
+    },
+    "duration": {
+      "25": {
+        "value": "25ms",
+        "type": "other"
+      },
+      "50": {
+        "value": "50ms",
+        "type": "other"
+      }
+    },
+    "property": {
+      "color": {
+        "value": "color",
+        "type": "other"
+      },
+      "size": {
+        "value": "size",
+        "type": "other"
+      }
+    }
   }
 }

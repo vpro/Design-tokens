@@ -222,10 +222,7 @@
       "color.link.subtle-hover": "S:e32a69fe9516ab24118ef48d4645ee42e20f5ca4,",
       "text.utility.max.xxl": "S:290a9115fe3661f6b8a05014412f623b2f7aa09e,",
       "text.utility.min.xxl": "S:93a3b1aa6063897d9788ec98973da9306bbf9465,",
-      "color.primary.interactive.outline-hover": "S:7945b4b98dff52a614df51d1aaa9e609375f4611,",
-      "color.surface.disabled": "S:f3af6d44263a15a252cdd44c4e40a7ef341574c7,",
-      "color.border.inverse": "S:dd3f0bac0e2b0c705a6f333b70f6eeace9a3d12a,",
-      "color.secondary.interactive.outline-hover": "S:3540675c1373d3695abd44d207d0bf5b4b46721e,"
+      "color.primary.interactive.outline-hover": "S:7945b4b98dff52a614df51d1aaa9e609375f4611,"
     },
     "selectedTokenSets": {
       "global": "source",

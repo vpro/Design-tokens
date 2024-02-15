@@ -489,5 +489,25 @@
         "type": "color"
       }
     }
+  },
+  "motion": {
+    "button-hover": {
+      "value": "{motion.property.color} {motion.style.ease-in-out} {motion.duration.fast}",
+      "type": "other"
+    },
+    "link-hover": {
+      "value": "{motion.property.color} {motion.style.ease-in-out} {motion.duration.fast}",
+      "type": "other"
+    },
+    "duration": {
+      "fast": {
+        "value": "{motion.duration.25}",
+        "type": "other"
+      },
+      "slow": {
+        "value": "{motion.duration.50}",
+        "type": "other"
+      }
+    }
   }
 }

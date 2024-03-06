@@ -453,16 +453,6 @@
         "value": "50ms",
         "type": "other"
       }
-    },
-    "property": {
-      "color": {
-        "value": "color",
-        "type": "other"
-      },
-      "size": {
-        "value": "size",
-        "type": "other"
-      }
     }
   }
 }

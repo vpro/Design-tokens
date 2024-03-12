@@ -167,11 +167,11 @@
           "type": "color"
         },
         "hover": {
-          "value": "{color.global.orange.125}",
+          "value": "{color.global.blue.100}",
           "type": "color"
         },
         "active": {
-          "value": "{color.global.orange.150}",
+          "value": "{color.global.blue.150}",
           "type": "color"
         },
         "outline-hover": {
@@ -185,7 +185,7 @@
           "type": "color"
         },
         "hover": {
-          "value": "{color.global.grey.500}",
+          "value": "{color.global.grey.100}",
           "type": "color"
         },
         "active": {
@@ -214,7 +214,7 @@
         "type": "color"
       },
       "hover": {
-        "value": "{color.global.orange.100}",
+        "value": "{color.global.blue.100}",
         "type": "color"
       },
       "active": {
@@ -243,24 +243,20 @@
         "value": "{color.global.blue.100}",
         "type": "color"
       },
-      "active": {
-        "value": "{color.global.blue.150}",
-        "type": "color"
-      },
       "inverse": {
         "value": "{color.global.grey.100}",
         "type": "color"
       },
       "inverse-hover": {
-        "value": "#9E9E9E",
-        "type": "color"
-      },
-      "subtle": {
         "value": "{color.global.grey.300}",
         "type": "color"
       },
-      "subtle-hover": {
-        "value": "{color.global.grey.200}",
+      "inverse-subtle": {
+        "value": "{color.global.grey.300}",
+        "type": "color"
+      },
+      "inverse-subtle-hover": {
+        "value": "{color.global.grey.100}",
         "type": "color"
       }
     },

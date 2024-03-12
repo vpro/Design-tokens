@@ -454,21 +454,49 @@
     }
   },
   "motion": {
-    "button-hover": {
-      "value": "{motion.property.color} {motion.style.ease-in-out} {motion.duration.fast}",
-      "type": "other"
-    },
-    "link-hover": {
-      "value": "{motion.property.color} {motion.style.ease-in-out} {motion.duration.fast}",
-      "type": "other"
+    "style": {
+      "fast": {
+        "hover-in": {
+          "value": "{motion.style.ease-in-out} ,{motion.duration.fast}",
+          "type": "other"
+        },
+        "hover-out": {
+          "value": "{motion.duration.fast} {motion.style.ease-out}",
+          "type": "other"
+        }
+      },
+      "slow": {
+        "movement-in": {
+          "value": "{motion.duration.250} {motion.style.ease-in}",
+          "type": "other"
+        },
+        "movement-out": {
+          "value": "{motion.duration.250} {motion.style.ease-out}",
+          "type": "other"
+        }
+      },
+      "medium": {
+        "hover-in": {
+          "value": "{motion.style.ease-in} {motion.duration.medium}",
+          "type": "other"
+        },
+        "hover-out": {
+          "value": "{motion.duration.medium} {motion.style.ease-out}",
+          "type": "other"
+        }
+      }
     },
     "duration": {
       "fast": {
-        "value": "{motion.duration.25}",
+        "value": "{motion.duration.150}",
+        "type": "other"
+      },
+      "medium": {
+        "value": "{motion.duration.200}",
         "type": "other"
       },
       "slow": {
-        "value": "{motion.duration.50}",
+        "value": "{motion.duration.250}",
         "type": "other"
       }
     }

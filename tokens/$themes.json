@@ -35,10 +35,8 @@
       "color.border.hover": "S:39e06639ab6ec47b6a9ca5f50c8a66a8a1366091,",
       "color.border.active": "S:abf4aa6c3da7cf18298e3bae46e705e3ab29bd03,",
       "color.border.error": "S:3a6a26daccb3d65b75474c0c624bae15ff7e21c6,",
-      "color.border.filled": "S:244d1104b2bf3ec64c73934cda2e7158b9a93033,",
       "color.link.default": "S:3d9c19d35d0f9915f854ba8af44466295c43a406,",
       "color.link.hover": "S:5a44f70901e27351cc0dca1f0df4428d5248f616,",
-      "color.link.active": "S:0d5eac676bf073be3ad0610d957a9e21b8d39359,",
       "color.secondary.interactive.default": "S:54bdd9ad906216406c8ea115db5a718b60827271,",
       "color.secondary.interactive.hover": "S:af3bf36a472c7b5e6d32545d27c587d29f6c3e76,",
       "color.secondary.interactive.active": "S:1ffc0b7d7d95e3f1863f9dca6dd3f7c105e7c6c1,",
@@ -122,7 +120,6 @@
       "color.border.filled": "S:335d0681bde4122aaa69aec22907b03bccc69c05,",
       "color.link.default": "S:17d4e8367ba96a65f6b67ef0af848f31574a5f5e,",
       "color.link.hover": "S:55a2ea3b5d08702071dcc4da719706e7b4a272bc,",
-      "color.link.active": "S:2ee0b1c77855aefa7bc9c24ed2263464e62faa7e,",
       "text.body.min": "S:c45204787e8ad75bcba380dbafe588e08d92a3c4,",
       "text.body.max": "S:3201b8da3ddb8ca93531e4651482bbccf743dee5,",
       "text.heading.min.xxxl": "S:232bd242e4b471a460fd3fbb1736152fc1a44395,",
@@ -218,11 +215,11 @@
       "color.secondary.border-interactive.hover": "S:49965240fe789bac0d9266576d111dc1c005466c,",
       "color.secondary.border-interactive.active": "S:c6d63444bba23f59123ef4d342beae1b8b5c8960,",
       "color.link.inverse-hover": "S:1dea6d80af574ef79c5ee62fcf32bbe45767fb87,",
-      "color.link.subtle": "S:b17cf1f853d1699a35288a43dfb7f37a9345125e,",
-      "color.link.subtle-hover": "S:e32a69fe9516ab24118ef48d4645ee42e20f5ca4,",
       "text.utility.max.xxl": "S:290a9115fe3661f6b8a05014412f623b2f7aa09e,",
       "text.utility.min.xxl": "S:93a3b1aa6063897d9788ec98973da9306bbf9465,",
-      "color.primary.interactive.outline-hover": "S:7945b4b98dff52a614df51d1aaa9e609375f4611,"
+      "color.primary.interactive.outline-hover": "S:7945b4b98dff52a614df51d1aaa9e609375f4611,",
+      "color.link.inverse-subtle": "S:b17cf1f853d1699a35288a43dfb7f37a9345125e,",
+      "color.link.inverse-subtle-hover": "S:e32a69fe9516ab24118ef48d4645ee42e20f5ca4,"
     },
     "selectedTokenSets": {
       "global": "source",

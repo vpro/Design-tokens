@@ -330,7 +330,7 @@
           "type": "color"
         },
         "100": {
-          "value": "#007DC5",
+          "value": "#007BC2",
           "type": "color"
         },
         "125": {
@@ -438,19 +438,19 @@
       "ease-in": {
         "value": "cubic-bezier(0.42, 0, 1, 1)",
         "type": "other"
-      },
-      "linear": {
-        "value": "cubic-bezier(0, 0, 1, 1)",
-        "type": "other"
       }
     },
     "duration": {
-      "25": {
-        "value": "25ms",
+      "150": {
+        "value": "150ms",
         "type": "other"
       },
-      "50": {
-        "value": "50ms",
+      "200": {
+        "value": "200ms",
+        "type": "other"
+      },
+      "250": {
+        "value": "250ms",
         "type": "other"
       }
     }

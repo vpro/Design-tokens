@@ -161,13 +161,11 @@
       "color.text.disabled": "S:219a185e78dbdc0a0523b28f344f8f3b2b5ed0a2,",
       "color.text.inverse": "S:dfaa10a5a750a9790a27da3ae13a403108fa2d29,",
       "color.text.error": "S:315c170a14ad43e2975461ec4b457dc03a4f1930,",
-      "color.text.warning": "S:0e6d59e3d051282c262724c25410a05527a937f0,",
       "color.icon.primary": "S:c099af1576b7daf053db0a6ad386a93006f48c39,",
       "color.icon.secondary": "S:914fc95aa7257e378cc5f213fea30a72426414b0,",
       "color.icon.tertiary": "S:39a95405cc9f955be340bb34c2acfe3835b4dc50,",
       "color.icon.inverse": "S:cde58180648387eebbfa738c84d36af912b718ef,",
       "color.icon.error": "S:10fadd967ff887b3173a97d90dcb5b62b34c3117,",
-      "color.icon.warning": "S:a805d089bc76e47141149f71f8aa83c8c21cb352,",
       "color.primary-outline.fill.default": "S:53c9dea5aca7addd65f97a6a222fecc140b45ebe,",
       "color.primary-outline.fill.hover": "S:ef2ffaa256a7ab31009e19d1f133c62446c3728c,",
       "color.primary-outline.fill.active": "S:ee906642ae6d3200c829c57a67d59b531b151f93,",
@@ -218,7 +216,9 @@
       "text.utility.max.xxl": "S:290a9115fe3661f6b8a05014412f623b2f7aa09e,",
       "text.utility.min.xxl": "S:93a3b1aa6063897d9788ec98973da9306bbf9465,",
       "color.link.inverse-subtle": "S:b17cf1f853d1699a35288a43dfb7f37a9345125e,",
-      "color.link.inverse-subtle-hover": "S:e32a69fe9516ab24118ef48d4645ee42e20f5ca4,"
+      "color.link.inverse-subtle-hover": "S:e32a69fe9516ab24118ef48d4645ee42e20f5ca4,",
+      "color.surface.disabled": "S:15e3b6e441aabf2734fa98fbed94a17cccc76552,",
+      "color.border.inverse": "S:c7ee4a8af796fa3342b2677d4f655752f09ff2de,"
     },
     "selectedTokenSets": {
       "global": "source",

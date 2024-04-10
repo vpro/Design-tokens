@@ -37,6 +37,15 @@
             "lineHeight": "{lineheight.body}"
           },
           "type": "typography"
+        },
+        "xs": {
+          "value": {
+            "fontFamily": "{fontfamily.body}",
+            "fontWeight": "{fontweight.normal}",
+            "fontSize": "{fontsize.global.100}",
+            "lineHeight": "{lineheight.body}"
+          },
+          "type": "typography"
         }
       },
       "max": {

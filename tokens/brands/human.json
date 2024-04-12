@@ -206,6 +206,10 @@
       "focus": {
         "value": "{color.brand.primary}",
         "type": "color"
+      },
+      "filled": {
+        "value": "{color.global.grey.500}",
+        "type": "color"
       }
     },
     "link": {

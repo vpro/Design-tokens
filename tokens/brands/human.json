@@ -202,6 +202,10 @@
       "inverse": {
         "value": "{color.global.grey.300}",
         "type": "color"
+      },
+      "focus": {
+        "value": "{color.brand.primary}",
+        "type": "color"
       }
     },
     "link": {

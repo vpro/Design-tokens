@@ -165,6 +165,10 @@
         "active": {
           "value": "{color.global.blue.150}",
           "type": "color"
+        },
+        "focus": {
+          "value": "{color.brand.primary}",
+          "type": "color"
         }
       },
       "on-interactive": {
@@ -177,6 +181,10 @@
           "type": "color"
         },
         "active": {
+          "value": "{color.global.grey.100}",
+          "type": "color"
+        },
+        "focus": {
           "value": "{color.global.grey.100}",
           "type": "color"
         }
@@ -201,6 +209,10 @@
       },
       "error": {
         "value": "{color.global.red.100}",
+        "type": "color"
+      },
+      "focus": {
+        "value": "{color.global.blue.100}",
         "type": "color"
       }
     },
@@ -247,6 +259,10 @@
         "active": {
           "value": "{color.global.grey.450}",
           "type": "color"
+        },
+        "focus": {
+          "value": "{color.global.grey.500}",
+          "type": "color"
         }
       },
       "on-interactive": {
@@ -259,6 +275,10 @@
           "type": "color"
         },
         "active": {
+          "value": "{color.global.grey.100}",
+          "type": "color"
+        },
+        "focus": {
           "value": "{color.global.grey.100}",
           "type": "color"
         }

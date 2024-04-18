@@ -159,7 +159,7 @@
           "type": "color"
         },
         "hover": {
-          "value": "{color.global.blue.100}",
+          "value": "{color.global.orange.50}",
           "type": "color"
         },
         "active": {
@@ -173,7 +173,7 @@
           "type": "color"
         },
         "hover": {
-          "value": "{color.global.grey.100}",
+          "value": "{color.global.grey.500}",
           "type": "color"
         },
         "active": {
@@ -275,21 +275,21 @@
           "type": "color"
         },
         "hover": {
-          "value": "{color.global.blue.100}",
+          "value": "{color.global.orange.50}",
           "type": "color"
         },
         "active": {
-          "value": "{color.global.grey.450}",
+          "value": "{color.global.blue.150}",
           "type": "color"
         }
       },
       "on-interactive": {
         "default": {
-          "value": "{color.global.blue.150}",
+          "value": "{color.global.grey.500}",
           "type": "color"
         },
         "hover": {
-          "value": "{color.global.grey.100}",
+          "value": "{color.global.grey.500}",
           "type": "color"
         },
         "active": {

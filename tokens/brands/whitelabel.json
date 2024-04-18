@@ -271,6 +271,36 @@
           "type": "color"
         }
       }
+    },
+    "tertiary": {
+      "interactive": {
+        "default": {
+          "value": "{color.background.default}",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{color.global.blue.100}",
+          "type": "color"
+        },
+        "active": {
+          "value": "{color.global.grey.450}",
+          "type": "color"
+        }
+      },
+      "on-interactive": {
+        "default": {
+          "value": "{color.global.blue.150}",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{color.global.grey.100}",
+          "type": "color"
+        },
+        "active": {
+          "value": "{color.global.grey.100}",
+          "type": "color"
+        }
+      }
     }
   }
 }

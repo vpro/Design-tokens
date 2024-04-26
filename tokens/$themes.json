@@ -218,7 +218,15 @@
       "color.link.inverse-subtle": "S:b17cf1f853d1699a35288a43dfb7f37a9345125e,",
       "color.link.inverse-subtle-hover": "S:e32a69fe9516ab24118ef48d4645ee42e20f5ca4,",
       "color.surface.disabled": "S:15e3b6e441aabf2734fa98fbed94a17cccc76552,",
-      "color.border.inverse": "S:c7ee4a8af796fa3342b2677d4f655752f09ff2de,"
+      "color.border.inverse": "S:c7ee4a8af796fa3342b2677d4f655752f09ff2de,",
+      "color.border.focus": "S:3f71dc5a9198eacd5d108430e07903ed6e3921e4,",
+      "color.border.filled": "S:f6040405b608e94447b2913843275c91e519abae,",
+      "color.tertiary.interactive.default": "S:ddeb79149c140b59b5cd249d9f94ef45920992bf,",
+      "color.tertiary.interactive.hover": "S:45bf3d6841d1b6c7ceffaeb7c5189a13b5914082,",
+      "color.tertiary.interactive.active": "S:67a258aabb665083ecccaf6220b42ac7b29d539b,",
+      "color.tertiary.on-interactive.default": "S:e87b68d9c9dc0ff3563e8a25cf1b1e7aa2b2740d,",
+      "color.tertiary.on-interactive.hover": "S:1861cd942c4c3d76193b93905442a97e7cadfa20,",
+      "color.tertiary.on-interactive.active": "S:33deea9b3d81b5f8ae32cdad9412b870ccd3cda9,"
     },
     "selectedTokenSets": {
       "global": "source",

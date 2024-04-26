@@ -401,6 +401,16 @@
           "value": "#806400",
           "type": "color"
         }
+      },
+      "dark-blue": {
+        "100": {
+          "value": "#0000FF",
+          "type": "color"
+        },
+        "150": {
+          "value": "#3333FF",
+          "type": "color"
+        }
       }
     },
     "transparent": {

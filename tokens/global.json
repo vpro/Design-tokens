@@ -24,6 +24,10 @@
       "roboto": {
         "value": "Roboto",
         "type": "fontFamilies"
+      },
+      "poppins": {
+        "value": "Poppins",
+        "type": "fontFamilies"
       }
     }
   },
@@ -297,16 +301,8 @@
         }
       },
       "mint": {
-        "50": {
-          "value": "#80D8DF",
-          "type": "color"
-        },
         "100": {
-          "value": "#00B0BF",
-          "type": "color"
-        },
-        "150": {
-          "value": "#015860",
+          "value": "#6CF7C1",
           "type": "color"
         }
       },
@@ -409,6 +405,28 @@
         },
         "150": {
           "value": "#3333FF",
+          "type": "color"
+        }
+      },
+      "magenta": {
+        "100": {
+          "value": "#F52153",
+          "type": "color"
+        },
+        "150": {
+          "value": "#f63c67",
+          "type": "color"
+        }
+      },
+      "navy": {
+        "100": {
+          "value": "#1C17A7",
+          "type": "color"
+        }
+      },
+      "neon-yellow": {
+        "100": {
+          "value": "#E5F138",
           "type": "color"
         }
       }

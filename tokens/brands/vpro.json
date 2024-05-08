@@ -5,7 +5,7 @@
       "type": "fontFamilies"
     },
     "utility": {
-      "value": "{fontfamily.global.simplistic}",
+      "value": "{fontfamily.global.helvetica}",
       "type": "fontFamilies"
     },
     "heading": {
@@ -214,7 +214,7 @@
     },
     "link": {
       "default": {
-        "value": "{color.global.dark-blue.100}",
+        "value": "{color.brand.primary}",
         "type": "color"
       },
       "hover": {
@@ -275,7 +275,7 @@
           "type": "color"
         },
         "hover": {
-          "value": "{color.global.dark-blue.100}",
+          "value": "{color.brand.primary}",
           "type": "color"
         },
         "active": {

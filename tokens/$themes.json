@@ -102,15 +102,7 @@
       "color.surface.disabled": "S:f9bc53746c4791872afbdae42351147d7f86e1ab,",
       "color.border.inverse": "S:056f70742a801add2df5fe6f58adeb55a63a5147,",
       "color.link.inverse-subtle": "S:a965e7d09c3f1b81698199003fb3fb295873d85f,",
-      "color.link.inverse-subtle-hover": "S:4f4f19fd90344d3aaec345726049310abcbd7ecb,",
-      "color.border.focus": "S:d9ccbe717e00adc28ddde8b88131fbf57b6fe8d2,",
-      "color.border.filled": "S:46ef86bcba766b5abc1942832a47ba88044424c6,",
-      "color.tertiary.interactive.default": "S:73c82859a1bd1efa2af7ac48373ce6b91cc450ad,",
-      "color.tertiary.interactive.hover": "S:36e2c99f67039b2eef19716e0cf73287628cec9e,",
-      "color.tertiary.interactive.active": "S:73c8e358ed945ce3a84c6c14b009ffd8c10eba3e,",
-      "color.tertiary.on-interactive.default": "S:ccf305186164bab78382af9f0c07a5a5df363f30,",
-      "color.tertiary.on-interactive.hover": "S:1b41c56f6dfcbe2db289332bb1b8094e30120e3a,",
-      "color.tertiary.on-interactive.active": "S:26e2875ecca56a706f6e5224301bca073f4a1b5e,"
+      "color.link.inverse-subtle-hover": "S:4f4f19fd90344d3aaec345726049310abcbd7ecb,"
     },
     "selectedTokenSets": {
       "global": "source",
@@ -340,6 +332,16 @@
       "color.tertiary.on-interactive.hover": "S:7b8ab6b5ba0971e624dce226fae0f1b90b8da1d4,",
       "color.tertiary.on-interactive.active": "S:3f37cab06e0962b346286a31aa50c57634c2ce1c,"
     },
+    "selectedTokenSets": {
+      "global": "enabled",
+      "base": "enabled",
+      "brands/vpro": "enabled"
+    }
+  },
+  {
+    "id": "5f3f04cf20b22a4a200465397545ea7439d220d5",
+    "name": "Brainwash",
+    "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "global": "enabled",
       "base": "enabled",

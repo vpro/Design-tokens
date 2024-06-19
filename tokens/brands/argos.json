@@ -1,19 +1,19 @@
 {
   "fontfamily": {
     "body": {
-      "value": "{fontfamily.global.agrandir-regular}",
+      "value": "{fontfamily.global.agrandir}",
       "type": "fontFamilies"
     },
     "utility": {
-      "value": "{fontfamily.global.agrandir-regular}",
+      "value": "{fontfamily.global.agrandir}",
       "type": "fontFamilies"
     },
     "heading": {
-      "value": "{fontfamily.global.agrandir-medium}",
+      "value": "{fontfamily.global.agrandir}",
       "type": "fontFamilies"
     },
     "display": {
-      "value": "{fontfamily.global.agrandir-medium}",
+      "value": "{fontfamily.global.agrandir}",
       "type": "fontFamilies"
     }
   },

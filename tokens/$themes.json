@@ -653,7 +653,10 @@
       "color.global.pine.100": "S:4c01e682be8ae06349ef8d4153fccd1178af55ba,",
       "color.global.pine.50": "S:b76ff3d89ef821a76600b6b9978177bc5cafbf6e,",
       "color.global.oxford.100": "S:5fb9de662ccc89ee91127db684685cffcce8fd7e,",
-      "color.global.oxford.150": "S:a89e623ab819054af50b9954ebd2b458246016e6,"
+      "color.global.oxford.150": "S:a89e623ab819054af50b9954ebd2b458246016e6,",
+      "color.background.dark": "S:a2e23eeb23865eb4ba00a537a14c3496e9e16c89,",
+      "color.global.pine.150": "S:101a1c621a9aae00ef14302c9d1b46633b5f1b2a,",
+      "color.global.oxford.50": "S:35f43dd678292d62f90963f6472f7a3179861386,"
     },
     "selectedTokenSets": {
       "global": "enabled",

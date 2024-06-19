@@ -29,12 +29,8 @@
         "value": "Poppins",
         "type": "fontFamilies"
       },
-      "agrandir-medium": {
+      "agrandir": {
         "value": "Agrandir",
-        "type": "fontFamilies"
-      },
-      "agrandir-regular": {
-        "value": "PP Agrandir",
         "type": "fontFamilies"
       }
     }

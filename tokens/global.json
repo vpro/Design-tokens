@@ -438,7 +438,7 @@
           "type": "color"
         }
       },
-      "petrol": {
+      "pine": {
         "50": {
           "value": "#558C8F",
           "type": "color"
@@ -446,9 +446,17 @@
         "100": {
           "value": "#447073",
           "type": "color"
+        },
+        "150": {
+          "value": "#223637",
+          "type": "color"
         }
       },
-      "denim": {
+      "oxford": {
+        "50": {
+          "value": "#455E86",
+          "type": "color"
+        },
         "100": {
           "value": "#0F2648",
           "type": "color"
@@ -483,12 +491,6 @@
         },
         "200": {
           "value": "#975873",
-          "type": "color"
-        }
-      },
-      "stone": {
-        "100": {
-          "value": "#455E86",
           "type": "color"
         }
       }

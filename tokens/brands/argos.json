@@ -66,15 +66,19 @@
     },
     "background": {
       "default": {
-        "value": "{color.global.mist.100}",
+        "value": "{color.global.mist.150}",
         "type": "color"
       },
       "secondary": {
-        "value": "{color.global.mist.150}",
+        "value": "{color.global.mist.200}",
         "type": "color"
       },
       "tertiairy": {
         "value": "{color.brand.secondary}",
+        "type": "color"
+      },
+      "dark": {
+        "value": "{color.global.oxford.150}",
         "type": "color"
       }
     },

@@ -100,7 +100,7 @@
         "type": "color"
       },
       "brand": {
-        "value": "{color.brand.primary}",
+        "value": "{color.brand.secondary}",
         "type": "color"
       }
     },
@@ -204,7 +204,7 @@
         "type": "color"
       },
       "focus": {
-        "value": "{color.brand.primary}",
+        "value": "{color.brand.secondary}",
         "type": "color"
       },
       "filled": {

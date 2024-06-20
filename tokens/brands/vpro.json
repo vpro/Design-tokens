@@ -155,7 +155,7 @@
     "primary": {
       "interactive": {
         "default": {
-          "value": "{color.brand.secondary}",
+          "value": "{color.brand.primary}",
           "type": "color"
         },
         "hover": {

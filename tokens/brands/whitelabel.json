@@ -35,22 +35,22 @@
       "type": "lineHeights"
     }
   },
-  "letterspacing": {
+  "fontweight": {
     "body": {
-      "value": "{letterspacing.global.200}",
-      "type": "letterSpacing"
+      "value": "{fontweight.global.400}",
+      "type": "fontWeights"
     },
     "utility": {
-      "value": "{letterspacing.global.200}",
-      "type": "letterSpacing"
+      "value": "{fontweight.global.400}",
+      "type": "fontWeights"
     },
     "heading": {
-      "value": "{letterspacing.global.200}",
-      "type": "letterSpacing"
+      "value": "{fontweight.global.700}",
+      "type": "fontWeights"
     },
     "display": {
-      "value": "{letterspacing.global.200}",
-      "type": "letterSpacing"
+      "value": "{fontweight.global.500}",
+      "type": "fontWeights"
     }
   },
   "color": {

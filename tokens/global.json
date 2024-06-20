@@ -195,25 +195,6 @@
       }
     }
   },
-  "letterspacing": {
-    "global": {
-      "100": {
-        "value": "-0.05em",
-        "type": "letterSpacing",
-        "description": "Tight"
-      },
-      "200": {
-        "value": "0em",
-        "type": "letterSpacing",
-        "description": "Normal"
-      },
-      "300": {
-        "value": "0.05em",
-        "type": "letterSpacing",
-        "description": "Breathable"
-      }
-    }
-  },
   "color": {
     "global": {
       "grey": {

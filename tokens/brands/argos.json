@@ -1,19 +1,19 @@
 {
   "fontfamily": {
     "body": {
-      "value": "{fontfamily.global.agrandir}",
+      "value": "{fontfamily.global.agrandir-regular}",
       "type": "fontFamilies"
     },
     "utility": {
-      "value": "{fontfamily.global.agrandir}",
+      "value": "{fontfamily.global.agrandir-regular}",
       "type": "fontFamilies"
     },
     "heading": {
-      "value": "{fontfamily.global.agrandir}",
+      "value": "{fontfamily.global.agrandir-medium}",
       "type": "fontFamilies"
     },
     "display": {
-      "value": "{fontfamily.global.agrandir}",
+      "value": "{fontfamily.global.agrandir-medium}",
       "type": "fontFamilies"
     }
   },
@@ -56,29 +56,25 @@
   "color": {
     "brand": {
       "secondary": {
-        "value": "{color.global.pine.100}",
+        "value": "{color.global.petrol.100}",
         "type": "color"
       },
       "primary": {
-        "value": "{color.global.oxford.100}",
+        "value": "{color.global.denim.100}",
         "type": "color"
       }
     },
     "background": {
       "default": {
-        "value": "{color.global.mist.150}",
+        "value": "{color.global.mist.100}",
         "type": "color"
       },
       "secondary": {
-        "value": "{color.global.mist.200}",
+        "value": "{color.global.mist.150}",
         "type": "color"
       },
       "tertiairy": {
         "value": "{color.brand.secondary}",
-        "type": "color"
-      },
-      "dark": {
-        "value": "{color.global.oxford.150}",
         "type": "color"
       }
     },
@@ -92,7 +88,7 @@
         "type": "color"
       },
       "tertiary": {
-        "value": "{color.global.oxford.50}",
+        "value": "{color.global.salmon.150}",
         "type": "color"
       },
       "disabled": {
@@ -100,7 +96,7 @@
         "type": "color"
       },
       "dark": {
-        "value": "{color.global.oxford.150}",
+        "value": "{color.global.denim.150}",
         "type": "color"
       },
       "brand": {
@@ -110,7 +106,7 @@
     },
     "text": {
       "title": {
-        "value": "{color.global.oxford.150}",
+        "value": "{color.global.denim.150}",
         "type": "color"
       },
       "default": {
@@ -136,7 +132,7 @@
     },
     "icon": {
       "primary": {
-        "value": "{color.global.oxford.150}",
+        "value": "{color.global.denim.150}",
         "type": "color"
       },
       "secondary": {
@@ -167,7 +163,7 @@
           "type": "color"
         },
         "active": {
-          "value": "{color.global.oxford.150}",
+          "value": "{color.global.denim.150}",
           "type": "color"
         }
       },
@@ -222,7 +218,7 @@
         "type": "color"
       },
       "hover": {
-        "value": "{color.global.oxford.150}",
+        "value": "{color.global.denim.150}",
         "type": "color"
       },
       "inverse": {

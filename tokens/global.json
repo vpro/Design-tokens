@@ -29,8 +29,12 @@
         "value": "Poppins",
         "type": "fontFamilies"
       },
-      "agrandir": {
+      "agrandir-medium": {
         "value": "Agrandir",
+        "type": "fontFamilies"
+      },
+      "agrandir-regular": {
+        "value": "PP Agrandir",
         "type": "fontFamilies"
       }
     }
@@ -434,7 +438,7 @@
           "type": "color"
         }
       },
-      "pine": {
+      "petrol": {
         "50": {
           "value": "#558C8F",
           "type": "color"
@@ -442,17 +446,9 @@
         "100": {
           "value": "#447073",
           "type": "color"
-        },
-        "150": {
-          "value": "#223637",
-          "type": "color"
         }
       },
-      "oxford": {
-        "50": {
-          "value": "#455E86",
-          "type": "color"
-        },
+      "denim": {
         "100": {
           "value": "#0F2648",
           "type": "color"
@@ -487,6 +483,12 @@
         },
         "200": {
           "value": "#975873",
+          "type": "color"
+        }
+      },
+      "stone": {
+        "100": {
+          "value": "#455E86",
           "type": "color"
         }
       }

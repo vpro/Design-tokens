@@ -82,28 +82,37 @@
       "max": {
         "intro": {
           "value": {
-            "fontFamily": "{fontfamily.display}",
-            "fontWeight": "{fontweight.display}",
+            "fontFamily": "{fontfamily.display.intro}",
+            "fontWeight": "{fontweight.display.intro}",
             "fontSize": "{fontsize.global.200}",
-            "lineHeight": "{lineheight.global.400}"
+            "lineHeight": "{lineheight.display.intro}"
           },
           "type": "typography"
         },
         "name": {
           "value": {
-            "fontFamily": "{fontfamily.display}",
-            "fontWeight": "{fontweight.heading}",
+            "fontFamily": "{fontfamily.display.name}",
+            "fontWeight": "{fontweight.display.name}",
             "fontSize": "{fontsize.global.380}",
-            "lineHeight": "{lineheight.global.100}"
+            "lineHeight": "{lineheight.display.name}"
           },
           "type": "typography"
         },
         "quote": {
           "value": {
-            "fontFamily": "{fontfamily.display}",
-            "fontWeight": "{fontweight.display}",
+            "fontFamily": "{fontfamily.display.quote}",
+            "fontWeight": "{fontweight.display.quote}",
             "fontSize": "{fontsize.global.220}",
-            "lineHeight": "{lineheight.global.400}"
+            "lineHeight": "{lineheight.display.quote}"
+          },
+          "type": "typography"
+        },
+        "question": {
+          "value": {
+            "fontFamily": "{fontfamily.display.question}",
+            "fontWeight": "{fontweight.display.question}",
+            "fontSize": "{fontsize.global.120}",
+            "lineHeight": "{lineheight.display.question}"
           },
           "type": "typography"
         }
@@ -111,28 +120,37 @@
       "min": {
         "intro": {
           "value": {
-            "fontFamily": "{fontfamily.display}",
-            "fontWeight": "{fontweight.display}",
+            "fontFamily": "{fontfamily.display.intro}",
+            "fontWeight": "{fontweight.display.intro}",
             "fontSize": "{fontsize.global.180}",
-            "lineHeight": "{lineheight.global.400}"
+            "lineHeight": "{lineheight.display.intro}"
           },
           "type": "typography"
         },
         "name": {
           "value": {
-            "fontFamily": "{fontfamily.display}",
-            "fontWeight": "{fontweight.heading}",
+            "fontFamily": "{fontfamily.display.name}",
+            "fontWeight": "{fontweight.display.name}",
             "fontSize": "{fontsize.global.360}",
-            "lineHeight": "{lineheight.global.100}"
+            "lineHeight": "{lineheight.display.name}"
           },
           "type": "typography"
         },
         "quote": {
           "value": {
-            "fontFamily": "{fontfamily.display}",
-            "fontWeight": "{fontweight.display}",
+            "fontFamily": "{fontfamily.display.quote}",
+            "fontWeight": "{fontweight.display.quote}",
             "fontSize": "{fontsize.global.200}",
-            "lineHeight": "{lineheight.global.400}"
+            "lineHeight": "{lineheight.display.quote}"
+          },
+          "type": "typography"
+        },
+        "question": {
+          "value": {
+            "fontFamily": "{fontfamily.display.question}",
+            "fontWeight": "{fontweight.display.question}",
+            "fontSize": "{fontsize.global.140}",
+            "lineHeight": "{lineheight.display.question}"
           },
           "type": "typography"
         }

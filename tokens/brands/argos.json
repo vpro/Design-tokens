@@ -13,8 +13,22 @@
       "type": "fontFamilies"
     },
     "display": {
-      "value": "{fontfamily.global.agrandir-medium}",
-      "type": "fontFamilies"
+      "intro": {
+        "value": "{fontfamily.global.agrandir-medium}",
+        "type": "fontFamilies"
+      },
+      "name": {
+        "value": "{fontfamily.global.agrandir-medium}",
+        "type": "fontFamilies"
+      },
+      "quote": {
+        "value": "{fontfamily.global.agrandir-medium}",
+        "type": "fontFamilies"
+      },
+      "question": {
+        "value": "{fontfamily.global.agrandir-regular}",
+        "type": "fontFamilies"
+      }
     }
   },
   "lineheight": {
@@ -31,8 +45,22 @@
       "type": "lineHeights"
     },
     "display": {
-      "value": "{lineheight.global.100}",
-      "type": "lineHeights"
+      "intro": {
+        "value": "{lineheight.global.400}",
+        "type": "lineHeights"
+      },
+      "name": {
+        "value": "{lineheight.global.100}",
+        "type": "lineHeights"
+      },
+      "quote": {
+        "value": "{lineheight.global.400}",
+        "type": "lineHeights"
+      },
+      "question": {
+        "value": "{lineheight.global.300}",
+        "type": "lineHeights"
+      }
     }
   },
   "fontweight": {
@@ -49,8 +77,22 @@
       "type": "fontWeights"
     },
     "display": {
-      "value": "{fontweight.global.500}",
-      "type": "fontWeights"
+      "intro": {
+        "value": "{fontweight.global.500}",
+        "type": "fontWeights"
+      },
+      "name": {
+        "value": "{fontweight.global.700}",
+        "type": "fontWeights"
+      },
+      "quote": {
+        "value": "{fontweight.global.500}",
+        "type": "fontWeights"
+      },
+      "question": {
+        "value": "{fontweight.global.700}",
+        "type": "fontWeights"
+      }
     }
   },
   "color": {

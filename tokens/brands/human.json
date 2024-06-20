@@ -229,6 +229,10 @@
         "value": "{color.global.grey.250}",
         "type": "color"
       },
+      "inverse": {
+        "value": "{color.global.grey.300}",
+        "type": "color"
+      },
       "hover": {
         "value": "{color.global.blue.100}",
         "type": "color"
@@ -239,10 +243,6 @@
       },
       "error": {
         "value": "{color.global.red.100}",
-        "type": "color"
-      },
-      "inverse": {
-        "value": "{color.global.grey.300}",
         "type": "color"
       },
       "focus": {

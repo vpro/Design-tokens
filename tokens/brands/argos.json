@@ -121,8 +121,12 @@
       }
     },
     "surface": {
-      "default": {
-        "value": "{color.global.mist.150}",
+      "brand": {
+        "value": "{color.brand.primary}",
+        "type": "color"
+      },
+      "primary": {
+        "value": "{color.global.salmon.150}",
         "type": "color"
       },
       "secondary": {
@@ -130,19 +134,33 @@
         "type": "color"
       },
       "tertiary": {
-        "value": "{color.global.salmon.150}",
-        "type": "color"
-      },
-      "disabled": {
-        "value": "{color.global.grey.300}",
+        "value": "{color.global.mist.150}",
         "type": "color"
       },
       "dark": {
         "value": "{color.global.oxford.150}",
         "type": "color"
-      },
+      }
+    },
+    "on-surface": {
       "brand": {
-        "value": "{color.brand.primary}",
+        "value": "{color.global.grey.100}",
+        "type": "color"
+      },
+      "primary": {
+        "value": "{color.global.grey.100}",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "{color.global.grey.500}",
+        "type": "color"
+      },
+      "tertiary": {
+        "value": "{color.global.grey.500}",
+        "type": "color"
+      },
+      "dark": {
+        "value": "{color.global.grey.100}",
         "type": "color"
       }
     },
@@ -205,21 +223,35 @@
           "type": "color"
         },
         "active": {
-          "value": "{color.global.oxford.150}",
+          "value": "{color.global.salmon.200}",
           "type": "color"
         }
       },
       "on-interactive": {
         "default": {
-          "value": "{color.global.grey.550}",
+          "value": "{color.global.grey.100}",
           "type": "color"
         },
         "hover": {
-          "value": "{color.global.grey.550}",
+          "value": "{color.global.grey.100}",
           "type": "color"
         },
         "active": {
           "value": "{color.global.grey.100}",
+          "type": "color"
+        }
+      },
+      "border": {
+        "default": {
+          "value": "{color.global.salmon.100}",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{color.global.salmon.150}",
+          "type": "color"
+        },
+        "active": {
+          "value": "{color.global.salmon.200}",
           "type": "color"
         }
       }
@@ -283,7 +315,7 @@
     "secondary": {
       "interactive": {
         "default": {
-          "value": "{color.global.salmon.100}",
+          "value": "{color.transparent.100}",
           "type": "color"
         },
         "hover": {
@@ -297,15 +329,29 @@
       },
       "on-interactive": {
         "default": {
-          "value": "{color.global.grey.550}",
+          "value": "{color.global.salmon.100}",
           "type": "color"
         },
         "hover": {
-          "value": "{color.global.grey.550}",
+          "value": "{color.global.grey.100}",
           "type": "color"
         },
         "active": {
           "value": "{color.global.grey.100}",
+          "type": "color"
+        }
+      },
+      "border": {
+        "default": {
+          "value": "{color.global.salmon.100}",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{color.global.salmon.150}",
+          "type": "color"
+        },
+        "active": {
+          "value": "{color.global.salmon.200}",
           "type": "color"
         }
       }
@@ -313,21 +359,21 @@
     "tertiary": {
       "interactive": {
         "default": {
-          "value": "{color.background.default}",
+          "value": "{color.transparent.100}",
           "type": "color"
         },
         "hover": {
-          "value": "{color.brand.primary}",
+          "value": "{color.global.salmon.150}",
           "type": "color"
         },
         "active": {
-          "value": "{color.brand.secondary}",
+          "value": "{color.global.salmon.200}",
           "type": "color"
         }
       },
       "on-interactive": {
         "default": {
-          "value": "{color.global.grey.500}",
+          "value": "{color.global.salmon.100}",
           "type": "color"
         },
         "hover": {
@@ -336,6 +382,20 @@
         },
         "active": {
           "value": "{color.global.grey.100}",
+          "type": "color"
+        }
+      },
+      "border": {
+        "default": {
+          "value": "{color.transparent.100}",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{color.global.salmon.150}",
+          "type": "color"
+        },
+        "active": {
+          "value": "{color.global.salmon.200}",
           "type": "color"
         }
       }

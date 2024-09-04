@@ -212,50 +212,6 @@
         "type": "color"
       }
     },
-    "primary": {
-      "interactive": {
-        "default": {
-          "value": "{color.global.salmon.100}",
-          "type": "color"
-        },
-        "hover": {
-          "value": "{color.global.salmon.150}",
-          "type": "color"
-        },
-        "active": {
-          "value": "{color.global.salmon.200}",
-          "type": "color"
-        }
-      },
-      "on-interactive": {
-        "default": {
-          "value": "{color.global.grey.100}",
-          "type": "color"
-        },
-        "hover": {
-          "value": "{color.global.grey.100}",
-          "type": "color"
-        },
-        "active": {
-          "value": "{color.global.grey.100}",
-          "type": "color"
-        }
-      },
-      "border": {
-        "default": {
-          "value": "{color.global.salmon.100}",
-          "type": "color"
-        },
-        "hover": {
-          "value": "{color.global.salmon.150}",
-          "type": "color"
-        },
-        "active": {
-          "value": "{color.global.salmon.200}",
-          "type": "color"
-        }
-      }
-    },
     "border": {
       "default": {
         "value": "{color.global.mist.200}",
@@ -310,6 +266,50 @@
       "inverse-subtle-hover": {
         "value": "{color.global.grey.100}",
         "type": "color"
+      }
+    },
+    "primary": {
+      "interactive": {
+        "default": {
+          "value": "{color.global.salmon.100}",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{color.global.salmon.150}",
+          "type": "color"
+        },
+        "active": {
+          "value": "{color.global.salmon.200}",
+          "type": "color"
+        }
+      },
+      "on-interactive": {
+        "default": {
+          "value": "{color.global.grey.100}",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{color.global.grey.100}",
+          "type": "color"
+        },
+        "active": {
+          "value": "{color.global.grey.100}",
+          "type": "color"
+        }
+      },
+      "border": {
+        "default": {
+          "value": "{color.global.salmon.100}",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{color.global.salmon.150}",
+          "type": "color"
+        },
+        "active": {
+          "value": "{color.global.salmon.200}",
+          "type": "color"
+        }
       }
     },
     "secondary": {

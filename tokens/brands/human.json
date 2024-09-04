@@ -78,7 +78,7 @@
     },
     "display": {
       "intro": {
-        "value": "{fontweight.global.500}",
+        "value": "{fontweight.global.400}",
         "type": "fontWeights"
       },
       "name": {
@@ -86,7 +86,7 @@
         "type": "fontWeights"
       },
       "quote": {
-        "value": "{fontweight.global.500}",
+        "value": "{fontweight.global.700}",
         "type": "fontWeights"
       },
       "question": {

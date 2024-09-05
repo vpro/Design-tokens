@@ -450,6 +450,10 @@
       "info": {
         "value": "{color.global.blue.125}",
         "type": "color"
+      },
+      "disabled": {
+        "value": "{color.global.grey.300}",
+        "type": "color"
       }
     }
   },

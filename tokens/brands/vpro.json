@@ -259,7 +259,7 @@
     "secondary": {
       "interactive": {
         "default": {
-          "value": "{color.transparent.100}",
+          "value": "{color.transparent.0}",
           "type": "color"
         },
         "hover": {
@@ -303,7 +303,7 @@
     "tertiary": {
       "interactive": {
         "default": {
-          "value": "{color.transparent.100}",
+          "value": "{color.transparent.0}",
           "type": "color"
         },
         "hover": {
@@ -331,7 +331,7 @@
       },
       "border": {
         "default": {
-          "value": "{color.transparent.100}",
+          "value": "{color.transparent.0}",
           "type": "color"
         },
         "hover": {

@@ -473,6 +473,10 @@
       }
     },
     "transparent": {
+      "0": {
+        "value": "rgba(255,255,255,0)",
+        "type": "color"
+      },
       "50": {
         "value": "rgba(255,255,255,0.5)",
         "type": "color"
@@ -480,13 +484,13 @@
       "75": {
         "value": "rgba(255,255,255,0.75)",
         "type": "color"
-      },
-      "100": {
-        "value": "rgba(255,255,255,0)",
-        "type": "color"
       }
     },
     "transparent-dark": {
+      "0": {
+        "value": "rgba(33,33,33,0)",
+        "type": "color"
+      },
       "50": {
         "value": "rgba(33,33,33,0.5)",
         "type": "color"

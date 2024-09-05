@@ -259,7 +259,7 @@
     "secondary": {
       "interactive": {
         "default": {
-          "value": "{color.transparent.100}",
+          "value": "{color.transparent.0}",
           "type": "color"
         },
         "hover": {
@@ -303,7 +303,7 @@
     "tertiary": {
       "interactive": {
         "default": {
-          "value": "{color.transparent.100}",
+          "value": "{color.transparent.0}",
           "type": "color"
         },
         "hover": {
@@ -331,7 +331,7 @@
       },
       "border": {
         "default": {
-          "value": "{color.transparent.100}",
+          "value": "{color.transparent.0}",
           "type": "color"
         },
         "hover": {
@@ -355,11 +355,11 @@
           "type": "color"
         },
         "hover": {
-          "value": "{color.transparent.50}",
+          "value": "{color.transparent.75}",
           "type": "color"
         },
         "active": {
-          "value": "{color.transparent.75}",
+          "value": "{color.transparent.50}",
           "type": "color"
         }
       },
@@ -373,11 +373,11 @@
           "type": "color"
         },
         "hover": {
-          "value": "{color.transparent-dark.50}",
+          "value": "{color.transparent-dark.75}",
           "type": "color"
         },
         "active": {
-          "value": "{color.transparent-dark.75}",
+          "value": "{color.transparent-dark.50}",
           "type": "color"
         }
       },
@@ -391,11 +391,11 @@
           "type": "color"
         },
         "hover": {
-          "value": "{color.transparent-dark.50}",
+          "value": "{color.transparent-dark.75}",
           "type": "color"
         },
         "active": {
-          "value": "{color.transparent-dark.75}",
+          "value": "{color.transparent-dark.50}",
           "type": "color"
         }
       },
@@ -409,11 +409,11 @@
           "type": "color"
         },
         "hover": {
-          "value": "{color.transparent-dark.50}",
+          "value": "{color.transparent-dark.75}",
           "type": "color"
         },
         "active": {
-          "value": "{color.transparent-dark.75}",
+          "value": "{color.transparent-dark.50}",
           "type": "color"
         }
       },
@@ -427,11 +427,11 @@
           "type": "color"
         },
         "hover": {
-          "value": "{color.transparent.50}",
+          "value": "{color.transparent.75}",
           "type": "color"
         },
         "active": {
-          "value": "{color.transparent.75}",
+          "value": "{color.transparent.50}",
           "type": "color"
         }
       }

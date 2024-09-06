@@ -365,19 +365,19 @@
       },
       "primary": {
         "background": {
-          "value": "{color.global.salmon.150}",
+          "value": "{color.global.mist.150}",
           "type": "color"
         },
         "foreground": {
-          "value": "{color.global.grey.100}",
+          "value": "{color.global.grey.500}",
           "type": "color"
         },
         "hover": {
-          "value": "{color.transparent.75}",
+          "value": "{color.transparent-dark.75}",
           "type": "color"
         },
         "active": {
-          "value": "{color.transparent.50}",
+          "value": "{color.transparent-dark.50}",
           "type": "color"
         }
       },
@@ -401,19 +401,19 @@
       },
       "tertiary": {
         "background": {
-          "value": "{color.global.mist.150}",
+          "value": "{color.global.salmon.150}",
           "type": "color"
         },
         "foreground": {
-          "value": "{color.global.grey.500}",
+          "value": "{color.global.grey.100}",
           "type": "color"
         },
         "hover": {
-          "value": "{color.transparent-dark.75}",
+          "value": "{color.transparent.75}",
           "type": "color"
         },
         "active": {
-          "value": "{color.transparent-dark.50}",
+          "value": "{color.transparent.50}",
           "type": "color"
         }
       },

@@ -415,6 +415,10 @@
         "active": {
           "value": "{color.transparent.50}",
           "type": "color"
+        },
+        "foreground-on-surface": {
+          "value": "{color.global.grey.550}",
+          "type": "color"
         }
       },
       "dark": {

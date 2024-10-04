@@ -405,7 +405,7 @@
           "type": "color"
         },
         "foreground": {
-          "value": "{color.global.grey.250}",
+          "value": "{color.global.grey.100}",
           "type": "color"
         },
         "hover": {
@@ -414,10 +414,6 @@
         },
         "active": {
           "value": "{color.transparent.50}",
-          "type": "color"
-        },
-        "foreground-on-surface": {
-          "value": "{color.global.grey.550}",
           "type": "color"
         }
       },

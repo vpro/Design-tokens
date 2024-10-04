@@ -405,7 +405,7 @@
           "type": "color"
         },
         "foreground": {
-          "value": "{color.global.grey.100}",
+          "value": "{color.global.grey.250}",
           "type": "color"
         },
         "hover": {

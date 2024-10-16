@@ -721,6 +721,50 @@
           "type": "color"
         }
       },
+      "pumpkin": {
+        "25": {
+          "value": "#FFF0EA",
+          "type": "color"
+        },
+        "50": {
+          "value": "#FFB795",
+          "type": "color"
+        },
+        "100": {
+          "value": "#FF6E29",
+          "type": "color"
+        },
+        "150": {
+          "value": "#99421A",
+          "type": "color"
+        },
+        "200": {
+          "value": "#4D210C",
+          "type": "color"
+        }
+      },
+      "charcoal": {
+        "25": {
+          "value": "#E6E6E6",
+          "type": "color"
+        },
+        "50": {
+          "value": "#B3B3B3",
+          "type": "color"
+        },
+        "100": {
+          "value": "#212121",
+          "type": "color"
+        },
+        "150": {
+          "value": "#191919",
+          "type": "color"
+        },
+        "200": {
+          "value": "#000000",
+          "type": "color"
+        }
+      },
       "salmon": {
         "100": {
           "value": "#CF88B0",

@@ -144,15 +144,15 @@
     },
     "background": {
       "default": {
-        "value": "{color.palette.primary.faded}",
+        "value": "{color.global.grey.100}",
         "type": "color"
       },
       "secondary": {
-        "value": "{color.palette.primary.pastel}",
+        "value": "{color.palette.primary.faded}",
         "type": "color"
       },
-      "tertiairy": {
-        "value": "{color.global.grey.100}",
+      "tertiary": {
+        "value": "{color.palette.primary.pastel}",
         "type": "color"
       }
     },

@@ -765,6 +765,50 @@
           "type": "color"
         }
       },
+      "orchid": {
+        "25": {
+          "value": "#F5EBFA",
+          "type": "color"
+        },
+        "50": {
+          "value": "#CD99E6",
+          "type": "color"
+        },
+        "100": {
+          "value": "#9A32CD",
+          "type": "color"
+        },
+        "150": {
+          "value": "#5C1E7B",
+          "type": "color"
+        },
+        "200": {
+          "value": "#2E0F3D",
+          "type": "color"
+        }
+      },
+      "radioactive": {
+        "25": {
+          "value": "#E6FFE6",
+          "type": "color"
+        },
+        "50": {
+          "value": "#80FF81",
+          "type": "color"
+        },
+        "100": {
+          "value": "#00FF00",
+          "type": "color"
+        },
+        "150": {
+          "value": "#009900",
+          "type": "color"
+        },
+        "200": {
+          "value": "#004C00",
+          "type": "color"
+        }
+      },
       "salmon": {
         "100": {
           "value": "#CF88B0",

@@ -123,8 +123,8 @@
       "color.tertiary.border.default": "S:418dd9d6e9a96bef864a1cedd08f75afa1b326e7,",
       "color.tertiary.border.hover": "S:014e9163a52ee0a073bc13dc20e02df8ea6f44fe,",
       "color.tertiary.border.active": "S:b088a9c1e44dba48765736b3020c763f2cb4624a,",
-      "color.program.secondary.main": "S:acdc06d1e9c65bcf1b7c0f830cc508aa99684afa,",
-      "color.program.primary.main": "S:1880f707ee70983fd8b4713da1d004c1b94e4706,"
+      "color.palette.secondary.main": "S:acdc06d1e9c65bcf1b7c0f830cc508aa99684afa,",
+      "color.palette.primary.main": "S:1880f707ee70983fd8b4713da1d004c1b94e4706,"
     },
     "selectedTokenSets": {
       "global": "source",
@@ -220,8 +220,8 @@
       "color.functional.warning": "97204b543ba83319973327f1b644b2b36c4ff219",
       "color.functional.success": "75e278515bb6c2393eb3057774be1dbb1f572a55",
       "color.functional.info": "f8e60f4e9480e88b660536dbeb799b596d003c15",
-      "color.program.secondary.main": "b6c7b1852df1be23e4706ab556bc377225517d16",
-      "color.program.primary.main": "ec45db46b8b1c9551493e9407f3337c247e94551"
+      "color.palette.secondary.main": "b6c7b1852df1be23e4706ab556bc377225517d16",
+      "color.palette.primary.main": "ec45db46b8b1c9551493e9407f3337c247e94551"
     }
   },
   {
@@ -374,8 +374,8 @@
       "color.surface.dark.hover": "S:365ceb1746da29268ab2df4a8e01abab86ae5b5a,",
       "color.surface.dark.active": "S:c55a72ef057258ba0b4edeb8cb3685efadd23e65,",
       "color.functional.disabled": "S:9ebde66cce2c64de4ea30f880746ce2f4a88fd4d,",
-      "color.program.secondary.main": "S:1049f12ed6eecc1793bedf925adc83fe6ca4d647,",
-      "color.program.primary.main": "S:400e46b5ecb62639b348d0540d63b7ac411ddaa2,"
+      "color.palette.secondary.main": "S:1049f12ed6eecc1793bedf925adc83fe6ca4d647,",
+      "color.palette.primary.main": "S:400e46b5ecb62639b348d0540d63b7ac411ddaa2,"
     },
     "selectedTokenSets": {
       "global": "source",
@@ -583,8 +583,8 @@
       "text.display.max.question": "S:bb210ead4316540d3170dded191775b9253e827d,",
       "text.display.min.question": "S:816ca833fbe667fa0e498efea893e76209024088,",
       "color.transparent.0": "S:f6194664d31a1adb71f03f94dad95f5feb762a28,",
-      "color.program.secondary.main": "S:f9507378a8f06c2ec7bbcbd75725e0a12c986210,",
-      "color.program.primary.main": "S:1b2cfde662fd80c8cce1cb2342db832d07956ca9,"
+      "color.palette.secondary.main": "S:f9507378a8f06c2ec7bbcbd75725e0a12c986210,",
+      "color.palette.primary.main": "S:1b2cfde662fd80c8cce1cb2342db832d07956ca9,"
     },
     "selectedTokenSets": {
       "global": "enabled",
@@ -832,8 +832,8 @@
       "text.display.max.question": "S:abd4cffceac9083883c59869951ed73678797510,",
       "text.display.min.question": "S:74afd593e284e94d1c8bbf22e5d08b7170fc868e,",
       "color.transparent.0": "S:11898a8e93c471310f3f15f0427b08266ae4e731,",
-      "color.program.secondary.main": "S:1029795fe889925b39c6bbaa4522137106191dd8,",
-      "color.program.primary.main": "S:ebe13a134ab799e5059059cc35238236d69c3224,"
+      "color.palette.secondary.main": "S:1029795fe889925b39c6bbaa4522137106191dd8,",
+      "color.palette.primary.main": "S:ebe13a134ab799e5059059cc35238236d69c3224,"
     },
     "selectedTokenSets": {
       "global": "enabled",
@@ -1107,8 +1107,8 @@
       "color.transparent-dark.50": "S:681fadb0a4eff91b169ec7740013caad09540093,",
       "color.transparent-dark.75": "S:31c93438d5975882a1be74ce0d9a53255e4ad692,",
       "color.functional.disabled": "S:69b3dea14f90c6b0a7e3fbb2b5be337fd07d961e,",
-      "color.program.secondary.main": "S:445656747d4c2df088270d8f1730323d41e435cc,",
-      "color.program.primary.main": "S:51a32cca1d3958659fea74792c9ec5a834e7e166,"
+      "color.palette.secondary.main": "S:445656747d4c2df088270d8f1730323d41e435cc,",
+      "color.palette.primary.main": "S:51a32cca1d3958659fea74792c9ec5a834e7e166,"
     },
     "selectedTokenSets": {
       "global": "enabled",

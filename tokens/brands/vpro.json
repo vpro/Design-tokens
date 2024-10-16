@@ -170,7 +170,7 @@
         "type": "color"
       },
       "hover": {
-        "value": "{color.program.primary.main}",
+        "value": "{color.palette.primary.main}",
         "type": "color"
       },
       "active": {
@@ -178,7 +178,7 @@
         "type": "color"
       },
       "focus": {
-        "value": "{color.program.primary.main}",
+        "value": "{color.palette.primary.main}",
         "type": "color"
       },
       "filled": {
@@ -188,7 +188,7 @@
     },
     "link": {
       "default": {
-        "value": "{color.program.primary.main}",
+        "value": "{color.palette.primary.main}",
         "type": "color"
       },
       "hover": {
@@ -347,7 +347,7 @@
     "surface": {
       "brand": {
         "background": {
-          "value": "{color.program.primary.main}",
+          "value": "{color.palette.primary.main}",
           "type": "color"
         },
         "foreground": {

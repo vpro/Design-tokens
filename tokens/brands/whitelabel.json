@@ -347,7 +347,7 @@
     "surface": {
       "brand": {
         "background": {
-          "value": "{color.program.primary.main}",
+          "value": "{color.palette.primary.main}",
           "type": "color"
         },
         "foreground": {

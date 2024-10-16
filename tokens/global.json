@@ -589,6 +589,50 @@
           "type": "color"
         }
       },
+      "water": {
+        "25": {
+          "value": "#E6F2F9",
+          "type": "color"
+        },
+        "50": {
+          "value": "#67B0DA",
+          "type": "color"
+        },
+        "100": {
+          "value": "#027BC2",
+          "type": "color"
+        },
+        "150": {
+          "value": "#004A74",
+          "type": "color"
+        },
+        "200": {
+          "value": "#022236",
+          "type": "color"
+        }
+      },
+      "carrot": {
+        "25": {
+          "value": "#FEF5E9",
+          "type": "color"
+        },
+        "50": {
+          "value": "#F8C178",
+          "type": "color"
+        },
+        "100": {
+          "value": "#F2981F",
+          "type": "color"
+        },
+        "150": {
+          "value": "#915B14",
+          "type": "color"
+        },
+        "200": {
+          "value": "#492E09",
+          "type": "color"
+        }
+      },
       "salmon": {
         "100": {
           "value": "#CF88B0",

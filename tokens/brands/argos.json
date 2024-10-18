@@ -268,7 +268,7 @@
             "type": "color"
           },
           "link": {
-            "value": "{color.palette.secondary.main}",
+            "value": "{color.palette.secondary.muted}",
             "type": "color"
           }
         },
@@ -302,7 +302,7 @@
             "type": "color"
           },
           "title": {
-            "value": "{color.palette.secondary.muted}",
+            "value": "{color.palette.primary.main}",
             "type": "color"
           },
           "link": {
@@ -348,7 +348,7 @@
             "type": "color"
           },
           "link": {
-            "value": "{color.palette.secondary.main}",
+            "value": "{color.palette.secondary.pastel}",
             "type": "color"
           }
         },
@@ -369,34 +369,34 @@
       },
       "alt-secondary": {
         "background": {
-          "value": "{color.palette.secondary.dark}",
+          "value": "{color.palette.secondary.main}",
           "type": "color"
         },
         "text": {
           "default": {
-            "value": "{color.global.grey.100}",
+            "value": "{color.palette.primary.dark}",
             "type": "color"
           },
           "subtle": {
-            "value": "{color.palette.secondary.faded}",
+            "value": "{color.palette.primary.main}",
             "type": "color"
           },
           "title": {
-            "value": "{color.palette.secondary.faded}",
+            "value": "{color.palette.primary.muted}",
             "type": "color"
           },
           "link": {
-            "value": "{color.palette.secondary.faded}",
+            "value": "{color.palette.primary.dark}",
             "type": "color"
           }
         },
         "interactive": {
           "background": {
-            "value": "{color.palette.secondary.main}",
+            "value": "{color.palette.primary.main}",
             "type": "color"
           },
           "foreground": {
-            "value": "{color.palette.secondary.dark}",
+            "value": "{color.global.grey.100}",
             "type": "color"
           },
           "hover": {

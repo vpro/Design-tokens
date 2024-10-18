@@ -204,7 +204,7 @@
         },
         "foreground": {
           "default": {
-            "value": "{color.palette.primary.dark}",
+            "value": "{color.palette.secondary.muted}",
             "type": "color"
           },
           "hover": {
@@ -234,7 +234,7 @@
         },
         "foreground": {
           "default": {
-            "value": "{color.palette.secondary.main}",
+            "value": "{color.palette.secondary.muted}",
             "type": "color"
           },
           "hover": {

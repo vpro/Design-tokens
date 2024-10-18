@@ -319,10 +319,6 @@
             "value": "{color.palette.primary.dark}",
             "type": "color"
           },
-          "title": {
-            "value": "{color.palette.primary.main}",
-            "type": "color"
-          },
           "hover": {
             "value": "{color.palette.secondary.muted}",
             "type": "color"

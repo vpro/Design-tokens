@@ -121,10 +121,10 @@
       "color.tertiary.border.hover": "S:014e9163a52ee0a073bc13dc20e02df8ea6f44fe,",
       "color.tertiary.border.active": "S:b088a9c1e44dba48765736b3020c763f2cb4624a,",
       "color.palette.secondary.main": "S:acdc06d1e9c65bcf1b7c0f830cc508aa99684afa,",
-      "color.palette.primary.main": "S:1880f707ee70983fd8b4713da1d004c1b94e4706,",
       "color.background.secondary": "S:20e7e9a75c8c96f3fad124b1be6895dc1e5642c1,",
       "color.background.default": "S:a1c1aaa96ddb1602db33517bcc9a159347f596ef,",
-      "color.background.tertiary": "S:be71ae82201f806d7dd21757e07161db9ce06933,"
+      "color.background.tertiary": "S:be71ae82201f806d7dd21757e07161db9ce06933,",
+      "color.palette.primary.main": "S:1880f707ee70983fd8b4713da1d004c1b94e4706,"
     },
     "selectedTokenSets": {
       "global": "source",
@@ -218,10 +218,10 @@
       "color.functional.success": "75e278515bb6c2393eb3057774be1dbb1f572a55",
       "color.functional.info": "f8e60f4e9480e88b660536dbeb799b596d003c15",
       "color.palette.secondary.main": "b6c7b1852df1be23e4706ab556bc377225517d16",
-      "color.palette.primary.main": "ec45db46b8b1c9551493e9407f3337c247e94551",
       "color.background.secondary": "dd8c3cb983af02137638f73868f2dd43b8d13f27",
       "color.background.default": "e153760ea533e09108ac8bb10247906e51805632",
-      "color.background.tertiary": "81e35ec108f7b0eacd1862ea834842a5ecce6dff"
+      "color.background.tertiary": "81e35ec108f7b0eacd1862ea834842a5ecce6dff",
+      "color.palette.primary.main": "ec45db46b8b1c9551493e9407f3337c247e94551"
     }
   },
   {
@@ -363,7 +363,6 @@
       "color.surface.dark.foreground": "S:2cc80d8f48e19527343f7cf716fd4a28f8c206b7,",
       "color.functional.disabled": "S:9ebde66cce2c64de4ea30f880746ce2f4a88fd4d,",
       "color.palette.secondary.main": "S:1049f12ed6eecc1793bedf925adc83fe6ca4d647,",
-      "color.palette.primary.main": "S:400e46b5ecb62639b348d0540d63b7ac411ddaa2,",
       "color.background.secondary": "S:9a07fc43d2ee1866fee0a291fefd213d5b615320,",
       "color.background.default": "S:78c3257d7a0c1286c51d08aa767d6b609a116347,",
       "color.background.tertiary": "S:3730197633991992dcb7a887ed05762fe31e6d07,",
@@ -375,7 +374,8 @@
       "color.surface.tertiary.foreground-subtle": "S:fd565eca37c2ce180ba31c04dcd58d42434ba7b1,",
       "color.surface.tertiary.interactive": "S:e32d87e623e4e434203f6f11bb7827218007ecb1,",
       "color.surface.dark.interactive": "S:365ceb1746da29268ab2df4a8e01abab86ae5b5a,",
-      "color.surface.dark.interactive-foreground": "S:c55a72ef057258ba0b4edeb8cb3685efadd23e65,"
+      "color.surface.dark.interactive-foreground": "S:c55a72ef057258ba0b4edeb8cb3685efadd23e65,",
+      "color.palette.primary.main": "S:400e46b5ecb62639b348d0540d63b7ac411ddaa2,"
     },
     "selectedTokenSets": {
       "global": "source",
@@ -581,10 +581,10 @@
       "text.display.min.question": "S:816ca833fbe667fa0e498efea893e76209024088,",
       "color.transparent.0": "S:f6194664d31a1adb71f03f94dad95f5feb762a28,",
       "color.palette.secondary.main": "S:f9507378a8f06c2ec7bbcbd75725e0a12c986210,",
-      "color.palette.primary.main": "S:1b2cfde662fd80c8cce1cb2342db832d07956ca9,",
       "color.background.secondary": "S:dc9dfcac01036bf98724aad093feb272ab02d1a2,",
       "color.background.default": "S:b0f933ac9e8c8311f1ff5848cf598e97330524cf,",
-      "color.background.tertiary": "S:3dfac180e918f34260f3deec75c0b68df4faf4f7,"
+      "color.background.tertiary": "S:3dfac180e918f34260f3deec75c0b68df4faf4f7,",
+      "color.palette.primary.main": "S:1b2cfde662fd80c8cce1cb2342db832d07956ca9,"
     },
     "selectedTokenSets": {
       "global": "enabled",
@@ -830,10 +830,10 @@
       "text.display.min.question": "S:74afd593e284e94d1c8bbf22e5d08b7170fc868e,",
       "color.transparent.0": "S:11898a8e93c471310f3f15f0427b08266ae4e731,",
       "color.palette.secondary.main": "S:1029795fe889925b39c6bbaa4522137106191dd8,",
-      "color.palette.primary.main": "S:ebe13a134ab799e5059059cc35238236d69c3224,",
       "color.background.secondary": "S:ba201d5da48e796e5c662623fcf8f5ae70d0b584,",
       "color.background.default": "S:a7f649603291caff15204b86be8d7178fd995f64,",
-      "color.background.tertiary": "S:fa82ea1b8a8a309f4c7e4ed9617be66e9a48b747,"
+      "color.background.tertiary": "S:fa82ea1b8a8a309f4c7e4ed9617be66e9a48b747,",
+      "color.palette.primary.main": "S:ebe13a134ab799e5059059cc35238236d69c3224,"
     },
     "selectedTokenSets": {
       "global": "enabled",
@@ -1095,7 +1095,6 @@
       "color.transparent-dark.75": "S:31c93438d5975882a1be74ce0d9a53255e4ad692,",
       "color.functional.disabled": "S:69b3dea14f90c6b0a7e3fbb2b5be337fd07d961e,",
       "color.palette.secondary.main": "S:445656747d4c2df088270d8f1730323d41e435cc,",
-      "color.palette.primary.main": "S:51a32cca1d3958659fea74792c9ec5a834e7e166,",
       "color.background.secondary": "S:f102c8315f60eae878c2abb01297d0e317108121,",
       "color.background.default": "S:7b19390aa0ff818865eca0725d126f35cc4b30d5,",
       "color.background.tertiary": "S:5131ef5f616434bba838d6cb4ec834ed3b6e5bd8,",
@@ -1107,7 +1106,8 @@
       "color.surface.tertiary.foreground-subtle": "S:fd8a5dae4edb554707b37fd216f844f7ee92d03d,",
       "color.surface.tertiary.interactive": "S:dcdba45f894d59511e6072a4675fb0be80db05c8,",
       "color.surface.dark.interactive": "S:78613a1d7a7f18118eaf221825fef96cf110c3c9,",
-      "color.surface.dark.interactive-foreground": "S:49081621bf41bd0c61b05ad5e7dc4e8e1b4aacfc,"
+      "color.surface.dark.interactive-foreground": "S:49081621bf41bd0c61b05ad5e7dc4e8e1b4aacfc,",
+      "color.palette.primary.main": "S:51a32cca1d3958659fea74792c9ec5a834e7e166,"
     },
     "selectedTokenSets": {
       "global": "enabled",

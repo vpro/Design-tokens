@@ -67,6 +67,10 @@
         "value": "{color.palette.primary.main}",
         "type": "color"
       },
+      "interactive": {
+        "value": "{color.palette.secondary.main}",
+        "type": "color"
+      },
       "dark": {
         "value": "{color.palette.primary.dark}",
         "type": "color"

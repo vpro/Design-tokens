@@ -64,6 +64,10 @@
         "type": "color"
       },
       "brand": {
+        "value": "{color.palette.primary.main}",
+        "type": "color"
+      },
+      "interactive": {
         "value": "{color.palette.secondary.main}",
         "type": "color"
       },

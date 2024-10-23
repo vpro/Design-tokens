@@ -356,11 +356,11 @@
             "type": "color"
           },
           "subtle": {
-            "value": "{color.palette.primary.faded}",
+            "value": "{color.palette.primary.pastel}",
             "type": "color"
           },
           "title": {
-            "value": "{color.palette.primary.faded}",
+            "value": "{color.palette.primary.pastel}",
             "type": "color"
           },
           "link": {

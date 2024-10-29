@@ -356,7 +356,7 @@
             "type": "color"
           },
           "subtle": {
-            "value": "{color.palette.primary.pastel}",
+            "value": "{color.palette.primary.muted}",
             "type": "color"
           },
           "title": {

@@ -347,7 +347,7 @@
       },
       "alt-primary": {
         "background": {
-          "value": "{color.palette.primary.main}",
+          "value": "{color.global.dark-blue.150}",
           "type": "color"
         },
         "text": {

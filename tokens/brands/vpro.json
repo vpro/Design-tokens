@@ -3,23 +3,23 @@
     "palette": {
       "primary": {
         "faded": {
-          "value": "{color.global.orchid.25}",
+          "value": "{color.global.electricity.25}",
           "type": "color"
         },
         "pastel": {
-          "value": "{color.global.orchid.50}",
+          "value": "{color.global.electricity.50}",
           "type": "color"
         },
         "main": {
-          "value": "{color.global.orchid.100}",
+          "value": "{color.global.electricity.100}",
           "type": "color"
         },
         "muted": {
-          "value": "{color.global.orchid.150}",
+          "value": "{color.global.electricity.150}",
           "type": "color"
         },
         "dark": {
-          "value": "{color.global.orchid.200}",
+          "value": "{color.global.electricity.200}",
           "type": "color"
         }
       },

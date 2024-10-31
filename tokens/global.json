@@ -809,6 +809,28 @@
           "type": "color"
         }
       },
+      "electricity": {
+        "25": {
+          "value": "#E6E6FF",
+          "type": "color"
+        },
+        "50": {
+          "value": "#8080FF",
+          "type": "color"
+        },
+        "100": {
+          "value": "#0000FF",
+          "type": "color"
+        },
+        "150": {
+          "value": "#000099",
+          "type": "color"
+        },
+        "200": {
+          "value": "#00004C",
+          "type": "color"
+        }
+      },
       "salmon": {
         "100": {
           "value": "#CF88B0",

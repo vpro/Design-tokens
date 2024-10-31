@@ -258,6 +258,10 @@
           "value": "{color.palette.primary.faded}",
           "type": "color"
         },
+        "accent": {
+          "value": "{color.palette.primary.pastel}",
+          "type": "color"
+        },
         "text": {
           "default": {
             "value": "{color.palette.primary.dark}",
@@ -302,6 +306,10 @@
       "secondary": {
         "background": {
           "value": "{color.palette.secondary.faded}",
+          "type": "color"
+        },
+        "accent": {
+          "value": "{color.palette.secondary.pastel}",
           "type": "color"
         },
         "text": {
@@ -350,9 +358,13 @@
           "value": "{color.palette.primary.main}",
           "type": "color"
         },
+        "accent": {
+          "value": "{color.palette.primary.pastel}",
+          "type": "color"
+        },
         "text": {
           "default": {
-            "value": "{color.global.grey.100}",
+            "value": "{color.palette.primary.faded}",
             "type": "color"
           },
           "subtle": {
@@ -386,7 +398,7 @@
             "type": "color"
           },
           "hover-foreground": {
-            "value": "{color.global.grey.100}",
+            "value": "{color.palette.primary.faded}",
             "type": "color"
           }
         }
@@ -394,6 +406,10 @@
       "alt-secondary": {
         "background": {
           "value": "{color.palette.secondary.main}",
+          "type": "color"
+        },
+        "accent": {
+          "value": "{color.palette.secondary.muted}",
           "type": "color"
         },
         "text": {

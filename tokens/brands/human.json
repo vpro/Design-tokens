@@ -280,6 +280,10 @@
           "value": "{color.palette.primary.faded}",
           "type": "color"
         },
+        "accent": {
+          "value": "{color.palette.primary.pastel}",
+          "type": "color"
+        },
         "text": {
           "default": {
             "value": "{color.palette.primary.main}",
@@ -324,6 +328,10 @@
       "secondary": {
         "background": {
           "value": "{color.palette.secondary.faded}",
+          "type": "color"
+        },
+        "accent": {
+          "value": "{color.palette.secondary.pastel}",
           "type": "color"
         },
         "text": {
@@ -376,6 +384,10 @@
           "value": "{color.palette.primary.main}",
           "type": "color"
         },
+        "accent": {
+          "value": "{color.palette.primary.muted}",
+          "type": "color"
+        },
         "text": {
           "default": {
             "value": "{color.global.grey.100}",
@@ -420,6 +432,10 @@
       "alt-secondary": {
         "background": {
           "value": "{color.palette.secondary.main}",
+          "type": "color"
+        },
+        "accent": {
+          "value": "{color.palette.secondary.muted}",
           "type": "color"
         },
         "text": {

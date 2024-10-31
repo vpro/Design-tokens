@@ -258,6 +258,10 @@
           "value": "{color.palette.primary.faded}",
           "type": "color"
         },
+        "accent": {
+          "value": "{color.palette.primary.pastel}",
+          "type": "color"
+        },
         "text": {
           "default": {
             "value": "{color.palette.primary.dark}",
@@ -304,31 +308,39 @@
           "value": "{color.palette.secondary.faded}",
           "type": "color"
         },
+        "accent": {
+          "value": "{color.palette.secondary.pastel}",
+          "type": "color"
+        },
         "text": {
           "default": {
             "value": "{color.palette.primary.dark}",
             "type": "color"
           },
           "subtle": {
-            "value": "{color.palette.primary.muted}",
-            "type": "color"
-          },
-          "title": {
-            "value": "{color.palette.primary.dark}",
-            "type": "color"
-          },
-          "link": {
             "value": "{color.palette.secondary.dark}",
             "type": "color"
           },
-          "hover": {
+          "title": {
             "value": "{color.palette.secondary.muted}",
+            "type": "color"
+          },
+          "link": {
+            "value": "{color.palette.primary.muted}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{color.palette.primary.main}",
             "type": "color"
           }
         },
         "interactive": {
           "background": {
             "value": "{color.palette.secondary.main}",
+            "type": "color"
+          },
+          "accent": {
+            "value": "{color.palette.primary.pastel}",
             "type": "color"
           },
           "foreground": {
@@ -348,6 +360,10 @@
       "alt-primary": {
         "background": {
           "value": "{color.palette.primary.muted}",
+          "type": "color"
+        },
+        "accent": {
+          "value": "{color.palette.primary.pastel}",
           "type": "color"
         },
         "text": {
@@ -394,6 +410,10 @@
       "alt-secondary": {
         "background": {
           "value": "{color.palette.secondary.main}",
+          "type": "color"
+        },
+        "accent": {
+          "value": "{color.palette.secondary.muted}",
           "type": "color"
         },
         "text": {

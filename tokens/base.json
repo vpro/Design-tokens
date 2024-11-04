@@ -158,6 +158,15 @@
     },
     "utility": {
       "max": {
+        "xxxl": {
+          "value": {
+            "fontFamily": "{fontfamily.utility}",
+            "fontWeight": "{fontweight.utility}",
+            "fontSize": "{fontsize.global.200}",
+            "lineHeight": "{lineheight.utility}"
+          },
+          "type": "typography"
+        },
         "xxl": {
           "value": {
             "fontFamily": "{fontfamily.utility}",
@@ -205,6 +214,15 @@
         }
       },
       "min": {
+        "xxxl": {
+          "value": {
+            "fontFamily": "{fontfamily.utility}",
+            "fontWeight": "{fontweight.utility}",
+            "fontSize": "{fontsize.global.200}",
+            "lineHeight": "{lineheight.utility}"
+          },
+          "type": "typography"
+        },
         "xxl": {
           "value": {
             "fontFamily": "{fontfamily.utility}",

@@ -837,7 +837,7 @@
       "text.utility.min.xxxl": "S:c57d4dd54a550ef2fe6c725c731ca44b402addeb,"
     },
     "selectedTokenSets": {
-      "global": "enabled",
+      "global": "source",
       "base": "enabled",
       "brands/vpro": "enabled"
     },
@@ -1259,7 +1259,7 @@
       "text.utility.min.xxxl": "S:78c34995bbd93370145b085a7d15888ea09042f3,"
     },
     "selectedTokenSets": {
-      "global": "enabled",
+      "global": "source",
       "base": "enabled",
       "brands/brainwash": "enabled"
     },
@@ -1694,7 +1694,7 @@
       "text.utility.min.xxxl": "S:6c29004535cf087b228c612ec9362ac36b480294,"
     },
     "selectedTokenSets": {
-      "global": "enabled",
+      "global": "source",
       "base": "enabled",
       "brands/argos": "enabled"
     },

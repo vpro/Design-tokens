@@ -260,7 +260,16 @@
         },
         "accent": {
           "value": "{color.palette.primary.pastel}",
-          "type": "color"
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": ".5",
+                "space": "lch"
+              }
+            }
+          }
         },
         "text": {
           "default": {
@@ -310,7 +319,16 @@
         },
         "accent": {
           "value": "{color.palette.secondary.pastel}",
-          "type": "color"
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": ".20",
+                "space": "srgb"
+              }
+            }
+          }
         },
         "text": {
           "default": {
@@ -360,7 +378,17 @@
         },
         "accent": {
           "value": "{color.palette.primary.pastel}",
-          "type": "color"
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": ".2",
+                "space": "srgb",
+                "color": "rgba(0,0,0,0.5)"
+              }
+            }
+          }
         },
         "text": {
           "default": {
@@ -410,7 +438,16 @@
         },
         "accent": {
           "value": "{color.palette.secondary.muted}",
-          "type": "color"
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": ".5",
+                "space": "lch"
+              }
+            }
+          }
         },
         "text": {
           "default": {

@@ -202,7 +202,9 @@
       "color.surface.alt-secondary.interactive.foreground": "S:bb629339053ee5dbf01c06da2eb8d80c988d7b12,",
       "color.surface.alt-secondary.interactive.hover-background": "S:96c7e773e48e981b7aac0cf6017e7d984b4d84b7,",
       "color.surface.alt-secondary.interactive.hover-foreground": "S:6d8ac29f88dab9d01cf8a8b734e9ed57c0f938bf,",
-      "color.functional.disabled": "S:75128b531e7cadeeeedd5791433b3ebc06914079,"
+      "color.functional.disabled": "S:75128b531e7cadeeeedd5791433b3ebc06914079,",
+      "text.utility.max.xxxl": "S:1ffe52bd52c2a762295d3338f5315f886780d1ef,",
+      "text.utility.min.xxxl": "S:0e861d41b3e95e74fa876a6833f240be589fa0b1,"
     },
     "selectedTokenSets": {
       "global": "source",

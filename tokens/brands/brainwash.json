@@ -282,7 +282,16 @@
         },
         "accent": {
           "value": "{color.palette.primary.pastel}",
-          "type": "color"
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": ".33",
+                "space": "srgb"
+              }
+            }
+          }
         },
         "text": {
           "default": {
@@ -332,7 +341,16 @@
         },
         "accent": {
           "value": "{color.palette.secondary.pastel}",
-          "type": "color"
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": ".33",
+                "space": "srgb"
+              }
+            }
+          }
         },
         "text": {
           "default": {
@@ -382,7 +400,16 @@
         },
         "accent": {
           "value": "{color.palette.primary.pastel}",
-          "type": "color"
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": ".33",
+                "space": "srgb"
+              }
+            }
+          }
         },
         "text": {
           "default": {
@@ -432,7 +459,16 @@
         },
         "accent": {
           "value": "{color.palette.secondary.muted}",
-          "type": "color"
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": ".33",
+                "space": "srgb"
+              }
+            }
+          }
         },
         "text": {
           "default": {

@@ -188,6 +188,10 @@
       "400": {
         "value": "160%",
         "type": "lineHeights"
+      },
+      "500": {
+        "value": "170%",
+        "type": "lineHeights"
       }
     }
   },

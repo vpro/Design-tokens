@@ -488,6 +488,11 @@
             "value": "{color.global.grey.100}",
             "type": "color"
           }
+        },
+        "icon": {
+          "value": "{color.global.beige.150}",
+          "type": "color",
+          "description": "dit is een comment"
         }
       }
     }

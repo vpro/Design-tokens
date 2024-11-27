@@ -181,6 +181,14 @@
         "value": "120%",
         "type": "lineHeights"
       },
+      "250": {
+        "value": "130%",
+        "type": "lineHeights"
+      },
+      "275": {
+        "value": "140%",
+        "type": "lineHeights"
+      },
       "300": {
         "value": "150%",
         "type": "lineHeights"

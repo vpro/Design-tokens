@@ -115,6 +115,15 @@
             "lineHeight": "{lineheight.display.question}"
           },
           "type": "typography"
+        },
+        "headline": {
+          "value": {
+            "fontFamily": "{fontfamily.display.headline}",
+            "fontWeight": "{fontweight.display.headline}",
+            "fontSize": "{fontsize.global.440}",
+            "lineHeight": "{lineheight.display.headline}"
+          },
+          "type": "typography"
         }
       },
       "min": {
@@ -151,6 +160,15 @@
             "fontWeight": "{fontweight.display.question}",
             "fontSize": "{fontsize.global.140}",
             "lineHeight": "{lineheight.display.question}"
+          },
+          "type": "typography"
+        },
+        "headline": {
+          "value": {
+            "fontFamily": "{fontfamily.display.headline}",
+            "fontWeight": "{fontweight.display.headline}",
+            "fontSize": "{fontsize.global.340}",
+            "lineHeight": "{lineheight.display.headline}"
           },
           "type": "typography"
         }

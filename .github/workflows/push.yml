@@ -1,13 +1,13 @@
-name: 'Bump Version'
+name: "Bump Version"
 
 on:
   push:
     branches:
-      - 'main'
+      - "main"
 
 jobs:
   bump-version:
-    name: 'Bump Version on main'
+    name: "Bump Version on main"
     runs-on: ubuntu-latest
 
     permissions: # Explicit permissions for the job
@@ -15,12 +15,12 @@ jobs:
       packages: write # For npm publish
 
     steps:
-      - name: 'Checkout source code'
-        uses: 'actions/checkout@v4'
+      - name: "Checkout source code"
+        uses: "actions/checkout@v4"
         with:
           ref: ${{ github.ref }}
 
-      - name: 'Test All Secrets and Permissions'
+      - name: "Test All Secrets and Permissions"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
@@ -31,29 +31,30 @@ jobs:
           echo "Testing NODE_AUTH_TOKEN..."
           npm whoami || echo "Failed to authenticate with NODE_AUTH_TOKEN"
 
-      - name: 'cat package.json'
+      - name: "cat package.json"
         run: cat ./package.json
 
-      - name: 'Automated Version Bump'
+      - name: "Automated Version Bump"
         id: version-bump
-        uses: 'phips28/gh-action-bump-version@master'
+        uses: "phips28/gh-action-bump-version@master"
         with:
-          tag-prefix: 'v'
+          tag-prefix: "v"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: 'cat package.json'
+      - name: "cat package.json"
         run: cat ./package.json
 
-      - name: 'Output Step'
+      - name: "Output Step"
         env:
           NEW_TAG: ${{ steps.version-bump.outputs.newTag }}
-        run: echo "New tag: $NEW_TAG"
+        run: echo "new tag $NEW_TAG"
+        # Setup .npmrc file to publish to npm
 
       - uses: actions/setup-node@v3
         with:
-          node-version: '20.x'
-          registry-url: 'https://registry.npmjs.org'
+          node-version: "20.x"
+          registry-url: "https://registry.npmjs.org"
 
       - run: npm ci
 

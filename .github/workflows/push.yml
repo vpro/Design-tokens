@@ -10,13 +10,30 @@ jobs:
     name: 'Bump Version on main'
     runs-on: ubuntu-latest
 
+    permissions: # Explicit permissions for the job
+      contents: write # For git operations
+      packages: write # For npm publish
+
     steps:
       - name: 'Checkout source code'
         uses: 'actions/checkout@v4'
         with:
           ref: ${{ github.ref }}
+
+      - name: 'Test All Secrets and Permissions'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: |
+          echo "Testing GITHUB_TOKEN..."
+          git ls-remote https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}
+
+          echo "Testing NODE_AUTH_TOKEN..."
+          npm whoami || echo "Failed to authenticate with NODE_AUTH_TOKEN"
+
       - name: 'cat package.json'
         run: cat ./package.json
+
       - name: 'Automated Version Bump'
         id: version-bump
         uses: 'phips28/gh-action-bump-version@master'
@@ -24,18 +41,22 @@ jobs:
           tag-prefix: 'v'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: 'cat package.json'
         run: cat ./package.json
+
       - name: 'Output Step'
         env:
           NEW_TAG: ${{ steps.version-bump.outputs.newTag }}
-        run: echo "new tag $NEW_TAG"
-        # Setup .npmrc file to publish to npm
+        run: echo "New tag: $NEW_TAG"
+
       - uses: actions/setup-node@v3
         with:
           node-version: '20.x'
           registry-url: 'https://registry.npmjs.org'
+
       - run: npm ci
+
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

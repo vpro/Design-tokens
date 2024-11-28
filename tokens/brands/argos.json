@@ -604,7 +604,7 @@
         "type": "fontWeights"
       },
       "headline": {
-        "value": "{fontweight.global.500}",
+        "value": "{fontweight.global.700}",
         "type": "fontWeights"
       }
     }

@@ -524,12 +524,16 @@
       "question": {
         "value": "{fontfamily.global.helvetica}",
         "type": "fontFamilies"
+      },
+      "headline": {
+        "value": "{fontfamily.global.helvetica}",
+        "type": "fontFamilies"
       }
     }
   },
   "lineheight": {
     "body": {
-      "value": "{lineheight.global.300}",
+      "value": "{lineheight.global.275}",
       "type": "lineHeights"
     },
     "utility": {
@@ -542,7 +546,7 @@
     },
     "display": {
       "intro": {
-        "value": "{lineheight.global.400}",
+        "value": "{lineheight.global.300}",
         "type": "lineHeights"
       },
       "name": {
@@ -550,11 +554,15 @@
         "type": "lineHeights"
       },
       "quote": {
-        "value": "{lineheight.global.400}",
+        "value": "{lineheight.global.275}",
         "type": "lineHeights"
       },
       "question": {
-        "value": "{lineheight.global.300}",
+        "value": "{lineheight.global.275}",
+        "type": "lineHeights"
+      },
+      "headline": {
+        "value": "{lineheight.global.200}",
         "type": "lineHeights"
       }
     }
@@ -587,6 +595,10 @@
       },
       "question": {
         "value": "{fontweight.global.700}",
+        "type": "fontWeights"
+      },
+      "headline": {
+        "value": "{fontweight.global.500}",
         "type": "fontWeights"
       }
     }

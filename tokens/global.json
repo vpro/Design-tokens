@@ -32,6 +32,10 @@
       "agrandir": {
         "value": "PP Agrandir",
         "type": "fontFamilies"
+      },
+      "riforma": {
+        "value": "Riforma LL",
+        "type": "fontFamilies"
       }
     }
   },

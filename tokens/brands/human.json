@@ -519,52 +519,56 @@
   },
   "fontfamily": {
     "body": {
-      "value": "{fontfamily.global.roboto}",
+      "value": "{fontfamily.global.riforma}",
       "type": "fontFamilies"
     },
     "utility": {
-      "value": "{fontfamily.global.roboto}",
+      "value": "{fontfamily.global.riforma}",
       "type": "fontFamilies"
     },
     "heading": {
-      "value": "{fontfamily.global.bureau}",
+      "value": "{fontfamily.global.riforma}",
       "type": "fontFamilies"
     },
     "display": {
       "intro": {
-        "value": "{fontfamily.global.bureau}",
+        "value": "{fontfamily.global.riforma}",
         "type": "fontFamilies"
       },
       "name": {
-        "value": "{fontfamily.global.bureau}",
+        "value": "{fontfamily.global.riforma}",
         "type": "fontFamilies"
       },
       "quote": {
-        "value": "{fontfamily.global.bureau}",
+        "value": "{fontfamily.global.riforma}",
         "type": "fontFamilies"
       },
       "question": {
-        "value": "{fontfamily.global.roboto}",
+        "value": "{fontfamily.global.riforma}",
+        "type": "fontFamilies"
+      },
+      "headline": {
+        "value": "{fontfamily.global.riforma}",
         "type": "fontFamilies"
       }
     }
   },
   "lineheight": {
     "body": {
-      "value": "{lineheight.global.500}",
+      "value": "{lineheight.global.275}",
       "type": "lineHeights"
     },
     "utility": {
-      "value": "{lineheight.global.100}",
+      "value": "{lineheight.global.200}",
       "type": "lineHeights"
     },
     "heading": {
-      "value": "{lineheight.global.100}",
+      "value": "{lineheight.global.200}",
       "type": "lineHeights"
     },
     "display": {
       "intro": {
-        "value": "{lineheight.global.400}",
+        "value": "{lineheight.global.300}",
         "type": "lineHeights"
       },
       "name": {
@@ -572,11 +576,15 @@
         "type": "lineHeights"
       },
       "quote": {
-        "value": "{lineheight.global.400}",
+        "value": "{lineheight.global.275}",
         "type": "lineHeights"
       },
       "question": {
-        "value": "{lineheight.global.300}",
+        "value": "{lineheight.global.275}",
+        "type": "lineHeights"
+      },
+      "headline": {
+        "value": "{lineheight.global.200}",
         "type": "lineHeights"
       }
     }
@@ -609,6 +617,10 @@
       },
       "question": {
         "value": "{fontweight.global.700}",
+        "type": "fontWeights"
+      },
+      "headline": {
+        "value": "{fontweight.global.500}",
         "type": "fontWeights"
       }
     }

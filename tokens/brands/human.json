@@ -519,36 +519,36 @@
   },
   "fontfamily": {
     "body": {
-      "value": "{fontfamily.global.riforma}",
+      "value": "{fontfamily.global.bureau}",
       "type": "fontFamilies"
     },
     "utility": {
-      "value": "{fontfamily.global.riforma}",
+      "value": "{fontfamily.global.bureau}",
       "type": "fontFamilies"
     },
     "heading": {
-      "value": "{fontfamily.global.riforma}",
+      "value": "{fontfamily.global.bureau}",
       "type": "fontFamilies"
     },
     "display": {
       "intro": {
-        "value": "{fontfamily.global.riforma}",
+        "value": "{fontfamily.global.bureau}",
         "type": "fontFamilies"
       },
       "name": {
-        "value": "{fontfamily.global.riforma}",
+        "value": "{fontfamily.global.bureau}",
         "type": "fontFamilies"
       },
       "quote": {
-        "value": "{fontfamily.global.riforma}",
+        "value": "{fontfamily.global.bureau}",
         "type": "fontFamilies"
       },
       "question": {
-        "value": "{fontfamily.global.riforma}",
+        "value": "{fontfamily.global.bureau}",
         "type": "fontFamilies"
       },
       "headline": {
-        "value": "{fontfamily.global.riforma}",
+        "value": "{fontfamily.global.bureau}",
         "type": "fontFamilies"
       }
     }

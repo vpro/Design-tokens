@@ -122,8 +122,17 @@
     },
     "border": {
       "default": {
-        "value": "{color.global.grey.300}",
-        "type": "color"
+        "value": "{color.palette.primary.pastel}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "33",
+              "space": "srgb"
+            }
+          }
+        }
       },
       "hover": {
         "value": "{color.palette.secondary.main}",

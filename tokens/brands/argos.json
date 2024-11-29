@@ -517,14 +517,6 @@
       "quote": {
         "value": "{fontfamily.global.agrandir}",
         "type": "fontFamilies"
-      },
-      "question": {
-        "value": "{fontfamily.global.agrandir}",
-        "type": "fontFamilies"
-      },
-      "headline": {
-        "value": "{fontfamily.global.agrandir}",
-        "type": "fontFamilies"
       }
     }
   },
@@ -553,14 +545,6 @@
       "quote": {
         "value": "{lineheight.global.275}",
         "type": "lineHeights"
-      },
-      "question": {
-        "value": "{lineheight.global.275}",
-        "type": "lineHeights"
-      },
-      "headline": {
-        "value": "{lineheight.global.200}",
-        "type": "lineHeights"
       }
     }
   },
@@ -588,14 +572,6 @@
       },
       "quote": {
         "value": "{fontweight.global.500}",
-        "type": "fontWeights"
-      },
-      "question": {
-        "value": "{fontweight.global.700}",
-        "type": "fontWeights"
-      },
-      "headline": {
-        "value": "{fontweight.global.700}",
         "type": "fontWeights"
       }
     }

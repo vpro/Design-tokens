@@ -532,11 +532,11 @@
     },
     "display": {
       "intro": {
-        "value": "{fontfamily.global.roboto}",
+        "value": "{fontfamily.global.bureau}",
         "type": "fontFamilies"
       },
       "name": {
-        "value": "{fontfamily.global.roboto}",
+        "value": "{fontfamily.global.bureau}",
         "type": "fontFamilies"
       },
       "quote": {

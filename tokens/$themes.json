@@ -207,7 +207,9 @@
     "selectedTokenSets": {
       "global": "source",
       "brands/whitelabel": "enabled",
-      "base": "enabled"
+      "base": "enabled",
+      "brands/tegenlicht": "disabled",
+      "brands/dpt": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:396:2",
     "$figmaModeId": "396:0",
@@ -536,7 +538,9 @@
     "selectedTokenSets": {
       "global": "source",
       "brands/human": "enabled",
-      "base": "enabled"
+      "base": "enabled",
+      "brands/tegenlicht": "disabled",
+      "brands/dpt": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:606:334",
     "$figmaModeId": "606:0",
@@ -909,7 +913,9 @@
     "selectedTokenSets": {
       "global": "source",
       "base": "enabled",
-      "brands/vpro": "enabled"
+      "brands/vpro": "enabled",
+      "brands/tegenlicht": "disabled",
+      "brands/dpt": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:606:383",
     "$figmaModeId": "606:2",
@@ -1327,7 +1333,9 @@
     "selectedTokenSets": {
       "global": "source",
       "base": "enabled",
-      "brands/brainwash": "enabled"
+      "brands/brainwash": "enabled",
+      "brands/tegenlicht": "disabled",
+      "brands/dpt": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:606:384",
     "$figmaModeId": "606:3",
@@ -1758,7 +1766,9 @@
     "selectedTokenSets": {
       "global": "source",
       "base": "enabled",
-      "brands/argos": "enabled"
+      "brands/argos": "enabled",
+      "brands/tegenlicht": "disabled",
+      "brands/dpt": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:606:385",
     "$figmaModeId": "606:4",
@@ -1822,6 +1832,26 @@
       "fontweight.global.600": "211997864e8ceb3667013f7fc4a2a29099d4c075",
       "fontweight.global.700": "5cb1284fe4f4922c6d10d11dfc64651113e67e37",
       "style.global.opacity.50": "e4a4cfe4d0403f2369e0522caecda2847a8dc11c"
+    }
+  },
+  {
+    "id": "4643b1367b2e96909cb51490960b14010319b65c",
+    "name": "dpt",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "global": "source",
+      "base": "enabled",
+      "brands/dpt": "enabled"
+    }
+  },
+  {
+    "id": "c3f0a5d2cd50a54ccfee985faa288bc113becced",
+    "name": "tegenlicht",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "global": "source",
+      "base": "enabled",
+      "brands/tegenlicht": "enabled"
     }
   }
 ]

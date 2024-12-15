@@ -36,6 +36,10 @@
       "riforma": {
         "value": "Riforma LL",
         "type": "fontFamilies"
+      },
+      "arizona": {
+        "value": "ABC Arizona Serif Unlicensed Trial",
+        "type": "fontFamilies"
       }
     }
   },
@@ -844,6 +848,50 @@
         },
         "200": {
           "value": "#00004C",
+          "type": "color"
+        }
+      },
+      "bordeaux": {
+        "25": {
+          "value": "#FAC9BD",
+          "type": "color"
+        },
+        "50": {
+          "value": "#FF8F75",
+          "type": "color"
+        },
+        "100": {
+          "value": "#881B00",
+          "type": "color"
+        },
+        "150": {
+          "value": "#490E00",
+          "type": "color"
+        },
+        "200": {
+          "value": "#2C0700",
+          "type": "color"
+        }
+      },
+      "spring": {
+        "25": {
+          "value": "#FDFFFA",
+          "type": "color"
+        },
+        "50": {
+          "value": "#F6FDEA",
+          "type": "color"
+        },
+        "100": {
+          "value": "#E8FACB",
+          "type": "color"
+        },
+        "150": {
+          "value": "#569A55",
+          "type": "color"
+        },
+        "200": {
+          "value": "#016B00",
           "type": "color"
         }
       },

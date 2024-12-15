@@ -3,45 +3,45 @@
     "palette": {
       "primary": {
         "faded": {
-          "value": "{color.global.electricity.25}",
+          "value": "{color.global.bordeaux.25}",
           "type": "color"
         },
         "pastel": {
-          "value": "{color.global.electricity.50}",
+          "value": "{color.global.bordeaux.50}",
           "type": "color"
         },
         "main": {
-          "value": "{color.global.electricity.100}",
+          "value": "{color.global.bordeaux.100}",
           "type": "color"
         },
         "muted": {
-          "value": "{color.global.electricity.150}",
+          "value": "{color.global.bordeaux.150}",
           "type": "color"
         },
         "dark": {
-          "value": "{color.global.electricity.200}",
+          "value": "{color.global.bordeaux.200}",
           "type": "color"
         }
       },
       "secondary": {
         "faded": {
-          "value": "{color.global.radioactive.25}",
+          "value": "{color.global.spring.25}",
           "type": "color"
         },
         "pastel": {
-          "value": "{color.global.radioactive.50}",
+          "value": "{color.global.spring.50}",
           "type": "color"
         },
         "main": {
-          "value": "{color.global.radioactive.100}",
+          "value": "{color.global.spring.100}",
           "type": "color"
         },
         "muted": {
-          "value": "{color.global.radioactive.150}",
+          "value": "{color.global.spring.150}",
           "type": "color"
         },
         "dark": {
-          "value": "{color.global.radioactive.200}",
+          "value": "{color.global.spring.200}",
           "type": "color"
         }
       }
@@ -493,11 +493,11 @@
   },
   "fontfamily": {
     "body": {
-      "value": "{fontfamily.global.simplistic}",
+      "value": "{fontfamily.global.arizona}",
       "type": "fontFamilies"
     },
     "utility": {
-      "value": "{fontfamily.global.helvetica}",
+      "value": "{fontfamily.global.simplistic}",
       "type": "fontFamilies"
     },
     "heading": {
@@ -506,7 +506,7 @@
     },
     "display": {
       "intro": {
-        "value": "{fontfamily.global.simplistic}",
+        "value": "{fontfamily.global.arizona}",
         "type": "fontFamilies"
       },
       "name": {
@@ -521,7 +521,7 @@
   },
   "lineheight": {
     "body": {
-      "value": "{lineheight.global.500}",
+      "value": "{lineheight.global.275}",
       "type": "lineHeights"
     },
     "utility": {
@@ -534,7 +534,7 @@
     },
     "display": {
       "intro": {
-        "value": "{lineheight.global.500}",
+        "value": "{lineheight.global.275}",
         "type": "lineHeights"
       },
       "name": {

@@ -543,7 +543,7 @@
   },
   "lineheight": {
     "body": {
-      "value": "{lineheight.global.500}",
+      "value": "{lineheight.global.275}",
       "type": "lineHeights"
     },
     "utility": {

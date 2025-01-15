@@ -520,6 +520,10 @@
       "quote": {
         "value": "{fontfamily.global.helvetica}",
         "type": "fontFamilies"
+      },
+      "headline": {
+        "value": "{fontfamily.global.helvetica}",
+        "type": "fontFamilies"
       }
     }
   },
@@ -548,6 +552,10 @@
       "quote": {
         "value": "{lineheight.global.275}",
         "type": "lineHeights"
+      },
+      "headline": {
+        "value": "{lineheight.global.200}",
+        "type": "lineHeights"
       }
     }
   },
@@ -575,6 +583,10 @@
       },
       "quote": {
         "value": "{fontweight.global.500}",
+        "type": "fontWeights"
+      },
+      "headline": {
+        "value": "{fontweight.global.700}",
         "type": "fontWeights"
       }
     }

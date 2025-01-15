@@ -106,6 +106,15 @@
             "lineHeight": "{lineheight.display.quote}"
           },
           "type": "typography"
+        },
+        "headline": {
+          "value": {
+            "fontFamily": "{fontfamily.display.headline}",
+            "fontWeight": "{fontweight.display.headline}",
+            "fontSize": "{fontsize.global.440}",
+            "lineHeight": "{lineheight.display.headline}"
+          },
+          "type": "typography"
         }
       },
       "min": {
@@ -133,6 +142,15 @@
             "fontWeight": "{fontweight.display.quote}",
             "fontSize": "{fontsize.global.200}",
             "lineHeight": "{lineheight.display.quote}"
+          },
+          "type": "typography"
+        },
+        "headline": {
+          "value": {
+            "fontFamily": "{fontfamily.display.headline}",
+            "fontWeight": "{fontweight.display.headline}",
+            "fontSize": "{fontsize.global.340}",
+            "lineHeight": "{lineheight.display.headline}"
           },
           "type": "typography"
         }

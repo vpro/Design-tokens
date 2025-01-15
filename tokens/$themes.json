@@ -1833,14 +1833,5 @@
       "base": "enabled",
       "brands/dpt": "enabled"
     }
-  },
-  {
-    "id": "c3f0a5d2cd50a54ccfee985faa288bc113becced",
-    "name": "tegenlicht",
-    "$figmaStyleReferences": {},
-    "selectedTokenSets": {
-      "global": "source",
-      "base": "enabled"
-    }
   }
 ]

@@ -2,11 +2,10 @@
   "tokenSetOrder": [
     "global",
     "base",
-    "brands/whitelabel",
+    "brands/unbranded",
     "brands/human",
     "brands/dpt",
     "brands/vpro",
-    "brands/tegenlicht",
     "brands/brainwash",
     "brands/argos"
   ]

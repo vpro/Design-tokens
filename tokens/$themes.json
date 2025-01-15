@@ -206,8 +206,8 @@
     },
     "selectedTokenSets": {
       "global": "source",
-      "brands/whitelabel": "enabled",
-      "base": "enabled"
+      "base": "enabled",
+      "brands/unbranded": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:396:2",
     "$figmaModeId": "396:0",
@@ -536,7 +536,8 @@
     "selectedTokenSets": {
       "global": "source",
       "brands/human": "enabled",
-      "base": "enabled"
+      "base": "enabled",
+      "brands/unbranded": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:606:334",
     "$figmaModeId": "606:0",
@@ -909,7 +910,8 @@
     "selectedTokenSets": {
       "global": "source",
       "base": "enabled",
-      "brands/vpro": "enabled"
+      "brands/vpro": "enabled",
+      "brands/unbranded": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:606:383",
     "$figmaModeId": "606:2",
@@ -1327,7 +1329,8 @@
     "selectedTokenSets": {
       "global": "source",
       "base": "enabled",
-      "brands/brainwash": "enabled"
+      "brands/brainwash": "enabled",
+      "brands/unbranded": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:606:384",
     "$figmaModeId": "606:3",
@@ -1758,7 +1761,8 @@
     "selectedTokenSets": {
       "global": "source",
       "base": "enabled",
-      "brands/argos": "enabled"
+      "brands/argos": "enabled",
+      "brands/unbranded": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:606:385",
     "$figmaModeId": "606:4",
@@ -1831,7 +1835,8 @@
     "selectedTokenSets": {
       "global": "source",
       "base": "enabled",
-      "brands/dpt": "enabled"
+      "brands/dpt": "enabled",
+      "brands/unbranded": "disabled"
     }
   },
   {
@@ -1841,7 +1846,7 @@
     "selectedTokenSets": {
       "global": "source",
       "base": "enabled",
-      "brands/tegenlicht": "enabled"
+      "brands/unbranded": "disabled"
     }
   }
 ]

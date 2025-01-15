@@ -536,8 +536,7 @@
     "selectedTokenSets": {
       "global": "source",
       "brands/human": "enabled",
-      "base": "enabled",
-      "brands/unbranded": "disabled"
+      "base": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:606:334",
     "$figmaModeId": "606:0",
@@ -910,8 +909,7 @@
     "selectedTokenSets": {
       "global": "source",
       "base": "enabled",
-      "brands/vpro": "enabled",
-      "brands/unbranded": "disabled"
+      "brands/vpro": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:606:383",
     "$figmaModeId": "606:2",
@@ -1329,8 +1327,7 @@
     "selectedTokenSets": {
       "global": "source",
       "base": "enabled",
-      "brands/brainwash": "enabled",
-      "brands/unbranded": "disabled"
+      "brands/brainwash": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:606:384",
     "$figmaModeId": "606:3",
@@ -1761,8 +1758,7 @@
     "selectedTokenSets": {
       "global": "source",
       "base": "enabled",
-      "brands/argos": "enabled",
-      "brands/unbranded": "disabled"
+      "brands/argos": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:606:385",
     "$figmaModeId": "606:4",
@@ -1835,8 +1831,7 @@
     "selectedTokenSets": {
       "global": "source",
       "base": "enabled",
-      "brands/dpt": "enabled",
-      "brands/unbranded": "disabled"
+      "brands/dpt": "enabled"
     }
   },
   {
@@ -1845,8 +1840,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "global": "source",
-      "base": "enabled",
-      "brands/unbranded": "disabled"
+      "base": "enabled"
     }
   }
 ]

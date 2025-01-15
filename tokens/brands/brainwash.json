@@ -104,7 +104,7 @@
     },
     "text": {
       "default": {
-        "value": "{color.palette.primary.dark}",
+        "value": "{color.palette.tertiary.dark}",
         "type": "color"
       },
       "title": {
@@ -295,7 +295,7 @@
         },
         "text": {
           "default": {
-            "value": "{color.palette.primary.dark}",
+            "value": "{color.palette.tertiary.dark}",
             "type": "color"
           },
           "subtle": {
@@ -317,11 +317,11 @@
         },
         "interactive": {
           "background": {
-            "value": "{color.palette.primary.main}",
+            "value": "{color.palette.secondary.main}",
             "type": "color"
           },
           "foreground": {
-            "value": "{color.palette.primary.faded}",
+            "value": "{color.palette.tertiary.dark}",
             "type": "color"
           },
           "hover-background": {
@@ -340,7 +340,7 @@
           "type": "color"
         },
         "accent": {
-          "value": "{color.palette.secondary.pastel}",
+          "value": "{color.palette.tertiary.dark}",
           "type": "color",
           "$extensions": {
             "studio.tokens": {
@@ -354,7 +354,7 @@
         },
         "text": {
           "default": {
-            "value": "{color.palette.primary.dark}",
+            "value": "{color.palette.tertiary.dark}",
             "type": "color"
           },
           "subtle": {
@@ -376,11 +376,11 @@
         },
         "interactive": {
           "background": {
-            "value": "{color.palette.primary.main}",
+            "value": "{color.palette.secondary.main}",
             "type": "color"
           },
           "foreground": {
-            "value": "{color.palette.primary.faded}",
+            "value": "{color.palette.tertiary.dark}",
             "type": "color"
           },
           "hover-background": {
@@ -472,7 +472,7 @@
         },
         "text": {
           "default": {
-            "value": "{color.palette.primary.dark}",
+            "value": "{color.palette.tertiary.dark}",
             "type": "color"
           },
           "subtle": {

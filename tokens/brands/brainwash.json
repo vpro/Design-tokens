@@ -366,11 +366,11 @@
             "type": "color"
           },
           "link": {
-            "value": "{color.palette.secondary.muted}",
+            "value": "{color.palette.secondary.dark}",
             "type": "color"
           },
           "hover": {
-            "value": "{color.palette.secondary.dark}",
+            "value": "{color.palette.secondary.muted}",
             "type": "color"
           }
         },

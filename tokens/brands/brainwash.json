@@ -476,15 +476,15 @@
             "type": "color"
           },
           "subtle": {
-            "value": "{color.palette.secondary.dark}",
+            "value": "{color.palette.tertiary.dark}",
             "type": "color"
           },
           "title": {
-            "value": "{color.palette.secondary.muted}",
+            "value": "{color.palette.tertiary.muted}",
             "type": "color"
           },
           "link": {
-            "value": "{color.palette.primary.main}",
+            "value": "{color.palette.primary.muted}",
             "type": "color"
           },
           "hover": {

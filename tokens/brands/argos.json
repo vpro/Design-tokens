@@ -194,11 +194,11 @@
       "secondary": {
         "background": {
           "default": {
-            "value": "{color.palette.secondary.main}",
+            "value": "{color.palette.secondary.muted}",
             "type": "color"
           },
           "hover": {
-            "value": "{color.palette.secondary.muted}",
+            "value": "{color.palette.secondary.dark}",
             "type": "color"
           },
           "active": {

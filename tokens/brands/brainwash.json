@@ -358,11 +358,11 @@
             "type": "color"
           },
           "subtle": {
-            "value": "{color.palette.secondary.muted}",
+            "value": "{color.palette.secondary.dark}",
             "type": "color"
           },
           "title": {
-            "value": "{color.palette.secondary.dark}",
+            "value": "{color.palette.tertiary.muted}",
             "type": "color"
           },
           "link": {

@@ -895,6 +895,72 @@
           "type": "color"
         }
       },
+      "mango": {
+        "25": {
+          "value": "#FFEDE6",
+          "type": "color"
+        },
+        "50": {
+          "value": "#FFA680",
+          "type": "color"
+        },
+        "100": {
+          "value": "#FF5D00",
+          "type": "color"
+        },
+        "150": {
+          "value": "#992E00",
+          "type": "color"
+        },
+        "200": {
+          "value": "#4C1700",
+          "type": "color"
+        }
+      },
+      "candy": {
+        "25": {
+          "value": "#FFEEFD",
+          "type": "color"
+        },
+        "50": {
+          "value": "#FFABF7",
+          "type": "color"
+        },
+        "100": {
+          "value": "#FF66E9",
+          "type": "color"
+        },
+        "150": {
+          "value": "#99348F",
+          "type": "color"
+        },
+        "200": {
+          "value": "#4C1A48",
+          "type": "color"
+        }
+      },
+      "topaz": {
+        "25": {
+          "value": "#EAFEFF",
+          "type": "color"
+        },
+        "50": {
+          "value": "#9FEBEF",
+          "type": "color"
+        },
+        "100": {
+          "value": "#03AFB8",
+          "type": "color"
+        },
+        "150": {
+          "value": "#005C61",
+          "type": "color"
+        },
+        "200": {
+          "value": "#001C1D",
+          "type": "color"
+        }
+      },
       "salmon": {
         "100": {
           "value": "#CF88B0",

@@ -1832,6 +1832,7 @@
       "global": "source",
       "base": "enabled",
       "brands/dpt": "enabled"
-    }
+    },
+    "$figmaVariableReferences": {}
   }
 ]

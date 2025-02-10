@@ -44,6 +44,28 @@
           "value": "{color.global.radioactive.200}",
           "type": "color"
         }
+      },
+      "tertiary": {
+        "faded": {
+          "value": "{color.global.orchid.25}",
+          "type": "color"
+        },
+        "pastel": {
+          "value": "{color.global.orchid.50}",
+          "type": "color"
+        },
+        "main": {
+          "value": "{color.global.orchid.100}",
+          "type": "color"
+        },
+        "muted": {
+          "value": "{color.global.orchid.150}",
+          "type": "color"
+        },
+        "dark": {
+          "value": "{color.global.orchid.200}",
+          "type": "color"
+        }
       }
     },
     "background": {

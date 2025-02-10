@@ -44,6 +44,28 @@
           "value": "{color.global.carrot.200}",
           "type": "color"
         }
+      },
+      "tertiary": {
+        "faded": {
+          "value": "{color.global.charcoal.25}",
+          "type": "color"
+        },
+        "pastel": {
+          "value": "{color.global.charcoal.50}",
+          "type": "color"
+        },
+        "main": {
+          "value": "{color.global.charcoal.100}",
+          "type": "color"
+        },
+        "muted": {
+          "value": "{color.global.charcoal.150}",
+          "type": "color"
+        },
+        "dark": {
+          "value": "{color.global.charcoal.200}",
+          "type": "color"
+        }
       }
     },
     "background": {

@@ -108,11 +108,11 @@
         "type": "color"
       },
       "title": {
-        "value": "{color.palette.tertiary.dark}",
+        "value": "{color.palette.tertiary.muted}",
         "type": "color"
       },
       "subtle": {
-        "value": "{color.palette.primary.muted}",
+        "value": "{color.palette.tertiary.dark}",
         "type": "color"
       },
       "disabled": {
@@ -170,7 +170,7 @@
         "type": "color"
       },
       "hover": {
-        "value": "{color.palette.tertiary.pastel}",
+        "value": "{color.palette.secondary.main}",
         "type": "color"
       },
       "active": {

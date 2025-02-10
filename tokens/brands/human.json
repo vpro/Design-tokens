@@ -108,7 +108,7 @@
         "type": "color"
       },
       "title": {
-        "value": "{color.palette.primary.main}",
+        "value": "{color.palette.primary.dark}",
         "type": "color"
       },
       "subtle": {
@@ -295,7 +295,7 @@
         },
         "text": {
           "default": {
-            "value": "{color.palette.primary.main}",
+            "value": "{color.palette.secondary.dark}",
             "type": "color"
           },
           "subtle": {
@@ -321,7 +321,7 @@
             "type": "color"
           },
           "foreground": {
-            "value": "{color.palette.primary.main}",
+            "value": "{color.palette.secondary.dark}",
             "type": "color"
           },
           "hover-background": {

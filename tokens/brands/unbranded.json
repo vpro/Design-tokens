@@ -343,7 +343,7 @@
             "type": "color"
           },
           "border-default": {
-            "value": "{color.palette.tertiary.dark}",
+            "value": "{color.palette.tertiary.muted}",
             "type": "color"
           },
           "border-active": {
@@ -424,7 +424,7 @@
             "type": "color"
           },
           "border-default": {
-            "value": "{color.palette.tertiary.dark}",
+            "value": "{color.palette.tertiary.muted}",
             "type": "color"
           },
           "border-active": {

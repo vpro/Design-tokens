@@ -332,6 +332,24 @@
             "value": "{color.global.grey.100}",
             "type": "color"
           }
+        },
+        "input": {
+          "background": {
+            "value": "{color.global.grey.100}",
+            "type": "color"
+          },
+          "foreground": {
+            "value": "{color.palette.tertiary.muted}",
+            "type": "color"
+          },
+          "border-default": {
+            "value": "{color.palette.tertiary.dark}",
+            "type": "color"
+          },
+          "border-active": {
+            "value": "{color.palette.tertiary.main}",
+            "type": "color"
+          }
         }
       },
       "secondary": {
@@ -395,6 +413,24 @@
             "value": "{color.global.grey.100}",
             "type": "color"
           }
+        },
+        "input": {
+          "background": {
+            "value": "{color.global.grey.100}",
+            "type": "color"
+          },
+          "foreground": {
+            "value": "{color.palette.tertiary.muted}",
+            "type": "color"
+          },
+          "border-default": {
+            "value": "{color.palette.tertiary.dark}",
+            "type": "color"
+          },
+          "border-active": {
+            "value": "{color.palette.tertiary.main}",
+            "type": "color"
+          }
         }
       },
       "alt-primary": {
@@ -454,6 +490,24 @@
             "value": "{color.palette.secondary.faded}",
             "type": "color"
           }
+        },
+        "input": {
+          "background": {
+            "value": "{color.global.grey.100}",
+            "type": "color"
+          },
+          "foreground": {
+            "value": "{color.palette.tertiary.muted}",
+            "type": "color"
+          },
+          "border-default": {
+            "value": "{color.palette.tertiary.dark}",
+            "type": "color"
+          },
+          "border-active": {
+            "value": "{color.palette.tertiary.main}",
+            "type": "color"
+          }
         }
       },
       "alt-secondary": {
@@ -511,6 +565,24 @@
           },
           "hover-foreground": {
             "value": "{color.global.grey.100}",
+            "type": "color"
+          }
+        },
+        "input": {
+          "background": {
+            "value": "{color.global.grey.100}",
+            "type": "color"
+          },
+          "foreground": {
+            "value": "{color.palette.tertiary.muted}",
+            "type": "color"
+          },
+          "border-default": {
+            "value": "{color.palette.tertiary.dark}",
+            "type": "color"
+          },
+          "border-active": {
+            "value": "{color.palette.tertiary.main}",
             "type": "color"
           }
         }

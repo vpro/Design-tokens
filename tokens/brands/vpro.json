@@ -66,6 +66,28 @@
           "value": "{color.global.orchid.200}",
           "type": "color"
         }
+      },
+      "greyscale": {
+        "faded": {
+          "value": "{color.global.grey.100}",
+          "type": "color"
+        },
+        "pastel": {
+          "value": "{color.global.grey.150}",
+          "type": "color"
+        },
+        "main": {
+          "value": "{color.global.grey.300}",
+          "type": "color"
+        },
+        "muted": {
+          "value": "{color.global.grey.450}",
+          "type": "color"
+        },
+        "dark": {
+          "value": "{color.global.grey.550}",
+          "type": "color"
+        }
       }
     },
     "background": {

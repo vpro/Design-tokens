@@ -122,6 +122,10 @@
       "disabled": {
         "value": "{color.global.grey.200}",
         "type": "color"
+      },
+      "neutral": {
+        "value": "{color.palette.greyscale.pastel}",
+        "type": "color"
       }
     },
     "text": {
@@ -143,6 +147,10 @@
       },
       "inverse": {
         "value": "{color.global.grey.100}",
+        "type": "color"
+      },
+      "neutral": {
+        "value": "{color.palette.greyscale.dark}",
         "type": "color"
       }
     },

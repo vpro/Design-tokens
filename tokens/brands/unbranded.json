@@ -616,6 +616,83 @@
             "type": "color"
           }
         }
+      },
+      "neutral": {
+        "background": {
+          "value": "{color.palette.greyscale.pastel}",
+          "type": "color"
+        },
+        "accent": {
+          "value": "{color.palette.greyscale.pastel}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": ".33",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "text": {
+          "default": {
+            "value": "{color.palette.greyscale.dark}",
+            "type": "color"
+          },
+          "subtle": {
+            "value": "{color.palette.greyscale.main}",
+            "type": "color"
+          },
+          "title": {
+            "value": "{color.palette.greyscale.muted}",
+            "type": "color"
+          },
+          "link": {
+            "value": "{color.link.default}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{color.link.hover}",
+            "type": "color"
+          }
+        },
+        "interactive": {
+          "background": {
+            "value": "{color.link.default}",
+            "type": "color"
+          },
+          "foreground": {
+            "value": "{color.palette.greyscale.dark}",
+            "type": "color"
+          },
+          "hover-background": {
+            "value": "{color.palette.greyscale.muted}",
+            "type": "color"
+          },
+          "hover-foreground": {
+            "value": "{color.palette.greyscale.faded}",
+            "type": "color"
+          }
+        },
+        "input": {
+          "background": {
+            "value": "{color.global.grey.100}",
+            "type": "color"
+          },
+          "foreground": {
+            "value": "{color.palette.greyscale.dark}",
+            "type": "color"
+          },
+          "border-default": {
+            "value": "{color.palette.greyscale.muted}",
+            "type": "color"
+          },
+          "border-active": {
+            "value": "{color.palette.greyscale.main}",
+            "type": "color"
+          }
+        }
       }
     }
   },

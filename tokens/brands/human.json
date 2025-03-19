@@ -138,11 +138,11 @@
         "type": "color"
       },
       "subtle": {
-        "value": "{color.palette.tertiary.dark}",
+        "value": "{color.global.grey.400}",
         "type": "color"
       },
       "disabled": {
-        "value": "{color.global.grey.400}",
+        "value": "{color.global.grey.300}",
         "type": "color"
       },
       "inverse": {
@@ -276,11 +276,11 @@
       "tertiary": {
         "background": {
           "default": {
-            "value": "{color.palette.primary.main}",
+            "value": "{color.palette.secondary.muted}",
             "type": "color"
           },
           "hover": {
-            "value": "{color.palette.primary.muted}",
+            "value": "{color.palette.secondary.muted}",
             "type": "color"
           },
           "active": {

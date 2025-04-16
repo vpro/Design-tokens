@@ -123,8 +123,12 @@
         "value": "{color.global.grey.200}",
         "type": "color"
       },
-      "neutral": {
+      "neutral-light": {
         "value": "{color.palette.greyscale.pastel}",
+        "type": "color"
+      },
+      "neutral-dark": {
+        "value": "{color.palette.greyscale.muted}",
         "type": "color"
       }
     },

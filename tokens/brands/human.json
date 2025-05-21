@@ -694,6 +694,64 @@
           }
         }
       }
+    },
+    "combo": {
+      "0": {
+        "top": {
+          "value": "{color.palette.tertiary.main}",
+          "type": "color"
+        },
+        "bottom": {
+          "value": "{color.palette.primary.main}",
+          "type": "color"
+        },
+        "foreground": {
+          "value": "{color.palette.greyscale.dark}",
+          "type": "color"
+        }
+      },
+      "1": {
+        "top": {
+          "value": "#00A266",
+          "type": "color"
+        },
+        "bottom": {
+          "value": "#9D64FF",
+          "type": "color"
+        },
+        "foreground": {
+          "value": "{color.palette.greyscale.dark}",
+          "type": "color"
+        }
+      },
+      "2": {
+        "top": {
+          "value": "#F5FF00",
+          "type": "color"
+        },
+        "bottom": {
+          "value": "#00FFA2",
+          "type": "color"
+        },
+        "foreground": {
+          "value": "{color.palette.greyscale.dark}",
+          "type": "color"
+        }
+      },
+      "3": {
+        "top": {
+          "value": "#FF0000",
+          "type": "color"
+        },
+        "bottom": {
+          "value": "#8A0000",
+          "type": "color"
+        },
+        "foreground": {
+          "value": "{color.palette.greyscale.dark}",
+          "type": "color"
+        }
+      }
     }
   },
   "fontfamily": {

@@ -1103,7 +1103,7 @@
         }
       }
     },
-    "branding": {
+    "portal": {
       "0": {
         "value": "#4D0E2F",
         "type": "color"
@@ -1199,6 +1199,10 @@
       "value": "{fontfamily.global.riforma}",
       "type": "fontFamilies"
     },
+    "program": {
+      "value": "{fontfamily.global.riforma}",
+      "type": "fontFamilies"
+    },
     "display": {
       "intro": {
         "value": "{fontfamily.global.riforma}",
@@ -1213,10 +1217,6 @@
         "type": "fontFamilies"
       },
       "headline": {
-        "value": "{fontfamily.global.riforma}",
-        "type": "fontFamilies"
-      },
-      "title": {
         "value": "{fontfamily.global.riforma}",
         "type": "fontFamilies"
       }
@@ -1235,6 +1235,10 @@
       "value": "{lineheight.global.200}",
       "type": "lineHeights"
     },
+    "program": {
+      "value": "{lineheight.global.150}",
+      "type": "lineHeights"
+    },
     "display": {
       "intro": {
         "value": "{lineheight.global.300}",
@@ -1250,10 +1254,6 @@
       },
       "headline": {
         "value": "{lineheight.global.200}",
-        "type": "lineHeights"
-      },
-      "title": {
-        "value": "{lineheight.global.150}",
         "type": "lineHeights"
       }
     }
@@ -1271,6 +1271,10 @@
       "value": "{fontweight.global.700}",
       "type": "fontWeights"
     },
+    "program": {
+      "value": "{fontweight.global.700}",
+      "type": "fontWeights"
+    },
     "display": {
       "intro": {
         "value": "{fontweight.global.500}",
@@ -1285,10 +1289,6 @@
         "type": "fontWeights"
       },
       "headline": {
-        "value": "{fontweight.global.700}",
-        "type": "fontWeights"
-      },
-      "title": {
         "value": "{fontweight.global.700}",
         "type": "fontWeights"
       }

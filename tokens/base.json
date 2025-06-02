@@ -118,7 +118,7 @@
         },
         "title": {
           "value": {
-            "fontFamily": "{fontfamily.display.title}",
+            "fontFamily": "{fontfamily.program}",
             "fontWeight": "{fontweight.display.title}",
             "fontSize": "{fontsize.global.600}",
             "lineHeight": "{lineheight.display.title}"
@@ -165,7 +165,7 @@
         },
         "title": {
           "value": {
-            "fontFamily": "{fontfamily.display.title}",
+            "fontFamily": "{fontfamily.program}",
             "fontWeight": "{fontweight.display.title}",
             "fontSize": "{fontsize.global.450}",
             "lineHeight": "{lineheight.display.title}"
@@ -433,6 +433,66 @@
             "fontWeight": "{fontweight.heading}",
             "fontSize": "{fontsize.global.220}",
             "lineHeight": "{lineheight.heading}"
+          },
+          "type": "typography"
+        }
+      }
+    },
+    "program": {
+      "min": {
+        "xxl": {
+          "value": {
+            "fontFamily": "{fontfamily.program}",
+            "fontWeight": "{fontweight.program}",
+            "fontSize": "{fontsize.global.450}",
+            "lineHeight": "{lineheight.program}"
+          },
+          "type": "typography"
+        },
+        "xl": {
+          "value": {
+            "fontFamily": "{fontfamily.program}",
+            "fontWeight": "{fontweight.program}",
+            "fontSize": "{fontsize.global.420}",
+            "lineHeight": "{lineheight.program}"
+          },
+          "type": "typography"
+        },
+        "lg": {
+          "value": {
+            "fontFamily": "{fontfamily.program}",
+            "fontWeight": "{fontweight.program}",
+            "fontSize": "{fontsize.global.340}",
+            "lineHeight": "{lineheight.program}"
+          },
+          "type": "typography"
+        }
+      },
+      "max": {
+        "xxl": {
+          "value": {
+            "fontFamily": "{fontfamily.program}",
+            "fontWeight": "{fontweight.program}",
+            "fontSize": "{fontsize.global.600}",
+            "lineHeight": "{lineheight.program}"
+          },
+          "type": "typography"
+        },
+        "xl": {
+          "value": {
+            "fontFamily": "{fontfamily.program}",
+            "fontWeight": "{fontweight.program}",
+            "fontSize": "{fontsize.global.560}",
+            "lineHeight": "{lineheight.program}"
+          },
+          "type": "typography"
+        },
+        "lg": {
+          "value": {
+            "fontFamily": "{fontfamily.program}",
+            "fontWeight": "{fontweight.program}",
+            "fontSize": "{fontsize.global.400}",
+            "lineHeight": "{lineheight.program}"
           },
           "type": "typography"
         }

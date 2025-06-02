@@ -710,6 +710,10 @@
       "value": "{fontfamily.global.agrandir}",
       "type": "fontFamilies"
     },
+    "program": {
+      "value": "{fontfamily.global.agrandir}",
+      "type": "fontFamilies"
+    },
     "display": {
       "intro": {
         "value": "{fontfamily.global.agrandir}",
@@ -742,6 +746,10 @@
       "value": "{lineheight.global.200}",
       "type": "lineHeights"
     },
+    "program": {
+      "value": "{lineheight.global.150}",
+      "type": "lineHeights"
+    },
     "display": {
       "intro": {
         "value": "{lineheight.global.500}",
@@ -771,6 +779,10 @@
       "type": "fontWeights"
     },
     "heading": {
+      "value": "{fontweight.global.700}",
+      "type": "fontWeights"
+    },
+    "program": {
       "value": "{fontweight.global.700}",
       "type": "fontWeights"
     },

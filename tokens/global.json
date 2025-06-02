@@ -133,12 +133,20 @@
         "value": "54",
         "type": "fontSizes"
       },
+      "450": {
+        "value": "60",
+        "type": "fontSizes"
+      },
       "460": {
         "value": "66",
         "type": "fontSizes"
       },
       "480": {
         "value": "77",
+        "type": "fontSizes"
+      },
+      "600": {
+        "value": "128",
         "type": "fontSizes"
       }
     }
@@ -183,6 +191,10 @@
       },
       "100": {
         "value": "100%",
+        "type": "lineHeights"
+      },
+      "150": {
+        "value": "110%",
         "type": "lineHeights"
       },
       "200": {

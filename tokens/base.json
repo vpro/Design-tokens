@@ -115,15 +115,6 @@
             "lineHeight": "{lineheight.display.headline}"
           },
           "type": "typography"
-        },
-        "title": {
-          "value": {
-            "fontFamily": "{fontfamily.program}",
-            "fontWeight": "{fontweight.display.title}",
-            "fontSize": "{fontsize.global.600}",
-            "lineHeight": "{lineheight.display.title}"
-          },
-          "type": "typography"
         }
       },
       "min": {
@@ -160,15 +151,6 @@
             "fontWeight": "{fontweight.display.headline}",
             "fontSize": "{fontsize.global.340}",
             "lineHeight": "{lineheight.display.headline}"
-          },
-          "type": "typography"
-        },
-        "title": {
-          "value": {
-            "fontFamily": "{fontfamily.program}",
-            "fontWeight": "{fontweight.display.title}",
-            "fontSize": "{fontsize.global.450}",
-            "lineHeight": "{lineheight.display.title}"
           },
           "type": "typography"
         }

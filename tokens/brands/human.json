@@ -1272,7 +1272,7 @@
       "type": "fontWeights"
     },
     "program": {
-      "value": "{fontweight.global.700}",
+      "value": "{fontweight.global.500}",
       "type": "fontWeights"
     },
     "display": {

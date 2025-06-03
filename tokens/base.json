@@ -445,7 +445,7 @@
           "value": {
             "fontFamily": "{fontfamily.program}",
             "fontWeight": "{fontweight.program}",
-            "fontSize": "{fontsize.global.340}",
+            "fontSize": "{fontsize.global.300}",
             "lineHeight": "{lineheight.program}"
           },
           "type": "typography"

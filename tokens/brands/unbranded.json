@@ -750,7 +750,7 @@
       "type": "lineHeights"
     },
     "program": {
-      "value": "{lineheight.global.150}",
+      "value": "{lineheight.global.90}",
       "type": "lineHeights"
     },
     "display": {
@@ -786,7 +786,7 @@
       "type": "fontWeights"
     },
     "program": {
-      "value": "{fontweight.global.700}",
+      "value": "{fontweight.global.500}",
       "type": "fontWeights"
     },
     "display": {

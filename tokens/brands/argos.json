@@ -214,6 +214,10 @@
       "inverse": {
         "value": "{color.palette.secondary.faded}",
         "type": "color"
+      },
+      "inverse-hover": {
+        "value": "{color.palette.primary.faded}",
+        "type": "color"
       }
     },
     "interactive": {

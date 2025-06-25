@@ -112,7 +112,7 @@
         "type": "color"
       },
       "interactive": {
-        "value": "{color.palette.secondary.main}",
+        "value": "{color.palette.secondary.muted}",
         "type": "color"
       },
       "dark": {
@@ -182,7 +182,7 @@
         "type": "color"
       },
       "hover": {
-        "value": "{color.palette.secondary.main}",
+        "value": "{color.palette.secondary.muted}",
         "type": "color"
       },
       "focus": {
@@ -204,7 +204,7 @@
         "type": "color"
       },
       "hover": {
-        "value": "{color.palette.secondary.main}",
+        "value": "{color.palette.secondary.dark}",
         "type": "color"
       },
       "active": {
@@ -224,11 +224,11 @@
       "primary": {
         "background": {
           "default": {
-            "value": "{color.palette.secondary.main}",
+            "value": "{color.palette.secondary.muted}",
             "type": "color"
           },
           "hover": {
-            "value": "{color.palette.secondary.muted}",
+            "value": "{color.palette.secondary.dark}",
             "type": "color"
           },
           "active": {
@@ -238,7 +238,7 @@
         },
         "foreground": {
           "default": {
-            "value": "{color.palette.primary.dark}",
+            "value": "{color.palette.secondary.faded}",
             "type": "color"
           },
           "hover": {
@@ -268,7 +268,7 @@
         },
         "foreground": {
           "default": {
-            "value": "{color.palette.primary.dark}",
+            "value": "{color.palette.secondary.dark}",
             "type": "color"
           },
           "hover": {
@@ -288,7 +288,7 @@
             "type": "color"
           },
           "hover": {
-            "value": "{color.palette.secondary.muted}",
+            "value": "{color.palette.secondary.dark}",
             "type": "color"
           },
           "active": {
@@ -298,7 +298,7 @@
         },
         "foreground": {
           "default": {
-            "value": "{color.palette.secondary.main}",
+            "value": "{color.palette.secondary.muted}",
             "type": "color"
           },
           "hover": {
@@ -503,7 +503,7 @@
             "type": "color"
           },
           "hover": {
-            "value": "{color.palette.secondary.main}",
+            "value": "{color.palette.primary.faded}",
             "type": "color"
           }
         },

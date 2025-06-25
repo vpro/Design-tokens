@@ -40,6 +40,10 @@
       "arizona": {
         "value": "ABC Arizona Serif Unlicensed Trial",
         "type": "fontFamilies"
+      },
+      "simplistic-outline-program": {
+        "value": "Simplistic Sans Program",
+        "type": "fontFamilies"
       }
     }
   },
@@ -191,6 +195,10 @@
     "global": {
       "50": {
         "value": "60%",
+        "type": "lineHeights"
+      },
+      "80": {
+        "value": "80%",
         "type": "lineHeights"
       },
       "90": {

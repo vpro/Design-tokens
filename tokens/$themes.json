@@ -293,11 +293,11 @@
       "color.functional.warning": "97204b543ba83319973327f1b644b2b36c4ff219",
       "color.functional.success": "75e278515bb6c2393eb3057774be1dbb1f572a55",
       "color.functional.info": "f8e60f4e9480e88b660536dbeb799b596d003c15",
+      "color.palette.secondary.main": "b6c7b1852df1be23e4706ab556bc377225517d16",
       "color.background.secondary": "dd8c3cb983af02137638f73868f2dd43b8d13f27",
       "color.background.default": "e153760ea533e09108ac8bb10247906e51805632",
       "color.background.tertiary": "81e35ec108f7b0eacd1862ea834842a5ecce6dff",
-      "color.palette.primary.main": "ec45db46b8b1c9551493e9407f3337c247e94551",
-      "color.palette.tertiary.main": "b6c7b1852df1be23e4706ab556bc377225517d16"
+      "color.palette.primary.main": "ec45db46b8b1c9551493e9407f3337c247e94551"
     }
   },
   {

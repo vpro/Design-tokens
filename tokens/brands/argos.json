@@ -104,7 +104,7 @@
         "type": "color"
       },
       "tertiary": {
-        "value": "{color.palette.tertiary.pastel}",
+        "value": "{color.palette.secondary.pastel}",
         "type": "color"
       },
       "brand": {
@@ -112,7 +112,7 @@
         "type": "color"
       },
       "interactive": {
-        "value": "{color.palette.tertiary.main}",
+        "value": "{color.palette.secondary.main}",
         "type": "color"
       },
       "dark": {
@@ -182,7 +182,7 @@
         "type": "color"
       },
       "hover": {
-        "value": "{color.palette.tertiary.main}",
+        "value": "{color.palette.secondary.main}",
         "type": "color"
       },
       "focus": {
@@ -200,19 +200,19 @@
     },
     "link": {
       "default": {
-        "value": "{color.palette.tertiary.muted}",
+        "value": "{color.palette.secondary.muted}",
         "type": "color"
       },
       "hover": {
-        "value": "{color.palette.tertiary.main}",
+        "value": "{color.palette.secondary.main}",
         "type": "color"
       },
       "active": {
-        "value": "{color.palette.tertiary.dark}",
+        "value": "{color.palette.secondary.dark}",
         "type": "color"
       },
       "inverse": {
-        "value": "{color.palette.tertiary.faded}",
+        "value": "{color.palette.secondary.faded}",
         "type": "color"
       },
       "inverse-hover": {
@@ -224,15 +224,15 @@
       "primary": {
         "background": {
           "default": {
-            "value": "{color.palette.tertiary.main}",
+            "value": "{color.palette.secondary.main}",
             "type": "color"
           },
           "hover": {
-            "value": "{color.palette.tertiary.muted}",
+            "value": "{color.palette.secondary.muted}",
             "type": "color"
           },
           "active": {
-            "value": "{color.palette.tertiary.dark}",
+            "value": "{color.palette.secondary.dark}",
             "type": "color"
           }
         },
@@ -242,7 +242,7 @@
             "type": "color"
           },
           "hover": {
-            "value": "{color.palette.tertiary.faded}",
+            "value": "{color.palette.secondary.faded}",
             "type": "color"
           },
           "active": {
@@ -254,15 +254,15 @@
       "secondary": {
         "background": {
           "default": {
-            "value": "{color.palette.tertiary.muted}",
+            "value": "{color.palette.secondary.muted}",
             "type": "color"
           },
           "hover": {
-            "value": "{color.palette.tertiary.dark}",
+            "value": "{color.palette.secondary.dark}",
             "type": "color"
           },
           "active": {
-            "value": "{color.palette.tertiary.dark}",
+            "value": "{color.palette.secondary.dark}",
             "type": "color"
           }
         },
@@ -272,7 +272,7 @@
             "type": "color"
           },
           "hover": {
-            "value": "{color.palette.tertiary.faded}",
+            "value": "{color.palette.secondary.faded}",
             "type": "color"
           },
           "active": {
@@ -288,21 +288,21 @@
             "type": "color"
           },
           "hover": {
-            "value": "{color.palette.tertiary.muted}",
+            "value": "{color.palette.secondary.muted}",
             "type": "color"
           },
           "active": {
-            "value": "{color.palette.tertiary.dark}",
+            "value": "{color.palette.secondary.dark}",
             "type": "color"
           }
         },
         "foreground": {
           "default": {
-            "value": "{color.palette.tertiary.main}",
+            "value": "{color.palette.secondary.main}",
             "type": "color"
           },
           "hover": {
-            "value": "{color.palette.tertiary.faded}",
+            "value": "{color.palette.secondary.faded}",
             "type": "color"
           },
           "active": {
@@ -345,17 +345,17 @@
             "type": "color"
           },
           "link": {
-            "value": "{color.palette.tertiary.muted}",
+            "value": "{color.palette.secondary.muted}",
             "type": "color"
           },
           "hover": {
-            "value": "{color.palette.tertiary.main}",
+            "value": "{color.palette.secondary.main}",
             "type": "color"
           }
         },
         "interactive": {
           "background": {
-            "value": "{color.palette.tertiary.main}",
+            "value": "{color.palette.secondary.main}",
             "type": "color"
           },
           "foreground": {
@@ -363,7 +363,7 @@
             "type": "color"
           },
           "hover-background": {
-            "value": "{color.palette.tertiary.muted}",
+            "value": "{color.palette.secondary.muted}",
             "type": "color"
           },
           "hover-foreground": {
@@ -381,22 +381,22 @@
             "type": "color"
           },
           "border-default": {
-            "value": "{color.palette.secondary.muted}",
+            "value": "{color.palette.tertiary.muted}",
             "type": "color"
           },
           "border-active": {
-            "value": "{color.palette.secondary.main}",
+            "value": "{color.palette.tertiary.main}",
             "type": "color"
           }
         }
       },
       "secondary": {
         "background": {
-          "value": "{color.palette.tertiary.faded}",
+          "value": "{color.palette.secondary.faded}",
           "type": "color"
         },
         "accent": {
-          "value": "{color.palette.tertiary.pastel}",
+          "value": "{color.palette.secondary.pastel}",
           "type": "color",
           "$extensions": {
             "studio.tokens": {
@@ -422,17 +422,17 @@
             "type": "color"
           },
           "link": {
-            "value": "{color.palette.tertiary.muted}",
+            "value": "{color.palette.secondary.muted}",
             "type": "color"
           },
           "hover": {
-            "value": "{color.palette.tertiary.main}",
+            "value": "{color.palette.secondary.main}",
             "type": "color"
           }
         },
         "interactive": {
           "background": {
-            "value": "{color.palette.tertiary.main}",
+            "value": "{color.palette.secondary.main}",
             "type": "color"
           },
           "foreground": {
@@ -440,7 +440,7 @@
             "type": "color"
           },
           "hover-background": {
-            "value": "{color.palette.tertiary.muted}",
+            "value": "{color.palette.secondary.muted}",
             "type": "color"
           },
           "hover-foreground": {
@@ -458,11 +458,11 @@
             "type": "color"
           },
           "border-default": {
-            "value": "{color.palette.secondary.muted}",
+            "value": "{color.palette.tertiary.muted}",
             "type": "color"
           },
           "border-active": {
-            "value": "{color.palette.secondary.main}",
+            "value": "{color.palette.tertiary.main}",
             "type": "color"
           }
         }
@@ -500,17 +500,17 @@
             "type": "color"
           },
           "link": {
-            "value": "{color.palette.tertiary.pastel}",
+            "value": "{color.palette.secondary.pastel}",
             "type": "color"
           },
           "hover": {
-            "value": "{color.palette.tertiary.main}",
+            "value": "{color.palette.secondary.main}",
             "type": "color"
           }
         },
         "interactive": {
           "background": {
-            "value": "{color.palette.tertiary.main}",
+            "value": "{color.palette.secondary.main}",
             "type": "color"
           },
           "foreground": {
@@ -518,7 +518,7 @@
             "type": "color"
           },
           "hover-background": {
-            "value": "{color.palette.tertiary.muted}",
+            "value": "{color.palette.secondary.muted}",
             "type": "color"
           },
           "hover-foreground": {
@@ -536,22 +536,22 @@
             "type": "color"
           },
           "border-default": {
-            "value": "{color.palette.secondary.dark}",
+            "value": "{color.palette.tertiary.dark}",
             "type": "color"
           },
           "border-active": {
-            "value": "{color.palette.secondary.main}",
+            "value": "{color.palette.tertiary.main}",
             "type": "color"
           }
         }
       },
       "alt-secondary": {
         "background": {
-          "value": "{color.palette.tertiary.main}",
+          "value": "{color.palette.secondary.main}",
           "type": "color"
         },
         "accent": {
-          "value": "{color.palette.tertiary.muted}",
+          "value": "{color.palette.secondary.muted}",
           "type": "color",
           "$extensions": {
             "studio.tokens": {
@@ -595,7 +595,7 @@
             "type": "color"
           },
           "hover-background": {
-            "value": "{color.palette.tertiary.muted}",
+            "value": "{color.palette.secondary.muted}",
             "type": "color"
           },
           "hover-foreground": {
@@ -613,11 +613,11 @@
             "type": "color"
           },
           "border-default": {
-            "value": "{color.palette.secondary.dark}",
+            "value": "{color.palette.tertiary.dark}",
             "type": "color"
           },
           "border-active": {
-            "value": "{color.palette.secondary.main}",
+            "value": "{color.palette.tertiary.main}",
             "type": "color"
           }
         }

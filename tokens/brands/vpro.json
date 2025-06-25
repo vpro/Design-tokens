@@ -23,7 +23,7 @@
           "type": "color"
         }
       },
-      "secondary": {
+      "tertiary": {
         "faded": {
           "value": "{color.global.radioactive.25}",
           "type": "color"
@@ -45,7 +45,7 @@
           "type": "color"
         }
       },
-      "tertiary": {
+      "secondary": {
         "faded": {
           "value": "{color.global.orchid.25}",
           "type": "color"

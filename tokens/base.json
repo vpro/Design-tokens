@@ -429,8 +429,7 @@
             "fontSize": "{fontsize.global.450}",
             "lineHeight": "{lineheight.program}"
           },
-          "type": "typography",
-          "description": "Program detail header"
+          "type": "typography"
         },
         "xl": {
           "value": {

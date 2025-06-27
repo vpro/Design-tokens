@@ -841,11 +841,11 @@
           "type": "color"
         },
         "50": {
-          "value": "#80FF81",
+          "value": "#52C52C",
           "type": "color"
         },
         "100": {
-          "value": "#00FF00",
+          "value": "#0BDC0B",
           "type": "color"
         },
         "150": {
@@ -853,7 +853,7 @@
           "type": "color"
         },
         "200": {
-          "value": "#004C00",
+          "value": "#003300",
           "type": "color"
         }
       },
@@ -1047,8 +1047,7 @@
     "style": {
       "ease-in-out": {
         "value": "cubic-bezier(0.42, 0, 0.58, 1)",
-        "type": "other",
-        "description": "Responds quickly and finishes with control. A great default for any user interaction."
+        "type": "other"
       },
       "ease-out": {
         "value": "cubic-bezier(0.19, 0.91, 0.38, 1)",

@@ -1823,16 +1823,5 @@
       "fontweight.global.700": "5cb1284fe4f4922c6d10d11dfc64651113e67e37",
       "style.global.opacity.50": "e4a4cfe4d0403f2369e0522caecda2847a8dc11c"
     }
-  },
-  {
-    "id": "4643b1367b2e96909cb51490960b14010319b65c",
-    "name": "dpt",
-    "$figmaStyleReferences": {},
-    "selectedTokenSets": {
-      "global": "source",
-      "base": "enabled",
-      "brands/dpt": "enabled"
-    },
-    "$figmaVariableReferences": {}
   }
 ]

@@ -989,6 +989,72 @@
           "type": "color"
         }
       },
+      "midnight": {
+        "25": {
+          "value": "#D5D5D5",
+          "type": "color"
+        },
+        "50": {
+          "value": "#828282",
+          "type": "color"
+        },
+        "100": {
+          "value": "#2F2F2F",
+          "type": "color"
+        },
+        "150": {
+          "value": "#212121",
+          "type": "color"
+        },
+        "200": {
+          "value": "#000000",
+          "type": "color"
+        }
+      },
+      "neon-orange": {
+        "25": {
+          "value": "#FED7CC",
+          "type": "color"
+        },
+        "50": {
+          "value": "#FF8367",
+          "type": "color"
+        },
+        "100": {
+          "value": "#FF3000",
+          "type": "color"
+        },
+        "150": {
+          "value": "#B22201",
+          "type": "color"
+        },
+        "200": {
+          "value": "#661400",
+          "type": "color"
+        }
+      },
+      "azure": {
+        "25": {
+          "value": "#B5C9FF",
+          "type": "color"
+        },
+        "50": {
+          "value": "#6B92FF",
+          "type": "color"
+        },
+        "100": {
+          "value": "#084AFF",
+          "type": "color"
+        },
+        "150": {
+          "value": "#063BCC",
+          "type": "color"
+        },
+        "200": {
+          "value": "#052C99",
+          "type": "color"
+        }
+      },
       "salmon": {
         "100": {
           "value": "#CF88B0",

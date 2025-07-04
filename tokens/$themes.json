@@ -208,7 +208,7 @@
       "global": "source",
       "base": "enabled",
       "brands/unbranded": "enabled",
-      "brands/3voor12": "disabled"
+      "brands/vprogids": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:396:2",
     "$figmaModeId": "396:0",
@@ -538,7 +538,7 @@
       "global": "source",
       "brands/human": "enabled",
       "base": "enabled",
-      "brands/3voor12": "disabled"
+      "brands/vprogids": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:606:334",
     "$figmaModeId": "606:0",
@@ -912,7 +912,7 @@
       "global": "source",
       "base": "enabled",
       "brands/vpro": "enabled",
-      "brands/3voor12": "disabled"
+      "brands/vprogids": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:606:383",
     "$figmaModeId": "606:2",
@@ -1331,7 +1331,7 @@
       "global": "source",
       "base": "enabled",
       "brands/brainwash": "enabled",
-      "brands/3voor12": "disabled"
+      "brands/vprogids": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:606:384",
     "$figmaModeId": "606:3",
@@ -1763,7 +1763,7 @@
       "global": "source",
       "base": "enabled",
       "brands/argos": "enabled",
-      "brands/3voor12": "disabled"
+      "brands/vprogids": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:606:385",
     "$figmaModeId": "606:4",
@@ -2219,7 +2219,7 @@
       "global": "enabled",
       "base": "enabled",
       "brands/tegenlicht": "enabled",
-      "brands/3voor12": "disabled"
+      "brands/vprogids": "disabled"
     }
   },
   {
@@ -2229,7 +2229,8 @@
     "selectedTokenSets": {
       "global": "enabled",
       "base": "enabled",
-      "brands/npodoc": "enabled"
+      "brands/npodoc": "enabled",
+      "brands/vprogids": "disabled"
     }
   },
   {
@@ -2239,7 +2240,18 @@
     "selectedTokenSets": {
       "global": "enabled",
       "base": "enabled",
-      "brands/3voor12": "enabled"
+      "brands/3voor12": "enabled",
+      "brands/vprogids": "disabled"
+    }
+  },
+  {
+    "id": "1bbb0573e38245e9453a40af7436c569c569a05c",
+    "name": "vprogids",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "global": "enabled",
+      "base": "enabled",
+      "brands/vprogids": "enabled"
     }
   }
 ]

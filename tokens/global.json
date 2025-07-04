@@ -44,6 +44,10 @@
       "simplistic-outline-program": {
         "value": "Simplistic Sans Program",
         "type": "fontFamilies"
+      },
+      "npo-sans": {
+        "value": "NPO sans",
+        "type": "fontFamilies"
       }
     }
   },

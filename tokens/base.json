@@ -514,7 +514,7 @@
   "color": {
     "functional": {
       "error": {
-        "value": "{color.global.red.125}",
+        "value": "{color.global.red.150}",
         "type": "color"
       },
       "warning": {

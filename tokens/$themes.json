@@ -207,7 +207,8 @@
     "selectedTokenSets": {
       "global": "source",
       "base": "enabled",
-      "brands/unbranded": "enabled"
+      "brands/unbranded": "enabled",
+      "brands/npodoc": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:396:2",
     "$figmaModeId": "396:0",
@@ -536,7 +537,8 @@
     "selectedTokenSets": {
       "global": "source",
       "brands/human": "enabled",
-      "base": "enabled"
+      "base": "enabled",
+      "brands/npodoc": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:606:334",
     "$figmaModeId": "606:0",
@@ -909,7 +911,8 @@
     "selectedTokenSets": {
       "global": "source",
       "base": "enabled",
-      "brands/vpro": "enabled"
+      "brands/vpro": "enabled",
+      "brands/npodoc": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:606:383",
     "$figmaModeId": "606:2",
@@ -1327,7 +1330,8 @@
     "selectedTokenSets": {
       "global": "source",
       "base": "enabled",
-      "brands/brainwash": "enabled"
+      "brands/brainwash": "enabled",
+      "brands/npodoc": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:606:384",
     "$figmaModeId": "606:3",
@@ -1758,7 +1762,8 @@
     "selectedTokenSets": {
       "global": "source",
       "base": "enabled",
-      "brands/argos": "enabled"
+      "brands/argos": "enabled",
+      "brands/npodoc": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:606:385",
     "$figmaModeId": "606:4",
@@ -2213,7 +2218,18 @@
     "selectedTokenSets": {
       "global": "enabled",
       "base": "enabled",
-      "brands/tegenlicht": "enabled"
+      "brands/tegenlicht": "enabled",
+      "brands/npodoc": "disabled"
+    }
+  },
+  {
+    "id": "9436b3cf5474c6971a9c67e6424ccc845fe0198c",
+    "name": "npodoc",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "global": "enabled",
+      "base": "enabled",
+      "brands/npodoc": "enabled"
     }
   }
 ]

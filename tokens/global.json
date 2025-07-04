@@ -1145,6 +1145,28 @@
           "type": "color"
         }
       },
+      "scarlet": {
+        "25": {
+          "value": "#FAE6E6",
+          "type": "color"
+        },
+        "50": {
+          "value": "#EB9999",
+          "type": "color"
+        },
+        "100": {
+          "value": "#CC0000",
+          "type": "color"
+        },
+        "150": {
+          "value": "#A30100",
+          "type": "color"
+        },
+        "200": {
+          "value": "#7A0000",
+          "type": "color"
+        }
+      },
       "salmon": {
         "100": {
           "value": "#CF88B0",

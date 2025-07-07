@@ -33,7 +33,7 @@
           "type": "color"
         },
         "main": {
-          "value": "{color.global.red.100}",
+          "value": "{color.global.lavender.100}",
           "type": "color"
         },
         "muted": {

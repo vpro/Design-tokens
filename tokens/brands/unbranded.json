@@ -435,10 +435,6 @@
             "value": "{color.palette.secondary.main}",
             "type": "color"
           },
-          "accent": {
-            "value": "{color.palette.primary.pastel}",
-            "type": "color"
-          },
           "foreground": {
             "value": "{color.palette.primary.dark}",
             "type": "color"

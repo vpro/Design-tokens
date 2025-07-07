@@ -2214,7 +2214,8 @@
       "global": "enabled",
       "base": "enabled",
       "brands/tegenlicht": "enabled"
-    }
+    },
+    "$figmaVariableReferences": {}
   },
   {
     "id": "9436b3cf5474c6971a9c67e6424ccc845fe0198c",
@@ -2628,7 +2629,8 @@
       "global": "enabled",
       "base": "enabled",
       "brands/npodoc": "enabled"
-    }
+    },
+    "$figmaVariableReferences": {}
   },
   {
     "id": "98e6bb201bfa5e16b726a5b6837fa7817108620a",
@@ -3048,7 +3050,8 @@
       "global": "enabled",
       "base": "enabled",
       "brands/3voor12": "enabled"
-    }
+    },
+    "$figmaVariableReferences": {}
   },
   {
     "id": "1bbb0573e38245e9453a40af7436c569c569a05c",
@@ -3473,6 +3476,7 @@
       "global": "enabled",
       "base": "enabled",
       "brands/vprogids": "enabled"
-    }
+    },
+    "$figmaVariableReferences": {}
   }
 ]

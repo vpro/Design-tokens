@@ -92,7 +92,7 @@
     },
     "background": {
       "default": {
-        "value": "{color.global.grey.100}",
+        "value": "{color.palette.greyscale.pastel}",
         "type": "color"
       },
       "primary": {

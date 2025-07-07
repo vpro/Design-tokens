@@ -48,6 +48,10 @@
       "npo-sans": {
         "value": "NPO sans",
         "type": "fontFamilies"
+      },
+      "npo-scandia": {
+        "value": "NPOScandia",
+        "type": "fontFamilies"
       }
     }
   },

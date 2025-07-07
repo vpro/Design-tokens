@@ -702,36 +702,36 @@
   },
   "fontfamily": {
     "body": {
-      "value": "{fontfamily.global.npo-sans}",
+      "value": "{fontfamily.global.npo-scandia}",
       "type": "fontFamilies"
     },
     "utility": {
-      "value": "{fontfamily.global.npo-sans}",
+      "value": "{fontfamily.global.npo-scandia}",
       "type": "fontFamilies"
     },
     "heading": {
-      "value": "{fontfamily.global.npo-sans}",
+      "value": "{fontfamily.global.npo-scandia}",
       "type": "fontFamilies"
     },
     "program": {
-      "value": "{fontfamily.global.npo-sans}",
+      "value": "{fontfamily.global.npo-scandia}",
       "type": "fontFamilies"
     },
     "display": {
       "intro": {
-        "value": "{fontfamily.global.npo-sans}",
+        "value": "{fontfamily.global.npo-scandia}",
         "type": "fontFamilies"
       },
       "name": {
-        "value": "{fontfamily.global.npo-sans}",
+        "value": "{fontfamily.global.npo-scandia}",
         "type": "fontFamilies"
       },
       "quote": {
-        "value": "{fontfamily.global.npo-sans}",
+        "value": "{fontfamily.global.npo-scandia}",
         "type": "fontFamilies"
       },
       "headline": {
-        "value": "{fontfamily.global.npo-sans}",
+        "value": "{fontfamily.global.npo-scandia}",
         "type": "fontFamilies"
       }
     }

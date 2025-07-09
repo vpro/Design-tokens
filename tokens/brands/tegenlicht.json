@@ -775,7 +775,7 @@
   },
   "lineheight": {
     "body": {
-      "value": "{lineheight.global.500}",
+      "value": "{lineheight.global.300}",
       "type": "lineHeights"
     },
     "utility": {
@@ -792,7 +792,7 @@
     },
     "display": {
       "intro": {
-        "value": "{lineheight.global.500}",
+        "value": "{lineheight.global.300}",
         "type": "lineHeights"
       },
       "name": {
@@ -804,7 +804,7 @@
         "type": "lineHeights"
       },
       "headline": {
-        "value": "{lineheight.global.200}",
+        "value": "{lineheight.global.150}",
         "type": "lineHeights"
       }
     }

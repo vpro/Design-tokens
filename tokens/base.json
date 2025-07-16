@@ -448,6 +448,15 @@
             "lineHeight": "{lineheight.program}"
           },
           "type": "typography"
+        },
+        "sm": {
+          "value": {
+            "fontFamily": "{fontfamily.program}",
+            "fontWeight": "{fontweight.program}",
+            "fontSize": "{fontsize.global.240}",
+            "lineHeight": "{lineheight.program}"
+          },
+          "type": "typography"
         }
       },
       "max": {
@@ -474,6 +483,15 @@
             "fontFamily": "{fontfamily.program}",
             "fontWeight": "{fontweight.program}",
             "fontSize": "{fontsize.global.400}",
+            "lineHeight": "{lineheight.program}"
+          },
+          "type": "typography"
+        },
+        "sm": {
+          "value": {
+            "fontFamily": "{fontfamily.program}",
+            "fontWeight": "{fontweight.program}",
+            "fontSize": "{fontsize.global.320}",
             "lineHeight": "{lineheight.program}"
           },
           "type": "typography"

@@ -3478,5 +3478,15 @@
       "brands/vprogids": "enabled"
     },
     "$figmaVariableReferences": {}
+  },
+  {
+    "id": "61bb4dd6f99138343a25ef824426a769fe951c38",
+    "name": "vprocinema",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "global": "enabled",
+      "base": "enabled",
+      "brands/vprocinema": "enabled"
+    }
   }
 ]

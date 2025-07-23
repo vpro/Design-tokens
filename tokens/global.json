@@ -1171,6 +1171,50 @@
           "type": "color"
         }
       },
+      "ultramarine": {
+        "25": {
+          "value": "#EBEFFF",
+          "type": "color"
+        },
+        "50": {
+          "value": "#AFBEFE",
+          "type": "color"
+        },
+        "100": {
+          "value": "#385CFD",
+          "type": "color"
+        },
+        "150": {
+          "value": "#2840B1",
+          "type": "color"
+        },
+        "200": {
+          "value": "#152565",
+          "type": "color"
+        }
+      },
+      "deep-rose": {
+        "25": {
+          "value": "#FAEAF0",
+          "type": "color"
+        },
+        "50": {
+          "value": "#E085A3",
+          "type": "color"
+        },
+        "100": {
+          "value": "#CC3366",
+          "type": "color"
+        },
+        "150": {
+          "value": "#7A1F3D",
+          "type": "color"
+        },
+        "200": {
+          "value": "#521429",
+          "type": "color"
+        }
+      },
       "salmon": {
         "100": {
           "value": "#CF88B0",

@@ -1080,7 +1080,7 @@
       "type": "fontFamilies"
     },
     "utility": {
-      "value": "{fontfamily.global.helvetica}",
+      "value": "{fontfamily.global.simplistic}",
       "type": "fontFamilies"
     },
     "heading": {

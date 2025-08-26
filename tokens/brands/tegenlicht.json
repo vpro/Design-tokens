@@ -238,7 +238,7 @@
         },
         "foreground": {
           "default": {
-            "value": "{color.palette.primary.dark}",
+            "value": "{color.global.grey.100}",
             "type": "color"
           },
           "hover": {
@@ -268,7 +268,7 @@
         },
         "foreground": {
           "default": {
-            "value": "{color.palette.primary.dark}",
+            "value": "{color.global.grey.100}",
             "type": "color"
           },
           "hover": {

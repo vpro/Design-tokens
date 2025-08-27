@@ -138,7 +138,7 @@
         "type": "color"
       },
       "title": {
-        "value": "{color.palette.primary.muted}",
+        "value": "{color.palette.primary.dark}",
         "type": "color"
       },
       "subtle": {
@@ -200,11 +200,11 @@
     },
     "link": {
       "default": {
-        "value": "{color.palette.secondary.dark}",
+        "value": "{color.palette.secondary.muted}",
         "type": "color"
       },
       "hover": {
-        "value": "{color.palette.secondary.muted}",
+        "value": "{color.palette.secondary.dark}",
         "type": "color"
       },
       "active": {
@@ -349,7 +349,7 @@
             "type": "color"
           },
           "hover": {
-            "value": "{color.palette.secondary.dark}",
+            "value": "{color.palette.secondary.muted}",
             "type": "color"
           }
         },
@@ -367,7 +367,7 @@
             "type": "color"
           },
           "hover-foreground": {
-            "value": "{color.palette.primary.faded}",
+            "value": "{color.palette.secondary.faded}",
             "type": "color"
           }
         },
@@ -473,33 +473,34 @@
           "type": "color"
         },
         "accent": {
-          "value": "{color.palette.primary.dark}",
+          "value": "{color.palette.primary.pastel}",
           "type": "color",
           "$extensions": {
             "studio.tokens": {
               "modify": {
                 "type": "alpha",
                 "value": ".33",
-                "space": "srgb"
+                "space": "srgb",
+                "color": "rgba(0,0,0,0.5)"
               }
             }
           }
         },
         "text": {
           "default": {
-            "value": "{color.palette.tertiary.dark}",
+            "value": "{color.palette.greyscale.faded}",
             "type": "color"
           },
           "subtle": {
-            "value": "{color.palette.tertiary.muted}",
+            "value": "{color.palette.primary.pastel}",
             "type": "color"
           },
           "title": {
-            "value": "{color.palette.tertiary.muted}",
+            "value": "{color.palette.primary.pastel}",
             "type": "color"
           },
           "link": {
-            "value": "{color.palette.tertiary.muted}",
+            "value": "{color.palette.secondary.pastel}",
             "type": "color"
           },
           "hover": {
@@ -513,7 +514,7 @@
             "type": "color"
           },
           "foreground": {
-            "value": "{color.palette.tertiary.dark}",
+            "value": "{color.palette.primary.dark}",
             "type": "color"
           },
           "hover-background": {

@@ -1215,6 +1215,50 @@
           "type": "color"
         }
       },
+      "amethyst": {
+        "25": {
+          "value": "#F4EDFE",
+          "type": "color"
+        },
+        "50": {
+          "value": "#DDC9FC",
+          "type": "color"
+        },
+        "100": {
+          "value": "#924CF6",
+          "type": "color"
+        },
+        "150": {
+          "value": "#6635AC",
+          "type": "color"
+        },
+        "200": {
+          "value": "#49267B",
+          "type": "color"
+        }
+      },
+      "garish-green": {
+        "25": {
+          "value": "#E6FBF6",
+          "type": "color"
+        },
+        "50": {
+          "value": "#B3F2E4",
+          "type": "color"
+        },
+        "100": {
+          "value": "#00D5A6",
+          "type": "color"
+        },
+        "150": {
+          "value": "#009574",
+          "type": "color"
+        },
+        "200": {
+          "value": "#005542",
+          "type": "color"
+        }
+      },
       "salmon": {
         "100": {
           "value": "#CF88B0",

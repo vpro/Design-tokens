@@ -440,7 +440,7 @@
             "type": "color"
           },
           "hover-background": {
-            "value": "{color.palette.secondary.muted}",
+            "value": "{color.palette.primary.muted}",
             "type": "color"
           },
           "hover-foreground": {
@@ -595,7 +595,7 @@
             "type": "color"
           },
           "hover-background": {
-            "value": "{color.palette.secondary.muted}",
+            "value": "{color.palette.primary.muted}",
             "type": "color"
           },
           "hover-foreground": {

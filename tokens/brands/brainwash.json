@@ -504,7 +504,7 @@
             "type": "color"
           },
           "hover": {
-            "value": "{color.palette.primary.pastel}",
+            "value": "{color.palette.secondary.main}",
             "type": "color"
           }
         },

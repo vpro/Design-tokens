@@ -200,7 +200,7 @@
     },
     "link": {
       "default": {
-        "value": "{color.palette.secondary.muted}",
+        "value": "{color.palette.secondary.dark}",
         "type": "color"
       },
       "hover": {
@@ -492,11 +492,11 @@
             "type": "color"
           },
           "subtle": {
-            "value": "{color.palette.primary.pastel}",
+            "value": "{color.palette.greyscale.faded}",
             "type": "color"
           },
           "title": {
-            "value": "{color.palette.primary.pastel}",
+            "value": "{color.palette.greyscale.faded}",
             "type": "color"
           },
           "link": {

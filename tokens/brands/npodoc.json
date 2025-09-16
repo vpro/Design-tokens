@@ -791,7 +791,7 @@
     },
     "display": {
       "intro": {
-        "value": "{fontweight.global.400}",
+        "value": "{fontweight.global.700}",
         "type": "fontWeights"
       },
       "name": {

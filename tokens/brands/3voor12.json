@@ -11,15 +11,15 @@
           "type": "color"
         },
         "main": {
-          "value": "{color.global.midnight.100}",
+          "value": "{color.global.grey.550}",
           "type": "color"
         },
         "muted": {
-          "value": "{color.global.midnight.150}",
+          "value": "{color.global.grey.550}",
           "type": "color"
         },
         "dark": {
-          "value": "{color.global.midnight.200}",
+          "value": "{color.global.grey.550}",
           "type": "color"
         }
       },

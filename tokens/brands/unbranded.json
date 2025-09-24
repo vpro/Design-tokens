@@ -246,7 +246,7 @@
             "type": "color"
           },
           "active": {
-            "value": "{color.global.grey.100}",
+            "value": "{color.palette.greyscale.faded}",
             "type": "color"
           }
         }
@@ -258,7 +258,7 @@
             "type": "color"
           },
           "hover": {
-            "value": "{color.palette.secondary.dark}",
+            "value": "{color.palette.secondary.muted}",
             "type": "color"
           },
           "active": {
@@ -513,7 +513,7 @@
             "type": "color"
           },
           "foreground": {
-            "value": "{color.palette.primary.dark}",
+            "value": "{color.palette.greyscale.dark}",
             "type": "color"
           },
           "hover-background": {
@@ -564,41 +564,41 @@
         },
         "text": {
           "default": {
-            "value": "{color.palette.primary.dark}",
+            "value": "{color.palette.greyscale.dark}",
             "type": "color"
           },
           "subtle": {
-            "value": "{color.palette.secondary.muted}",
+            "value": "{color.palette.greyscale.dark}",
             "type": "color"
           },
           "title": {
-            "value": "{color.palette.secondary.dark}",
+            "value": "{color.palette.greyscale.dark}",
             "type": "color"
           },
           "link": {
-            "value": "{color.palette.primary.dark}",
+            "value": "{color.palette.greyscale.dark}",
             "type": "color"
           },
           "hover": {
-            "value": "{color.palette.primary.muted}",
+            "value": "{color.palette.primary.main}",
             "type": "color"
           }
         },
         "interactive": {
           "background": {
-            "value": "{color.palette.primary.muted}",
+            "value": "{color.palette.primary.main}",
             "type": "color"
           },
           "foreground": {
-            "value": "{color.global.grey.100}",
+            "value": "{color.palette.greyscale.faded}",
             "type": "color"
           },
           "hover-background": {
-            "value": "{color.palette.secondary.muted}",
+            "value": "{color.palette.primary.muted}",
             "type": "color"
           },
           "hover-foreground": {
-            "value": "{color.global.grey.100}",
+            "value": "{color.palette.greyscale.faded}",
             "type": "color"
           }
         },

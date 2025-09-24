@@ -693,8 +693,12 @@
             "value": "{color.palette.greyscale.muted}",
             "type": "color"
           },
+          "border-default-copy": {
+            "value": "{color.palette.tertiary.muted}",
+            "type": "color"
+          },
           "border-active": {
-            "value": "{color.palette.greyscale.main}",
+            "value": "{color.palette.tertiary.main}",
             "type": "color"
           }
         }

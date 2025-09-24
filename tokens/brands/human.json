@@ -822,11 +822,11 @@
       },
       "12": {
         "primary": {
-          "value": "#90D0BD",
+          "value": "#7E2AF4",
           "type": "color"
         },
         "secondary": {
-          "value": "#00FFE6",
+          "value": "#00FFC8",
           "type": "color"
         }
       },

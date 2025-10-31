@@ -1089,8 +1089,7 @@
     },
     "program": {
       "value": "{fontfamily.global.simplistic-outline-program}",
-      "type": "fontFamilies",
-      "description": "Testing change for new NPM token"
+      "type": "fontFamilies"
     },
     "display": {
       "intro": {

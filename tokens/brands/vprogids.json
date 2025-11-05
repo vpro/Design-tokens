@@ -25,28 +25,6 @@
       },
       "secondary": {
         "faded": {
-          "value": "{color.global.turquoise.25}",
-          "type": "color"
-        },
-        "pastel": {
-          "value": "{color.global.turquoise.50}",
-          "type": "color"
-        },
-        "main": {
-          "value": "{color.global.turquoise.100}",
-          "type": "color"
-        },
-        "muted": {
-          "value": "{color.global.turquoise.150}",
-          "type": "color"
-        },
-        "dark": {
-          "value": "{color.global.turquoise.200}",
-          "type": "color"
-        }
-      },
-      "tertiary": {
-        "faded": {
           "value": "{color.global.blue-silk.25}",
           "type": "color"
         },
@@ -64,6 +42,28 @@
         },
         "dark": {
           "value": "{color.global.blue-silk.200}",
+          "type": "color"
+        }
+      },
+      "tertiary": {
+        "faded": {
+          "value": "{color.global.turquoise.25}",
+          "type": "color"
+        },
+        "pastel": {
+          "value": "{color.global.turquoise.50}",
+          "type": "color"
+        },
+        "main": {
+          "value": "{color.global.turquoise.100}",
+          "type": "color"
+        },
+        "muted": {
+          "value": "{color.global.turquoise.150}",
+          "type": "color"
+        },
+        "dark": {
+          "value": "{color.global.turquoise.200}",
           "type": "color"
         }
       },

@@ -781,7 +781,7 @@
           "type": "color"
         },
         "50": {
-          "value": "#F1F79C",
+          "value": "#f7fac3",
           "type": "color"
         },
         "100": {
@@ -789,11 +789,11 @@
           "type": "color"
         },
         "150": {
-          "value": "#888F21",
+          "value": "#6F751A",
           "type": "color"
         },
         "200": {
-          "value": "#444811",
+          "value": "#2d300b",
           "type": "color"
         }
       },

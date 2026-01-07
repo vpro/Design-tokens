@@ -3926,7 +3926,7 @@
   },
   {
     "id": "9d72e8736b6814b836e7491954410e8d2fb8c4db",
-    "name": "3voor12 lokaal",
+    "name": "3voor12lokaal",
     "$figmaStyleReferences": {
       "text.body.min.xl": "S:38c2df12100c8643b9c1be7dcd359eb1209c0062,",
       "text.body.min.lg": "S:0d706fb4f9178716d9d8d18b00ae37c3dfc1ec8b,",
@@ -4370,7 +4370,7 @@
     "selectedTokenSets": {
       "global": "enabled",
       "base": "enabled",
-      "brands/3voor12 lokaal": "enabled"
+      "brands/3voor12lokaal": "enabled"
     }
   }
 ]

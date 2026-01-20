@@ -488,7 +488,7 @@
           "$extensions": {
             "studio.tokens": {
               "modify": {
-                "type": "lighten",
+                "type": "alpha",
                 "value": ".33",
                 "space": "srgb"
               }

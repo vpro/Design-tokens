@@ -369,7 +369,7 @@
             "type": "color"
           },
           "foreground": {
-            "value": "{color.palette.greyscale.faded}",
+            "value": "{color.palette.greyscale.dark}",
             "type": "color"
           },
           "hover-background": {
@@ -524,7 +524,7 @@
             "type": "color"
           },
           "foreground": {
-            "value": "{color.palette.greyscale.faded}",
+            "value": "{color.palette.greyscale.dark}",
             "type": "color"
           },
           "hover-background": {
@@ -678,7 +678,7 @@
             "type": "color"
           },
           "foreground": {
-            "value": "{color.palette.greyscale.faded}",
+            "value": "{color.palette.greyscale.dark}",
             "type": "color"
           },
           "hover-background": {

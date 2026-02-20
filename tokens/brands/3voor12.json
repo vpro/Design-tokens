@@ -450,7 +450,7 @@
             "type": "color"
           },
           "hover-background": {
-            "value": "{color.palette.primary.muted}",
+            "value": "{color.palette.secondary.muted}",
             "type": "color"
           },
           "hover-foreground": {
@@ -587,11 +587,11 @@
             "type": "color"
           },
           "link": {
-            "value": "{color.palette.primary.dark}",
+            "value": "{color.palette.primary.muted}",
             "type": "color"
           },
           "hover": {
-            "value": "{color.global.grey.100}",
+            "value": "{color.palette.primary.dark}",
             "type": "color"
           }
         },
@@ -605,7 +605,7 @@
             "type": "color"
           },
           "hover-background": {
-            "value": "{color.palette.primary.muted}",
+            "value": "{color.palette.secondary.muted}",
             "type": "color"
           },
           "hover-foreground": {

@@ -446,7 +446,7 @@
             "type": "color"
           },
           "foreground": {
-            "value": "{color.palette.greyscale.dark}",
+            "value": "{color.palette.greyscale.faded}",
             "type": "color"
           },
           "hover-background": {

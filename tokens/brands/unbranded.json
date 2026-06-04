@@ -3,67 +3,67 @@
     "palette": {
       "primary": {
         "faded": {
-          "value": "{color.global.water.25}",
+          "value": "{color.global.turquoise.25}",
           "type": "color"
         },
         "pastel": {
-          "value": "{color.global.water.50}",
+          "value": "{color.global.turquoise.50}",
           "type": "color"
         },
         "main": {
-          "value": "{color.global.water.100}",
+          "value": "{color.global.turquoise.100}",
           "type": "color"
         },
         "muted": {
-          "value": "{color.global.water.150}",
+          "value": "{color.global.turquoise.150}",
           "type": "color"
         },
         "dark": {
-          "value": "{color.global.water.200}",
+          "value": "{color.global.turquoise.200}",
           "type": "color"
         }
       },
       "secondary": {
         "faded": {
-          "value": "{color.global.carrot.25}",
+          "value": "{color.global.neon-orange.25}",
           "type": "color"
         },
         "pastel": {
-          "value": "{color.global.carrot.50}",
+          "value": "{color.global.neon-orange.50}",
           "type": "color"
         },
         "main": {
-          "value": "{color.global.carrot.100}",
+          "value": "{color.global.neon-orange.100}",
           "type": "color"
         },
         "muted": {
-          "value": "{color.global.carrot.150}",
+          "value": "{color.global.neon-orange.150}",
           "type": "color"
         },
         "dark": {
-          "value": "{color.global.carrot.200}",
+          "value": "{color.global.neon-orange.200}",
           "type": "color"
         }
       },
       "tertiary": {
         "faded": {
-          "value": "{color.global.charcoal.25}",
+          "value": "{color.global.azure.25}",
           "type": "color"
         },
         "pastel": {
-          "value": "{color.global.charcoal.50}",
+          "value": "{color.global.azure.50}",
           "type": "color"
         },
         "main": {
-          "value": "{color.global.charcoal.100}",
+          "value": "{color.global.azure.100}",
           "type": "color"
         },
         "muted": {
-          "value": "{color.global.charcoal.150}",
+          "value": "{color.global.azure.150}",
           "type": "color"
         },
         "dark": {
-          "value": "{color.global.charcoal.200}",
+          "value": "{color.global.azure.200}",
           "type": "color"
         }
       },
@@ -108,7 +108,7 @@
         "type": "color"
       },
       "brand": {
-        "value": "{color.palette.primary.main}",
+        "value": "{color.palette.tertiary.dark}",
         "type": "color"
       },
       "interactive": {
@@ -138,7 +138,7 @@
         "type": "color"
       },
       "title": {
-        "value": "{color.palette.primary.muted}",
+        "value": "{color.palette.tertiary.dark}",
         "type": "color"
       },
       "subtle": {

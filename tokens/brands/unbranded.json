@@ -712,36 +712,36 @@
   },
   "fontfamily": {
     "body": {
-      "value": "{fontfamily.global.helvetica}",
+      "value": "{fontfamily.global.public-sans}",
       "type": "fontFamilies"
     },
     "utility": {
-      "value": "{fontfamily.global.helvetica}",
+      "value": "{fontfamily.global.public-sans}",
       "type": "fontFamilies"
     },
     "heading": {
-      "value": "{fontfamily.global.helvetica}",
+      "value": "{fontfamily.global.public-sans}",
       "type": "fontFamilies"
     },
     "program": {
-      "value": "{fontfamily.global.helvetica}",
+      "value": "{fontfamily.global.public-sans}",
       "type": "fontFamilies"
     },
     "display": {
       "intro": {
-        "value": "{fontfamily.global.helvetica}",
+        "value": "{fontfamily.global.public-sans}",
         "type": "fontFamilies"
       },
       "name": {
-        "value": "{fontfamily.global.helvetica}",
+        "value": "{fontfamily.global.public-sans}",
         "type": "fontFamilies"
       },
       "quote": {
-        "value": "{fontfamily.global.helvetica}",
+        "value": "{fontfamily.global.public-sans}",
         "type": "fontFamilies"
       },
       "headline": {
-        "value": "{fontfamily.global.helvetica}",
+        "value": "{fontfamily.global.public-sans}",
         "type": "fontFamilies"
       }
     }

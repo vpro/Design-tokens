@@ -178,15 +178,15 @@
     },
     "border": {
       "default": {
-        "value": "{color.palette.primary.faded}",
+        "value": "{color.palette.secondary.faded}",
         "type": "color"
       },
       "focus": {
-        "value": "{color.palette.primary.main}",
+        "value": "{color.palette.secondary.main}",
         "type": "color"
       },
       "inverse": {
-        "value": "{color.palette.primary.pastel}",
+        "value": "{color.palette.secondary.pastel}",
         "type": "color"
       }
     },

@@ -104,3 +104,5 @@ The same sync can run without a local Figma token:
 
 The workflow intentionally refuses to run on `main`. It uses the repository
 secret `FIGMA_VARIABLES_ACCESS_TOKEN` and does nothing when Figma is unchanged.
+The run summary explicitly reports that authentication succeeded and whether
+token changes were detected.

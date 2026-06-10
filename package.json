@@ -2,7 +2,7 @@
   "name": "villa-design-tokens",
   "description": "VPRO design token sources",
   "author": "VPRO",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "type": "module",
   "packageManager": "npm@11.7.0",
   "files": [

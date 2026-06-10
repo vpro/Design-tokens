@@ -42,7 +42,7 @@ composition, surface nesting, or other consumer-specific semantics.
 
 - `npm run figma:sync` validates and atomically updates `figma/`.
 - The manual workflow runs on a feature branch and commits changed files.
-- Merging to `main` uses the existing version bump and publish workflow.
+- Merging to `main` bumps the patch version and publishes the package.
 - The npm package publishes `tokens/` and `figma/`, not build tooling.
 - Consumers select and combine primitive, brand, device, and surface files.
 

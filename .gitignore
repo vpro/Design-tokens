@@ -1,0 +1,4 @@
+.env.local
+.figma-sync-*
+.figma-backup-*
+node_modules/

@@ -1,0 +1,73 @@
+{
+  "$schema": "https://www.designtokens.org/schemas/2025.10/format.json",
+  "surfaces": {
+    "background": {
+      "accent": {
+        "$value": "{brands.brand-palette.primary.pastel}",
+        "$type": "color"
+      },
+      "default": {
+        "$value": "{brands.brand-palette.primary.faded}",
+        "$type": "color"
+      }
+    },
+    "input": {
+      "background": {
+        "$value": "{brands.brand-palette.greyscale.faded}",
+        "$type": "color"
+      },
+      "border-active": {
+        "$value": "{brands.brand-palette.tertiary.main}",
+        "$type": "color"
+      },
+      "border-default": {
+        "$value": "{brands.brand-palette.tertiary.muted}",
+        "$type": "color"
+      },
+      "foreground": {
+        "$value": "{brands.brand-palette.tertiary.muted}",
+        "$type": "color"
+      }
+    },
+    "interactive": {
+      "background": {
+        "$value": "{brands.brand-palette.secondary.main}",
+        "$type": "color"
+      },
+      "foreground": {
+        "$value": "{brands.brand-palette.greyscale.dark}",
+        "$type": "color"
+      },
+      "hover-background": {
+        "$value": "{brands.brand-palette.secondary.muted}",
+        "$type": "color"
+      },
+      "hover-foreground": {
+        "$value": "{brands.brand-palette.greyscale.faded}",
+        "$type": "color"
+      }
+    },
+    "text": {
+      "default": {
+        "$value": "{brands.brand-palette.greyscale.dark}",
+        "$type": "color"
+      },
+      "hover": {
+        "$value": "{brands.brand-palette.secondary.dark}",
+        "$type": "color"
+      },
+      "link": {
+        "$value": "{brands.brand-palette.secondary.muted}",
+        "$type": "color"
+      },
+      "subtle": {
+        "$value": "{brands.brand-palette.greyscale.dark}",
+        "$type": "color"
+      },
+      "title": {
+        "$value": "{brands.brand-palette.greyscale.dark}",
+        "$type": "color"
+      }
+    }
+  }
+}

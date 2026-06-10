@@ -1,8 +1,24 @@
 {
   "name": "villa-design-tokens",
-  "description": "Design Tokens published by Design Token Studio with VPRO's Figma Design System- retest again",
+  "description": "VPRO design token sources",
   "author": "VPRO",
   "version": "1.0.350",
+  "type": "module",
+  "packageManager": "npm@11.7.0",
+  "files": [
+    "tokens",
+    "figma"
+  ],
+  "scripts": {
+    "figma:sync": "node --env-file-if-exists=.env.local --import=tsx scripts/sync-figma-variables.ts",
+    "test": "node --test --test-reporter=dot --import=tsx 'test/**/*.test.ts'",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "tsx": "^4.22.4",
+    "typescript": "5.9.3"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vpro/Design-tokens.git"

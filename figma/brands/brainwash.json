@@ -1,0 +1,783 @@
+{
+  "$schema": "https://www.designtokens.org/schemas/2025.10/format.json",
+  "brands": {
+    "brand-palette": {
+      "greyscale": {
+        "dark": {
+          "$value": "{primitives.color.grey.500}",
+          "$type": "color"
+        },
+        "faded": {
+          "$value": "{primitives.color.grey.100}",
+          "$type": "color"
+        },
+        "main": {
+          "$value": "{primitives.color.grey.300}",
+          "$type": "color"
+        },
+        "muted": {
+          "$value": "{primitives.color.grey.450}",
+          "$type": "color"
+        },
+        "pastel": {
+          "$value": "{primitives.color.grey.150}",
+          "$type": "color"
+        }
+      },
+      "primary": {
+        "dark": {
+          "$value": "{primitives.color.amethyst.200}",
+          "$type": "color"
+        },
+        "faded": {
+          "$value": "{primitives.color.amethyst.25}",
+          "$type": "color"
+        },
+        "main": {
+          "$value": "{primitives.color.amethyst.100}",
+          "$type": "color"
+        },
+        "muted": {
+          "$value": "{primitives.color.amethyst.150}",
+          "$type": "color"
+        },
+        "pastel": {
+          "$value": "{primitives.color.amethyst.50}",
+          "$type": "color"
+        }
+      },
+      "secondary": {
+        "dark": {
+          "$value": "{primitives.color.garish-green.200}",
+          "$type": "color"
+        },
+        "faded": {
+          "$value": "{primitives.color.garish-green.25}",
+          "$type": "color"
+        },
+        "main": {
+          "$value": "{primitives.color.garish-green.100}",
+          "$type": "color"
+        },
+        "muted": {
+          "$value": "{primitives.color.garish-green.150}",
+          "$type": "color"
+        },
+        "pastel": {
+          "$value": "{primitives.color.garish-green.50}",
+          "$type": "color"
+        }
+      },
+      "tertiary": {
+        "dark": {
+          "$value": "{primitives.color.indigo.200}",
+          "$type": "color"
+        },
+        "faded": {
+          "$value": "{primitives.color.indigo.25}",
+          "$type": "color"
+        },
+        "main": {
+          "$value": "{primitives.color.indigo.100}",
+          "$type": "color"
+        },
+        "muted": {
+          "$value": "{primitives.color.indigo.150}",
+          "$type": "color"
+        },
+        "pastel": {
+          "$value": "{primitives.color.indigo.50}",
+          "$type": "color"
+        }
+      }
+    },
+    "color": {
+      "background": {
+        "brand": {
+          "$value": "{brands.brand-palette.primary.main}",
+          "$type": "color"
+        },
+        "dark": {
+          "$value": "{brands.brand-palette.primary.dark}",
+          "$type": "color"
+        },
+        "default": {
+          "$value": "{brands.brand-palette.greyscale.faded}",
+          "$type": "color"
+        },
+        "disabled": {
+          "$value": "{brands.brand-palette.greyscale.main}",
+          "$type": "color"
+        },
+        "interactive": {
+          "$value": "{brands.brand-palette.secondary.main}",
+          "$type": "color"
+        },
+        "neutral-dark": {
+          "$value": "{brands.brand-palette.greyscale.muted}",
+          "$type": "color"
+        },
+        "neutral-light": {
+          "$value": "{brands.brand-palette.greyscale.pastel}",
+          "$type": "color"
+        },
+        "primary": {
+          "$value": "{brands.brand-palette.primary.faded}",
+          "$type": "color"
+        },
+        "secondary": {
+          "$value": "{brands.brand-palette.primary.pastel}",
+          "$type": "color"
+        },
+        "tertiary": {
+          "$value": "{brands.brand-palette.secondary.faded}",
+          "$type": "color"
+        }
+      },
+      "border": {
+        "default": {
+          "$value": "{brands.brand-palette.primary.faded}",
+          "$type": "color"
+        },
+        "focus": {
+          "$value": "{brands.brand-palette.primary.main}",
+          "$type": "color"
+        },
+        "inverse": {
+          "$value": "{brands.brand-palette.primary.pastel}",
+          "$type": "color"
+        }
+      },
+      "icon": {
+        "inverse": {
+          "$value": "{brands.brand-palette.greyscale.faded}",
+          "$type": "color"
+        },
+        "primary": {
+          "$value": "{brands.brand-palette.primary.dark}",
+          "$type": "color"
+        },
+        "secondary": {
+          "$value": "{brands.brand-palette.primary.pastel}",
+          "$type": "color"
+        },
+        "tertiary": {
+          "$value": "{brands.brand-palette.greyscale.main}",
+          "$type": "color"
+        }
+      },
+      "input": {
+        "background": {
+          "$value": "{brands.brand-palette.greyscale.faded}",
+          "$type": "color"
+        },
+        "border-active": {
+          "$value": "{brands.brand-palette.tertiary.main}",
+          "$type": "color"
+        },
+        "border-default": {
+          "$value": "{brands.brand-palette.greyscale.main}",
+          "$type": "color"
+        },
+        "foreground": {
+          "$value": "{brands.brand-palette.greyscale.dark}",
+          "$type": "color"
+        }
+      },
+      "interactive": {
+        "primary": {
+          "background": {
+            "active": {
+              "$value": "{brands.brand-palette.secondary.dark}",
+              "$type": "color"
+            },
+            "default": {
+              "$value": "{brands.brand-palette.secondary.main}",
+              "$type": "color"
+            },
+            "hover": {
+              "$value": "{brands.brand-palette.secondary.muted}",
+              "$type": "color"
+            }
+          },
+          "foreground": {
+            "active": {
+              "$value": "{brands.brand-palette.greyscale.faded}",
+              "$type": "color"
+            },
+            "default": {
+              "$value": "{brands.brand-palette.greyscale.dark}",
+              "$type": "color"
+            },
+            "hover": {
+              "$value": "{brands.brand-palette.greyscale.faded}",
+              "$type": "color"
+            }
+          }
+        },
+        "secondary": {
+          "background": {
+            "active": {
+              "$value": "{brands.brand-palette.secondary.dark}",
+              "$type": "color"
+            },
+            "default": {
+              "$value": "{brands.brand-palette.secondary.muted}",
+              "$type": "color"
+            },
+            "hover": {
+              "$value": "{brands.brand-palette.secondary.muted}",
+              "$type": "color"
+            }
+          },
+          "foreground": {
+            "active": {
+              "$value": "{brands.brand-palette.greyscale.faded}",
+              "$type": "color"
+            },
+            "default": {
+              "$value": "{brands.brand-palette.secondary.muted}",
+              "$type": "color"
+            },
+            "hover": {
+              "$value": "{brands.brand-palette.greyscale.faded}",
+              "$type": "color"
+            }
+          }
+        },
+        "tertiary": {
+          "background": {
+            "active": {
+              "$value": "{brands.brand-palette.secondary.dark}",
+              "$type": "color"
+            },
+            "default": {
+              "$value": "{brands.brand-palette.greyscale.faded}",
+              "$type": "color"
+            },
+            "hover": {
+              "$value": "{brands.brand-palette.secondary.muted}",
+              "$type": "color"
+            }
+          },
+          "foreground": {
+            "active": {
+              "$value": "{brands.brand-palette.greyscale.faded}",
+              "$type": "color"
+            },
+            "default": {
+              "$value": "{brands.brand-palette.secondary.muted}",
+              "$type": "color"
+            },
+            "hover": {
+              "$value": "{brands.brand-palette.greyscale.faded}",
+              "$type": "color"
+            }
+          }
+        }
+      },
+      "link": {
+        "active": {
+          "$value": "{brands.brand-palette.primary.muted}",
+          "$type": "color"
+        },
+        "default": {
+          "$value": "{brands.brand-palette.secondary.muted}",
+          "$type": "color"
+        },
+        "hover": {
+          "$value": "{brands.brand-palette.primary.dark}",
+          "$type": "color"
+        },
+        "inverse": {
+          "$value": "{brands.brand-palette.secondary.faded}",
+          "$type": "color"
+        },
+        "inverse-hover": {
+          "$value": "{brands.brand-palette.primary.faded}",
+          "$type": "color"
+        }
+      },
+      "text": {
+        "default": {
+          "$value": "{brands.brand-palette.greyscale.dark}",
+          "$type": "color"
+        },
+        "disabled": {
+          "$value": "{brands.brand-palette.greyscale.main}",
+          "$type": "color"
+        },
+        "inverse": {
+          "$value": "{brands.brand-palette.greyscale.faded}",
+          "$type": "color"
+        },
+        "neutral": {
+          "$value": "{brands.brand-palette.greyscale.dark}",
+          "$type": "color"
+        },
+        "subtle": {
+          "$value": "{brands.brand-palette.greyscale.main}",
+          "$type": "color"
+        },
+        "title": {
+          "$value": "{brands.brand-palette.primary.muted}",
+          "$type": "color"
+        }
+      }
+    },
+    "component": {
+      "cta": {
+        "background": {
+          "$value": "{brands.brand-palette.secondary.main}",
+          "$type": "color"
+        },
+        "foreground": {
+          "$value": "{brands.brand-palette.primary.main}",
+          "$type": "color"
+        },
+        "text": {
+          "$value": "{brands.color.text.default}",
+          "$type": "color"
+        },
+        "title": {
+          "$value": "{brands.color.text.title}",
+          "$type": "color"
+        }
+      },
+      "navigation": {
+        "background": {
+          "$value": "{brands.brand-palette.primary.main}",
+          "$type": "color"
+        },
+        "background-alt": {
+          "$value": "{brands.brand-palette.primary.main}",
+          "$type": "color"
+        },
+        "background-alt-2": {
+          "$value": "{brands.brand-palette.primary.main}",
+          "$type": "color"
+        },
+        "background-footer": {
+          "$value": "{brands.brand-palette.primary.main}",
+          "$type": "color"
+        },
+        "foreground": {
+          "$value": "{brands.color.text.inverse}",
+          "$type": "color"
+        },
+        "foreground-alt-2": {
+          "$value": "{brands.color.text.inverse}",
+          "$type": "color"
+        },
+        "foreground-footer": {
+          "$value": "{brands.color.text.inverse}",
+          "$type": "color"
+        },
+        "foreground-menu": {
+          "$value": "{brands.color.text.inverse}",
+          "$type": "color"
+        }
+      }
+    },
+    "content": {
+      "assets": {
+        "show-assets-3voor12": {
+          "$value": false,
+          "$type": "boolean"
+        },
+        "show-assets-3voor12-lokaal": {
+          "$value": false,
+          "$type": "boolean"
+        },
+        "show-assets-argos": {
+          "$value": false,
+          "$type": "boolean"
+        },
+        "show-assets-brainwash": {
+          "$value": true,
+          "$type": "boolean"
+        },
+        "show-assets-huismerk": {
+          "$value": false,
+          "$type": "boolean"
+        },
+        "show-assets-human": {
+          "$value": false,
+          "$type": "boolean"
+        },
+        "show-assets-npo-doc": {
+          "$value": false,
+          "$type": "boolean"
+        },
+        "show-assets-tegenlicht": {
+          "$value": false,
+          "$type": "boolean"
+        },
+        "show-assets-vpro": {
+          "$value": false,
+          "$type": "boolean"
+        },
+        "show-assets-vpro-cinema": {
+          "$value": false,
+          "$type": "boolean"
+        },
+        "show-assets-vpro-gids": {
+          "$value": false,
+          "$type": "boolean"
+        }
+      },
+      "text": {
+        "footer": {
+          "footer-links": {
+            "cta-footer-1": {
+              "$value": "Nieuwsbrief",
+              "$type": "string"
+            },
+            "cta-footer-2": {
+              "$value": "Over Brainwash",
+              "$type": "string"
+            },
+            "cta-footer-3": {
+              "$value": "Brainwash Festival",
+              "$type": "string"
+            },
+            "cta-footer-4": {
+              "$value": " ",
+              "$type": "string"
+            },
+            "cta-footer-5": {
+              "$value": " ",
+              "$type": "string"
+            },
+            "cta-footer-6": {
+              "$value": " ",
+              "$type": "string"
+            },
+            "cta-footer-7": {
+              "$value": " ",
+              "$type": "string"
+            },
+            "cta-footer-8": {
+              "$value": " ",
+              "$type": "string"
+            },
+            "cta-footer-9": {
+              "$value": " ",
+              "$type": "string"
+            },
+            "footer-links-title": {
+              "$value": "Service",
+              "$type": "string"
+            },
+            "show-cta-4": {
+              "$value": false,
+              "$type": "boolean"
+            },
+            "show-cta-5": {
+              "$value": false,
+              "$type": "boolean"
+            },
+            "show-cta-6": {
+              "$value": false,
+              "$type": "boolean"
+            },
+            "show-cta-7": {
+              "$value": false,
+              "$type": "boolean"
+            },
+            "show-cta-8": {
+              "$value": false,
+              "$type": "boolean"
+            },
+            "show-cta-9": {
+              "$value": false,
+              "$type": "boolean"
+            }
+          },
+          "legal-links": {
+            "copyright": {
+              "$value": "© 2026 HUMAN - Alle rechten voorbehouden.",
+              "$type": "string"
+            },
+            "legal-link-1": {
+              "$value": "Ombudsman",
+              "$type": "string"
+            },
+            "legal-link-2": {
+              "$value": "Cookies",
+              "$type": "string"
+            },
+            "legal-link-3": {
+              "$value": "Privacy",
+              "$type": "string"
+            },
+            "legal-link-4": {
+              "$value": " ",
+              "$type": "string"
+            },
+            "show-legal-link-3": {
+              "$value": true,
+              "$type": "boolean"
+            },
+            "show-legal-link-4": {
+              "$value": false,
+              "$type": "boolean"
+            },
+            "show-public-spaces": {
+              "$value": true,
+              "$type": "boolean"
+            }
+          },
+          "payoff": {
+            "$value": "Worstel je met de grote vragen van nu? Je bent niet de enige. Brainwash van omroep HUMAN is hét podium voor jouw levensvraag. Samen met denkers, kunstenaars en theatermakers zoeken we naar verrassende perspectieven.",
+            "$type": "string"
+          },
+          "powered-by": {
+            "powered-by": {
+              "$value": "Een platform van",
+              "$type": "string"
+            },
+            "show-human": {
+              "$value": true,
+              "$type": "boolean"
+            },
+            "show-powered-by": {
+              "$value": true,
+              "$type": "boolean"
+            },
+            "show-vpro": {
+              "$value": false,
+              "$type": "boolean"
+            },
+            "show-vpro-gids": {
+              "$value": false,
+              "$type": "boolean"
+            }
+          },
+          "social-icons": {
+            "show-bluesky": {
+              "$value": true,
+              "$type": "boolean"
+            },
+            "show-facebook": {
+              "$value": true,
+              "$type": "boolean"
+            },
+            "show-instagram": {
+              "$value": true,
+              "$type": "boolean"
+            },
+            "show-linkedin": {
+              "$value": true,
+              "$type": "boolean"
+            },
+            "show-social-icons": {
+              "$value": true,
+              "$type": "boolean"
+            },
+            "show-spotify": {
+              "$value": false,
+              "$type": "boolean"
+            },
+            "show-tiktok": {
+              "$value": true,
+              "$type": "boolean"
+            },
+            "show-x": {
+              "$value": false,
+              "$type": "boolean"
+            },
+            "show-youtube": {
+              "$value": true,
+              "$type": "boolean"
+            },
+            "social-icons-title": {
+              "$value": "Volg ons",
+              "$type": "string"
+            }
+          },
+          "watch-more-links": {
+            "show-app-store-icons": {
+              "$value": false,
+              "$type": "boolean"
+            },
+            "show-extra-divider": {
+              "$value": false,
+              "$type": "boolean"
+            },
+            "show-npo-2": {
+              "$value": false,
+              "$type": "boolean"
+            },
+            "show-npo-3fm": {
+              "$value": false,
+              "$type": "boolean"
+            },
+            "show-npo-radio-1": {
+              "$value": false,
+              "$type": "boolean"
+            },
+            "show-npo-start": {
+              "$value": false,
+              "$type": "boolean"
+            },
+            "show-watch-more": {
+              "$value": false,
+              "$type": "boolean"
+            },
+            "show-youtube": {
+              "$value": false,
+              "$type": "boolean"
+            },
+            "watch-more-title": {
+              "$value": " ",
+              "$type": "string"
+            }
+          }
+        },
+        "navigation-themes": {
+          "cta-nav-l1": {
+            "$value": "Over Brainwash",
+            "$type": "string"
+          },
+          "cta-nav-l2": {
+            "$value": " ",
+            "$type": "string"
+          },
+          "cta-nav-l3": {
+            "$value": " ",
+            "$type": "string"
+          },
+          "cta-nav-l4": {
+            "$value": " ",
+            "$type": "string"
+          },
+          "cta-nav-r1": {
+            "$value": "Stel levensvraag",
+            "$type": "string"
+          },
+          "cta-nav-r2": {
+            "$value": " ",
+            "$type": "string"
+          },
+          "show-items-left": {
+            "$value": true,
+            "$type": "boolean"
+          },
+          "show-more": {
+            "$value": " ",
+            "$type": "string"
+          },
+          "show-more-link": {
+            "$value": false,
+            "$type": "boolean"
+          },
+          "show-theme-4": {
+            "$value": true,
+            "$type": "boolean"
+          },
+          "show-theme-5": {
+            "$value": true,
+            "$type": "boolean"
+          },
+          "show-theme-6": {
+            "$value": true,
+            "$type": "boolean"
+          },
+          "show-theme-7": {
+            "$value": false,
+            "$type": "boolean"
+          },
+          "show-theme-8": {
+            "$value": false,
+            "$type": "boolean"
+          },
+          "show-theme-9": {
+            "$value": false,
+            "$type": "boolean"
+          },
+          "theme-1": {
+            "$value": "Ongelijkheid",
+            "$type": "string"
+          },
+          "theme-10": {
+            "$value": " ",
+            "$type": "string"
+          },
+          "theme-11": {
+            "$value": " ",
+            "$type": "string"
+          },
+          "theme-12": {
+            "$value": " ",
+            "$type": "string"
+          },
+          "theme-13": {
+            "$value": " ",
+            "$type": "string"
+          },
+          "theme-14": {
+            "$value": " ",
+            "$type": "string"
+          },
+          "theme-15": {
+            "$value": " ",
+            "$type": "string"
+          },
+          "theme-16": {
+            "$value": " ",
+            "$type": "string"
+          },
+          "theme-2": {
+            "$value": "Identiteit",
+            "$type": "string"
+          },
+          "theme-3": {
+            "$value": "Duurzaamheid",
+            "$type": "string"
+          },
+          "theme-4": {
+            "$value": "Technologie",
+            "$type": "string"
+          },
+          "theme-5": {
+            "$value": "Gezondheid",
+            "$type": "string"
+          },
+          "theme-6": {
+            "$value": "Cultuur",
+            "$type": "string"
+          },
+          "theme-7": {
+            "$value": " ",
+            "$type": "string"
+          },
+          "theme-8": {
+            "$value": " ",
+            "$type": "string"
+          },
+          "theme-9": {
+            "$value": " ",
+            "$type": "string"
+          },
+          "title": {
+            "$value": "Onderwerpen",
+            "$type": "string"
+          }
+        },
+        "navigation": {
+          "payoff": {
+            "$value": "Worstel je met de grote vragen van nu? Je bent niet de enige. Brainwash van omroep HUMAN is hét podium voor jouw levensvraag. Samen met denkers, kunstenaars en theatermakers zoeken we naar verrassende perspectieven.",
+            "$type": "string"
+          }
+        }
+      }
+    },
+    "font": {
+      "family": {
+        "$value": "{primitives.font.family.riforma}",
+        "$type": "fontFamily"
+      }
+    }
+  }
+}

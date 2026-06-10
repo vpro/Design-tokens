@@ -34,15 +34,25 @@ jobs:
         env:
           FIGMA_VARIABLES_ACCESS_TOKEN: ${{ secrets.FIGMA_VARIABLES_ACCESS_TOKEN }}
 
-      - name: Commit changed token files
+      - name: Report and commit token changes
         run: |
+          {
+            echo "## Figma variable sync"
+            echo
+            echo "- Authentication: succeeded using repository secret \`FIGMA_VARIABLES_ACCESS_TOKEN\`"
+            echo "- Branch: \`${GITHUB_REF_NAME}\`"
+          } >> "$GITHUB_STEP_SUMMARY"
+
           if [[ -z "$(git status --porcelain -- figma)" ]]; then
-            echo "The Figma token files are already up to date."
+            echo "- Result: no token changes detected" >> "$GITHUB_STEP_SUMMARY"
+            echo "::notice title=Figma variable sync::Authentication succeeded; no token changes detected."
             exit 0
           fi
 
+          echo "::notice title=Figma variable sync::Authentication succeeded; token changes will be committed."
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add figma
           git commit -m "chore: sync Figma variables"
           git push origin "HEAD:${GITHUB_REF_NAME}"
+          echo "- Result: token changes committed and pushed" >> "$GITHUB_STEP_SUMMARY"

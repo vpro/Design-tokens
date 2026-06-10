@@ -1,0 +1,48 @@
+name: "Sync Figma variables"
+
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: figma-variables-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Require a feature branch
+        if: github.ref_name == 'main'
+        run: |
+          echo "Run this workflow from a feature branch, then merge that branch into main."
+          exit 1
+
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: ".nvmrc"
+          cache: npm
+
+      - run: npm ci
+
+      - name: Sync Figma variables
+        run: npm run figma:sync
+        env:
+          FIGMA_VARIABLES_ACCESS_TOKEN: ${{ secrets.FIGMA_VARIABLES_ACCESS_TOKEN }}
+
+      - name: Commit changed token files
+        run: |
+          if [[ -z "$(git status --porcelain -- figma)" ]]; then
+            echo "The Figma token files are already up to date."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add figma
+          git commit -m "chore: sync Figma variables"
+          git push origin "HEAD:${GITHUB_REF_NAME}"

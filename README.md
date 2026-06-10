@@ -89,7 +89,7 @@ git commit -m "chore: sync Figma variables"
 git push -u origin chore/sync-figma-variables
 ```
 
-Open a pull request and merge it into `main`. The existing main workflow bumps
+Open a pull request and merge it into `main`. The main workflow always bumps
 the patch version, creates the tag, and publishes the npm package.
 
 ## GitHub Actions Sync

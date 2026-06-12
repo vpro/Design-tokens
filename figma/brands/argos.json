@@ -775,7 +775,7 @@
     },
     "font": {
       "family": {
-        "$value": "{primitives.font.family.nposcandia}",
+        "$value": "{primitives.font.family.agrandir}",
         "$type": "fontFamily"
       }
     }

@@ -39,6 +39,12 @@ floats remain unitless numbers, aliases become token-path references, and
 strings and booleans retain their values. File names and token paths are
 deterministic.
 
+Composed colours resolve colour and opacity aliases into a concrete sRGB value
+with an explicit alpha for each exported mode. Resolution uses the current
+collection mode and single-mode dependencies. A dependency on another multi-mode
+collection is rejected when its mode is unknown, rather than choosing a value
+arbitrarily. Ordinary aliases remain token-path references.
+
 `appearances` reflects the current Figma collection name and its four exported
 modes. Villa's choice of surface or appearance terminology and its mapping to
 CSS variables remain consumer decisions; this export does not prescribe them.

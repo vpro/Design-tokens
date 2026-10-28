@@ -1,115 +1,25 @@
 # Design tokens
 
-The package contains the existing design tokens in `tokens/` and generated
-native Figma Variable tokens in `figma/`.
+Design token sources in `tokens/` and generated Figma exports in `figma/`.
 
-## Usage Flow
+## Local setup
 
-The repository has two responsibilities:
-
-1. Fetch Figma Variables and generate one file per collection mode.
-2. Publish `tokens/` and `figma/` when a feature branch is merged into `main`.
-
-Consumers such as `villa-tokens` then select the files they need:
-
-```text
-figma/primitives.json
-  + figma/brands/vpro.json
-  + figma/devices/mobile.json
-  + figma/appearances/soft.json
-  -> consumer-specific output
-```
-
-The consumer is responsible for responsive sizing, sub-brand structure,
-typography shorthands, output naming, and other application semantics.
-
-`appearances` reflects the current Figma collection name. Whether Villa keeps
-using surface terminology or adopts appearance terminology remains a consumer
-decision. This package does not define that mapping.
-
-## Local Sync
-
-Start from an up-to-date feature branch:
+Clone the repository and install dependencies using the Node version in `.nvmrc`:
 
 ```sh
-git switch main
-git pull --ff-only
-git switch -c chore/sync-figma-variables
-
+git clone https://github.com/vpro/Design-tokens.git
+cd Design-tokens
+nvm install
 nvm use
 npm ci
 ```
 
-Create a local `.env.local` once:
+## Local checks
 
 ```sh
-FIGMA_VARIABLES_ACCESS_TOKEN="your-token"
-```
-
-The file is ignored by Git. Run the importer without passing the token
-manually:
-
-```sh
-npm run figma:sync
-```
-
-The command validates the response and atomically updates:
-
-```text
-figma/
-  primitives.json
-  brands/
-    vpro.json
-  devices/
-    mobile.json
-    desktop.json
-  appearances/
-    soft.json
-    softalt.json
-    strong.json
-    strongalt.json
-```
-
-Tokens use `$value`, `$type`, optional `$description`, structured color values,
-and `{token.path}` references. Collection names are top-level namespaces so
-independently selected mode files can be composed without path collisions.
-
-Figma `COLOR`, `FLOAT`, and font-family strings map to `color`, `number`, and
-`fontFamily` tokens. Other strings and booleans remain `string` and `boolean`
-tokens.
-
-Review and verify the result:
-
-```sh
-git status --short
-git diff -- figma
 npm test
 npm run typecheck
-npm pack --dry-run
 ```
 
-Commit and push the generated files:
-
-```sh
-git add figma
-git commit -m "chore: sync Figma variables"
-git push -u origin chore/sync-figma-variables
-```
-
-Open a pull request and merge it into `main`. The main workflow always bumps
-the patch version, creates the tag, and publishes the npm package.
-
-## GitHub Actions Sync
-
-The same sync can run without a local Figma token:
-
-1. Create and push a feature branch.
-2. Open **Actions -> Sync Figma variables -> Run workflow**.
-3. Select the feature branch.
-4. Wait for the workflow to commit and push changed `figma/` files.
-5. Review and merge the feature branch.
-
-The workflow intentionally refuses to run on `main`. It uses the repository
-secret `FIGMA_VARIABLES_ACCESS_TOKEN` and does nothing when Figma is unchanged.
-The run summary explicitly reports that authentication succeeded and whether
-token changes were detected.
+For Figma sync instructions, see the
+[contributor guide](https://github.com/vpro/Design-tokens/blob/main/CONTRIBUTING.md).

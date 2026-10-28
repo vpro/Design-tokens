@@ -107,7 +107,7 @@
             "$type": "color"
           },
           "disabled": {
-            "$value": "{brands.brandprimitives.greyscale.main}",
+            "$value": "{brands.brandprimitives.greyscale.pastel}",
             "$type": "color"
           },
           "interactive": {
@@ -253,7 +253,15 @@
                 "$type": "color"
               },
               "default": {
-                "$value": "{brands.brandprimitives.greyscale.faded}",
+                "$value": {
+                  "colorSpace": "srgb",
+                  "components": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "alpha": 0
+                },
                 "$type": "color"
               },
               "hover": {
@@ -317,7 +325,7 @@
             "$type": "color"
           },
           "subtle": {
-            "$value": "{brands.brandprimitives.greyscale.main}",
+            "$value": "{brands.brandprimitives.greyscale.muted}",
             "$type": "color"
           },
           "title": {
@@ -399,7 +407,7 @@
       "softalt": {
         "background": {
           "accent": {
-            "$value": "{brands.brandprimitives.secondary.pastel}",
+            "$value": "{brands.brandprimitives.secondary.muted}",
             "$type": "color"
           },
           "default": {

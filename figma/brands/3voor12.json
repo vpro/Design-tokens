@@ -4,7 +4,7 @@
     "brandprimitives": {
       "greyscale": {
         "dark": {
-          "$value": "{primitives.color.grey.500}",
+          "$value": "{primitives.color.grey.550}",
           "$type": "color"
         },
         "faded": {
@@ -107,7 +107,7 @@
             "$type": "color"
           },
           "disabled": {
-            "$value": "{brands.brandprimitives.greyscale.main}",
+            "$value": "{brands.brandprimitives.greyscale.pastel}",
             "$type": "color"
           },
           "interactive": {
@@ -253,7 +253,15 @@
                 "$type": "color"
               },
               "default": {
-                "$value": "{brands.brandprimitives.greyscale.faded}",
+                "$value": {
+                  "colorSpace": "srgb",
+                  "components": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "alpha": 0
+                },
                 "$type": "color"
               },
               "hover": {
@@ -317,7 +325,7 @@
             "$type": "color"
           },
           "subtle": {
-            "$value": "{brands.brandprimitives.greyscale.main}",
+            "$value": "{brands.brandprimitives.greyscale.muted}",
             "$type": "color"
           },
           "title": {
@@ -329,7 +337,15 @@
       "soft": {
         "background": {
           "accent": {
-            "$value": "{brands.brandprimitives.primary.pastel}",
+            "$value": {
+              "colorSpace": "srgb",
+              "components": [
+                0.5098039507865906,
+                0.5098039507865906,
+                0.5098039507865906
+              ],
+              "alpha": 0.5
+            },
             "$type": "color"
           },
           "default": {
@@ -391,7 +407,7 @@
             "$type": "color"
           },
           "title": {
-            "$value": "{brands.brandprimitives.primary.main}",
+            "$value": "{brands.brandprimitives.primary.dark}",
             "$type": "color"
           }
         }
@@ -399,7 +415,15 @@
       "softalt": {
         "background": {
           "accent": {
-            "$value": "{brands.brandprimitives.secondary.pastel}",
+            "$value": {
+              "colorSpace": "srgb",
+              "components": [
+                0.9686274528503418,
+                0.9803921580314636,
+                0.7647058963775635
+              ],
+              "alpha": 0.5
+            },
             "$type": "color"
           },
           "default": {
@@ -427,7 +451,7 @@
         },
         "interactive": {
           "background": {
-            "$value": "{brands.brandprimitives.primary.main}",
+            "$value": "{brands.brandprimitives.primary.dark}",
             "$type": "color"
           },
           "foreground": {
@@ -469,11 +493,19 @@
       "strong": {
         "background": {
           "accent": {
-            "$value": "{brands.brandprimitives.primary.pastel}",
+            "$value": {
+              "colorSpace": "srgb",
+              "components": [
+                0.5098039507865906,
+                0.5098039507865906,
+                0.5098039507865906
+              ],
+              "alpha": 0.5
+            },
             "$type": "color"
           },
           "default": {
-            "$value": "{brands.brandprimitives.primary.main}",
+            "$value": "{brands.brandprimitives.primary.dark}",
             "$type": "color"
           }
         },
@@ -539,11 +571,27 @@
       "strongalt": {
         "background": {
           "accent": {
-            "$value": "{brands.brandprimitives.secondary.muted}",
+            "$value": {
+              "colorSpace": "srgb",
+              "components": [
+                0.43529412150382996,
+                0.4588235318660736,
+                0.10196078568696976
+              ],
+              "alpha": 0.5
+            },
             "$type": "color"
           },
           "default": {
-            "$value": "{brands.brandprimitives.secondary.main}",
+            "$value": {
+              "colorSpace": "srgb",
+              "components": [
+                0.8901960849761963,
+                0.9372549057006836,
+                0.21960784494876862
+              ],
+              "alpha": 0.5
+            },
             "$type": "color"
           }
         },
@@ -567,7 +615,7 @@
         },
         "interactive": {
           "background": {
-            "$value": "{brands.brandprimitives.primary.main}",
+            "$value": "{brands.brandprimitives.primary.dark}",
             "$type": "color"
           },
           "foreground": {
@@ -597,7 +645,7 @@
             "$type": "color"
           },
           "subtle": {
-            "$value": "{brands.brandprimitives.primary.main}",
+            "$value": "{brands.brandprimitives.primary.muted}",
             "$type": "color"
           },
           "title": {

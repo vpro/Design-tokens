@@ -44,10 +44,19 @@ interface ValidatedFigmaData {
   variables: Map<string, FigmaVariable>;
 }
 
+interface ValueContext {
+  collections: Map<string, FigmaCollection>;
+  variables: Map<string, FigmaVariable>;
+  modes: Map<string, string>;
+}
+
 export type TokenFiles = Map<string, string>;
 
 export function createTokenFiles(response: unknown): TokenFiles {
   const { collections, variables } = validateResponse(response);
+  const collectionsById = new Map(
+    collections.map((collection) => [collection.id, collection]),
+  );
   const collectionSlugs = uniqueSlugs(
     collections.map((collection) => [collection.id, collection.name]),
     "collection",
@@ -77,6 +86,11 @@ export function createTokenFiles(response: unknown): TokenFiles {
       );
 
     for (const mode of collection.modes) {
+      const context: ValueContext = {
+        collections: collectionsById,
+        variables,
+        modes: new Map([[collection.id, mode.modeId]]),
+      };
       const document: Record<string, unknown> = {
         $schema: TOKEN_SCHEMA,
         [collectionSlug]: {},
@@ -94,7 +108,7 @@ export function createTokenFiles(response: unknown): TokenFiles {
         setToken(
           root,
           variablePaths.get(variable.id)!,
-          createToken(variable, rawValue, variablePaths),
+          createToken(variable, rawValue, variablePaths, context),
         );
       }
 
@@ -339,9 +353,10 @@ function createToken(
   variable: FigmaVariable,
   rawValue: unknown,
   variablePaths: Map<string, string[]>,
+  context: ValueContext,
 ): Record<string, unknown> {
   const token: Record<string, unknown> = {
-    $value: convertValue(variable, rawValue, variablePaths),
+    $value: convertValue(variable, rawValue, variablePaths, context),
     $type: toTokenType(variable),
   };
 
@@ -372,6 +387,7 @@ function convertValue(
   variable: FigmaVariable,
   rawValue: unknown,
   variablePaths: Map<string, string[]>,
+  context: ValueContext,
 ): unknown {
   const aliasId = getAliasId(rawValue);
   if (aliasId) {
@@ -400,22 +416,108 @@ function convertValue(
         throw invalidValueError(variable);
       }
       return rawValue;
-    case "COLOR":
-      if (
-        !isRecord(rawValue) ||
-        !isUnitInterval(rawValue.r) ||
-        !isUnitInterval(rawValue.g) ||
-        !isUnitInterval(rawValue.b) ||
-        !isUnitInterval(rawValue.a)
-      ) {
-        throw invalidValueError(variable);
-      }
+    case "COLOR": {
+      const color = resolveColorValue(
+        variable,
+        rawValue,
+        context,
+        new Set([variable.id]),
+      );
       return {
         colorSpace: "srgb",
-        components: [rawValue.r, rawValue.g, rawValue.b],
-        alpha: rawValue.a,
+        components: [color.r, color.g, color.b],
+        alpha: color.a,
       };
+    }
   }
+}
+
+function resolveColorValue(
+  variable: FigmaVariable,
+  rawValue: unknown,
+  context: ValueContext,
+  visiting: Set<string>,
+): { r: number; g: number; b: number; a: number } {
+  const value = resolveChannel(variable, rawValue, "COLOR", context, visiting);
+  if (!isRecord(value)) {
+    throw invalidValueError(variable);
+  }
+
+  if ("color" in value || "opacity" in value) {
+    if (!getAliasId(value.color) && !getAliasId(value.opacity)) {
+      throw invalidValueError(variable);
+    }
+    const color = resolveColorValue(variable, value.color, context, visiting);
+    const opacity = resolveChannel(
+      variable,
+      value.opacity,
+      "FLOAT",
+      context,
+      visiting,
+    );
+    if (typeof opacity !== "number" || !Number.isFinite(opacity)) {
+      throw invalidValueError(variable);
+    }
+    return { ...color, a: Math.min(100, Math.max(0, opacity)) / 100 };
+  }
+
+  const alpha = value.a === undefined ? 1 : value.a;
+  if (
+    !isUnitInterval(value.r) ||
+    !isUnitInterval(value.g) ||
+    !isUnitInterval(value.b) ||
+    !isUnitInterval(alpha)
+  ) {
+    throw invalidValueError(variable);
+  }
+  return { r: value.r, g: value.g, b: value.b, a: alpha };
+}
+
+function resolveChannel(
+  variable: FigmaVariable,
+  rawValue: unknown,
+  expectedType: "COLOR" | "FLOAT",
+  context: ValueContext,
+  visiting: Set<string>,
+): unknown {
+  const aliasId = getAliasId(rawValue);
+  if (!aliasId) return rawValue;
+
+  const target = context.variables.get(aliasId);
+  if (!target) {
+    throw new Error(
+      `Variable "${variable.name}" references unavailable variable "${aliasId}"`,
+    );
+  }
+  if (target.resolvedType !== expectedType) {
+    throw new Error(
+      `Variable "${variable.name}" requires a ${expectedType} alias target`,
+    );
+  }
+  if (visiting.has(aliasId)) {
+    throw new Error(`Variable "${variable.name}" has a composed color alias cycle`);
+  }
+
+  const collection = context.collections.get(target.variableCollectionId)!;
+  const modeId = context.modes.get(collection.id) ??
+    (collection.modes.length === 1 ? collection.modes[0]!.modeId : undefined);
+  if (!modeId) {
+    throw new Error(
+      `Cannot flatten composed color "${variable.name}": collection "${collection.name}" has multiple modes and no selected mode`,
+    );
+  }
+  const value = target.valuesByMode[modeId];
+  if (value === undefined) {
+    throw new Error(`Variable "${target.name}" has no value for mode "${modeId}"`);
+  }
+  const nextContext = {
+    ...context,
+    modes: new Map(context.modes).set(collection.id, modeId),
+  };
+  const nextVisiting = new Set(visiting).add(aliasId);
+  return expectedType === "COLOR"
+    ? resolveColorValue(target, value, nextContext, nextVisiting)
+    : resolveChannel(target, value, expectedType, nextContext, nextVisiting);
 }
 
 function setToken(

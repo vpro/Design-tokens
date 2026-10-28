@@ -107,7 +107,7 @@
             "$type": "color"
           },
           "disabled": {
-            "$value": "{brands.brandprimitives.greyscale.main}",
+            "$value": "{brands.brandprimitives.greyscale.pastel}",
             "$type": "color"
           },
           "interactive": {
@@ -253,7 +253,15 @@
                 "$type": "color"
               },
               "default": {
-                "$value": "{brands.brandprimitives.secondary.muted}",
+                "$value": {
+                  "colorSpace": "srgb",
+                  "components": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "alpha": 0
+                },
                 "$type": "color"
               },
               "hover": {
@@ -329,7 +337,15 @@
       "soft": {
         "background": {
           "accent": {
-            "$value": "{brands.brandprimitives.primary.pastel}",
+            "$value": {
+              "colorSpace": "srgb",
+              "components": [
+                1,
+                0.6509804129600525,
+                0.501960813999176
+              ],
+              "alpha": 0.5
+            },
             "$type": "color"
           },
           "default": {
@@ -399,7 +415,15 @@
       "softalt": {
         "background": {
           "accent": {
-            "$value": "{brands.brandprimitives.secondary.pastel}",
+            "$value": {
+              "colorSpace": "srgb",
+              "components": [
+                0.800000011920929,
+                0.9843137264251709,
+                1
+              ],
+              "alpha": 0.5
+            },
             "$type": "color"
           },
           "default": {
@@ -469,7 +493,15 @@
       "strong": {
         "background": {
           "accent": {
-            "$value": "{brands.brandprimitives.primary.muted}",
+            "$value": {
+              "colorSpace": "srgb",
+              "components": [
+                0.6000000238418579,
+                0.18039216101169586,
+                0
+              ],
+              "alpha": 0.5
+            },
             "$type": "color"
           },
           "default": {
@@ -539,7 +571,15 @@
       "strongalt": {
         "background": {
           "accent": {
-            "$value": "{brands.brandprimitives.secondary.muted}",
+            "$value": {
+              "colorSpace": "srgb",
+              "components": [
+                0,
+                0.46666666865348816,
+                0.501960813999176
+              ],
+              "alpha": 0.5
+            },
             "$type": "color"
           },
           "default": {

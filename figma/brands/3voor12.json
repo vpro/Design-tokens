@@ -4,7 +4,7 @@
     "brandprimitives": {
       "greyscale": {
         "dark": {
-          "$value": "{primitives.color.grey.550}",
+          "$value": "{primitives.color.grey.500}",
           "$type": "color"
         },
         "faded": {
@@ -34,11 +34,11 @@
           "$type": "color"
         },
         "main": {
-          "$value": "{primitives.color.midnight.100}",
+          "$value": "{primitives.color.midnight.200}",
           "$type": "color"
         },
         "muted": {
-          "$value": "{primitives.color.midnight.150}",
+          "$value": "{primitives.color.midnight.200}",
           "$type": "color"
         },
         "pastel": {
@@ -523,7 +523,7 @@
             "$type": "color"
           },
           "foreground": {
-            "$value": "{brands.brandprimitives.primary.muted}",
+            "$value": "{brands.brandprimitives.primary.dark}",
             "$type": "color"
           }
         },

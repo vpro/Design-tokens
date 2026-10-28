@@ -91,47 +91,17 @@
             "$type": "number"
           }
         },
-        "collection": {
+        "reviewhero": {
           "img-width": {
-            "$value": 342,
+            "$value": 72,
             "$type": "number"
           },
-          "text-padding": {
-            "$value": 16,
-            "$type": "number"
-          }
-        },
-        "event": {
-          "img-width": {
-            "$value": 114,
-            "$type": "number"
-          }
-        },
-        "embed": {
-          "img-width-spotify": {
-            "$value": 96,
-            "$type": "number"
-          }
-        },
-        "reviewtile": {
-          "img-width": {
-            "$value": 258,
+          "hero-height": {
+            "$value": 444,
             "$type": "number"
           },
-          "img-width-min": {
-            "$value": 159,
-            "$type": "number"
-          }
-        },
-        "cinemamovie": {
-          "credit-width": {
-            "$value": 90,
-            "$type": "number"
-          }
-        },
-        "npoplayer": {
-          "img-width": {
-            "$value": 48,
+          "padding": {
+            "$value": 24,
             "$type": "number"
           }
         },
@@ -149,17 +119,37 @@
             "$type": "number"
           }
         },
-        "reviewhero": {
+        "embed": {
+          "img-width-spotify": {
+            "$value": 96,
+            "$type": "number"
+          }
+        },
+        "cardlink": {
+          "img-width-max": {
+            "$value": 56,
+            "$type": "number"
+          }
+        },
+        "reviewtile": {
           "img-width": {
-            "$value": 72,
+            "$value": 258,
             "$type": "number"
           },
-          "hero-height": {
-            "$value": 444,
+          "img-width-min": {
+            "$value": 159,
             "$type": "number"
-          },
-          "padding": {
-            "$value": 24,
+          }
+        },
+        "event": {
+          "img-width": {
+            "$value": 114,
+            "$type": "number"
+          }
+        },
+        "npoplayer": {
+          "img-width": {
+            "$value": 48,
             "$type": "number"
           }
         },
@@ -175,9 +165,19 @@
             "$type": "number"
           }
         },
-        "cardlink": {
-          "img-width-max": {
-            "$value": 56,
+        "cinemamovie": {
+          "credit-width": {
+            "$value": 90,
+            "$type": "number"
+          }
+        },
+        "collection": {
+          "img-width": {
+            "$value": 342,
+            "$type": "number"
+          },
+          "text-padding": {
+            "$value": 16,
             "$type": "number"
           }
         },

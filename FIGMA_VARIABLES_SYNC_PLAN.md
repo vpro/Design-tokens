@@ -46,6 +46,8 @@ CSS variables remain consumer decisions; this export does not prescribe them.
 The sync does not infer responsive behavior, typography shorthands, brand
 composition, output naming, or other consumer-specific semantics.
 
+The latest Figma export includes corrected `soft` hover aliases.
+
 ## Delivery
 
 - `npm run figma:sync` validates and atomically updates `figma/`.

@@ -16,12 +16,16 @@ Consumers such as `villa-tokens` then select the files they need:
 figma/primitives.json
   + figma/brands/vpro.json
   + figma/devices/mobile.json
-  + figma/surfaces/primary.json
+  + figma/appearances/soft.json
   -> consumer-specific output
 ```
 
 The consumer is responsible for responsive sizing, sub-brand structure,
-typography shorthands, surface nesting, and other application semantics.
+typography shorthands, output naming, and other application semantics.
+
+`appearances` reflects the current Figma collection name. Whether Villa keeps
+using surface terminology or adopts appearance terminology remains a consumer
+decision. This package does not define that mapping.
 
 ## Local Sync
 
@@ -59,8 +63,11 @@ figma/
   devices/
     mobile.json
     desktop.json
-  surfaces/
-    primary.json
+  appearances/
+    soft.json
+    softalt.json
+    strong.json
+    strongalt.json
 ```
 
 Tokens use `$value`, `$type`, optional `$description`, structured color values,

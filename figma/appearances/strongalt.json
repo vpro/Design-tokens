@@ -1,71 +1,71 @@
 {
   "$schema": "https://www.designtokens.org/schemas/2025.10/format.json",
-  "surfaces": {
+  "appearances": {
     "background": {
       "accent": {
-        "$value": "{brands.brand-palette.primary.pastel}",
+        "$value": "{brands.color.strongalt.background.accent}",
         "$type": "color"
       },
       "default": {
-        "$value": "{brands.brand-palette.primary.muted}",
+        "$value": "{brands.color.strongalt.background.default}",
         "$type": "color"
       }
     },
     "input": {
       "background": {
-        "$value": "{brands.brand-palette.greyscale.faded}",
+        "$value": "{brands.color.strongalt.input.background}",
         "$type": "color"
       },
       "border-active": {
-        "$value": "{brands.brand-palette.tertiary.main}",
+        "$value": "{brands.color.strongalt.input.border-active}",
         "$type": "color"
       },
       "border-default": {
-        "$value": "{brands.brand-palette.tertiary.dark}",
+        "$value": "{brands.color.strongalt.input.border-default}",
         "$type": "color"
       },
       "foreground": {
-        "$value": "{brands.brand-palette.greyscale.dark}",
+        "$value": "{brands.color.strongalt.input.foreground}",
         "$type": "color"
       }
     },
     "interactive": {
       "background": {
-        "$value": "{brands.brand-palette.secondary.main}",
+        "$value": "{brands.color.strongalt.interactive.background}",
         "$type": "color"
       },
       "foreground": {
-        "$value": "{brands.brand-palette.greyscale.dark}",
+        "$value": "{brands.color.strongalt.interactive.foreground}",
         "$type": "color"
       },
       "hover-background": {
-        "$value": "{brands.brand-palette.secondary.muted}",
+        "$value": "{brands.color.strongalt.interactive.hover-background}",
         "$type": "color"
       },
       "hover-foreground": {
-        "$value": "{brands.brand-palette.greyscale.faded}",
+        "$value": "{brands.color.strongalt.interactive.hover-foreground}",
         "$type": "color"
       }
     },
     "text": {
       "default": {
-        "$value": "{brands.brand-palette.greyscale.faded}",
+        "$value": "{brands.color.strongalt.text.default}",
         "$type": "color"
       },
       "hover": {
-        "$value": "{brands.brand-palette.secondary.main}",
+        "$value": "{brands.color.strongalt.text.hover}",
         "$type": "color"
       },
       "link": {
-        "$value": "{brands.brand-palette.greyscale.faded}",
+        "$value": "{brands.color.strongalt.text.link}",
         "$type": "color"
       },
       "subtle": {
-        "$value": "{brands.brand-palette.greyscale.faded}",
+        "$value": "{brands.color.strongalt.text.subtle}",
         "$type": "color"
       },
       "title": {
-        "$value": "{brands.brand-palette.greyscale.faded}",
+        "$value": "{brands.color.strongalt.text.title}",
         "$type": "color"
       }
     }

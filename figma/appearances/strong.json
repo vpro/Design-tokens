@@ -1,71 +1,71 @@
 {
   "$schema": "https://www.designtokens.org/schemas/2025.10/format.json",
-  "surfaces": {
+  "appearances": {
     "background": {
       "accent": {
-        "$value": "{brands.brand-palette.secondary.pastel}",
+        "$value": "{brands.color.strong.background.accent}",
         "$type": "color"
       },
       "default": {
-        "$value": "{brands.brand-palette.secondary.faded}",
+        "$value": "{brands.color.strong.background.default}",
         "$type": "color"
       }
     },
     "input": {
       "background": {
-        "$value": "{brands.brand-palette.greyscale.faded}",
+        "$value": "{brands.color.strong.input.background}",
         "$type": "color"
       },
       "border-active": {
-        "$value": "{brands.brand-palette.tertiary.main}",
+        "$value": "{brands.color.strong.input.border-active}",
         "$type": "color"
       },
       "border-default": {
-        "$value": "{brands.brand-palette.tertiary.muted}",
+        "$value": "{brands.color.strong.input.border-default}",
         "$type": "color"
       },
       "foreground": {
-        "$value": "{brands.brand-palette.tertiary.muted}",
+        "$value": "{brands.color.strong.input.foreground}",
         "$type": "color"
       }
     },
     "interactive": {
       "background": {
-        "$value": "{brands.brand-palette.primary.main}",
+        "$value": "{brands.color.strong.interactive.background}",
         "$type": "color"
       },
       "foreground": {
-        "$value": "{brands.brand-palette.greyscale.dark}",
+        "$value": "{brands.color.strong.interactive.foreground}",
         "$type": "color"
       },
       "hover-background": {
-        "$value": "{brands.brand-palette.primary.muted}",
+        "$value": "{brands.color.strong.interactive.hover-background}",
         "$type": "color"
       },
       "hover-foreground": {
-        "$value": "{brands.brand-palette.greyscale.faded}",
+        "$value": "{brands.color.strong.interactive.hover-foreground}",
         "$type": "color"
       }
     },
     "text": {
       "default": {
-        "$value": "{brands.brand-palette.greyscale.dark}",
+        "$value": "{brands.color.strong.text.default}",
         "$type": "color"
       },
       "hover": {
-        "$value": "{brands.brand-palette.primary.dark}",
+        "$value": "{brands.color.strong.text.hover}",
         "$type": "color"
       },
       "link": {
-        "$value": "{brands.brand-palette.primary.muted}",
+        "$value": "{brands.color.strong.text.link}",
         "$type": "color"
       },
       "subtle": {
-        "$value": "{brands.brand-palette.greyscale.dark}",
+        "$value": "{brands.color.strong.text.subtle}",
         "$type": "color"
       },
       "title": {
-        "$value": "{brands.brand-palette.greyscale.dark}",
+        "$value": "{brands.color.strong.text.title}",
         "$type": "color"
       }
     }

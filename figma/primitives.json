@@ -164,7 +164,57 @@
           "$type": "color"
         }
       },
-      "blue-silk": {
+      "blue": {
+        "50": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.501960813999176,
+              0.7450980544090271,
+              0.886274516582489
+            ],
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "100": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0,
+              0.48235294222831726,
+              0.7607843279838562
+            ],
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "125": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0,
+              0.3843137323856354,
+              0.6352941393852234
+            ],
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "150": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0,
+              0.24705882370471954,
+              0.38823530077934265
+            ],
+            "alpha": 1
+          },
+          "$type": "color"
+        }
+      },
+      "bluesilk": {
         "25": {
           "$value": {
             "colorSpace": "srgb",
@@ -220,56 +270,6 @@
               0,
               0.1568627506494522,
               0.3921568691730499
-            ],
-            "alpha": 1
-          },
-          "$type": "color"
-        }
-      },
-      "blue": {
-        "50": {
-          "$value": {
-            "colorSpace": "srgb",
-            "components": [
-              0.501960813999176,
-              0.7450980544090271,
-              0.886274516582489
-            ],
-            "alpha": 1
-          },
-          "$type": "color"
-        },
-        "100": {
-          "$value": {
-            "colorSpace": "srgb",
-            "components": [
-              0,
-              0.48235294222831726,
-              0.7607843279838562
-            ],
-            "alpha": 1
-          },
-          "$type": "color"
-        },
-        "125": {
-          "$value": {
-            "colorSpace": "srgb",
-            "components": [
-              0,
-              0.3843137323856354,
-              0.6352941393852234
-            ],
-            "alpha": 1
-          },
-          "$type": "color"
-        },
-        "150": {
-          "$value": {
-            "colorSpace": "srgb",
-            "components": [
-              0,
-              0.24705882370471954,
-              0.38823530077934265
             ],
             "alpha": 1
           },
@@ -710,7 +710,7 @@
           "$type": "color"
         }
       },
-      "dark-blue": {
+      "darkblue": {
         "100": {
           "$value": {
             "colorSpace": "srgb",
@@ -736,7 +736,7 @@
           "$type": "color"
         }
       },
-      "dark-navy": {
+      "darknavy": {
         "25": {
           "$value": {
             "colorSpace": "srgb",
@@ -798,7 +798,7 @@
           "$type": "color"
         }
       },
-      "dark-teal": {
+      "darkteal": {
         "25": {
           "$value": {
             "colorSpace": "srgb",
@@ -860,7 +860,7 @@
           "$type": "color"
         }
       },
-      "deep-rose": {
+      "deeprose": {
         "25": {
           "$value": {
             "colorSpace": "srgb",
@@ -922,7 +922,7 @@
           "$type": "color"
         }
       },
-      "deep-sea": {
+      "deepsea": {
         "25": {
           "$value": {
             "colorSpace": "srgb",
@@ -1046,7 +1046,7 @@
           "$type": "color"
         }
       },
-      "garish-green": {
+      "garishgreen": {
         "25": {
           "$value": {
             "colorSpace": "srgb",
@@ -1730,7 +1730,7 @@
           "$type": "color"
         }
       },
-      "neon-orange": {
+      "neonorange": {
         "25": {
           "$value": {
             "colorSpace": "srgb",
@@ -1792,7 +1792,7 @@
           "$type": "color"
         }
       },
-      "neon-yellow": {
+      "neonyellow": {
         "100": {
           "$value": {
             "colorSpace": "srgb",

@@ -27,7 +27,11 @@ figma/
   primitives.json
   brands/*.json
   devices/*.json
-  surfaces/*.json
+  appearances/
+    soft.json
+    softalt.json
+    strong.json
+    strongalt.json
 ```
 
 Collections remain top-level namespaces. Colors become structured sRGB values,
@@ -35,8 +39,12 @@ floats remain unitless numbers, aliases become token-path references, and
 strings and booleans retain their values. File names and token paths are
 deterministic.
 
+`appearances` reflects the current Figma collection name and its four exported
+modes. Villa's choice of surface or appearance terminology and its mapping to
+CSS variables remain consumer decisions; this export does not prescribe them.
+
 The sync does not infer responsive behavior, typography shorthands, brand
-composition, surface nesting, or other consumer-specific semantics.
+composition, output naming, or other consumer-specific semantics.
 
 ## Delivery
 
@@ -44,7 +52,8 @@ composition, surface nesting, or other consumer-specific semantics.
 - The manual workflow runs on a feature branch and commits changed files.
 - Merging to `main` bumps the patch version and publishes the package.
 - The npm package publishes `tokens/` and `figma/`, not build tooling.
-- Consumers select and combine primitive, brand, device, and surface files.
+- Consumers select and combine collection mode files and define their own output
+  naming and composition.
 
 ## Verification
 

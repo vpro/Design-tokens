@@ -57,7 +57,7 @@
             "$type": "number"
           }
         },
-        "cinema-movie": {
+        "cinemamovie": {
           "credit-width": {
             "$value": 106,
             "$type": "number"
@@ -129,21 +129,21 @@
             "$type": "number"
           }
         },
-        "npo-player": {
+        "npoplayer": {
           "img-width": {
             "$value": 120,
-            "$type": "number"
-          }
-        },
-        "review-block": {
-          "img-width": {
-            "$value": 588,
             "$type": "number"
           }
         },
         "review": {
           "img-width-max": {
             "$value": 216,
+            "$type": "number"
+          }
+        },
+        "reviewblock": {
+          "img-width": {
+            "$value": 588,
             "$type": "number"
           }
         },

@@ -583,15 +583,7 @@
             "$type": "color"
           },
           "default": {
-            "$value": {
-              "colorSpace": "srgb",
-              "components": [
-                0.8901960849761963,
-                0.9372549057006836,
-                0.21960784494876862
-              ],
-              "alpha": 0.5
-            },
+            "$value": "{brands.brandprimitives.secondary.main}",
             "$type": "color"
           }
         },

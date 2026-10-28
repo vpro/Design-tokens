@@ -337,7 +337,15 @@
       "soft": {
         "background": {
           "accent": {
-            "$value": "{brands.brandprimitives.primary.pastel}",
+            "$value": {
+              "colorSpace": "srgb",
+              "components": [
+                0.5215686559677124,
+                0.5568627715110779,
+                0.6078431606292725
+              ],
+              "alpha": 0.5
+            },
             "$type": "color"
           },
           "default": {
@@ -407,7 +415,15 @@
       "softalt": {
         "background": {
           "accent": {
-            "$value": "{brands.brandprimitives.secondary.muted}",
+            "$value": {
+              "colorSpace": "srgb",
+              "components": [
+                0.5215686559677124,
+                0.3607843220233917,
+                0.6784313917160034
+              ],
+              "alpha": 0.5
+            },
             "$type": "color"
           },
           "default": {
@@ -477,7 +493,15 @@
       "strong": {
         "background": {
           "accent": {
-            "$value": "{brands.brandprimitives.primary.pastel}",
+            "$value": {
+              "colorSpace": "srgb",
+              "components": [
+                0.5215686559677124,
+                0.5568627715110779,
+                0.6078431606292725
+              ],
+              "alpha": 0.5
+            },
             "$type": "color"
           },
           "default": {
@@ -547,7 +571,15 @@
       "strongalt": {
         "background": {
           "accent": {
-            "$value": "{brands.brandprimitives.secondary.faded}",
+            "$value": {
+              "colorSpace": "srgb",
+              "components": [
+                0.9764705896377563,
+                0.9529411792755127,
+                1
+              ],
+              "alpha": 0.5
+            },
             "$type": "color"
           },
           "default": {

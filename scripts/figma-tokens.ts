@@ -74,16 +74,10 @@ export function createTokenFiles(response: unknown): TokenFiles {
       collection.modes.map((mode) => [mode.modeId, mode.name]),
       `mode in collection "${collection.name}"`,
     );
-    const collectionVariables = [...variables.values()]
-      .filter(
-        (variable) => variable.variableCollectionId === collection.id,
-      )
-      .sort((left, right) =>
-        compareStrings(
-          variablePaths.get(left.id)!.join("."),
-          variablePaths.get(right.id)!.join("."),
-        ),
-      );
+    const collectionVariables = collection.variableIds.flatMap((id) => {
+      const variable = variables.get(id);
+      return variable ? [variable] : [];
+    });
 
     for (const mode of collection.modes) {
       const context: ValueContext = {

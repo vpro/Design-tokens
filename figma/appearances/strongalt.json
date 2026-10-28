@@ -2,30 +2,34 @@
   "$schema": "https://www.designtokens.org/schemas/2025.10/format.json",
   "appearances": {
     "background": {
-      "accent": {
-        "$value": "{brands.color.strongalt.background.accent}",
-        "$type": "color"
-      },
       "default": {
         "$value": "{brands.color.strongalt.background.default}",
         "$type": "color"
+      },
+      "accent": {
+        "$value": "{brands.color.strongalt.background.accent}",
+        "$type": "color"
       }
     },
-    "input": {
-      "background": {
-        "$value": "{brands.color.strongalt.input.background}",
+    "text": {
+      "default": {
+        "$value": "{brands.color.strongalt.text.default}",
         "$type": "color"
       },
-      "border-active": {
-        "$value": "{brands.color.strongalt.input.border-active}",
+      "subtle": {
+        "$value": "{brands.color.strongalt.text.subtle}",
         "$type": "color"
       },
-      "border-default": {
-        "$value": "{brands.color.strongalt.input.border-default}",
+      "title": {
+        "$value": "{brands.color.strongalt.text.title}",
         "$type": "color"
       },
-      "foreground": {
-        "$value": "{brands.color.strongalt.input.foreground}",
+      "link": {
+        "$value": "{brands.color.strongalt.text.link}",
+        "$type": "color"
+      },
+      "hover": {
+        "$value": "{brands.color.strongalt.text.hover}",
         "$type": "color"
       }
     },
@@ -47,25 +51,21 @@
         "$type": "color"
       }
     },
-    "text": {
-      "default": {
-        "$value": "{brands.color.strongalt.text.default}",
+    "input": {
+      "background": {
+        "$value": "{brands.color.strongalt.input.background}",
         "$type": "color"
       },
-      "hover": {
-        "$value": "{brands.color.strongalt.text.hover}",
+      "foreground": {
+        "$value": "{brands.color.strongalt.input.foreground}",
         "$type": "color"
       },
-      "link": {
-        "$value": "{brands.color.strongalt.text.link}",
+      "border-default": {
+        "$value": "{brands.color.strongalt.input.border-default}",
         "$type": "color"
       },
-      "subtle": {
-        "$value": "{brands.color.strongalt.text.subtle}",
-        "$type": "color"
-      },
-      "title": {
-        "$value": "{brands.color.strongalt.text.title}",
+      "border-active": {
+        "$value": "{brands.color.strongalt.input.border-active}",
         "$type": "color"
       }
     }

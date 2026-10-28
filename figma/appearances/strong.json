@@ -2,30 +2,34 @@
   "$schema": "https://www.designtokens.org/schemas/2025.10/format.json",
   "appearances": {
     "background": {
-      "accent": {
-        "$value": "{brands.color.strong.background.accent}",
-        "$type": "color"
-      },
       "default": {
         "$value": "{brands.color.strong.background.default}",
         "$type": "color"
+      },
+      "accent": {
+        "$value": "{brands.color.strong.background.accent}",
+        "$type": "color"
       }
     },
-    "input": {
-      "background": {
-        "$value": "{brands.color.strong.input.background}",
+    "text": {
+      "default": {
+        "$value": "{brands.color.strong.text.default}",
         "$type": "color"
       },
-      "border-active": {
-        "$value": "{brands.color.strong.input.border-active}",
+      "subtle": {
+        "$value": "{brands.color.strong.text.subtle}",
         "$type": "color"
       },
-      "border-default": {
-        "$value": "{brands.color.strong.input.border-default}",
+      "title": {
+        "$value": "{brands.color.strong.text.title}",
         "$type": "color"
       },
-      "foreground": {
-        "$value": "{brands.color.strong.input.foreground}",
+      "link": {
+        "$value": "{brands.color.strong.text.link}",
+        "$type": "color"
+      },
+      "hover": {
+        "$value": "{brands.color.strong.text.hover}",
         "$type": "color"
       }
     },
@@ -47,25 +51,21 @@
         "$type": "color"
       }
     },
-    "text": {
-      "default": {
-        "$value": "{brands.color.strong.text.default}",
+    "input": {
+      "background": {
+        "$value": "{brands.color.strong.input.background}",
         "$type": "color"
       },
-      "hover": {
-        "$value": "{brands.color.strong.text.hover}",
+      "foreground": {
+        "$value": "{brands.color.strong.input.foreground}",
         "$type": "color"
       },
-      "link": {
-        "$value": "{brands.color.strong.text.link}",
+      "border-default": {
+        "$value": "{brands.color.strong.input.border-default}",
         "$type": "color"
       },
-      "subtle": {
-        "$value": "{brands.color.strong.text.subtle}",
-        "$type": "color"
-      },
-      "title": {
-        "$value": "{brands.color.strong.text.title}",
+      "border-active": {
+        "$value": "{brands.color.strong.input.border-active}",
         "$type": "color"
       }
     }

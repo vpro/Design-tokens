@@ -2,30 +2,34 @@
   "$schema": "https://www.designtokens.org/schemas/2025.10/format.json",
   "appearances": {
     "background": {
-      "accent": {
-        "$value": "{brands.color.soft.background.accent}",
-        "$type": "color"
-      },
       "default": {
         "$value": "{brands.color.soft.background.default}",
         "$type": "color"
+      },
+      "accent": {
+        "$value": "{brands.color.soft.background.accent}",
+        "$type": "color"
       }
     },
-    "input": {
-      "background": {
-        "$value": "{brands.color.soft.input.background}",
+    "text": {
+      "default": {
+        "$value": "{brands.color.soft.text.default}",
         "$type": "color"
       },
-      "border-active": {
-        "$value": "{brands.color.soft.input.border-active}",
+      "subtle": {
+        "$value": "{brands.color.soft.text.subtle}",
         "$type": "color"
       },
-      "border-default": {
-        "$value": "{brands.color.soft.input.border-default}",
+      "title": {
+        "$value": "{brands.color.soft.text.title}",
         "$type": "color"
       },
-      "foreground": {
-        "$value": "{brands.color.soft.input.foreground}",
+      "link": {
+        "$value": "{brands.color.soft.text.link}",
+        "$type": "color"
+      },
+      "hover": {
+        "$value": "{brands.color.soft.text.hover}",
         "$type": "color"
       }
     },
@@ -47,25 +51,21 @@
         "$type": "color"
       }
     },
-    "text": {
-      "default": {
-        "$value": "{brands.color.soft.text.default}",
+    "input": {
+      "background": {
+        "$value": "{brands.color.soft.input.background}",
         "$type": "color"
       },
-      "hover": {
-        "$value": "{brands.color.soft.text.hover}",
+      "foreground": {
+        "$value": "{brands.color.soft.input.foreground}",
         "$type": "color"
       },
-      "link": {
-        "$value": "{brands.color.soft.text.link}",
+      "border-default": {
+        "$value": "{brands.color.soft.input.border-default}",
         "$type": "color"
       },
-      "subtle": {
-        "$value": "{brands.color.soft.text.subtle}",
-        "$type": "color"
-      },
-      "title": {
-        "$value": "{brands.color.soft.text.title}",
+      "border-active": {
+        "$value": "{brands.color.soft.input.border-active}",
         "$type": "color"
       }
     }

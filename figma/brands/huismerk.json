@@ -2,35 +2,13 @@
   "$schema": "https://www.designtokens.org/schemas/2025.10/format.json",
   "brands": {
     "brandprimitives": {
-      "greyscale": {
-        "dark": {
-          "$value": "{primitives.color.grey.500}",
-          "$type": "color"
-        },
+      "primary": {
         "faded": {
-          "$value": "{primitives.color.grey.100}",
-          "$type": "color"
-        },
-        "main": {
-          "$value": "{primitives.color.grey.300}",
-          "$type": "color"
-        },
-        "muted": {
-          "$value": "{primitives.color.grey.450}",
+          "$value": "{primitives.color.turquoise.25}",
           "$type": "color"
         },
         "pastel": {
-          "$value": "{primitives.color.grey.150}",
-          "$type": "color"
-        }
-      },
-      "primary": {
-        "dark": {
-          "$value": "{primitives.color.turquoise.200}",
-          "$type": "color"
-        },
-        "faded": {
-          "$value": "{primitives.color.turquoise.25}",
+          "$value": "{primitives.color.turquoise.50}",
           "$type": "color"
         },
         "main": {
@@ -41,18 +19,18 @@
           "$value": "{primitives.color.turquoise.150}",
           "$type": "color"
         },
-        "pastel": {
-          "$value": "{primitives.color.turquoise.50}",
+        "dark": {
+          "$value": "{primitives.color.turquoise.200}",
           "$type": "color"
         }
       },
       "secondary": {
-        "dark": {
-          "$value": "{primitives.color.neonorange.200}",
-          "$type": "color"
-        },
         "faded": {
           "$value": "{primitives.color.neonorange.25}",
+          "$type": "color"
+        },
+        "pastel": {
+          "$value": "{primitives.color.neonorange.50}",
           "$type": "color"
         },
         "main": {
@@ -63,18 +41,18 @@
           "$value": "{primitives.color.neonorange.150}",
           "$type": "color"
         },
-        "pastel": {
-          "$value": "{primitives.color.neonorange.50}",
+        "dark": {
+          "$value": "{primitives.color.neonorange.200}",
           "$type": "color"
         }
       },
       "tertiary": {
-        "dark": {
-          "$value": "{primitives.color.azure.200}",
-          "$type": "color"
-        },
         "faded": {
           "$value": "{primitives.color.azure.25}",
+          "$type": "color"
+        },
+        "pastel": {
+          "$value": "{primitives.color.azure.50}",
           "$type": "color"
         },
         "main": {
@@ -85,587 +63,41 @@
           "$value": "{primitives.color.azure.150}",
           "$type": "color"
         },
+        "dark": {
+          "$value": "{primitives.color.azure.200}",
+          "$type": "color"
+        }
+      },
+      "greyscale": {
+        "faded": {
+          "$value": "{primitives.color.grey.100}",
+          "$type": "color"
+        },
         "pastel": {
-          "$value": "{primitives.color.azure.50}",
+          "$value": "{primitives.color.grey.150}",
+          "$type": "color"
+        },
+        "main": {
+          "$value": "{primitives.color.grey.300}",
+          "$type": "color"
+        },
+        "muted": {
+          "$value": "{primitives.color.grey.450}",
+          "$type": "color"
+        },
+        "dark": {
+          "$value": "{primitives.color.grey.500}",
           "$type": "color"
         }
       }
     },
-    "color": {
-      "base": {
-        "background": {
-          "brand": {
-            "$value": "{brands.brandprimitives.tertiary.dark}",
-            "$type": "color"
-          },
-          "dark": {
-            "$value": "{brands.brandprimitives.primary.dark}",
-            "$type": "color"
-          },
-          "default": {
-            "$value": "{brands.brandprimitives.greyscale.faded}",
-            "$type": "color"
-          },
-          "disabled": {
-            "$value": "{brands.brandprimitives.greyscale.pastel}",
-            "$type": "color"
-          },
-          "interactive": {
-            "$value": "{brands.brandprimitives.secondary.main}",
-            "$type": "color"
-          },
-          "neutral-dark": {
-            "$value": "{brands.brandprimitives.greyscale.muted}",
-            "$type": "color"
-          },
-          "neutral-light": {
-            "$value": "{brands.brandprimitives.greyscale.pastel}",
-            "$type": "color"
-          },
-          "primary": {
-            "$value": "{brands.brandprimitives.primary.faded}",
-            "$type": "color"
-          },
-          "secondary": {
-            "$value": "{brands.brandprimitives.primary.pastel}",
-            "$type": "color"
-          },
-          "tertiary": {
-            "$value": "{brands.brandprimitives.secondary.faded}",
-            "$type": "color"
-          }
-        },
-        "border": {
-          "default": {
-            "$value": "{brands.brandprimitives.secondary.faded}",
-            "$type": "color"
-          },
-          "focus": {
-            "$value": "{brands.brandprimitives.secondary.main}",
-            "$type": "color"
-          },
-          "inverse": {
-            "$value": "{brands.brandprimitives.secondary.pastel}",
-            "$type": "color"
-          }
-        },
-        "icon": {
-          "inverse": {
-            "$value": "{brands.brandprimitives.greyscale.faded}",
-            "$type": "color"
-          },
-          "primary": {
-            "$value": "{brands.brandprimitives.secondary.main}",
-            "$type": "color"
-          },
-          "secondary": {
-            "$value": "{brands.brandprimitives.secondary.pastel}",
-            "$type": "color"
-          },
-          "tertiary": {
-            "$value": "{brands.brandprimitives.greyscale.main}",
-            "$type": "color"
-          }
-        },
-        "input": {
-          "background": {
-            "$value": "{brands.brandprimitives.greyscale.faded}",
-            "$type": "color"
-          },
-          "border-active": {
-            "$value": "{brands.brandprimitives.primary.main}",
-            "$type": "color"
-          },
-          "border-default": {
-            "$value": "{brands.brandprimitives.greyscale.main}",
-            "$type": "color"
-          },
-          "foreground": {
-            "$value": "{brands.brandprimitives.greyscale.dark}",
-            "$type": "color"
-          }
-        },
-        "interactive": {
-          "primary": {
-            "background": {
-              "active": {
-                "$value": "{brands.brandprimitives.secondary.dark}",
-                "$type": "color"
-              },
-              "default": {
-                "$value": "{brands.brandprimitives.secondary.main}",
-                "$type": "color"
-              },
-              "hover": {
-                "$value": "{brands.brandprimitives.secondary.muted}",
-                "$type": "color"
-              }
-            },
-            "foreground": {
-              "active": {
-                "$value": "{brands.brandprimitives.greyscale.faded}",
-                "$type": "color"
-              },
-              "default": {
-                "$value": "{brands.brandprimitives.greyscale.dark}",
-                "$type": "color"
-              },
-              "hover": {
-                "$value": "{brands.brandprimitives.greyscale.faded}",
-                "$type": "color"
-              }
-            }
-          },
-          "secondary": {
-            "background": {
-              "active": {
-                "$value": "{brands.brandprimitives.secondary.dark}",
-                "$type": "color"
-              },
-              "default": {
-                "$value": "{brands.brandprimitives.secondary.muted}",
-                "$type": "color"
-              },
-              "hover": {
-                "$value": "{brands.brandprimitives.secondary.muted}",
-                "$type": "color"
-              }
-            },
-            "foreground": {
-              "active": {
-                "$value": "{brands.brandprimitives.greyscale.faded}",
-                "$type": "color"
-              },
-              "default": {
-                "$value": "{brands.brandprimitives.secondary.muted}",
-                "$type": "color"
-              },
-              "hover": {
-                "$value": "{brands.brandprimitives.greyscale.faded}",
-                "$type": "color"
-              }
-            }
-          },
-          "tertiary": {
-            "background": {
-              "active": {
-                "$value": "{brands.brandprimitives.secondary.dark}",
-                "$type": "color"
-              },
-              "default": {
-                "$value": {
-                  "colorSpace": "srgb",
-                  "components": [
-                    1,
-                    1,
-                    1
-                  ],
-                  "alpha": 0
-                },
-                "$type": "color"
-              },
-              "hover": {
-                "$value": "{brands.brandprimitives.secondary.muted}",
-                "$type": "color"
-              }
-            },
-            "foreground": {
-              "active": {
-                "$value": "{brands.brandprimitives.greyscale.faded}",
-                "$type": "color"
-              },
-              "default": {
-                "$value": "{brands.brandprimitives.secondary.muted}",
-                "$type": "color"
-              },
-              "hover": {
-                "$value": "{brands.brandprimitives.greyscale.faded}",
-                "$type": "color"
-              }
-            }
-          }
-        },
-        "link": {
-          "active": {
-            "$value": "{brands.brandprimitives.secondary.dark}",
-            "$type": "color"
-          },
-          "default": {
-            "$value": "{brands.brandprimitives.secondary.muted}",
-            "$type": "color"
-          },
-          "hover": {
-            "$value": "{brands.brandprimitives.primary.dark}",
-            "$type": "color"
-          },
-          "inverse": {
-            "$value": "{brands.brandprimitives.secondary.faded}",
-            "$type": "color"
-          },
-          "inverse-hover": {
-            "$value": "{brands.brandprimitives.primary.faded}",
-            "$type": "color"
-          }
-        },
-        "text": {
-          "default": {
-            "$value": "{brands.brandprimitives.greyscale.dark}",
-            "$type": "color"
-          },
-          "disabled": {
-            "$value": "{brands.brandprimitives.greyscale.main}",
-            "$type": "color"
-          },
-          "inverse": {
-            "$value": "{brands.brandprimitives.greyscale.faded}",
-            "$type": "color"
-          },
-          "neutral": {
-            "$value": "{brands.brandprimitives.greyscale.dark}",
-            "$type": "color"
-          },
-          "subtle": {
-            "$value": "{brands.brandprimitives.greyscale.muted}",
-            "$type": "color"
-          },
-          "title": {
-            "$value": "{brands.brandprimitives.greyscale.dark}",
-            "$type": "color"
-          }
-        }
-      },
-      "soft": {
-        "background": {
-          "accent": {
-            "$value": {
-              "colorSpace": "srgb",
-              "components": [
-                0.7137255072593689,
-                0.9803921580314636,
-                0.8705882430076599
-              ],
-              "alpha": 0.5
-            },
-            "$type": "color"
-          },
-          "default": {
-            "$value": "{brands.brandprimitives.primary.faded}",
-            "$type": "color"
-          }
-        },
-        "input": {
-          "background": {
-            "$value": "{brands.brandprimitives.greyscale.faded}",
-            "$type": "color"
-          },
-          "border-active": {
-            "$value": "{brands.brandprimitives.tertiary.main}",
-            "$type": "color"
-          },
-          "border-default": {
-            "$value": "{brands.brandprimitives.tertiary.muted}",
-            "$type": "color"
-          },
-          "foreground": {
-            "$value": "{brands.brandprimitives.tertiary.muted}",
-            "$type": "color"
-          }
-        },
-        "interactive": {
-          "background": {
-            "$value": "{brands.brandprimitives.secondary.main}",
-            "$type": "color"
-          },
-          "foreground": {
-            "$value": "{brands.brandprimitives.greyscale.faded}",
-            "$type": "color"
-          },
-          "hover-background": {
-            "$value": "{brands.brandprimitives.secondary.muted}",
-            "$type": "color"
-          },
-          "hover-foreground": {
-            "$value": "{brands.brandprimitives.greyscale.faded}",
-            "$type": "color"
-          }
-        },
-        "text": {
-          "default": {
-            "$value": "{brands.brandprimitives.greyscale.dark}",
-            "$type": "color"
-          },
-          "hover": {
-            "$value": "{brands.brandprimitives.secondary.dark}",
-            "$type": "color"
-          },
-          "link": {
-            "$value": "{brands.brandprimitives.secondary.muted}",
-            "$type": "color"
-          },
-          "subtle": {
-            "$value": "{brands.brandprimitives.greyscale.dark}",
-            "$type": "color"
-          },
-          "title": {
-            "$value": "{brands.brandprimitives.greyscale.dark}",
-            "$type": "color"
-          }
-        }
-      },
-      "softalt": {
-        "background": {
-          "accent": {
-            "$value": {
-              "colorSpace": "srgb",
-              "components": [
-                1,
-                0.5137255191802979,
-                0.40392157435417175
-              ],
-              "alpha": 0.5
-            },
-            "$type": "color"
-          },
-          "default": {
-            "$value": "{brands.brandprimitives.secondary.faded}",
-            "$type": "color"
-          }
-        },
-        "input": {
-          "background": {
-            "$value": "{brands.brandprimitives.greyscale.faded}",
-            "$type": "color"
-          },
-          "border-active": {
-            "$value": "{brands.brandprimitives.tertiary.main}",
-            "$type": "color"
-          },
-          "border-default": {
-            "$value": "{brands.brandprimitives.tertiary.muted}",
-            "$type": "color"
-          },
-          "foreground": {
-            "$value": "{brands.brandprimitives.tertiary.muted}",
-            "$type": "color"
-          }
-        },
-        "interactive": {
-          "background": {
-            "$value": "{brands.brandprimitives.secondary.main}",
-            "$type": "color"
-          },
-          "foreground": {
-            "$value": "{brands.brandprimitives.greyscale.faded}",
-            "$type": "color"
-          },
-          "hover-background": {
-            "$value": "{brands.brandprimitives.secondary.muted}",
-            "$type": "color"
-          },
-          "hover-foreground": {
-            "$value": "{brands.brandprimitives.greyscale.faded}",
-            "$type": "color"
-          }
-        },
-        "text": {
-          "default": {
-            "$value": "{brands.brandprimitives.greyscale.dark}",
-            "$type": "color"
-          },
-          "hover": {
-            "$value": "{brands.brandprimitives.secondary.dark}",
-            "$type": "color"
-          },
-          "link": {
-            "$value": "{brands.brandprimitives.secondary.muted}",
-            "$type": "color"
-          },
-          "subtle": {
-            "$value": "{brands.brandprimitives.greyscale.dark}",
-            "$type": "color"
-          },
-          "title": {
-            "$value": "{brands.brandprimitives.greyscale.dark}",
-            "$type": "color"
-          }
-        }
-      },
-      "strong": {
-        "background": {
-          "accent": {
-            "$value": {
-              "colorSpace": "srgb",
-              "components": [
-                0.7137255072593689,
-                0.9803921580314636,
-                0.8705882430076599
-              ],
-              "alpha": 0.5
-            },
-            "$type": "color"
-          },
-          "default": {
-            "$value": "{brands.brandprimitives.primary.muted}",
-            "$type": "color"
-          }
-        },
-        "input": {
-          "background": {
-            "$value": "{brands.brandprimitives.greyscale.faded}",
-            "$type": "color"
-          },
-          "border-active": {
-            "$value": "{brands.brandprimitives.tertiary.main}",
-            "$type": "color"
-          },
-          "border-default": {
-            "$value": "{brands.brandprimitives.tertiary.dark}",
-            "$type": "color"
-          },
-          "foreground": {
-            "$value": "{brands.brandprimitives.greyscale.dark}",
-            "$type": "color"
-          }
-        },
-        "interactive": {
-          "background": {
-            "$value": "{brands.brandprimitives.secondary.main}",
-            "$type": "color"
-          },
-          "foreground": {
-            "$value": "{brands.brandprimitives.greyscale.faded}",
-            "$type": "color"
-          },
-          "hover-background": {
-            "$value": "{brands.brandprimitives.secondary.muted}",
-            "$type": "color"
-          },
-          "hover-foreground": {
-            "$value": "{brands.brandprimitives.greyscale.faded}",
-            "$type": "color"
-          }
-        },
-        "text": {
-          "default": {
-            "$value": "{brands.brandprimitives.greyscale.faded}",
-            "$type": "color"
-          },
-          "hover": {
-            "$value": "{brands.brandprimitives.secondary.main}",
-            "$type": "color"
-          },
-          "link": {
-            "$value": "{brands.brandprimitives.greyscale.faded}",
-            "$type": "color"
-          },
-          "subtle": {
-            "$value": "{brands.brandprimitives.greyscale.faded}",
-            "$type": "color"
-          },
-          "title": {
-            "$value": "{brands.brandprimitives.greyscale.faded}",
-            "$type": "color"
-          }
-        }
-      },
-      "strongalt": {
-        "background": {
-          "accent": {
-            "$value": {
-              "colorSpace": "srgb",
-              "components": [
-                0.6980392336845398,
-                0.13333334028720856,
-                0.003921568859368563
-              ],
-              "alpha": 0.5
-            },
-            "$type": "color"
-          },
-          "default": {
-            "$value": "{brands.brandprimitives.secondary.main}",
-            "$type": "color"
-          }
-        },
-        "input": {
-          "background": {
-            "$value": "{brands.brandprimitives.greyscale.faded}",
-            "$type": "color"
-          },
-          "border-active": {
-            "$value": "{brands.brandprimitives.tertiary.main}",
-            "$type": "color"
-          },
-          "border-default": {
-            "$value": "{brands.brandprimitives.tertiary.dark}",
-            "$type": "color"
-          },
-          "foreground": {
-            "$value": "{brands.brandprimitives.tertiary.muted}",
-            "$type": "color"
-          }
-        },
-        "interactive": {
-          "background": {
-            "$value": "{brands.brandprimitives.greyscale.dark}",
-            "$type": "color"
-          },
-          "foreground": {
-            "$value": "{brands.brandprimitives.greyscale.faded}",
-            "$type": "color"
-          },
-          "hover-background": {
-            "$value": "{brands.brandprimitives.greyscale.muted}",
-            "$type": "color"
-          },
-          "hover-foreground": {
-            "$value": "{brands.brandprimitives.greyscale.faded}",
-            "$type": "color"
-          }
-        },
-        "text": {
-          "default": {
-            "$value": "{brands.brandprimitives.greyscale.dark}",
-            "$type": "color"
-          },
-          "hover": {
-            "$value": "{brands.brandprimitives.greyscale.muted}",
-            "$type": "color"
-          },
-          "link": {
-            "$value": "{brands.brandprimitives.greyscale.dark}",
-            "$type": "color"
-          },
-          "subtle": {
-            "$value": "{brands.brandprimitives.greyscale.dark}",
-            "$type": "color"
-          },
-          "title": {
-            "$value": "{brands.brandprimitives.greyscale.dark}",
-            "$type": "color"
-          }
-        }
+    "font": {
+      "family": {
+        "$value": "{primitives.font.family.publicsans}",
+        "$type": "fontFamily"
       }
     },
     "component": {
-      "cta": {
-        "background": {
-          "$value": "{brands.color.base.background.primary}",
-          "$type": "color"
-        },
-        "foreground": {
-          "$value": "{brands.brandprimitives.secondary.main}",
-          "$type": "color"
-        },
-        "text": {
-          "$value": "{brands.color.base.text.default}",
-          "$type": "color"
-        },
-        "title": {
-          "$value": "{brands.color.base.text.title}",
-          "$type": "color"
-        }
-      },
       "navigation": {
         "background": {
           "$value": "{brands.brandprimitives.primary.faded}",
@@ -695,277 +127,59 @@
           "$value": "{brands.color.base.text.default}",
           "$type": "color"
         },
-        "foreground-alt-2": {
-          "$value": "{brands.brandprimitives.primary.dark}",
-          "$type": "color"
-        },
         "foreground-footer": {
           "$value": "{brands.color.base.text.default}",
+          "$type": "color"
+        },
+        "foreground-alt-2": {
+          "$value": "{brands.brandprimitives.primary.dark}",
           "$type": "color"
         },
         "foreground-menu": {
           "$value": "{brands.color.base.text.inverse}",
           "$type": "color"
         }
+      },
+      "cta": {
+        "background": {
+          "$value": "{brands.color.base.background.primary}",
+          "$type": "color"
+        },
+        "foreground": {
+          "$value": "{brands.brandprimitives.secondary.main}",
+          "$type": "color"
+        },
+        "title": {
+          "$value": "{brands.color.base.text.title}",
+          "$type": "color"
+        },
+        "text": {
+          "$value": "{brands.color.base.text.default}",
+          "$type": "color"
+        }
       }
     },
     "content": {
-      "assets": {
-        "show-assets-3voor12": {
-          "$value": false,
-          "$type": "boolean"
-        },
-        "show-assets-3voor12-lokaal": {
-          "$value": false,
-          "$type": "boolean"
-        },
-        "show-assets-argos": {
-          "$value": false,
-          "$type": "boolean"
-        },
-        "show-assets-brainwash": {
-          "$value": false,
-          "$type": "boolean"
-        },
-        "show-assets-huismerk": {
-          "$value": true,
-          "$type": "boolean"
-        },
-        "show-assets-human": {
-          "$value": false,
-          "$type": "boolean"
-        },
-        "show-assets-npo-doc": {
-          "$value": false,
-          "$type": "boolean"
-        },
-        "show-assets-tegenlicht": {
-          "$value": false,
-          "$type": "boolean"
-        },
-        "show-assets-vpro": {
-          "$value": false,
-          "$type": "boolean"
-        },
-        "show-assets-vpro-cinema": {
-          "$value": false,
-          "$type": "boolean"
-        },
-        "show-assets-vpro-gids": {
-          "$value": false,
-          "$type": "boolean"
-        }
-      },
       "text": {
-        "footer": {
-          "footer-links": {
-            "cta-footer-1": {
-              "$value": "Nieuws",
-              "$type": "string"
-            },
-            "cta-footer-2": {
-              "$value": "Over Huismerk",
-              "$type": "string"
-            },
-            "cta-footer-3": {
-              "$value": "Intranet",
-              "$type": "string"
-            },
-            "cta-footer-4": {
-              "$value": " ",
-              "$type": "string"
-            },
-            "cta-footer-5": {
-              "$value": " ",
-              "$type": "string"
-            },
-            "cta-footer-6": {
-              "$value": " ",
-              "$type": "string"
-            },
-            "cta-footer-7": {
-              "$value": " ",
-              "$type": "string"
-            },
-            "cta-footer-8": {
-              "$value": " ",
-              "$type": "string"
-            },
-            "cta-footer-9": {
-              "$value": " ",
-              "$type": "string"
-            },
-            "footer-links-title": {
-              "$value": "Huismerk",
-              "$type": "string"
-            },
-            "show-cta-4": {
-              "$value": false,
-              "$type": "boolean"
-            },
-            "show-cta-5": {
-              "$value": false,
-              "$type": "boolean"
-            },
-            "show-cta-6": {
-              "$value": false,
-              "$type": "boolean"
-            },
-            "show-cta-7": {
-              "$value": false,
-              "$type": "boolean"
-            },
-            "show-cta-8": {
-              "$value": false,
-              "$type": "boolean"
-            },
-            "show-cta-9": {
-              "$value": false,
-              "$type": "boolean"
-            }
-          },
-          "legal-links": {
-            "copyright": {
-              "$value": "© 2026 Huismerk - Alle rechten voorbehouden.",
-              "$type": "string"
-            },
-            "legal-link-1": {
-              "$value": "ANBI",
-              "$type": "string"
-            },
-            "legal-link-2": {
-              "$value": "Cookies",
-              "$type": "string"
-            },
-            "legal-link-3": {
-              "$value": " ",
-              "$type": "string"
-            },
-            "legal-link-4": {
-              "$value": " ",
-              "$type": "string"
-            },
-            "show-legal-link-3": {
-              "$value": false,
-              "$type": "boolean"
-            },
-            "show-legal-link-4": {
-              "$value": false,
-              "$type": "boolean"
-            },
-            "show-public-spaces": {
-              "$value": true,
-              "$type": "boolean"
-            }
-          },
+        "navigation": {
           "payoff": {
-            "$value": "Huismerk is het huismerk van VPRO en HUMAN. Hier testen en experimenteren we voor titels als Tegenlicht, Argos en 3voor12.",
+            "$value": "De mooiste blokkendoos onder de blokkendozen. Het design system van de VPRO.",
             "$type": "string"
-          },
-          "powered-by": {
-            "powered-by": {
-              "$value": "Een digitale speelplaats van",
-              "$type": "string"
-            },
-            "show-human": {
-              "$value": true,
-              "$type": "boolean"
-            },
-            "show-powered-by": {
-              "$value": true,
-              "$type": "boolean"
-            },
-            "show-vpro": {
-              "$value": true,
-              "$type": "boolean"
-            },
-            "show-vpro-gids": {
-              "$value": false,
-              "$type": "boolean"
-            }
-          },
-          "social-icons": {
-            "show-bluesky": {
-              "$value": false,
-              "$type": "boolean"
-            },
-            "show-facebook": {
-              "$value": false,
-              "$type": "boolean"
-            },
-            "show-instagram": {
-              "$value": false,
-              "$type": "boolean"
-            },
-            "show-linkedin": {
-              "$value": false,
-              "$type": "boolean"
-            },
-            "show-social-icons": {
-              "$value": false,
-              "$type": "boolean"
-            },
-            "show-spotify": {
-              "$value": false,
-              "$type": "boolean"
-            },
-            "show-tiktok": {
-              "$value": false,
-              "$type": "boolean"
-            },
-            "show-x": {
-              "$value": false,
-              "$type": "boolean"
-            },
-            "show-youtube": {
-              "$value": false,
-              "$type": "boolean"
-            },
-            "social-icons-title": {
-              "$value": " ",
-              "$type": "string"
-            }
-          },
-          "watch-more-links": {
-            "show-app-store-icons": {
-              "$value": false,
-              "$type": "boolean"
-            },
-            "show-extra-divider": {
-              "$value": false,
-              "$type": "boolean"
-            },
-            "show-npo-2": {
-              "$value": false,
-              "$type": "boolean"
-            },
-            "show-npo-3fm": {
-              "$value": false,
-              "$type": "boolean"
-            },
-            "show-npo-radio-1": {
-              "$value": false,
-              "$type": "boolean"
-            },
-            "show-npo-start": {
-              "$value": false,
-              "$type": "boolean"
-            },
-            "show-watch-more": {
-              "$value": false,
-              "$type": "boolean"
-            },
-            "show-youtube": {
-              "$value": false,
-              "$type": "boolean"
-            },
-            "watch-more-title": {
-              "$value": " ",
-              "$type": "string"
-            }
           }
         },
         "navigation-themes": {
+          "cta-nav-r1": {
+            "$value": "Contact",
+            "$type": "string"
+          },
+          "cta-nav-r2": {
+            "$value": "Nieuwsbrief",
+            "$type": "string"
+          },
+          "show-items-left": {
+            "$value": true,
+            "$type": "boolean"
+          },
           "cta-nav-l1": {
             "$value": "Nieuws",
             "$type": "string"
@@ -982,52 +196,68 @@
             "$value": " ",
             "$type": "string"
           },
-          "cta-nav-r1": {
-            "$value": "Contact",
+          "title": {
+            "$value": "Onderwerpen",
             "$type": "string"
           },
-          "cta-nav-r2": {
-            "$value": "Nieuwsbrief",
+          "theme-1": {
+            "$value": "Kennisbank",
             "$type": "string"
           },
-          "show-items-left": {
-            "$value": true,
-            "$type": "boolean"
-          },
-          "show-more": {
-            "$value": " ",
+          "theme-2": {
+            "$value": "Troubleshoot",
             "$type": "string"
           },
-          "show-more-link": {
-            "$value": false,
-            "$type": "boolean"
+          "theme-3": {
+            "$value": "Prepr account aanvragen",
+            "$type": "string"
           },
           "show-theme-4": {
             "$value": false,
             "$type": "boolean"
           },
+          "theme-4": {
+            "$value": " ",
+            "$type": "string"
+          },
           "show-theme-5": {
             "$value": false,
             "$type": "boolean"
+          },
+          "theme-5": {
+            "$value": " ",
+            "$type": "string"
           },
           "show-theme-6": {
             "$value": false,
             "$type": "boolean"
           },
+          "theme-6": {
+            "$value": " ",
+            "$type": "string"
+          },
           "show-theme-7": {
             "$value": false,
             "$type": "boolean"
+          },
+          "theme-7": {
+            "$value": " ",
+            "$type": "string"
           },
           "show-theme-8": {
             "$value": false,
             "$type": "boolean"
           },
+          "theme-8": {
+            "$value": " ",
+            "$type": "string"
+          },
           "show-theme-9": {
             "$value": false,
             "$type": "boolean"
           },
-          "theme-1": {
-            "$value": "Kennisbank",
+          "theme-9": {
+            "$value": " ",
             "$type": "string"
           },
           "theme-10": {
@@ -1058,55 +288,825 @@
             "$value": " ",
             "$type": "string"
           },
-          "theme-2": {
-            "$value": "Troubleshoot",
-            "$type": "string"
+          "show-more-link": {
+            "$value": false,
+            "$type": "boolean"
           },
-          "theme-3": {
-            "$value": "Prepr account aanvragen",
-            "$type": "string"
-          },
-          "theme-4": {
+          "show-more": {
             "$value": " ",
-            "$type": "string"
-          },
-          "theme-5": {
-            "$value": " ",
-            "$type": "string"
-          },
-          "theme-6": {
-            "$value": " ",
-            "$type": "string"
-          },
-          "theme-7": {
-            "$value": " ",
-            "$type": "string"
-          },
-          "theme-8": {
-            "$value": " ",
-            "$type": "string"
-          },
-          "theme-9": {
-            "$value": " ",
-            "$type": "string"
-          },
-          "title": {
-            "$value": "Onderwerpen",
             "$type": "string"
           }
         },
-        "navigation": {
+        "footer": {
           "payoff": {
-            "$value": "De mooiste blokkendoos onder de blokkendozen. Het design system van de VPRO.",
+            "$value": "Huismerk is het huismerk van VPRO en HUMAN. Hier testen en experimenteren we voor titels als Tegenlicht, Argos en 3voor12.",
             "$type": "string"
+          },
+          "social-icons": {
+            "show-social-icons": {
+              "$value": false,
+              "$type": "boolean"
+            },
+            "social-icons-title": {
+              "$value": " ",
+              "$type": "string"
+            },
+            "show-instagram": {
+              "$value": false,
+              "$type": "boolean"
+            },
+            "show-facebook": {
+              "$value": false,
+              "$type": "boolean"
+            },
+            "show-linkedin": {
+              "$value": false,
+              "$type": "boolean"
+            },
+            "show-tiktok": {
+              "$value": false,
+              "$type": "boolean"
+            },
+            "show-bluesky": {
+              "$value": false,
+              "$type": "boolean"
+            },
+            "show-youtube": {
+              "$value": false,
+              "$type": "boolean"
+            },
+            "show-spotify": {
+              "$value": false,
+              "$type": "boolean"
+            },
+            "show-x": {
+              "$value": false,
+              "$type": "boolean"
+            }
+          },
+          "footer-links": {
+            "footer-links-title": {
+              "$value": "Huismerk",
+              "$type": "string"
+            },
+            "cta-footer-1": {
+              "$value": "Nieuws",
+              "$type": "string"
+            },
+            "cta-footer-2": {
+              "$value": "Over Huismerk",
+              "$type": "string"
+            },
+            "cta-footer-3": {
+              "$value": "Intranet",
+              "$type": "string"
+            },
+            "show-cta-4": {
+              "$value": false,
+              "$type": "boolean"
+            },
+            "cta-footer-4": {
+              "$value": " ",
+              "$type": "string"
+            },
+            "show-cta-5": {
+              "$value": false,
+              "$type": "boolean"
+            },
+            "cta-footer-5": {
+              "$value": " ",
+              "$type": "string"
+            },
+            "show-cta-6": {
+              "$value": false,
+              "$type": "boolean"
+            },
+            "cta-footer-6": {
+              "$value": " ",
+              "$type": "string"
+            },
+            "show-cta-7": {
+              "$value": false,
+              "$type": "boolean"
+            },
+            "cta-footer-7": {
+              "$value": " ",
+              "$type": "string"
+            },
+            "show-cta-8": {
+              "$value": false,
+              "$type": "boolean"
+            },
+            "cta-footer-8": {
+              "$value": " ",
+              "$type": "string"
+            },
+            "show-cta-9": {
+              "$value": false,
+              "$type": "boolean"
+            },
+            "cta-footer-9": {
+              "$value": " ",
+              "$type": "string"
+            }
+          },
+          "watch-more-links": {
+            "show-watch-more": {
+              "$value": false,
+              "$type": "boolean"
+            },
+            "watch-more-title": {
+              "$value": " ",
+              "$type": "string"
+            },
+            "show-npo-start": {
+              "$value": false,
+              "$type": "boolean"
+            },
+            "show-npo-radio-1": {
+              "$value": false,
+              "$type": "boolean"
+            },
+            "show-npo-2": {
+              "$value": false,
+              "$type": "boolean"
+            },
+            "show-youtube": {
+              "$value": false,
+              "$type": "boolean"
+            },
+            "show-npo-3fm": {
+              "$value": false,
+              "$type": "boolean"
+            },
+            "show-app-store-icons": {
+              "$value": false,
+              "$type": "boolean"
+            },
+            "show-extra-divider": {
+              "$value": false,
+              "$type": "boolean"
+            }
+          },
+          "powered-by": {
+            "show-powered-by": {
+              "$value": true,
+              "$type": "boolean"
+            },
+            "powered-by": {
+              "$value": "Een digitale speelplaats van",
+              "$type": "string"
+            },
+            "show-human": {
+              "$value": true,
+              "$type": "boolean"
+            },
+            "show-vpro": {
+              "$value": true,
+              "$type": "boolean"
+            },
+            "show-vpro-gids": {
+              "$value": false,
+              "$type": "boolean"
+            }
+          },
+          "legal-links": {
+            "copyright": {
+              "$value": "© 2026 Huismerk - Alle rechten voorbehouden.",
+              "$type": "string"
+            },
+            "legal-link-1": {
+              "$value": "ANBI",
+              "$type": "string"
+            },
+            "legal-link-2": {
+              "$value": "Cookies",
+              "$type": "string"
+            },
+            "show-legal-link-3": {
+              "$value": false,
+              "$type": "boolean"
+            },
+            "legal-link-3": {
+              "$value": " ",
+              "$type": "string"
+            },
+            "show-legal-link-4": {
+              "$value": false,
+              "$type": "boolean"
+            },
+            "legal-link-4": {
+              "$value": " ",
+              "$type": "string"
+            },
+            "show-public-spaces": {
+              "$value": true,
+              "$type": "boolean"
+            }
           }
+        }
+      },
+      "assets": {
+        "show-assets-huismerk": {
+          "$value": true,
+          "$type": "boolean"
+        },
+        "show-assets-human": {
+          "$value": false,
+          "$type": "boolean"
+        },
+        "show-assets-vpro": {
+          "$value": false,
+          "$type": "boolean"
+        },
+        "show-assets-npo-doc": {
+          "$value": false,
+          "$type": "boolean"
+        },
+        "show-assets-argos": {
+          "$value": false,
+          "$type": "boolean"
+        },
+        "show-assets-brainwash": {
+          "$value": false,
+          "$type": "boolean"
+        },
+        "show-assets-tegenlicht": {
+          "$value": false,
+          "$type": "boolean"
+        },
+        "show-assets-3voor12": {
+          "$value": false,
+          "$type": "boolean"
+        },
+        "show-assets-3voor12-lokaal": {
+          "$value": false,
+          "$type": "boolean"
+        },
+        "show-assets-vpro-gids": {
+          "$value": false,
+          "$type": "boolean"
+        },
+        "show-assets-vpro-cinema": {
+          "$value": false,
+          "$type": "boolean"
         }
       }
     },
-    "font": {
-      "family": {
-        "$value": "{primitives.font.family.publicsans}",
-        "$type": "fontFamily"
+    "color": {
+      "base": {
+        "background": {
+          "default": {
+            "$value": "{brands.brandprimitives.greyscale.faded}",
+            "$type": "color"
+          },
+          "primary": {
+            "$value": "{brands.brandprimitives.primary.faded}",
+            "$type": "color"
+          },
+          "secondary": {
+            "$value": "{brands.brandprimitives.primary.pastel}",
+            "$type": "color"
+          },
+          "tertiary": {
+            "$value": "{brands.brandprimitives.secondary.faded}",
+            "$type": "color"
+          },
+          "brand": {
+            "$value": "{brands.brandprimitives.tertiary.dark}",
+            "$type": "color"
+          },
+          "interactive": {
+            "$value": "{brands.brandprimitives.secondary.main}",
+            "$type": "color"
+          },
+          "dark": {
+            "$value": "{brands.brandprimitives.primary.dark}",
+            "$type": "color"
+          },
+          "disabled": {
+            "$value": "{brands.brandprimitives.greyscale.pastel}",
+            "$type": "color"
+          },
+          "neutral-light": {
+            "$value": "{brands.brandprimitives.greyscale.pastel}",
+            "$type": "color"
+          },
+          "neutral-dark": {
+            "$value": "{brands.brandprimitives.greyscale.muted}",
+            "$type": "color"
+          }
+        },
+        "text": {
+          "default": {
+            "$value": "{brands.brandprimitives.greyscale.dark}",
+            "$type": "color"
+          },
+          "title": {
+            "$value": "{brands.brandprimitives.greyscale.dark}",
+            "$type": "color"
+          },
+          "subtle": {
+            "$value": "{brands.brandprimitives.greyscale.muted}",
+            "$type": "color"
+          },
+          "disabled": {
+            "$value": "{brands.brandprimitives.greyscale.main}",
+            "$type": "color"
+          },
+          "inverse": {
+            "$value": "{brands.brandprimitives.greyscale.faded}",
+            "$type": "color"
+          },
+          "neutral": {
+            "$value": "{brands.brandprimitives.greyscale.dark}",
+            "$type": "color"
+          }
+        },
+        "icon": {
+          "primary": {
+            "$value": "{brands.brandprimitives.secondary.main}",
+            "$type": "color"
+          },
+          "secondary": {
+            "$value": "{brands.brandprimitives.secondary.pastel}",
+            "$type": "color"
+          },
+          "tertiary": {
+            "$value": "{brands.brandprimitives.greyscale.main}",
+            "$type": "color"
+          },
+          "inverse": {
+            "$value": "{brands.brandprimitives.greyscale.faded}",
+            "$type": "color"
+          }
+        },
+        "border": {
+          "default": {
+            "$value": "{brands.brandprimitives.secondary.faded}",
+            "$type": "color"
+          },
+          "focus": {
+            "$value": "{brands.brandprimitives.secondary.main}",
+            "$type": "color"
+          },
+          "inverse": {
+            "$value": "{brands.brandprimitives.secondary.pastel}",
+            "$type": "color"
+          }
+        },
+        "link": {
+          "default": {
+            "$value": "{brands.brandprimitives.secondary.muted}",
+            "$type": "color"
+          },
+          "hover": {
+            "$value": "{brands.brandprimitives.primary.dark}",
+            "$type": "color"
+          },
+          "active": {
+            "$value": "{brands.brandprimitives.secondary.dark}",
+            "$type": "color"
+          },
+          "inverse": {
+            "$value": "{brands.brandprimitives.secondary.faded}",
+            "$type": "color"
+          },
+          "inverse-hover": {
+            "$value": "{brands.brandprimitives.primary.faded}",
+            "$type": "color"
+          }
+        },
+        "input": {
+          "background": {
+            "$value": "{brands.brandprimitives.greyscale.faded}",
+            "$type": "color"
+          },
+          "foreground": {
+            "$value": "{brands.brandprimitives.greyscale.dark}",
+            "$type": "color"
+          },
+          "border-default": {
+            "$value": "{brands.brandprimitives.greyscale.main}",
+            "$type": "color"
+          },
+          "border-active": {
+            "$value": "{brands.brandprimitives.primary.main}",
+            "$type": "color"
+          }
+        },
+        "interactive": {
+          "primary": {
+            "background": {
+              "default": {
+                "$value": "{brands.brandprimitives.secondary.main}",
+                "$type": "color"
+              },
+              "hover": {
+                "$value": "{brands.brandprimitives.secondary.muted}",
+                "$type": "color"
+              },
+              "active": {
+                "$value": "{brands.brandprimitives.secondary.dark}",
+                "$type": "color"
+              }
+            },
+            "foreground": {
+              "default": {
+                "$value": "{brands.brandprimitives.greyscale.dark}",
+                "$type": "color"
+              },
+              "hover": {
+                "$value": "{brands.brandprimitives.greyscale.faded}",
+                "$type": "color"
+              },
+              "active": {
+                "$value": "{brands.brandprimitives.greyscale.faded}",
+                "$type": "color"
+              }
+            }
+          },
+          "secondary": {
+            "background": {
+              "default": {
+                "$value": "{brands.brandprimitives.secondary.muted}",
+                "$type": "color"
+              },
+              "hover": {
+                "$value": "{brands.brandprimitives.secondary.muted}",
+                "$type": "color"
+              },
+              "active": {
+                "$value": "{brands.brandprimitives.secondary.dark}",
+                "$type": "color"
+              }
+            },
+            "foreground": {
+              "default": {
+                "$value": "{brands.brandprimitives.secondary.muted}",
+                "$type": "color"
+              },
+              "hover": {
+                "$value": "{brands.brandprimitives.greyscale.faded}",
+                "$type": "color"
+              },
+              "active": {
+                "$value": "{brands.brandprimitives.greyscale.faded}",
+                "$type": "color"
+              }
+            }
+          },
+          "tertiary": {
+            "background": {
+              "default": {
+                "$value": {
+                  "colorSpace": "srgb",
+                  "components": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "alpha": 0
+                },
+                "$type": "color"
+              },
+              "hover": {
+                "$value": "{brands.brandprimitives.secondary.muted}",
+                "$type": "color"
+              },
+              "active": {
+                "$value": "{brands.brandprimitives.secondary.dark}",
+                "$type": "color"
+              }
+            },
+            "foreground": {
+              "default": {
+                "$value": "{brands.brandprimitives.secondary.muted}",
+                "$type": "color"
+              },
+              "hover": {
+                "$value": "{brands.brandprimitives.greyscale.faded}",
+                "$type": "color"
+              },
+              "active": {
+                "$value": "{brands.brandprimitives.greyscale.faded}",
+                "$type": "color"
+              }
+            }
+          }
+        }
+      },
+      "soft": {
+        "background": {
+          "default": {
+            "$value": "{brands.brandprimitives.primary.faded}",
+            "$type": "color"
+          },
+          "accent": {
+            "$value": {
+              "colorSpace": "srgb",
+              "components": [
+                0.7137255072593689,
+                0.9803921580314636,
+                0.8705882430076599
+              ],
+              "alpha": 0.5
+            },
+            "$type": "color"
+          }
+        },
+        "text": {
+          "default": {
+            "$value": "{brands.brandprimitives.greyscale.dark}",
+            "$type": "color"
+          },
+          "subtle": {
+            "$value": "{brands.brandprimitives.greyscale.dark}",
+            "$type": "color"
+          },
+          "title": {
+            "$value": "{brands.brandprimitives.greyscale.dark}",
+            "$type": "color"
+          },
+          "link": {
+            "$value": "{brands.brandprimitives.secondary.muted}",
+            "$type": "color"
+          },
+          "hover": {
+            "$value": "{brands.brandprimitives.secondary.dark}",
+            "$type": "color"
+          }
+        },
+        "interactive": {
+          "background": {
+            "$value": "{brands.brandprimitives.secondary.main}",
+            "$type": "color"
+          },
+          "foreground": {
+            "$value": "{brands.brandprimitives.greyscale.faded}",
+            "$type": "color"
+          },
+          "hover-background": {
+            "$value": "{brands.brandprimitives.secondary.muted}",
+            "$type": "color"
+          },
+          "hover-foreground": {
+            "$value": "{brands.brandprimitives.greyscale.faded}",
+            "$type": "color"
+          }
+        },
+        "input": {
+          "background": {
+            "$value": "{brands.brandprimitives.greyscale.faded}",
+            "$type": "color"
+          },
+          "foreground": {
+            "$value": "{brands.brandprimitives.tertiary.muted}",
+            "$type": "color"
+          },
+          "border-default": {
+            "$value": "{brands.brandprimitives.tertiary.muted}",
+            "$type": "color"
+          },
+          "border-active": {
+            "$value": "{brands.brandprimitives.tertiary.main}",
+            "$type": "color"
+          }
+        }
+      },
+      "softalt": {
+        "background": {
+          "default": {
+            "$value": "{brands.brandprimitives.secondary.faded}",
+            "$type": "color"
+          },
+          "accent": {
+            "$value": {
+              "colorSpace": "srgb",
+              "components": [
+                1,
+                0.5137255191802979,
+                0.40392157435417175
+              ],
+              "alpha": 0.5
+            },
+            "$type": "color"
+          }
+        },
+        "text": {
+          "default": {
+            "$value": "{brands.brandprimitives.greyscale.dark}",
+            "$type": "color"
+          },
+          "subtle": {
+            "$value": "{brands.brandprimitives.greyscale.dark}",
+            "$type": "color"
+          },
+          "title": {
+            "$value": "{brands.brandprimitives.greyscale.dark}",
+            "$type": "color"
+          },
+          "link": {
+            "$value": "{brands.brandprimitives.secondary.muted}",
+            "$type": "color"
+          },
+          "hover": {
+            "$value": "{brands.brandprimitives.secondary.dark}",
+            "$type": "color"
+          }
+        },
+        "interactive": {
+          "background": {
+            "$value": "{brands.brandprimitives.secondary.main}",
+            "$type": "color"
+          },
+          "foreground": {
+            "$value": "{brands.brandprimitives.greyscale.faded}",
+            "$type": "color"
+          },
+          "hover-background": {
+            "$value": "{brands.brandprimitives.secondary.muted}",
+            "$type": "color"
+          },
+          "hover-foreground": {
+            "$value": "{brands.brandprimitives.greyscale.faded}",
+            "$type": "color"
+          }
+        },
+        "input": {
+          "background": {
+            "$value": "{brands.brandprimitives.greyscale.faded}",
+            "$type": "color"
+          },
+          "foreground": {
+            "$value": "{brands.brandprimitives.tertiary.muted}",
+            "$type": "color"
+          },
+          "border-default": {
+            "$value": "{brands.brandprimitives.tertiary.muted}",
+            "$type": "color"
+          },
+          "border-active": {
+            "$value": "{brands.brandprimitives.tertiary.main}",
+            "$type": "color"
+          }
+        }
+      },
+      "strong": {
+        "background": {
+          "default": {
+            "$value": "{brands.brandprimitives.primary.muted}",
+            "$type": "color"
+          },
+          "accent": {
+            "$value": {
+              "colorSpace": "srgb",
+              "components": [
+                0.7137255072593689,
+                0.9803921580314636,
+                0.8705882430076599
+              ],
+              "alpha": 0.5
+            },
+            "$type": "color"
+          }
+        },
+        "text": {
+          "default": {
+            "$value": "{brands.brandprimitives.greyscale.faded}",
+            "$type": "color"
+          },
+          "subtle": {
+            "$value": "{brands.brandprimitives.greyscale.faded}",
+            "$type": "color"
+          },
+          "title": {
+            "$value": "{brands.brandprimitives.greyscale.faded}",
+            "$type": "color"
+          },
+          "link": {
+            "$value": "{brands.brandprimitives.greyscale.faded}",
+            "$type": "color"
+          },
+          "hover": {
+            "$value": "{brands.brandprimitives.secondary.main}",
+            "$type": "color"
+          }
+        },
+        "interactive": {
+          "background": {
+            "$value": "{brands.brandprimitives.secondary.main}",
+            "$type": "color"
+          },
+          "foreground": {
+            "$value": "{brands.brandprimitives.greyscale.faded}",
+            "$type": "color"
+          },
+          "hover-background": {
+            "$value": "{brands.brandprimitives.secondary.muted}",
+            "$type": "color"
+          },
+          "hover-foreground": {
+            "$value": "{brands.brandprimitives.greyscale.faded}",
+            "$type": "color"
+          }
+        },
+        "input": {
+          "background": {
+            "$value": "{brands.brandprimitives.greyscale.faded}",
+            "$type": "color"
+          },
+          "foreground": {
+            "$value": "{brands.brandprimitives.greyscale.dark}",
+            "$type": "color"
+          },
+          "border-default": {
+            "$value": "{brands.brandprimitives.tertiary.dark}",
+            "$type": "color"
+          },
+          "border-active": {
+            "$value": "{brands.brandprimitives.tertiary.main}",
+            "$type": "color"
+          }
+        }
+      },
+      "strongalt": {
+        "background": {
+          "default": {
+            "$value": "{brands.brandprimitives.secondary.main}",
+            "$type": "color"
+          },
+          "accent": {
+            "$value": {
+              "colorSpace": "srgb",
+              "components": [
+                0.6980392336845398,
+                0.13333334028720856,
+                0.003921568859368563
+              ],
+              "alpha": 0.5
+            },
+            "$type": "color"
+          }
+        },
+        "text": {
+          "default": {
+            "$value": "{brands.brandprimitives.greyscale.dark}",
+            "$type": "color"
+          },
+          "subtle": {
+            "$value": "{brands.brandprimitives.greyscale.dark}",
+            "$type": "color"
+          },
+          "title": {
+            "$value": "{brands.brandprimitives.greyscale.dark}",
+            "$type": "color"
+          },
+          "link": {
+            "$value": "{brands.brandprimitives.greyscale.dark}",
+            "$type": "color"
+          },
+          "hover": {
+            "$value": "{brands.brandprimitives.greyscale.muted}",
+            "$type": "color"
+          }
+        },
+        "interactive": {
+          "background": {
+            "$value": "{brands.brandprimitives.greyscale.dark}",
+            "$type": "color"
+          },
+          "foreground": {
+            "$value": "{brands.brandprimitives.greyscale.faded}",
+            "$type": "color"
+          },
+          "hover-background": {
+            "$value": "{brands.brandprimitives.greyscale.muted}",
+            "$type": "color"
+          },
+          "hover-foreground": {
+            "$value": "{brands.brandprimitives.greyscale.faded}",
+            "$type": "color"
+          }
+        },
+        "input": {
+          "background": {
+            "$value": "{brands.brandprimitives.greyscale.faded}",
+            "$type": "color"
+          },
+          "foreground": {
+            "$value": "{brands.brandprimitives.tertiary.muted}",
+            "$type": "color"
+          },
+          "border-default": {
+            "$value": "{brands.brandprimitives.tertiary.dark}",
+            "$type": "color"
+          },
+          "border-active": {
+            "$value": "{brands.brandprimitives.tertiary.main}",
+            "$type": "color"
+          }
+        }
       }
     }
   }

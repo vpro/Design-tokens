@@ -195,6 +195,10 @@
         "value": "{color.palette.secondary.muted}",
         "type": "color"
       },
+      "title": {
+        "value": "{color.palette.greyscale.dark}",
+        "type": "color"
+      },
       "hover": {
         "value": "{color.palette.primary.dark}",
         "type": "color"

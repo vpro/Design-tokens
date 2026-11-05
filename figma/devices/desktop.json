@@ -1,226 +1,6 @@
 {
   "$schema": "https://www.designtokens.org/schemas/2025.10/format.json",
   "devices": {
-    "device": {
-      "width": {
-        "$value": 1440,
-        "$type": "number"
-      },
-      "inline-6": {
-        "$value": 588,
-        "$type": "number"
-      },
-      "inline-12": {
-        "$value": 1200,
-        "$type": "number"
-      },
-      "columns": {
-        "$value": 12,
-        "$type": "number"
-      },
-      "height": {
-        "$value": 1024,
-        "$type": "number"
-      }
-    },
-    "layout": {
-      "padding": {
-        "horizontal-sm": {
-          "$value": "{primitives.spacing.400}",
-          "$type": "number"
-        },
-        "horizontal-md": {
-          "$value": "{primitives.spacing.1000}",
-          "$type": "number"
-        },
-        "horizontal-lg": {
-          "$value": "{primitives.spacing.1100}",
-          "$type": "number"
-        },
-        "horizontal-xl": {
-          "$value": "{primitives.spacing.1200}",
-          "$type": "number"
-        },
-        "horizontal-xxl": {
-          "$value": "{primitives.spacing.1300}",
-          "$type": "number"
-        }
-      },
-      "component": {
-        "cta": {
-          "block-spacing": {
-            "$value": 40,
-            "$type": "number"
-          },
-          "text-spacing": {
-            "$value": 0,
-            "$type": "number"
-          },
-          "theme-width": {
-            "$value": 384,
-            "$type": "number"
-          }
-        },
-        "footer": {
-          "ps-text-width-max": {
-            "$value": 1200,
-            "$type": "number"
-          }
-        },
-        "card": {
-          "img-width-min": {
-            "$value": 180,
-            "$type": "number"
-          },
-          "compact-text-width-min": {
-            "$value": 0,
-            "$type": "number"
-          },
-          "spacing-left": {
-            "$value": 120,
-            "$type": "number"
-          }
-        },
-        "contentcaptionfigure": {
-          "text-width": {
-            "$value": 384,
-            "$type": "number"
-          },
-          "comp-width": {
-            "$value": 588,
-            "$type": "number"
-          }
-        },
-        "reviewhero": {
-          "img-width": {
-            "$value": 200,
-            "$type": "number"
-          },
-          "hero-height": {
-            "$value": 484,
-            "$type": "number"
-          },
-          "padding": {
-            "$value": 40,
-            "$type": "number"
-          }
-        },
-        "gallery": {
-          "gallery-width-max": {
-            "$value": 1200,
-            "$type": "number"
-          },
-          "gallery-height-max": {
-            "$value": 1434,
-            "$type": "number"
-          },
-          "gallery-content-width": {
-            "$value": 588,
-            "$type": "number"
-          }
-        },
-        "embed": {
-          "img-width-spotify": {
-            "$value": 160,
-            "$type": "number"
-          }
-        },
-        "cardlink": {
-          "img-width-max": {
-            "$value": 136,
-            "$type": "number"
-          }
-        },
-        "reviewtile": {
-          "img-width": {
-            "$value": 282,
-            "$type": "number"
-          },
-          "img-width-min": {
-            "$value": 282,
-            "$type": "number"
-          }
-        },
-        "event": {
-          "img-width": {
-            "$value": 180,
-            "$type": "number"
-          }
-        },
-        "npoplayer": {
-          "img-width": {
-            "$value": 120,
-            "$type": "number"
-          }
-        },
-        "reviewblock": {
-          "img-width": {
-            "$value": 588,
-            "$type": "number"
-          }
-        },
-        "slideshow": {
-          "bottom-margin": {
-            "$value": 64,
-            "$type": "number"
-          }
-        },
-        "cinemamovie": {
-          "credit-width": {
-            "$value": 106,
-            "$type": "number"
-          }
-        },
-        "collection": {
-          "img-width": {
-            "$value": 384,
-            "$type": "number"
-          },
-          "text-padding": {
-            "$value": 24,
-            "$type": "number"
-          }
-        },
-        "review": {
-          "img-width-max": {
-            "$value": 216,
-            "$type": "number"
-          }
-        }
-      },
-      "spacing": {
-        "horizontal": {
-          "$value": "{primitives.spacing.200}",
-          "$type": "number"
-        },
-        "vertical-md": {
-          "$value": "{primitives.spacing.400}",
-          "$type": "number"
-        },
-        "vertical-lg": {
-          "$value": "{primitives.spacing.700}",
-          "$type": "number"
-        }
-      },
-      "layout": {
-        "header-height": {
-          "$value": 480,
-          "$type": "number"
-        }
-      }
-    },
-    "content": {
-      "assets": {
-        "show-assets-mobile": {
-          "$value": false,
-          "$type": "boolean"
-        },
-        "show-assets-desktop": {
-          "$value": true,
-          "$type": "boolean"
-        }
-      }
-    },
     "text": {
       "body": {
         "size": {
@@ -584,6 +364,226 @@
             "$value": "{primitives.font.lineheight.1100}",
             "$type": "number"
           }
+        }
+      }
+    },
+    "layout": {
+      "padding": {
+        "horizontal-sm": {
+          "$value": "{primitives.spacing.400}",
+          "$type": "number"
+        },
+        "horizontal-md": {
+          "$value": "{primitives.spacing.1000}",
+          "$type": "number"
+        },
+        "horizontal-lg": {
+          "$value": "{primitives.spacing.1100}",
+          "$type": "number"
+        },
+        "horizontal-xl": {
+          "$value": "{primitives.spacing.1200}",
+          "$type": "number"
+        },
+        "horizontal-xxl": {
+          "$value": "{primitives.spacing.1300}",
+          "$type": "number"
+        }
+      },
+      "component": {
+        "cta": {
+          "block-spacing": {
+            "$value": 40,
+            "$type": "number"
+          },
+          "text-spacing": {
+            "$value": 0,
+            "$type": "number"
+          },
+          "theme-width": {
+            "$value": 384,
+            "$type": "number"
+          }
+        },
+        "footer": {
+          "ps-text-width-max": {
+            "$value": 1200,
+            "$type": "number"
+          }
+        },
+        "card": {
+          "img-width-min": {
+            "$value": 180,
+            "$type": "number"
+          },
+          "compact-text-width-min": {
+            "$value": 0,
+            "$type": "number"
+          },
+          "spacing-left": {
+            "$value": 120,
+            "$type": "number"
+          }
+        },
+        "cardlink": {
+          "img-width-max": {
+            "$value": 136,
+            "$type": "number"
+          }
+        },
+        "event": {
+          "img-width": {
+            "$value": 180,
+            "$type": "number"
+          }
+        },
+        "npoplayer": {
+          "img-width": {
+            "$value": 120,
+            "$type": "number"
+          }
+        },
+        "reviewhero": {
+          "img-width": {
+            "$value": 200,
+            "$type": "number"
+          },
+          "hero-height": {
+            "$value": 484,
+            "$type": "number"
+          },
+          "padding": {
+            "$value": 40,
+            "$type": "number"
+          }
+        },
+        "reviewblock": {
+          "img-width": {
+            "$value": 588,
+            "$type": "number"
+          }
+        },
+        "collection": {
+          "img-width": {
+            "$value": 384,
+            "$type": "number"
+          },
+          "text-padding": {
+            "$value": 24,
+            "$type": "number"
+          }
+        },
+        "cinemamovie": {
+          "credit-width": {
+            "$value": 106,
+            "$type": "number"
+          }
+        },
+        "embed": {
+          "img-width-spotify": {
+            "$value": 160,
+            "$type": "number"
+          }
+        },
+        "gallery": {
+          "gallery-width-max": {
+            "$value": 1200,
+            "$type": "number"
+          },
+          "gallery-height-max": {
+            "$value": 1434,
+            "$type": "number"
+          },
+          "gallery-content-width": {
+            "$value": 588,
+            "$type": "number"
+          }
+        },
+        "reviewtile": {
+          "img-width": {
+            "$value": 282,
+            "$type": "number"
+          },
+          "img-width-min": {
+            "$value": 282,
+            "$type": "number"
+          }
+        },
+        "slideshow": {
+          "bottom-margin": {
+            "$value": 64,
+            "$type": "number"
+          }
+        },
+        "contentcaptionfigure": {
+          "text-width": {
+            "$value": 384,
+            "$type": "number"
+          },
+          "comp-width": {
+            "$value": 588,
+            "$type": "number"
+          }
+        },
+        "review": {
+          "img-width-max": {
+            "$value": 216,
+            "$type": "number"
+          }
+        }
+      },
+      "spacing": {
+        "horizontal": {
+          "$value": "{primitives.spacing.200}",
+          "$type": "number"
+        },
+        "vertical-md": {
+          "$value": "{primitives.spacing.400}",
+          "$type": "number"
+        },
+        "vertical-lg": {
+          "$value": "{primitives.spacing.700}",
+          "$type": "number"
+        }
+      },
+      "layout": {
+        "header-height": {
+          "$value": 480,
+          "$type": "number"
+        }
+      }
+    },
+    "device": {
+      "width": {
+        "$value": 1440,
+        "$type": "number"
+      },
+      "inline-6": {
+        "$value": 588,
+        "$type": "number"
+      },
+      "inline-12": {
+        "$value": 1200,
+        "$type": "number"
+      },
+      "columns": {
+        "$value": 12,
+        "$type": "number"
+      },
+      "height": {
+        "$value": 1024,
+        "$type": "number"
+      }
+    },
+    "content": {
+      "assets": {
+        "show-assets-mobile": {
+          "$value": false,
+          "$type": "boolean"
+        },
+        "show-assets-desktop": {
+          "$value": true,
+          "$type": "boolean"
         }
       }
     }

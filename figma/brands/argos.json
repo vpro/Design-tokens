@@ -91,460 +91,6 @@
         }
       }
     },
-    "font": {
-      "family": {
-        "$value": "{primitives.font.family.agrandir}",
-        "$type": "fontFamily"
-      }
-    },
-    "component": {
-      "navigation": {
-        "background": {
-          "$value": "{brands.brandprimitives.primary.main}",
-          "$type": "color"
-        },
-        "background-alt": {
-          "$value": "{brands.brandprimitives.primary.main}",
-          "$type": "color"
-        },
-        "background-alt-2": {
-          "$value": "{brands.brandprimitives.primary.main}",
-          "$type": "color"
-        },
-        "background-footer": {
-          "$value": "{brands.brandprimitives.primary.main}",
-          "$type": "color"
-        },
-        "foreground": {
-          "$value": "{brands.color.base.text.inverse}",
-          "$type": "color"
-        },
-        "foreground-footer": {
-          "$value": "{brands.color.base.text.inverse}",
-          "$type": "color"
-        },
-        "foreground-alt-2": {
-          "$value": "{brands.color.base.text.inverse}",
-          "$type": "color"
-        },
-        "foreground-menu": {
-          "$value": "{brands.color.base.text.inverse}",
-          "$type": "color"
-        }
-      },
-      "cta": {
-        "background": {
-          "$value": "{brands.color.base.background.tertiary}",
-          "$type": "color"
-        },
-        "foreground": {
-          "$value": "{brands.brandprimitives.primary.main}",
-          "$type": "color"
-        },
-        "title": {
-          "$value": "{brands.color.base.text.title}",
-          "$type": "color"
-        },
-        "text": {
-          "$value": "{brands.color.base.text.default}",
-          "$type": "color"
-        }
-      }
-    },
-    "content": {
-      "text": {
-        "navigation": {
-          "payoff": {
-            "$value": "Onderzoeksjournalistiek op tv, radio en in podcastseries. Argos vertelt je al ruim 30 jaar hoe de macht werkt. Altijd grondig, altijd nieuwsgierig, en altijd met een goed verteld verhaal.",
-            "$type": "string"
-          }
-        },
-        "navigation-themes": {
-          "cta-nav-r1": {
-            "$value": "Tip de redactie",
-            "$type": "string"
-          },
-          "cta-nav-r2": {
-            "$value": "Nieuwsbrief",
-            "$type": "string"
-          },
-          "show-items-left": {
-            "$value": true,
-            "$type": "boolean"
-          },
-          "cta-nav-l1": {
-            "$value": "Nieuws",
-            "$type": "string"
-          },
-          "cta-nav-l2": {
-            "$value": "Argos TV",
-            "$type": "string"
-          },
-          "cta-nav-l3": {
-            "$value": "Argos Radio",
-            "$type": "string"
-          },
-          "cta-nav-l4": {
-            "$value": "Argos Series",
-            "$type": "string"
-          },
-          "title": {
-            "$value": "Dossiers",
-            "$type": "string"
-          },
-          "theme-1": {
-            "$value": "F-35: Onder Trumps vleugels",
-            "$type": "string"
-          },
-          "theme-2": {
-            "$value": "Het witte goud",
-            "$type": "string"
-          },
-          "theme-3": {
-            "$value": "Fossiele lobby",
-            "$type": "string"
-          },
-          "show-theme-4": {
-            "$value": true,
-            "$type": "boolean"
-          },
-          "theme-4": {
-            "$value": "Olaf zit vast",
-            "$type": "string"
-          },
-          "show-theme-5": {
-            "$value": true,
-            "$type": "boolean"
-          },
-          "theme-5": {
-            "$value": "Bouta's laatste zet",
-            "$type": "string"
-          },
-          "show-theme-6": {
-            "$value": false,
-            "$type": "boolean"
-          },
-          "theme-6": {
-            "$value": " ",
-            "$type": "string"
-          },
-          "show-theme-7": {
-            "$value": false,
-            "$type": "boolean"
-          },
-          "theme-7": {
-            "$value": " ",
-            "$type": "string"
-          },
-          "show-theme-8": {
-            "$value": false,
-            "$type": "boolean"
-          },
-          "theme-8": {
-            "$value": " ",
-            "$type": "string"
-          },
-          "show-theme-9": {
-            "$value": false,
-            "$type": "boolean"
-          },
-          "theme-9": {
-            "$value": " ",
-            "$type": "string"
-          },
-          "theme-10": {
-            "$value": " ",
-            "$type": "string"
-          },
-          "theme-11": {
-            "$value": " ",
-            "$type": "string"
-          },
-          "theme-12": {
-            "$value": " ",
-            "$type": "string"
-          },
-          "theme-13": {
-            "$value": " ",
-            "$type": "string"
-          },
-          "theme-14": {
-            "$value": " ",
-            "$type": "string"
-          },
-          "theme-15": {
-            "$value": " ",
-            "$type": "string"
-          },
-          "theme-16": {
-            "$value": " ",
-            "$type": "string"
-          },
-          "show-more-link": {
-            "$value": true,
-            "$type": "boolean"
-          },
-          "show-more": {
-            "$value": "Alle dossiers",
-            "$type": "string"
-          }
-        },
-        "footer": {
-          "payoff": {
-            "$value": "Onderzoeksjournalistiek op tv, radio en in podcastseries. Argos vertelt je al ruim 30 jaar hoe de macht werkt. Altijd grondig, altijd nieuwsgierig, en altijd met een goed verteld verhaal.",
-            "$type": "string"
-          },
-          "social-icons": {
-            "show-social-icons": {
-              "$value": true,
-              "$type": "boolean"
-            },
-            "social-icons-title": {
-              "$value": "Volg ons",
-              "$type": "string"
-            },
-            "show-instagram": {
-              "$value": true,
-              "$type": "boolean"
-            },
-            "show-facebook": {
-              "$value": true,
-              "$type": "boolean"
-            },
-            "show-linkedin": {
-              "$value": true,
-              "$type": "boolean"
-            },
-            "show-tiktok": {
-              "$value": false,
-              "$type": "boolean"
-            },
-            "show-bluesky": {
-              "$value": true,
-              "$type": "boolean"
-            },
-            "show-youtube": {
-              "$value": false,
-              "$type": "boolean"
-            },
-            "show-spotify": {
-              "$value": true,
-              "$type": "boolean"
-            },
-            "show-x": {
-              "$value": false,
-              "$type": "boolean"
-            }
-          },
-          "footer-links": {
-            "footer-links-title": {
-              "$value": "Argos",
-              "$type": "string"
-            },
-            "cta-footer-1": {
-              "$value": "Nieuws",
-              "$type": "string"
-            },
-            "cta-footer-2": {
-              "$value": "Argos Radio",
-              "$type": "string"
-            },
-            "cta-footer-3": {
-              "$value": "Argos TV",
-              "$type": "string"
-            },
-            "show-cta-4": {
-              "$value": true,
-              "$type": "boolean"
-            },
-            "cta-footer-4": {
-              "$value": "Argos Series",
-              "$type": "string"
-            },
-            "show-cta-5": {
-              "$value": true,
-              "$type": "boolean"
-            },
-            "cta-footer-5": {
-              "$value": "Wij zijn Argos",
-              "$type": "string"
-            },
-            "show-cta-6": {
-              "$value": true,
-              "$type": "boolean"
-            },
-            "cta-footer-6": {
-              "$value": "Nieuwsbrief",
-              "$type": "string"
-            },
-            "show-cta-7": {
-              "$value": true,
-              "$type": "boolean"
-            },
-            "cta-footer-7": {
-              "$value": "Tip de redactie",
-              "$type": "string"
-            },
-            "show-cta-8": {
-              "$value": false,
-              "$type": "boolean"
-            },
-            "cta-footer-8": {
-              "$value": " ",
-              "$type": "string"
-            },
-            "show-cta-9": {
-              "$value": false,
-              "$type": "boolean"
-            },
-            "cta-footer-9": {
-              "$value": " ",
-              "$type": "string"
-            }
-          },
-          "watch-more-links": {
-            "show-watch-more": {
-              "$value": true,
-              "$type": "boolean"
-            },
-            "watch-more-title": {
-              "$value": "Bekijk ook via",
-              "$type": "string"
-            },
-            "show-npo-start": {
-              "$value": true,
-              "$type": "boolean"
-            },
-            "show-npo-radio-1": {
-              "$value": true,
-              "$type": "boolean"
-            },
-            "show-npo-2": {
-              "$value": true,
-              "$type": "boolean"
-            },
-            "show-youtube": {
-              "$value": false,
-              "$type": "boolean"
-            },
-            "show-npo-3fm": {
-              "$value": false,
-              "$type": "boolean"
-            },
-            "show-app-store-icons": {
-              "$value": false,
-              "$type": "boolean"
-            },
-            "show-extra-divider": {
-              "$value": true,
-              "$type": "boolean"
-            }
-          },
-          "powered-by": {
-            "show-powered-by": {
-              "$value": true,
-              "$type": "boolean"
-            },
-            "powered-by": {
-              "$value": "Een programma van",
-              "$type": "string"
-            },
-            "show-human": {
-              "$value": true,
-              "$type": "boolean"
-            },
-            "show-vpro": {
-              "$value": true,
-              "$type": "boolean"
-            },
-            "show-vpro-gids": {
-              "$value": false,
-              "$type": "boolean"
-            }
-          },
-          "legal-links": {
-            "copyright": {
-              "$value": "© 2026 VPRO - Alle rechten voorbehouden.",
-              "$type": "string"
-            },
-            "legal-link-1": {
-              "$value": "ANBI",
-              "$type": "string"
-            },
-            "legal-link-2": {
-              "$value": "Public Spaces",
-              "$type": "string"
-            },
-            "show-legal-link-3": {
-              "$value": true,
-              "$type": "boolean"
-            },
-            "legal-link-3": {
-              "$value": "Cookies",
-              "$type": "string"
-            },
-            "show-legal-link-4": {
-              "$value": true,
-              "$type": "boolean"
-            },
-            "legal-link-4": {
-              "$value": "Privacy",
-              "$type": "string"
-            },
-            "show-public-spaces": {
-              "$value": true,
-              "$type": "boolean"
-            }
-          }
-        }
-      },
-      "assets": {
-        "show-assets-huismerk": {
-          "$value": false,
-          "$type": "boolean"
-        },
-        "show-assets-human": {
-          "$value": false,
-          "$type": "boolean"
-        },
-        "show-assets-vpro": {
-          "$value": false,
-          "$type": "boolean"
-        },
-        "show-assets-npo-doc": {
-          "$value": false,
-          "$type": "boolean"
-        },
-        "show-assets-argos": {
-          "$value": true,
-          "$type": "boolean"
-        },
-        "show-assets-brainwash": {
-          "$value": false,
-          "$type": "boolean"
-        },
-        "show-assets-tegenlicht": {
-          "$value": false,
-          "$type": "boolean"
-        },
-        "show-assets-3voor12": {
-          "$value": false,
-          "$type": "boolean"
-        },
-        "show-assets-3voor12-lokaal": {
-          "$value": false,
-          "$type": "boolean"
-        },
-        "show-assets-vpro-gids": {
-          "$value": false,
-          "$type": "boolean"
-        },
-        "show-assets-vpro-cinema": {
-          "$value": false,
-          "$type": "boolean"
-        }
-      }
-    },
     "color": {
       "base": {
         "background": {
@@ -1098,6 +644,460 @@
             "$value": "{brands.brandprimitives.tertiary.main}",
             "$type": "color"
           }
+        }
+      }
+    },
+    "font": {
+      "family": {
+        "$value": "{primitives.font.family.agrandir}",
+        "$type": "fontFamily"
+      }
+    },
+    "component": {
+      "navigation": {
+        "background": {
+          "$value": "{brands.brandprimitives.primary.main}",
+          "$type": "color"
+        },
+        "background-alt": {
+          "$value": "{brands.brandprimitives.primary.main}",
+          "$type": "color"
+        },
+        "background-alt-2": {
+          "$value": "{brands.brandprimitives.primary.main}",
+          "$type": "color"
+        },
+        "background-footer": {
+          "$value": "{brands.brandprimitives.primary.main}",
+          "$type": "color"
+        },
+        "foreground": {
+          "$value": "{brands.color.base.text.inverse}",
+          "$type": "color"
+        },
+        "foreground-footer": {
+          "$value": "{brands.color.base.text.inverse}",
+          "$type": "color"
+        },
+        "foreground-alt-2": {
+          "$value": "{brands.color.base.text.inverse}",
+          "$type": "color"
+        },
+        "foreground-menu": {
+          "$value": "{brands.color.base.text.inverse}",
+          "$type": "color"
+        }
+      },
+      "cta": {
+        "background": {
+          "$value": "{brands.color.base.background.tertiary}",
+          "$type": "color"
+        },
+        "foreground": {
+          "$value": "{brands.brandprimitives.primary.main}",
+          "$type": "color"
+        },
+        "title": {
+          "$value": "{brands.color.base.text.title}",
+          "$type": "color"
+        },
+        "text": {
+          "$value": "{brands.color.base.text.default}",
+          "$type": "color"
+        }
+      }
+    },
+    "content": {
+      "text": {
+        "navigation": {
+          "payoff": {
+            "$value": "Onderzoeksjournalistiek op tv, radio en in podcastseries. Argos vertelt je al ruim 30 jaar hoe de macht werkt. Altijd grondig, altijd nieuwsgierig, en altijd met een goed verteld verhaal.",
+            "$type": "string"
+          }
+        },
+        "navigation-themes": {
+          "cta-nav-r1": {
+            "$value": "Tip de redactie",
+            "$type": "string"
+          },
+          "cta-nav-r2": {
+            "$value": "Nieuwsbrief",
+            "$type": "string"
+          },
+          "show-items-left": {
+            "$value": true,
+            "$type": "boolean"
+          },
+          "cta-nav-l1": {
+            "$value": "Nieuws",
+            "$type": "string"
+          },
+          "cta-nav-l2": {
+            "$value": "Argos TV",
+            "$type": "string"
+          },
+          "cta-nav-l3": {
+            "$value": "Argos Radio",
+            "$type": "string"
+          },
+          "cta-nav-l4": {
+            "$value": "Argos Series",
+            "$type": "string"
+          },
+          "title": {
+            "$value": "Dossiers",
+            "$type": "string"
+          },
+          "theme-1": {
+            "$value": "F-35: Onder Trumps vleugels",
+            "$type": "string"
+          },
+          "theme-2": {
+            "$value": "Het witte goud",
+            "$type": "string"
+          },
+          "theme-3": {
+            "$value": "Fossiele lobby",
+            "$type": "string"
+          },
+          "show-theme-4": {
+            "$value": true,
+            "$type": "boolean"
+          },
+          "theme-4": {
+            "$value": "Olaf zit vast",
+            "$type": "string"
+          },
+          "show-theme-5": {
+            "$value": true,
+            "$type": "boolean"
+          },
+          "theme-5": {
+            "$value": "Bouta's laatste zet",
+            "$type": "string"
+          },
+          "show-theme-6": {
+            "$value": false,
+            "$type": "boolean"
+          },
+          "theme-6": {
+            "$value": " ",
+            "$type": "string"
+          },
+          "show-theme-7": {
+            "$value": false,
+            "$type": "boolean"
+          },
+          "theme-7": {
+            "$value": " ",
+            "$type": "string"
+          },
+          "show-theme-8": {
+            "$value": false,
+            "$type": "boolean"
+          },
+          "theme-8": {
+            "$value": " ",
+            "$type": "string"
+          },
+          "show-theme-9": {
+            "$value": false,
+            "$type": "boolean"
+          },
+          "theme-9": {
+            "$value": " ",
+            "$type": "string"
+          },
+          "theme-10": {
+            "$value": " ",
+            "$type": "string"
+          },
+          "theme-11": {
+            "$value": " ",
+            "$type": "string"
+          },
+          "theme-12": {
+            "$value": " ",
+            "$type": "string"
+          },
+          "theme-13": {
+            "$value": " ",
+            "$type": "string"
+          },
+          "theme-14": {
+            "$value": " ",
+            "$type": "string"
+          },
+          "theme-15": {
+            "$value": " ",
+            "$type": "string"
+          },
+          "theme-16": {
+            "$value": " ",
+            "$type": "string"
+          },
+          "show-more-link": {
+            "$value": true,
+            "$type": "boolean"
+          },
+          "show-more": {
+            "$value": "Alle dossiers",
+            "$type": "string"
+          }
+        },
+        "footer": {
+          "payoff": {
+            "$value": "Onderzoeksjournalistiek op tv, radio en in podcastseries. Argos vertelt je al ruim 30 jaar hoe de macht werkt. Altijd grondig, altijd nieuwsgierig, en altijd met een goed verteld verhaal.",
+            "$type": "string"
+          },
+          "social-icons": {
+            "show-social-icons": {
+              "$value": true,
+              "$type": "boolean"
+            },
+            "social-icons-title": {
+              "$value": "Volg ons",
+              "$type": "string"
+            },
+            "show-instagram": {
+              "$value": true,
+              "$type": "boolean"
+            },
+            "show-facebook": {
+              "$value": true,
+              "$type": "boolean"
+            },
+            "show-linkedin": {
+              "$value": true,
+              "$type": "boolean"
+            },
+            "show-tiktok": {
+              "$value": false,
+              "$type": "boolean"
+            },
+            "show-bluesky": {
+              "$value": true,
+              "$type": "boolean"
+            },
+            "show-youtube": {
+              "$value": false,
+              "$type": "boolean"
+            },
+            "show-spotify": {
+              "$value": true,
+              "$type": "boolean"
+            },
+            "show-x": {
+              "$value": false,
+              "$type": "boolean"
+            }
+          },
+          "footer-links": {
+            "footer-links-title": {
+              "$value": "Argos",
+              "$type": "string"
+            },
+            "cta-footer-1": {
+              "$value": "Nieuws",
+              "$type": "string"
+            },
+            "cta-footer-2": {
+              "$value": "Argos Radio",
+              "$type": "string"
+            },
+            "cta-footer-3": {
+              "$value": "Argos TV",
+              "$type": "string"
+            },
+            "show-cta-4": {
+              "$value": true,
+              "$type": "boolean"
+            },
+            "cta-footer-4": {
+              "$value": "Argos Series",
+              "$type": "string"
+            },
+            "show-cta-5": {
+              "$value": true,
+              "$type": "boolean"
+            },
+            "cta-footer-5": {
+              "$value": "Wij zijn Argos",
+              "$type": "string"
+            },
+            "show-cta-6": {
+              "$value": true,
+              "$type": "boolean"
+            },
+            "cta-footer-6": {
+              "$value": "Nieuwsbrief",
+              "$type": "string"
+            },
+            "show-cta-7": {
+              "$value": true,
+              "$type": "boolean"
+            },
+            "cta-footer-7": {
+              "$value": "Tip de redactie",
+              "$type": "string"
+            },
+            "show-cta-8": {
+              "$value": false,
+              "$type": "boolean"
+            },
+            "cta-footer-8": {
+              "$value": " ",
+              "$type": "string"
+            },
+            "show-cta-9": {
+              "$value": false,
+              "$type": "boolean"
+            },
+            "cta-footer-9": {
+              "$value": " ",
+              "$type": "string"
+            }
+          },
+          "watch-more-links": {
+            "show-watch-more": {
+              "$value": true,
+              "$type": "boolean"
+            },
+            "watch-more-title": {
+              "$value": "Bekijk ook via",
+              "$type": "string"
+            },
+            "show-npo-start": {
+              "$value": true,
+              "$type": "boolean"
+            },
+            "show-npo-radio-1": {
+              "$value": true,
+              "$type": "boolean"
+            },
+            "show-npo-2": {
+              "$value": true,
+              "$type": "boolean"
+            },
+            "show-youtube": {
+              "$value": false,
+              "$type": "boolean"
+            },
+            "show-npo-3fm": {
+              "$value": false,
+              "$type": "boolean"
+            },
+            "show-app-store-icons": {
+              "$value": false,
+              "$type": "boolean"
+            },
+            "show-extra-divider": {
+              "$value": true,
+              "$type": "boolean"
+            }
+          },
+          "powered-by": {
+            "show-powered-by": {
+              "$value": true,
+              "$type": "boolean"
+            },
+            "powered-by": {
+              "$value": "Een programma van",
+              "$type": "string"
+            },
+            "show-human": {
+              "$value": true,
+              "$type": "boolean"
+            },
+            "show-vpro": {
+              "$value": true,
+              "$type": "boolean"
+            },
+            "show-vpro-gids": {
+              "$value": false,
+              "$type": "boolean"
+            }
+          },
+          "legal-links": {
+            "copyright": {
+              "$value": "© 2026 VPRO - Alle rechten voorbehouden.",
+              "$type": "string"
+            },
+            "legal-link-1": {
+              "$value": "ANBI",
+              "$type": "string"
+            },
+            "legal-link-2": {
+              "$value": "Public Spaces",
+              "$type": "string"
+            },
+            "show-legal-link-3": {
+              "$value": true,
+              "$type": "boolean"
+            },
+            "legal-link-3": {
+              "$value": "Cookies",
+              "$type": "string"
+            },
+            "show-legal-link-4": {
+              "$value": true,
+              "$type": "boolean"
+            },
+            "legal-link-4": {
+              "$value": "Privacy",
+              "$type": "string"
+            },
+            "show-public-spaces": {
+              "$value": true,
+              "$type": "boolean"
+            }
+          }
+        }
+      },
+      "assets": {
+        "show-assets-huismerk": {
+          "$value": false,
+          "$type": "boolean"
+        },
+        "show-assets-human": {
+          "$value": false,
+          "$type": "boolean"
+        },
+        "show-assets-vpro": {
+          "$value": false,
+          "$type": "boolean"
+        },
+        "show-assets-npo-doc": {
+          "$value": false,
+          "$type": "boolean"
+        },
+        "show-assets-argos": {
+          "$value": true,
+          "$type": "boolean"
+        },
+        "show-assets-brainwash": {
+          "$value": false,
+          "$type": "boolean"
+        },
+        "show-assets-tegenlicht": {
+          "$value": false,
+          "$type": "boolean"
+        },
+        "show-assets-3voor12": {
+          "$value": false,
+          "$type": "boolean"
+        },
+        "show-assets-3voor12-lokaal": {
+          "$value": false,
+          "$type": "boolean"
+        },
+        "show-assets-vpro-gids": {
+          "$value": false,
+          "$type": "boolean"
+        },
+        "show-assets-vpro-cinema": {
+          "$value": false,
+          "$type": "boolean"
         }
       }
     }

@@ -67,9 +67,9 @@
           "$value": {
             "colorSpace": "srgb",
             "components": [
-              0.4588235318660736,
-              0.4588235318660736,
-              0.4588235318660736
+              0.43921568989753723,
+              0.43921568989753723,
+              0.43921568989753723
             ],
             "alpha": 1
           },
@@ -3182,6 +3182,106 @@
     "text": {
       "$value": "String value",
       "$type": "string"
+    },
+    "functional": {
+      "error": {
+        "$value": "{primitives.color.red.150}",
+        "$type": "color"
+      },
+      "warning": {
+        "$value": "{primitives.color.yellow.100}",
+        "$type": "color"
+      },
+      "success": {
+        "$value": "{primitives.color.green.125}",
+        "$type": "color"
+      },
+      "info": {
+        "$value": "{primitives.color.blue.125}",
+        "$type": "color"
+      },
+      "disabled": {
+        "$value": "{primitives.color.grey.300}",
+        "$type": "color"
+      }
+    },
+    "backdrop": {
+      "transparent": {
+        "0": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1,
+              1,
+              1
+            ],
+            "alpha": 0
+          },
+          "$type": "color"
+        },
+        "50": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1,
+              1,
+              1
+            ],
+            "alpha": 0.5
+          },
+          "$type": "color"
+        },
+        "75": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1,
+              1,
+              1
+            ],
+            "alpha": 0.75
+          },
+          "$type": "color"
+        }
+      },
+      "transparent-dark": {
+        "0": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.12941177189350128,
+              0.12941177189350128,
+              0.12941177189350128
+            ],
+            "alpha": 0
+          },
+          "$type": "color"
+        },
+        "50": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.12941177189350128,
+              0.12941177189350128,
+              0.12941177189350128
+            ],
+            "alpha": 0.5
+          },
+          "$type": "color"
+        },
+        "75": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.12941177189350128,
+              0.12941177189350128,
+              0.12941177189350128
+            ],
+            "alpha": 0.75
+          },
+          "$type": "color"
+        }
+      }
     }
   }
 }

@@ -91,492 +91,6 @@
         }
       }
     },
-    "font": {
-      "family": {
-        "$value": "{primitives.font.family.riforma}",
-        "$type": "fontFamily"
-      }
-    },
-    "component": {
-      "navigation": {
-        "background": {
-          "$value": {
-            "colorSpace": "srgb",
-            "components": [
-              0.4745098054409027,
-              0,
-              0.9725490212440491
-            ],
-            "alpha": 1
-          },
-          "$type": "color"
-        },
-        "background-alt": {
-          "$value": {
-            "colorSpace": "srgb",
-            "components": [
-              1,
-              1,
-              1
-            ],
-            "alpha": 1
-          },
-          "$type": "color"
-        },
-        "background-alt-2": {
-          "$value": {
-            "colorSpace": "srgb",
-            "components": [
-              0.25882354378700256,
-              0.45490196347236633,
-              0.09019608050584793
-            ],
-            "alpha": 1
-          },
-          "$type": "color"
-        },
-        "background-footer": {
-          "$value": {
-            "colorSpace": "srgb",
-            "components": [
-              1,
-              1,
-              1
-            ],
-            "alpha": 1
-          },
-          "$type": "color"
-        },
-        "foreground": {
-          "$value": "{brands.color.base.text.inverse}",
-          "$type": "color"
-        },
-        "foreground-footer": {
-          "$value": "{brands.color.base.text.default}",
-          "$type": "color"
-        },
-        "foreground-alt-2": {
-          "$value": "{brands.color.base.text.title}",
-          "$type": "color"
-        },
-        "foreground-menu": {
-          "$value": "{brands.color.base.text.default}",
-          "$type": "color"
-        }
-      },
-      "cta": {
-        "background": {
-          "$value": "{brands.color.base.background.tertiary}",
-          "$type": "color"
-        },
-        "foreground": {
-          "$value": "{brands.brandprimitives.primary.main}",
-          "$type": "color"
-        },
-        "title": {
-          "$value": "{brands.color.base.text.title}",
-          "$type": "color"
-        },
-        "text": {
-          "$value": "{brands.color.base.text.default}",
-          "$type": "color"
-        }
-      }
-    },
-    "content": {
-      "text": {
-        "navigation": {
-          "payoff": {
-            "$value": "Wij laten zien wat ons mens maakt. We streven naar een meer menselijke samenleving, waarin je kunt onderzoeken, luisteren, twijfelen en waar je echt contact maakt met jezelf en anderen.",
-            "$type": "string"
-          }
-        },
-        "navigation-themes": {
-          "cta-nav-r1": {
-            "$value": "Steun HUMAN",
-            "$type": "string"
-          },
-          "cta-nav-r2": {
-            "$value": "Nieuwsbrief",
-            "$type": "string"
-          },
-          "show-items-left": {
-            "$value": false,
-            "$type": "boolean"
-          },
-          "cta-nav-l1": {
-            "$value": " ",
-            "$type": "string"
-          },
-          "cta-nav-l2": {
-            "$value": " ",
-            "$type": "string"
-          },
-          "cta-nav-l3": {
-            "$value": " ",
-            "$type": "string"
-          },
-          "cta-nav-l4": {
-            "$value": " ",
-            "$type": "string"
-          },
-          "title": {
-            "$value": "Dit maken we",
-            "$type": "string"
-          },
-          "theme-1": {
-            "$value": "Programma's",
-            "$type": "string"
-          },
-          "theme-2": {
-            "$value": "Documentaires",
-            "$type": "string"
-          },
-          "theme-3": {
-            "$value": "Artikelen",
-            "$type": "string"
-          },
-          "show-theme-4": {
-            "$value": true,
-            "$type": "boolean"
-          },
-          "theme-4": {
-            "$value": "Educatie",
-            "$type": "string"
-          },
-          "show-theme-5": {
-            "$value": false,
-            "$type": "boolean"
-          },
-          "theme-5": {
-            "$value": " ",
-            "$type": "string"
-          },
-          "show-theme-6": {
-            "$value": false,
-            "$type": "boolean"
-          },
-          "theme-6": {
-            "$value": " ",
-            "$type": "string"
-          },
-          "show-theme-7": {
-            "$value": false,
-            "$type": "boolean"
-          },
-          "theme-7": {
-            "$value": " ",
-            "$type": "string"
-          },
-          "show-theme-8": {
-            "$value": false,
-            "$type": "boolean"
-          },
-          "theme-8": {
-            "$value": " ",
-            "$type": "string"
-          },
-          "show-theme-9": {
-            "$value": false,
-            "$type": "boolean"
-          },
-          "theme-9": {
-            "$value": " ",
-            "$type": "string"
-          },
-          "theme-10": {
-            "$value": " ",
-            "$type": "string"
-          },
-          "theme-11": {
-            "$value": " ",
-            "$type": "string"
-          },
-          "theme-12": {
-            "$value": " ",
-            "$type": "string"
-          },
-          "theme-13": {
-            "$value": " ",
-            "$type": "string"
-          },
-          "theme-14": {
-            "$value": " ",
-            "$type": "string"
-          },
-          "theme-15": {
-            "$value": " ",
-            "$type": "string"
-          },
-          "theme-16": {
-            "$value": " ",
-            "$type": "string"
-          },
-          "show-more-link": {
-            "$value": false,
-            "$type": "boolean"
-          },
-          "show-more": {
-            "$value": " ",
-            "$type": "string"
-          }
-        },
-        "footer": {
-          "payoff": {
-            "$value": "Wij laten zien wat ons mens maakt. We streven naar een meer menselijke samenleving, waarin je kunt onderzoeken, luisteren, twijfelen en waar je echt contact maakt met jezelf en anderen.",
-            "$type": "string"
-          },
-          "social-icons": {
-            "show-social-icons": {
-              "$value": true,
-              "$type": "boolean"
-            },
-            "social-icons-title": {
-              "$value": "Volg HUMAN",
-              "$type": "string"
-            },
-            "show-instagram": {
-              "$value": true,
-              "$type": "boolean"
-            },
-            "show-facebook": {
-              "$value": true,
-              "$type": "boolean"
-            },
-            "show-linkedin": {
-              "$value": true,
-              "$type": "boolean"
-            },
-            "show-tiktok": {
-              "$value": true,
-              "$type": "boolean"
-            },
-            "show-bluesky": {
-              "$value": true,
-              "$type": "boolean"
-            },
-            "show-youtube": {
-              "$value": false,
-              "$type": "boolean"
-            },
-            "show-spotify": {
-              "$value": false,
-              "$type": "boolean"
-            },
-            "show-x": {
-              "$value": false,
-              "$type": "boolean"
-            }
-          },
-          "footer-links": {
-            "footer-links-title": {
-              "$value": "HUMAN",
-              "$type": "string"
-            },
-            "cta-footer-1": {
-              "$value": "Nieuwsbrief",
-              "$type": "string"
-            },
-            "cta-footer-2": {
-              "$value": "Over HUMAN",
-              "$type": "string"
-            },
-            "cta-footer-3": {
-              "$value": "Contact",
-              "$type": "string"
-            },
-            "show-cta-4": {
-              "$value": true,
-              "$type": "boolean"
-            },
-            "cta-footer-4": {
-              "$value": "Vrienden van HUMAN",
-              "$type": "string"
-            },
-            "show-cta-5": {
-              "$value": true,
-              "$type": "boolean"
-            },
-            "cta-footer-5": {
-              "$value": "Steun HUMAN",
-              "$type": "string"
-            },
-            "show-cta-6": {
-              "$value": true,
-              "$type": "boolean"
-            },
-            "cta-footer-6": {
-              "$value": "Evenementen en opnames",
-              "$type": "string"
-            },
-            "show-cta-7": {
-              "$value": true,
-              "$type": "boolean"
-            },
-            "cta-footer-7": {
-              "$value": "Vacatures",
-              "$type": "string"
-            },
-            "show-cta-8": {
-              "$value": false,
-              "$type": "boolean"
-            },
-            "cta-footer-8": {
-              "$value": " ",
-              "$type": "string"
-            },
-            "show-cta-9": {
-              "$value": false,
-              "$type": "boolean"
-            },
-            "cta-footer-9": {
-              "$value": " ",
-              "$type": "string"
-            }
-          },
-          "watch-more-links": {
-            "show-watch-more": {
-              "$value": true,
-              "$type": "boolean"
-            },
-            "watch-more-title": {
-              "$value": "Bekijk via",
-              "$type": "string"
-            },
-            "show-npo-start": {
-              "$value": true,
-              "$type": "boolean"
-            },
-            "show-npo-radio-1": {
-              "$value": false,
-              "$type": "boolean"
-            },
-            "show-npo-2": {
-              "$value": false,
-              "$type": "boolean"
-            },
-            "show-youtube": {
-              "$value": false,
-              "$type": "boolean"
-            },
-            "show-npo-3fm": {
-              "$value": false,
-              "$type": "boolean"
-            },
-            "show-app-store-icons": {
-              "$value": false,
-              "$type": "boolean"
-            },
-            "show-extra-divider": {
-              "$value": false,
-              "$type": "boolean"
-            }
-          },
-          "powered-by": {
-            "show-powered-by": {
-              "$value": false,
-              "$type": "boolean"
-            },
-            "powered-by": {
-              "$value": " ",
-              "$type": "string"
-            },
-            "show-human": {
-              "$value": false,
-              "$type": "boolean"
-            },
-            "show-vpro": {
-              "$value": false,
-              "$type": "boolean"
-            },
-            "show-vpro-gids": {
-              "$value": false,
-              "$type": "boolean"
-            }
-          },
-          "legal-links": {
-            "copyright": {
-              "$value": "© 2026 HUMAN - Alle rechten voorbehouden.",
-              "$type": "string"
-            },
-            "legal-link-1": {
-              "$value": "Ombudsman",
-              "$type": "string"
-            },
-            "legal-link-2": {
-              "$value": "Privacy",
-              "$type": "string"
-            },
-            "show-legal-link-3": {
-              "$value": true,
-              "$type": "boolean"
-            },
-            "legal-link-3": {
-              "$value": "Cookies",
-              "$type": "string"
-            },
-            "show-legal-link-4": {
-              "$value": false,
-              "$type": "boolean"
-            },
-            "legal-link-4": {
-              "$value": " ",
-              "$type": "string"
-            },
-            "show-public-spaces": {
-              "$value": true,
-              "$type": "boolean"
-            }
-          }
-        }
-      },
-      "assets": {
-        "show-assets-huismerk": {
-          "$value": false,
-          "$type": "boolean"
-        },
-        "show-assets-human": {
-          "$value": true,
-          "$type": "boolean"
-        },
-        "show-assets-vpro": {
-          "$value": false,
-          "$type": "boolean"
-        },
-        "show-assets-npo-doc": {
-          "$value": false,
-          "$type": "boolean"
-        },
-        "show-assets-argos": {
-          "$value": false,
-          "$type": "boolean"
-        },
-        "show-assets-brainwash": {
-          "$value": false,
-          "$type": "boolean"
-        },
-        "show-assets-tegenlicht": {
-          "$value": false,
-          "$type": "boolean"
-        },
-        "show-assets-3voor12": {
-          "$value": false,
-          "$type": "boolean"
-        },
-        "show-assets-3voor12-lokaal": {
-          "$value": false,
-          "$type": "boolean"
-        },
-        "show-assets-vpro-gids": {
-          "$value": false,
-          "$type": "boolean"
-        },
-        "show-assets-vpro-cinema": {
-          "$value": false,
-          "$type": "boolean"
-        }
-      }
-    },
     "color": {
       "base": {
         "background": {
@@ -1130,6 +644,492 @@
             "$value": "{brands.brandprimitives.tertiary.main}",
             "$type": "color"
           }
+        }
+      }
+    },
+    "font": {
+      "family": {
+        "$value": "{primitives.font.family.riforma}",
+        "$type": "fontFamily"
+      }
+    },
+    "component": {
+      "navigation": {
+        "background": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.4745098054409027,
+              0,
+              0.9725490212440491
+            ],
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "background-alt": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1,
+              1,
+              1
+            ],
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "background-alt-2": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.25882354378700256,
+              0.45490196347236633,
+              0.09019608050584793
+            ],
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "background-footer": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1,
+              1,
+              1
+            ],
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "foreground": {
+          "$value": "{brands.color.base.text.inverse}",
+          "$type": "color"
+        },
+        "foreground-footer": {
+          "$value": "{brands.color.base.text.default}",
+          "$type": "color"
+        },
+        "foreground-alt-2": {
+          "$value": "{brands.color.base.text.title}",
+          "$type": "color"
+        },
+        "foreground-menu": {
+          "$value": "{brands.color.base.text.default}",
+          "$type": "color"
+        }
+      },
+      "cta": {
+        "background": {
+          "$value": "{brands.color.base.background.tertiary}",
+          "$type": "color"
+        },
+        "foreground": {
+          "$value": "{brands.brandprimitives.primary.main}",
+          "$type": "color"
+        },
+        "title": {
+          "$value": "{brands.color.base.text.title}",
+          "$type": "color"
+        },
+        "text": {
+          "$value": "{brands.color.base.text.default}",
+          "$type": "color"
+        }
+      }
+    },
+    "content": {
+      "text": {
+        "navigation": {
+          "payoff": {
+            "$value": "Wij laten zien wat ons mens maakt. We streven naar een meer menselijke samenleving, waarin je kunt onderzoeken, luisteren, twijfelen en waar je echt contact maakt met jezelf en anderen.",
+            "$type": "string"
+          }
+        },
+        "navigation-themes": {
+          "cta-nav-r1": {
+            "$value": "Steun HUMAN",
+            "$type": "string"
+          },
+          "cta-nav-r2": {
+            "$value": "Nieuwsbrief",
+            "$type": "string"
+          },
+          "show-items-left": {
+            "$value": false,
+            "$type": "boolean"
+          },
+          "cta-nav-l1": {
+            "$value": " ",
+            "$type": "string"
+          },
+          "cta-nav-l2": {
+            "$value": " ",
+            "$type": "string"
+          },
+          "cta-nav-l3": {
+            "$value": " ",
+            "$type": "string"
+          },
+          "cta-nav-l4": {
+            "$value": " ",
+            "$type": "string"
+          },
+          "title": {
+            "$value": "Dit maken we",
+            "$type": "string"
+          },
+          "theme-1": {
+            "$value": "Programma's",
+            "$type": "string"
+          },
+          "theme-2": {
+            "$value": "Documentaires",
+            "$type": "string"
+          },
+          "theme-3": {
+            "$value": "Artikelen",
+            "$type": "string"
+          },
+          "show-theme-4": {
+            "$value": true,
+            "$type": "boolean"
+          },
+          "theme-4": {
+            "$value": "Educatie",
+            "$type": "string"
+          },
+          "show-theme-5": {
+            "$value": false,
+            "$type": "boolean"
+          },
+          "theme-5": {
+            "$value": " ",
+            "$type": "string"
+          },
+          "show-theme-6": {
+            "$value": false,
+            "$type": "boolean"
+          },
+          "theme-6": {
+            "$value": " ",
+            "$type": "string"
+          },
+          "show-theme-7": {
+            "$value": false,
+            "$type": "boolean"
+          },
+          "theme-7": {
+            "$value": " ",
+            "$type": "string"
+          },
+          "show-theme-8": {
+            "$value": false,
+            "$type": "boolean"
+          },
+          "theme-8": {
+            "$value": " ",
+            "$type": "string"
+          },
+          "show-theme-9": {
+            "$value": false,
+            "$type": "boolean"
+          },
+          "theme-9": {
+            "$value": " ",
+            "$type": "string"
+          },
+          "theme-10": {
+            "$value": " ",
+            "$type": "string"
+          },
+          "theme-11": {
+            "$value": " ",
+            "$type": "string"
+          },
+          "theme-12": {
+            "$value": " ",
+            "$type": "string"
+          },
+          "theme-13": {
+            "$value": " ",
+            "$type": "string"
+          },
+          "theme-14": {
+            "$value": " ",
+            "$type": "string"
+          },
+          "theme-15": {
+            "$value": " ",
+            "$type": "string"
+          },
+          "theme-16": {
+            "$value": " ",
+            "$type": "string"
+          },
+          "show-more-link": {
+            "$value": false,
+            "$type": "boolean"
+          },
+          "show-more": {
+            "$value": " ",
+            "$type": "string"
+          }
+        },
+        "footer": {
+          "payoff": {
+            "$value": "Wij laten zien wat ons mens maakt. We streven naar een meer menselijke samenleving, waarin je kunt onderzoeken, luisteren, twijfelen en waar je echt contact maakt met jezelf en anderen.",
+            "$type": "string"
+          },
+          "social-icons": {
+            "show-social-icons": {
+              "$value": true,
+              "$type": "boolean"
+            },
+            "social-icons-title": {
+              "$value": "Volg HUMAN",
+              "$type": "string"
+            },
+            "show-instagram": {
+              "$value": true,
+              "$type": "boolean"
+            },
+            "show-facebook": {
+              "$value": true,
+              "$type": "boolean"
+            },
+            "show-linkedin": {
+              "$value": true,
+              "$type": "boolean"
+            },
+            "show-tiktok": {
+              "$value": true,
+              "$type": "boolean"
+            },
+            "show-bluesky": {
+              "$value": true,
+              "$type": "boolean"
+            },
+            "show-youtube": {
+              "$value": false,
+              "$type": "boolean"
+            },
+            "show-spotify": {
+              "$value": false,
+              "$type": "boolean"
+            },
+            "show-x": {
+              "$value": false,
+              "$type": "boolean"
+            }
+          },
+          "footer-links": {
+            "footer-links-title": {
+              "$value": "HUMAN",
+              "$type": "string"
+            },
+            "cta-footer-1": {
+              "$value": "Nieuwsbrief",
+              "$type": "string"
+            },
+            "cta-footer-2": {
+              "$value": "Over HUMAN",
+              "$type": "string"
+            },
+            "cta-footer-3": {
+              "$value": "Contact",
+              "$type": "string"
+            },
+            "show-cta-4": {
+              "$value": true,
+              "$type": "boolean"
+            },
+            "cta-footer-4": {
+              "$value": "Vrienden van HUMAN",
+              "$type": "string"
+            },
+            "show-cta-5": {
+              "$value": true,
+              "$type": "boolean"
+            },
+            "cta-footer-5": {
+              "$value": "Steun HUMAN",
+              "$type": "string"
+            },
+            "show-cta-6": {
+              "$value": true,
+              "$type": "boolean"
+            },
+            "cta-footer-6": {
+              "$value": "Evenementen en opnames",
+              "$type": "string"
+            },
+            "show-cta-7": {
+              "$value": true,
+              "$type": "boolean"
+            },
+            "cta-footer-7": {
+              "$value": "Vacatures",
+              "$type": "string"
+            },
+            "show-cta-8": {
+              "$value": false,
+              "$type": "boolean"
+            },
+            "cta-footer-8": {
+              "$value": " ",
+              "$type": "string"
+            },
+            "show-cta-9": {
+              "$value": false,
+              "$type": "boolean"
+            },
+            "cta-footer-9": {
+              "$value": " ",
+              "$type": "string"
+            }
+          },
+          "watch-more-links": {
+            "show-watch-more": {
+              "$value": true,
+              "$type": "boolean"
+            },
+            "watch-more-title": {
+              "$value": "Bekijk via",
+              "$type": "string"
+            },
+            "show-npo-start": {
+              "$value": true,
+              "$type": "boolean"
+            },
+            "show-npo-radio-1": {
+              "$value": false,
+              "$type": "boolean"
+            },
+            "show-npo-2": {
+              "$value": false,
+              "$type": "boolean"
+            },
+            "show-youtube": {
+              "$value": false,
+              "$type": "boolean"
+            },
+            "show-npo-3fm": {
+              "$value": false,
+              "$type": "boolean"
+            },
+            "show-app-store-icons": {
+              "$value": false,
+              "$type": "boolean"
+            },
+            "show-extra-divider": {
+              "$value": false,
+              "$type": "boolean"
+            }
+          },
+          "powered-by": {
+            "show-powered-by": {
+              "$value": false,
+              "$type": "boolean"
+            },
+            "powered-by": {
+              "$value": " ",
+              "$type": "string"
+            },
+            "show-human": {
+              "$value": false,
+              "$type": "boolean"
+            },
+            "show-vpro": {
+              "$value": false,
+              "$type": "boolean"
+            },
+            "show-vpro-gids": {
+              "$value": false,
+              "$type": "boolean"
+            }
+          },
+          "legal-links": {
+            "copyright": {
+              "$value": "© 2026 HUMAN - Alle rechten voorbehouden.",
+              "$type": "string"
+            },
+            "legal-link-1": {
+              "$value": "Ombudsman",
+              "$type": "string"
+            },
+            "legal-link-2": {
+              "$value": "Privacy",
+              "$type": "string"
+            },
+            "show-legal-link-3": {
+              "$value": true,
+              "$type": "boolean"
+            },
+            "legal-link-3": {
+              "$value": "Cookies",
+              "$type": "string"
+            },
+            "show-legal-link-4": {
+              "$value": false,
+              "$type": "boolean"
+            },
+            "legal-link-4": {
+              "$value": " ",
+              "$type": "string"
+            },
+            "show-public-spaces": {
+              "$value": true,
+              "$type": "boolean"
+            }
+          }
+        }
+      },
+      "assets": {
+        "show-assets-huismerk": {
+          "$value": false,
+          "$type": "boolean"
+        },
+        "show-assets-human": {
+          "$value": true,
+          "$type": "boolean"
+        },
+        "show-assets-vpro": {
+          "$value": false,
+          "$type": "boolean"
+        },
+        "show-assets-npo-doc": {
+          "$value": false,
+          "$type": "boolean"
+        },
+        "show-assets-argos": {
+          "$value": false,
+          "$type": "boolean"
+        },
+        "show-assets-brainwash": {
+          "$value": false,
+          "$type": "boolean"
+        },
+        "show-assets-tegenlicht": {
+          "$value": false,
+          "$type": "boolean"
+        },
+        "show-assets-3voor12": {
+          "$value": false,
+          "$type": "boolean"
+        },
+        "show-assets-3voor12-lokaal": {
+          "$value": false,
+          "$type": "boolean"
+        },
+        "show-assets-vpro-gids": {
+          "$value": false,
+          "$type": "boolean"
+        },
+        "show-assets-vpro-cinema": {
+          "$value": false,
+          "$type": "boolean"
         }
       }
     }

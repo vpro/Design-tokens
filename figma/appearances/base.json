@@ -1,0 +1,73 @@
+{
+  "$schema": "https://www.designtokens.org/schemas/2025.10/format.json",
+  "appearances": {
+    "background": {
+      "default": {
+        "$value": "{brands.color.base.background.default}",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "{brands.brandprimitives.greyscale.pastel}",
+        "$type": "color"
+      }
+    },
+    "text": {
+      "default": {
+        "$value": "{brands.color.base.text.default}",
+        "$type": "color"
+      },
+      "subtle": {
+        "$value": "{brands.color.base.text.subtle}",
+        "$type": "color"
+      },
+      "title": {
+        "$value": "{brands.color.base.text.title}",
+        "$type": "color"
+      },
+      "link": {
+        "$value": "{brands.color.base.link.default}",
+        "$type": "color"
+      },
+      "hover": {
+        "$value": "{brands.color.base.link.hover}",
+        "$type": "color"
+      }
+    },
+    "interactive": {
+      "background": {
+        "$value": "{brands.color.base.interactive.primary.background.default}",
+        "$type": "color"
+      },
+      "foreground": {
+        "$value": "{brands.color.base.interactive.primary.foreground.default}",
+        "$type": "color"
+      },
+      "hover-background": {
+        "$value": "{brands.color.base.interactive.primary.background.hover}",
+        "$type": "color"
+      },
+      "hover-foreground": {
+        "$value": "{brands.color.base.interactive.primary.foreground.hover}",
+        "$type": "color"
+      }
+    },
+    "input": {
+      "background": {
+        "$value": "{brands.color.base.input.background}",
+        "$type": "color"
+      },
+      "foreground": {
+        "$value": "{brands.color.base.input.foreground}",
+        "$type": "color"
+      },
+      "border-default": {
+        "$value": "{brands.color.base.input.border-default}",
+        "$type": "color"
+      },
+      "border-active": {
+        "$value": "{brands.color.base.input.border-active}",
+        "$type": "color"
+      }
+    }
+  }
+}

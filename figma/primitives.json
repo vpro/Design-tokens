@@ -2949,31 +2949,15 @@
         }
       },
       "weight": {
-        "100": {
-          "$value": 100,
-          "$type": "number"
-        },
-        "200": {
-          "$value": 200,
-          "$type": "number"
-        },
-        "300": {
-          "$value": 300,
-          "$type": "number"
-        },
-        "400": {
+        "regular": {
           "$value": 400,
           "$type": "number"
         },
-        "500": {
+        "medium": {
           "$value": 500,
           "$type": "number"
         },
-        "600": {
-          "$value": 600,
-          "$type": "number"
-        },
-        "700": {
+        "bold": {
           "$value": 700,
           "$type": "number"
         }
@@ -3280,6 +3264,60 @@
             "alpha": 0.75
           },
           "$type": "color"
+        }
+      }
+    },
+    "motion": {
+      "style": {
+        "easeinout": {
+          "$value": [
+            0.42000001668930054,
+            0,
+            0.5800000429153442,
+            1
+          ],
+          "$type": "cubicBezier"
+        },
+        "easein": {
+          "$value": [
+            0.41999998688697815,
+            0,
+            1,
+            1
+          ],
+          "$type": "cubicBezier"
+        },
+        "easeout": {
+          "$value": [
+            0.1899999976158142,
+            0.9100000262260437,
+            0.3799999952316284,
+            1
+          ],
+          "$type": "cubicBezier"
+        }
+      },
+      "duration": {
+        "fast": {
+          "$value": {
+            "value": 0.15000000596046448,
+            "unit": "s"
+          },
+          "$type": "duration"
+        },
+        "medium": {
+          "$value": {
+            "value": 0.20000000298023224,
+            "unit": "s"
+          },
+          "$type": "duration"
+        },
+        "slow": {
+          "$value": {
+            "value": 0.25,
+            "unit": "s"
+          },
+          "$type": "duration"
         }
       }
     }

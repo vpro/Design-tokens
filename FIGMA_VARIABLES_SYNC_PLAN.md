@@ -39,6 +39,12 @@ floats remain unitless numbers, aliases become token-path references, and
 strings and booleans retain their values. File names and token paths are
 deterministic.
 
+Timing variables become `duration` tokens with a numeric value and unit `s`,
+matching Figma's seconds. Custom cubic Bézier easing variables become
+`cubicBezier` tokens with four control-point coordinates. Other easing types,
+including springs, are rejected explicitly rather than converted to a different
+curve. Motion aliases remain token-path references.
+
 Composed colours resolve colour and opacity aliases into a concrete sRGB value
 with an explicit alpha for each exported mode. Resolution uses the current
 collection mode and single-mode dependencies. A dependency on another multi-mode

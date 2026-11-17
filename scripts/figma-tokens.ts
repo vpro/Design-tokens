@@ -14,7 +14,13 @@ import { dirname, join, relative } from "node:path";
 const TOKEN_SCHEMA =
   "https://www.designtokens.org/schemas/2025.10/format.json";
 
-type FigmaResolvedType = "BOOLEAN" | "COLOR" | "FLOAT" | "STRING";
+type FigmaResolvedType =
+  | "BOOLEAN"
+  | "COLOR"
+  | "FLOAT"
+  | "STRING"
+  | "TIMING"
+  | "EASING";
 
 interface FigmaMode {
   modeId: string;
@@ -202,11 +208,15 @@ function validateResponse(response: unknown): ValidatedFigmaData {
       typeof value.name !== "string" ||
       typeof value.description !== "string" ||
       typeof value.remote !== "boolean" ||
-      !isResolvedType(value.resolvedType) ||
       typeof value.variableCollectionId !== "string" ||
       !isRecord(value.valuesByMode)
     ) {
       throw new Error(`Figma variable "${key}" is incomplete`);
+    }
+    if (!isResolvedType(value.resolvedType)) {
+      throw new Error(
+        `Figma variable "${value.name}" has unsupported type "${String(value.resolvedType)}"`,
+      );
     }
     allVariables.set(key, value as unknown as FigmaVariable);
   }
@@ -374,6 +384,10 @@ function toTokenType(variable: FigmaVariable): string {
         : "string";
     case "BOOLEAN":
       return "boolean";
+    case "TIMING":
+      return "duration";
+    case "EASING":
+      return "cubicBezier";
   }
 }
 
@@ -405,6 +419,17 @@ function convertValue(
         throw invalidValueError(variable);
       }
       return rawValue;
+    case "TIMING":
+      if (
+        typeof rawValue !== "number" ||
+        !Number.isFinite(rawValue) ||
+        rawValue < 0
+      ) {
+        throw invalidValueError(variable);
+      }
+      return { value: rawValue, unit: "s" };
+    case "EASING":
+      return convertEasing(variable, rawValue);
     case "STRING":
       if (typeof rawValue !== "string") {
         throw invalidValueError(variable);
@@ -424,6 +449,33 @@ function convertValue(
       };
     }
   }
+}
+
+function convertEasing(variable: FigmaVariable, rawValue: unknown): number[] {
+  // REST uses easingType 7 for custom cubic curves; springValues may also be
+  // present but are inactive for this type.
+  if (
+    !isRecord(rawValue) ||
+    rawValue.easingType !== 7 ||
+    !isRecord(rawValue.bezierValues)
+  ) {
+    throw new Error(
+      `Variable "${variable.name}" uses an unsupported easing curve; only custom cubic Bézier curves can be exported as cubicBezier tokens`,
+    );
+  }
+
+  const { p1x, p1y, p2x, p2y } = rawValue.bezierValues;
+  if (
+    !isUnitInterval(p1x) ||
+    !isUnitInterval(p2x) ||
+    typeof p1y !== "number" ||
+    !Number.isFinite(p1y) ||
+    typeof p2y !== "number" ||
+    !Number.isFinite(p2y)
+  ) {
+    throw invalidValueError(variable);
+  }
+  return [p1x, p1y, p2x, p2y];
 }
 
 function resolveColorValue(
@@ -641,7 +693,9 @@ function isResolvedType(value: unknown): value is FigmaResolvedType {
     value === "BOOLEAN" ||
     value === "COLOR" ||
     value === "FLOAT" ||
-    value === "STRING"
+    value === "STRING" ||
+    value === "TIMING" ||
+    value === "EASING"
   );
 }
 

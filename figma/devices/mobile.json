@@ -21,28 +21,6 @@
             "$type": "number"
           }
         },
-        "weight": {
-          "sm": {
-            "$value": "{primitives.font.weight.400}",
-            "$type": "number"
-          },
-          "md": {
-            "$value": "{primitives.font.weight.400}",
-            "$type": "number"
-          },
-          "md-bold": {
-            "$value": "{primitives.font.weight.700}",
-            "$type": "number"
-          },
-          "lg": {
-            "$value": "{primitives.font.weight.400}",
-            "$type": "number"
-          },
-          "xl": {
-            "$value": "{primitives.font.weight.400}",
-            "$type": "number"
-          }
-        },
         "lineheight": {
           "sm": {
             "$value": "{primitives.font.lineheight.200}",
@@ -78,24 +56,6 @@
           },
           "intro": {
             "$value": "{primitives.font.size.180}",
-            "$type": "number"
-          }
-        },
-        "weight": {
-          "intro": {
-            "$value": "{primitives.font.weight.400}",
-            "$type": "number"
-          },
-          "headline": {
-            "$value": "{primitives.font.weight.400}",
-            "$type": "number"
-          },
-          "quote": {
-            "$value": "{primitives.font.weight.400}",
-            "$type": "number"
-          },
-          "name": {
-            "$value": "{primitives.font.weight.700}",
             "$type": "number"
           }
         },
@@ -146,36 +106,8 @@
           }
         },
         "weight": {
-          "sm": {
-            "$value": "{primitives.font.weight.400}",
-            "$type": "number"
-          },
           "md": {
-            "$value": "{primitives.font.weight.400}",
-            "$type": "number"
-          },
-          "md-bold": {
-            "$value": "{primitives.font.weight.700}",
-            "$type": "number"
-          },
-          "lg": {
-            "$value": "{primitives.font.weight.400}",
-            "$type": "number"
-          },
-          "xl": {
-            "$value": "{primitives.font.weight.400}",
-            "$type": "number"
-          },
-          "xl-bold": {
-            "$value": "{primitives.font.weight.700}",
-            "$type": "number"
-          },
-          "xxl": {
-            "$value": "{primitives.font.weight.400}",
-            "$type": "number"
-          },
-          "xxxl": {
-            "$value": "{primitives.font.weight.400}",
+            "$value": "{primitives.font.weight.regular}",
             "$type": "number"
           }
         },
@@ -241,40 +173,6 @@
             "$type": "number"
           }
         },
-        "weight": {
-          "xxs": {
-            "$value": "{primitives.font.weight.700}",
-            "$type": "number"
-          },
-          "xs": {
-            "$value": "{primitives.font.weight.700}",
-            "$type": "number"
-          },
-          "sm": {
-            "$value": "{primitives.font.weight.700}",
-            "$type": "number"
-          },
-          "md": {
-            "$value": "{primitives.font.weight.700}",
-            "$type": "number"
-          },
-          "lg": {
-            "$value": "{primitives.font.weight.700}",
-            "$type": "number"
-          },
-          "xl": {
-            "$value": "{primitives.font.weight.700}",
-            "$type": "number"
-          },
-          "xxl": {
-            "$value": "{primitives.font.weight.700}",
-            "$type": "number"
-          },
-          "xxxl": {
-            "$value": "{primitives.font.weight.700}",
-            "$type": "number"
-          }
-        },
         "lineheight": {
           "xxs": {
             "$value": "{primitives.font.lineheight.200}",
@@ -329,24 +227,6 @@
             "$type": "number"
           }
         },
-        "weight": {
-          "sm": {
-            "$value": "{primitives.font.weight.400}",
-            "$type": "number"
-          },
-          "lg": {
-            "$value": "{primitives.font.weight.400}",
-            "$type": "number"
-          },
-          "xl": {
-            "$value": "{primitives.font.weight.400}",
-            "$type": "number"
-          },
-          "xxl": {
-            "$value": "{primitives.font.weight.400}",
-            "$type": "number"
-          }
-        },
         "lineheight": {
           "sm": {
             "$value": "{primitives.font.lineheight.200}",
@@ -365,6 +245,28 @@
             "$type": "number"
           }
         }
+      }
+    },
+    "device": {
+      "width": {
+        "$value": 390,
+        "$type": "number"
+      },
+      "inline-6": {
+        "$value": 342,
+        "$type": "number"
+      },
+      "inline-12": {
+        "$value": 342,
+        "$type": "number"
+      },
+      "columns": {
+        "$value": 4,
+        "$type": "number"
+      },
+      "height": {
+        "$value": 844,
+        "$type": "number"
       }
     },
     "layout": {
@@ -425,6 +327,74 @@
             "$type": "number"
           }
         },
+        "slideshow": {
+          "bottom-margin": {
+            "$value": 152,
+            "$type": "number"
+          }
+        },
+        "collection": {
+          "img-width": {
+            "$value": 342,
+            "$type": "number"
+          },
+          "text-padding": {
+            "$value": 16,
+            "$type": "number"
+          }
+        },
+        "contentcaptionfigure": {
+          "text-width": {
+            "$value": 342,
+            "$type": "number"
+          },
+          "comp-width": {
+            "$value": 342,
+            "$type": "number"
+          }
+        },
+        "cinemamovie": {
+          "credit-width": {
+            "$value": 90,
+            "$type": "number"
+          }
+        },
+        "reviewhero": {
+          "img-width": {
+            "$value": 72,
+            "$type": "number"
+          },
+          "hero-height": {
+            "$value": 444,
+            "$type": "number"
+          },
+          "padding": {
+            "$value": 24,
+            "$type": "number"
+          }
+        },
+        "embed": {
+          "img-width-spotify": {
+            "$value": 96,
+            "$type": "number"
+          }
+        },
+        "reviewblock": {
+          "img-width": {
+            "$value": 342,
+            "$type": "number"
+          }
+        },
+        "reviewtile": {
+          "img-width": {
+            "$value": 258,
+            "$type": "number"
+          },
+          "img-width-min": {
+            "$value": 159,
+            "$type": "number"
+          }
+        },
         "cardlink": {
           "img-width-max": {
             "$value": 56,
@@ -443,48 +413,6 @@
             "$type": "number"
           }
         },
-        "reviewhero": {
-          "img-width": {
-            "$value": 72,
-            "$type": "number"
-          },
-          "hero-height": {
-            "$value": 444,
-            "$type": "number"
-          },
-          "padding": {
-            "$value": 24,
-            "$type": "number"
-          }
-        },
-        "reviewblock": {
-          "img-width": {
-            "$value": 342,
-            "$type": "number"
-          }
-        },
-        "collection": {
-          "img-width": {
-            "$value": 342,
-            "$type": "number"
-          },
-          "text-padding": {
-            "$value": 16,
-            "$type": "number"
-          }
-        },
-        "cinemamovie": {
-          "credit-width": {
-            "$value": 90,
-            "$type": "number"
-          }
-        },
-        "embed": {
-          "img-width-spotify": {
-            "$value": 96,
-            "$type": "number"
-          }
-        },
         "gallery": {
           "gallery-width-max": {
             "$value": 342,
@@ -495,32 +423,6 @@
             "$type": "number"
           },
           "gallery-content-width": {
-            "$value": 342,
-            "$type": "number"
-          }
-        },
-        "reviewtile": {
-          "img-width": {
-            "$value": 258,
-            "$type": "number"
-          },
-          "img-width-min": {
-            "$value": 159,
-            "$type": "number"
-          }
-        },
-        "slideshow": {
-          "bottom-margin": {
-            "$value": 152,
-            "$type": "number"
-          }
-        },
-        "contentcaptionfigure": {
-          "text-width": {
-            "$value": 342,
-            "$type": "number"
-          },
-          "comp-width": {
             "$value": 342,
             "$type": "number"
           }
@@ -551,28 +453,6 @@
           "$value": 320,
           "$type": "number"
         }
-      }
-    },
-    "device": {
-      "width": {
-        "$value": 390,
-        "$type": "number"
-      },
-      "inline-6": {
-        "$value": 342,
-        "$type": "number"
-      },
-      "inline-12": {
-        "$value": 342,
-        "$type": "number"
-      },
-      "columns": {
-        "$value": 4,
-        "$type": "number"
-      },
-      "height": {
-        "$value": 844,
-        "$type": "number"
       }
     },
     "content": {

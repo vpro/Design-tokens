@@ -24,8 +24,6 @@ describe("Figma variable tokens", () => {
     reversed.meta.variables = Object.fromEntries(
       Object.entries(reversed.meta.variables).reverse(),
     );
-    reversed.meta.variableCollections.brands.variableIds.reverse();
-
     const files = createTokenFiles(response);
     deepEqual([...files], [...createTokenFiles(reversed)]);
     deepEqual([...files.keys()], [

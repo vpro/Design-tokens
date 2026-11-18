@@ -647,10 +647,82 @@
         }
       }
     },
-    "font": {
+    "text": {
+      "weight": {
+        "display": {
+          "headline": {
+            "$value": "{primitives.font.weight.bold}",
+            "$type": "number"
+          },
+          "intro": {
+            "$value": "{primitives.font.weight.medium}",
+            "$type": "number"
+          },
+          "quote": {
+            "$value": "{primitives.font.weight.medium}",
+            "$type": "number"
+          },
+          "name": {
+            "$value": "{primitives.font.weight.bold}",
+            "$type": "number"
+          }
+        },
+        "heading": {
+          "$value": "{primitives.font.weight.bold}",
+          "$type": "number"
+        },
+        "body": {
+          "$value": "{primitives.font.weight.regular}",
+          "$type": "number"
+        },
+        "utility": {
+          "$value": "{primitives.font.weight.regular}",
+          "$type": "number"
+        },
+        "program": {
+          "$value": "{primitives.font.weight.bold}",
+          "$type": "number"
+        }
+      },
       "family": {
-        "$value": "{primitives.font.family.simplisticsans}",
-        "$type": "fontFamily"
+        "default": {
+          "$value": "{primitives.font.family.simplisticsans}",
+          "$type": "fontFamily"
+        },
+        "heading": {
+          "$value": "{primitives.font.family.simplisticsans}",
+          "$type": "fontFamily"
+        },
+        "body": {
+          "$value": "{primitives.font.family.simplisticsans}",
+          "$type": "fontFamily"
+        },
+        "utility": {
+          "$value": "{primitives.font.family.simplisticsans}",
+          "$type": "fontFamily"
+        },
+        "program": {
+          "$value": "{primitives.font.family.simplisticsans}",
+          "$type": "fontFamily"
+        },
+        "display": {
+          "headline": {
+            "$value": "{primitives.font.family.simplisticsans}",
+            "$type": "fontFamily"
+          },
+          "intro": {
+            "$value": "{primitives.font.family.simplisticsans}",
+            "$type": "fontFamily"
+          },
+          "quote": {
+            "$value": "{primitives.font.family.simplisticsans}",
+            "$type": "fontFamily"
+          },
+          "name": {
+            "$value": "{primitives.font.family.simplisticsans}",
+            "$type": "fontFamily"
+          }
+        }
       }
     },
     "component": {

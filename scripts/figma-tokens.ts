@@ -378,8 +378,8 @@ function toTokenType(variable: FigmaVariable): string {
     case "FLOAT":
       return "number";
     case "STRING":
-      return variable.name === "font/family" ||
-        variable.name.startsWith("font/family/")
+      return /^(font|text)\/family(?:\/|$)/.test(variable.name) ||
+        variable.name.endsWith("/fontfamily")
         ? "fontFamily"
         : "string";
     case "BOOLEAN":

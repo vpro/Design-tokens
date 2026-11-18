@@ -2,144 +2,8 @@
   "$schema": "https://www.designtokens.org/schemas/2025.10/format.json",
   "devices": {
     "text": {
-      "body": {
-        "size": {
-          "sm": {
-            "$value": "{primitives.font.size.120}",
-            "$type": "number"
-          },
-          "md": {
-            "$value": "{primitives.font.size.140}",
-            "$type": "number"
-          },
-          "lg": {
-            "$value": "{primitives.font.size.180}",
-            "$type": "number"
-          },
-          "xl": {
-            "$value": "{primitives.font.size.200}",
-            "$type": "number"
-          }
-        },
-        "lineheight": {
-          "sm": {
-            "$value": "{primitives.font.lineheight.200}",
-            "$type": "number"
-          },
-          "md": {
-            "$value": "{primitives.font.lineheight.200}",
-            "$type": "number"
-          },
-          "lg": {
-            "$value": "{primitives.font.lineheight.200}",
-            "$type": "number"
-          },
-          "xl": {
-            "$value": "{primitives.font.lineheight.200}",
-            "$type": "number"
-          }
-        }
-      },
-      "display": {
-        "size": {
-          "headline": {
-            "$value": "{primitives.font.size.340}",
-            "$type": "number"
-          },
-          "quote": {
-            "$value": "{primitives.font.size.200}",
-            "$type": "number"
-          },
-          "name": {
-            "$value": "{primitives.font.size.360}",
-            "$type": "number"
-          },
-          "intro": {
-            "$value": "{primitives.font.size.180}",
-            "$type": "number"
-          }
-        },
-        "lineheight": {
-          "headline": {
-            "$value": "{primitives.font.lineheight.300}",
-            "$type": "number"
-          },
-          "quote": {
-            "$value": "{primitives.font.lineheight.200}",
-            "$type": "number"
-          },
-          "name": {
-            "$value": "{primitives.font.lineheight.300}",
-            "$type": "number"
-          },
-          "intro": {
-            "$value": "{primitives.font.lineheight.200}",
-            "$type": "number"
-          }
-        }
-      },
-      "utility": {
-        "size": {
-          "sm": {
-            "$value": "{primitives.font.size.20}",
-            "$type": "number"
-          },
-          "md": {
-            "$value": "{primitives.font.size.60}",
-            "$type": "number"
-          },
-          "lg": {
-            "$value": "{primitives.font.size.100}",
-            "$type": "number"
-          },
-          "xl": {
-            "$value": "{primitives.font.size.140}",
-            "$type": "number"
-          },
-          "xxl": {
-            "$value": "{primitives.font.size.180}",
-            "$type": "number"
-          },
-          "xxxl": {
-            "$value": "{primitives.font.size.200}",
-            "$type": "number"
-          }
-        },
-        "weight": {
-          "md": {
-            "$value": "{primitives.font.weight.regular}",
-            "$type": "number"
-          }
-        },
-        "lineheight": {
-          "sm": {
-            "$value": "{primitives.font.lineheight.100}",
-            "$type": "number"
-          },
-          "md": {
-            "$value": "{primitives.font.lineheight.100}",
-            "$type": "number"
-          },
-          "lg": {
-            "$value": "{primitives.font.lineheight.100}",
-            "$type": "number"
-          },
-          "xl": {
-            "$value": "{primitives.font.lineheight.100}",
-            "$type": "number"
-          },
-          "xxl": {
-            "$value": "{primitives.font.lineheight.200}",
-            "$type": "number"
-          },
-          "xxxl": {
-            "$value": "{primitives.font.lineheight.200}",
-            "$type": "number"
-          }
-        }
-      },
-      "heading": {
-        "size": {
+      "size": {
+        "heading": {
           "xxs": {
             "$value": "{primitives.font.size.160}",
             "$type": "number"
@@ -173,7 +37,89 @@
             "$type": "number"
           }
         },
-        "lineheight": {
+        "body": {
+          "sm": {
+            "$value": "{primitives.font.size.120}",
+            "$type": "number"
+          },
+          "md": {
+            "$value": "{primitives.font.size.140}",
+            "$type": "number"
+          },
+          "lg": {
+            "$value": "{primitives.font.size.180}",
+            "$type": "number"
+          },
+          "xl": {
+            "$value": "{primitives.font.size.200}",
+            "$type": "number"
+          }
+        },
+        "utility": {
+          "sm": {
+            "$value": "{primitives.font.size.20}",
+            "$type": "number"
+          },
+          "md": {
+            "$value": "{primitives.font.size.60}",
+            "$type": "number"
+          },
+          "lg": {
+            "$value": "{primitives.font.size.100}",
+            "$type": "number"
+          },
+          "xl": {
+            "$value": "{primitives.font.size.140}",
+            "$type": "number"
+          },
+          "xxl": {
+            "$value": "{primitives.font.size.180}",
+            "$type": "number"
+          },
+          "xxxl": {
+            "$value": "{primitives.font.size.200}",
+            "$type": "number"
+          }
+        },
+        "display": {
+          "headline": {
+            "$value": "{primitives.font.size.340}",
+            "$type": "number"
+          },
+          "intro": {
+            "$value": "{primitives.font.size.180}",
+            "$type": "number"
+          },
+          "quote": {
+            "$value": "{primitives.font.size.200}",
+            "$type": "number"
+          },
+          "name": {
+            "$value": "{primitives.font.size.360}",
+            "$type": "number"
+          }
+        },
+        "program": {
+          "sm": {
+            "$value": "{primitives.font.size.240}",
+            "$type": "number"
+          },
+          "lg": {
+            "$value": "{primitives.font.size.300}",
+            "$type": "number"
+          },
+          "xl": {
+            "$value": "{primitives.font.size.420}",
+            "$type": "number"
+          },
+          "xxl": {
+            "$value": "{primitives.font.size.450}",
+            "$type": "number"
+          }
+        }
+      },
+      "lineheight": {
+        "heading": {
           "xxs": {
             "$value": "{primitives.font.lineheight.200}",
             "$type": "number"
@@ -206,28 +152,70 @@
             "$value": "{primitives.font.lineheight.400}",
             "$type": "number"
           }
-        }
-      },
-      "program": {
-        "size": {
+        },
+        "body": {
           "sm": {
-            "$value": "{primitives.font.size.240}",
+            "$value": "{primitives.font.lineheight.200}",
+            "$type": "number"
+          },
+          "md": {
+            "$value": "{primitives.font.lineheight.200}",
             "$type": "number"
           },
           "lg": {
-            "$value": "{primitives.font.size.300}",
+            "$value": "{primitives.font.lineheight.200}",
             "$type": "number"
           },
           "xl": {
-            "$value": "{primitives.font.size.420}",
-            "$type": "number"
-          },
-          "xxl": {
-            "$value": "{primitives.font.size.450}",
+            "$value": "{primitives.font.lineheight.200}",
             "$type": "number"
           }
         },
-        "lineheight": {
+        "utility": {
+          "sm": {
+            "$value": "{primitives.font.lineheight.100}",
+            "$type": "number"
+          },
+          "md": {
+            "$value": "{primitives.font.lineheight.100}",
+            "$type": "number"
+          },
+          "lg": {
+            "$value": "{primitives.font.lineheight.100}",
+            "$type": "number"
+          },
+          "xl": {
+            "$value": "{primitives.font.lineheight.100}",
+            "$type": "number"
+          },
+          "xxl": {
+            "$value": "{primitives.font.lineheight.200}",
+            "$type": "number"
+          },
+          "xxxl": {
+            "$value": "{primitives.font.lineheight.200}",
+            "$type": "number"
+          }
+        },
+        "display": {
+          "headline": {
+            "$value": "{primitives.font.lineheight.300}",
+            "$type": "number"
+          },
+          "quote": {
+            "$value": "{primitives.font.lineheight.200}",
+            "$type": "number"
+          },
+          "name": {
+            "$value": "{primitives.font.lineheight.300}",
+            "$type": "number"
+          },
+          "intro": {
+            "$value": "{primitives.font.lineheight.200}",
+            "$type": "number"
+          }
+        },
+        "program": {
           "sm": {
             "$value": "{primitives.font.lineheight.200}",
             "$type": "number"
@@ -245,28 +233,14 @@
             "$type": "number"
           }
         }
-      }
-    },
-    "device": {
-      "width": {
-        "$value": 390,
-        "$type": "number"
       },
-      "inline-6": {
-        "$value": 342,
-        "$type": "number"
-      },
-      "inline-12": {
-        "$value": 342,
-        "$type": "number"
-      },
-      "columns": {
-        "$value": 4,
-        "$type": "number"
-      },
-      "height": {
-        "$value": 844,
-        "$type": "number"
+      "utility": {
+        "weight": {
+          "md": {
+            "$value": "{primitives.font.weight.regular}",
+            "$type": "number"
+          }
+        }
       }
     },
     "layout": {
@@ -327,9 +301,25 @@
             "$type": "number"
           }
         },
-        "slideshow": {
-          "bottom-margin": {
-            "$value": 152,
+        "reviewblock": {
+          "img-width": {
+            "$value": 342,
+            "$type": "number"
+          }
+        },
+        "npoplayer": {
+          "img-width": {
+            "$value": 48,
+            "$type": "number"
+          }
+        },
+        "reviewtile": {
+          "img-width": {
+            "$value": 258,
+            "$type": "number"
+          },
+          "img-width-min": {
+            "$value": 159,
             "$type": "number"
           }
         },
@@ -343,6 +333,18 @@
             "$type": "number"
           }
         },
+        "slideshow": {
+          "bottom-margin": {
+            "$value": 152,
+            "$type": "number"
+          }
+        },
+        "cinemamovie": {
+          "credit-width": {
+            "$value": 90,
+            "$type": "number"
+          }
+        },
         "contentcaptionfigure": {
           "text-width": {
             "$value": 342,
@@ -353,45 +355,23 @@
             "$type": "number"
           }
         },
-        "cinemamovie": {
-          "credit-width": {
-            "$value": 90,
-            "$type": "number"
-          }
-        },
-        "reviewhero": {
-          "img-width": {
-            "$value": 72,
-            "$type": "number"
-          },
-          "hero-height": {
-            "$value": 444,
-            "$type": "number"
-          },
-          "padding": {
-            "$value": 24,
-            "$type": "number"
-          }
-        },
         "embed": {
           "img-width-spotify": {
             "$value": 96,
             "$type": "number"
           }
         },
-        "reviewblock": {
-          "img-width": {
+        "gallery": {
+          "gallery-width-max": {
             "$value": 342,
             "$type": "number"
-          }
-        },
-        "reviewtile": {
-          "img-width": {
-            "$value": 258,
+          },
+          "gallery-height-max": {
+            "$value": 432,
             "$type": "number"
           },
-          "img-width-min": {
-            "$value": 159,
+          "gallery-content-width": {
+            "$value": 342,
             "$type": "number"
           }
         },
@@ -407,23 +387,17 @@
             "$type": "number"
           }
         },
-        "npoplayer": {
+        "reviewhero": {
           "img-width": {
-            "$value": 48,
-            "$type": "number"
-          }
-        },
-        "gallery": {
-          "gallery-width-max": {
-            "$value": 342,
+            "$value": 72,
             "$type": "number"
           },
-          "gallery-height-max": {
-            "$value": 432,
+          "hero-height": {
+            "$value": 444,
             "$type": "number"
           },
-          "gallery-content-width": {
-            "$value": 342,
+          "padding": {
+            "$value": 24,
             "$type": "number"
           }
         },
@@ -453,6 +427,28 @@
           "$value": 320,
           "$type": "number"
         }
+      }
+    },
+    "device": {
+      "width": {
+        "$value": 390,
+        "$type": "number"
+      },
+      "inline-6": {
+        "$value": 342,
+        "$type": "number"
+      },
+      "inline-12": {
+        "$value": 342,
+        "$type": "number"
+      },
+      "columns": {
+        "$value": 4,
+        "$type": "number"
+      },
+      "height": {
+        "$value": 844,
+        "$type": "number"
       }
     },
     "content": {

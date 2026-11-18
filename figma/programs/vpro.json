@@ -1,6 +1,6 @@
 {
   "$schema": "https://www.designtokens.org/schemas/2025.10/format.json",
-  "portal-colors": {
+  "programs": {
     "0": {
       "primary": {
         "$value": {

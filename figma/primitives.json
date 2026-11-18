@@ -2948,6 +2948,40 @@
           "$type": "number"
         }
       },
+      "ratio": {
+        "80": {
+          "$value": 0.800000011920929,
+          "$type": "number"
+        },
+        "90": {
+          "$value": 0.8999999761581421,
+          "$type": "number"
+        },
+        "100": {
+          "$value": 1,
+          "$type": "number"
+        },
+        "110": {
+          "$value": 1.100000023841858,
+          "$type": "number"
+        },
+        "120": {
+          "$value": 1.2000000476837158,
+          "$type": "number"
+        },
+        "140": {
+          "$value": 1.399999976158142,
+          "$type": "number"
+        },
+        "150": {
+          "$value": 1.5,
+          "$type": "number"
+        },
+        "160": {
+          "$value": 1.600000023841858,
+          "$type": "number"
+        }
+      },
       "weight": {
         "regular": {
           "$value": 400,
@@ -3268,6 +3302,29 @@
       }
     },
     "motion": {
+      "duration": {
+        "fast": {
+          "$value": {
+            "value": 0.15000000596046448,
+            "unit": "s"
+          },
+          "$type": "duration"
+        },
+        "medium": {
+          "$value": {
+            "value": 0.20000000298023224,
+            "unit": "s"
+          },
+          "$type": "duration"
+        },
+        "slow": {
+          "$value": {
+            "value": 0.25,
+            "unit": "s"
+          },
+          "$type": "duration"
+        }
+      },
       "style": {
         "easeinout": {
           "$value": [
@@ -3295,29 +3352,6 @@
             1
           ],
           "$type": "cubicBezier"
-        }
-      },
-      "duration": {
-        "fast": {
-          "$value": {
-            "value": 0.15000000596046448,
-            "unit": "s"
-          },
-          "$type": "duration"
-        },
-        "medium": {
-          "$value": {
-            "value": 0.20000000298023224,
-            "unit": "s"
-          },
-          "$type": "duration"
-        },
-        "slow": {
-          "$value": {
-            "value": 0.25,
-            "unit": "s"
-          },
-          "$type": "duration"
         }
       }
     }

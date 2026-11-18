@@ -1,0 +1,483 @@
+{
+  "$schema": "https://www.designtokens.org/schemas/2025.10/format.json",
+  "typography": {
+    "heading": {
+      "xxs": {
+        "fontsize": {
+          "$value": "{devices.text.size.heading.xxs}",
+          "$type": "number"
+        },
+        "fontfamily": {
+          "$value": "{brands.text.family.heading}",
+          "$type": "fontFamily"
+        },
+        "fontweight": {
+          "$value": "{brands.text.weight.heading}",
+          "$type": "number"
+        },
+        "lineheight": {
+          "$value": "{primitives.font.ratio.120}",
+          "$type": "number"
+        }
+      },
+      "xs": {
+        "fontsize": {
+          "$value": "{devices.text.size.heading.xs}",
+          "$type": "number"
+        },
+        "fontfamily": {
+          "$value": "{brands.text.family.heading}",
+          "$type": "fontFamily"
+        },
+        "fontweight": {
+          "$value": "{brands.text.weight.heading}",
+          "$type": "number"
+        },
+        "lineheight": {
+          "$value": "{primitives.font.ratio.120}",
+          "$type": "number"
+        }
+      },
+      "sm": {
+        "fontsize": {
+          "$value": "{devices.text.size.heading.sm}",
+          "$type": "number"
+        },
+        "fontfamily": {
+          "$value": "{brands.text.family.heading}",
+          "$type": "fontFamily"
+        },
+        "fontweight": {
+          "$value": "{brands.text.weight.heading}",
+          "$type": "number"
+        },
+        "lineheight": {
+          "$value": "{primitives.font.ratio.120}",
+          "$type": "number"
+        }
+      },
+      "md": {
+        "fontsize": {
+          "$value": "{devices.text.size.heading.md}",
+          "$type": "number"
+        },
+        "fontfamily": {
+          "$value": "{brands.text.family.heading}",
+          "$type": "fontFamily"
+        },
+        "fontweight": {
+          "$value": "{brands.text.weight.heading}",
+          "$type": "number"
+        },
+        "lineheight": {
+          "$value": "{primitives.font.ratio.120}",
+          "$type": "number"
+        }
+      },
+      "lg": {
+        "fontsize": {
+          "$value": "{devices.text.size.heading.lg}",
+          "$type": "number"
+        },
+        "fontfamily": {
+          "$value": "{brands.text.family.heading}",
+          "$type": "fontFamily"
+        },
+        "fontweight": {
+          "$value": "{brands.text.weight.heading}",
+          "$type": "number"
+        },
+        "lineheight": {
+          "$value": "{primitives.font.ratio.120}",
+          "$type": "number"
+        }
+      },
+      "xl": {
+        "fontsize": {
+          "$value": "{devices.text.size.heading.xl}",
+          "$type": "number"
+        },
+        "fontfamily": {
+          "$value": "{brands.text.family.heading}",
+          "$type": "fontFamily"
+        },
+        "fontweight": {
+          "$value": "{brands.text.weight.heading}",
+          "$type": "number"
+        },
+        "lineheight": {
+          "$value": "{primitives.font.ratio.120}",
+          "$type": "number"
+        }
+      },
+      "xxl": {
+        "fontsize": {
+          "$value": "{devices.text.size.heading.xxl}",
+          "$type": "number"
+        },
+        "fontfamily": {
+          "$value": "{brands.text.family.heading}",
+          "$type": "fontFamily"
+        },
+        "fontweight": {
+          "$value": "{brands.text.weight.heading}",
+          "$type": "number"
+        },
+        "lineheight": {
+          "$value": "{primitives.font.ratio.120}",
+          "$type": "number"
+        }
+      },
+      "xxxl": {
+        "fontsize": {
+          "$value": "{devices.text.size.heading.xxxl}",
+          "$type": "number"
+        },
+        "fontfamily": {
+          "$value": "{brands.text.family.heading}",
+          "$type": "fontFamily"
+        },
+        "fontweight": {
+          "$value": "{brands.text.weight.heading}",
+          "$type": "number"
+        },
+        "lineheight": {
+          "$value": "{primitives.font.ratio.120}",
+          "$type": "number"
+        }
+      }
+    },
+    "body": {
+      "sm": {
+        "fontsize": {
+          "$value": "{devices.text.size.body.sm}",
+          "$type": "number"
+        },
+        "fontfamily": {
+          "$value": "{brands.text.family.body}",
+          "$type": "fontFamily"
+        },
+        "fontweight": {
+          "$value": "{brands.text.weight.body}",
+          "$type": "number"
+        },
+        "lineheight": {
+          "$value": "{primitives.font.ratio.150}",
+          "$type": "number"
+        }
+      },
+      "md": {
+        "fontsize": {
+          "$value": "{devices.text.size.body.md}",
+          "$type": "number"
+        },
+        "fontfamily": {
+          "$value": "{brands.text.family.body}",
+          "$type": "fontFamily"
+        },
+        "fontweight": {
+          "$value": "{brands.text.weight.body}",
+          "$type": "number"
+        },
+        "lineheight": {
+          "$value": "{primitives.font.ratio.150}",
+          "$type": "number"
+        }
+      },
+      "lg": {
+        "fontsize": {
+          "$value": "{devices.text.size.body.lg}",
+          "$type": "number"
+        },
+        "fontfamily": {
+          "$value": "{brands.text.family.body}",
+          "$type": "fontFamily"
+        },
+        "fontweight": {
+          "$value": "{brands.text.weight.body}",
+          "$type": "number"
+        },
+        "lineheight": {
+          "$value": "{primitives.font.ratio.150}",
+          "$type": "number"
+        }
+      },
+      "xl": {
+        "fontsize": {
+          "$value": "{devices.text.size.body.xl}",
+          "$type": "number"
+        },
+        "fontfamily": {
+          "$value": "{brands.text.family.body}",
+          "$type": "fontFamily"
+        },
+        "fontweight": {
+          "$value": "{brands.text.weight.body}",
+          "$type": "number"
+        },
+        "lineheight": {
+          "$value": "{primitives.font.ratio.150}",
+          "$type": "number"
+        }
+      }
+    },
+    "utility": {
+      "sm": {
+        "fontsize": {
+          "$value": "{devices.text.size.utility.sm}",
+          "$type": "number"
+        },
+        "fontfamily": {
+          "$value": "{brands.text.family.utility}",
+          "$type": "fontFamily"
+        },
+        "fontweight": {
+          "$value": "{brands.text.weight.utility}",
+          "$type": "number"
+        },
+        "lineheight": {
+          "$value": "{primitives.font.ratio.120}",
+          "$type": "number"
+        }
+      },
+      "md": {
+        "fontsize": {
+          "$value": "{devices.text.size.utility.md}",
+          "$type": "number"
+        },
+        "fontfamily": {
+          "$value": "{brands.text.family.utility}",
+          "$type": "fontFamily"
+        },
+        "fontweight": {
+          "$value": "{brands.text.weight.utility}",
+          "$type": "number"
+        },
+        "lineheight": {
+          "$value": "{primitives.font.ratio.120}",
+          "$type": "number"
+        }
+      },
+      "lg": {
+        "fontsize": {
+          "$value": "{devices.text.size.utility.lg}",
+          "$type": "number"
+        },
+        "fontfamily": {
+          "$value": "{brands.text.family.utility}",
+          "$type": "fontFamily"
+        },
+        "fontweight": {
+          "$value": "{brands.text.weight.utility}",
+          "$type": "number"
+        },
+        "lineheight": {
+          "$value": "{primitives.font.ratio.120}",
+          "$type": "number"
+        }
+      },
+      "xl": {
+        "fontsize": {
+          "$value": "{devices.text.size.utility.xl}",
+          "$type": "number"
+        },
+        "fontfamily": {
+          "$value": "{brands.text.family.utility}",
+          "$type": "fontFamily"
+        },
+        "fontweight": {
+          "$value": "{brands.text.weight.utility}",
+          "$type": "number"
+        },
+        "lineheight": {
+          "$value": "{primitives.font.ratio.120}",
+          "$type": "number"
+        }
+      },
+      "xxl": {
+        "fontsize": {
+          "$value": "{devices.text.size.utility.xxl}",
+          "$type": "number"
+        },
+        "fontfamily": {
+          "$value": "{brands.text.family.utility}",
+          "$type": "fontFamily"
+        },
+        "fontweight": {
+          "$value": "{brands.text.weight.utility}",
+          "$type": "number"
+        },
+        "lineheight": {
+          "$value": "{primitives.font.ratio.120}",
+          "$type": "number"
+        }
+      },
+      "xxxl": {
+        "fontsize": {
+          "$value": "{devices.text.size.utility.xxxl}",
+          "$type": "number"
+        },
+        "fontfamily": {
+          "$value": "{brands.text.family.utility}",
+          "$type": "fontFamily"
+        },
+        "fontweight": {
+          "$value": "{brands.text.weight.utility}",
+          "$type": "number"
+        },
+        "lineheight": {
+          "$value": "{primitives.font.ratio.120}",
+          "$type": "number"
+        }
+      }
+    },
+    "display": {
+      "headline": {
+        "fontsize": {
+          "$value": "{devices.text.size.display.headline}",
+          "$type": "number"
+        },
+        "fontfamily": {
+          "$value": "{brands.text.family.display.headline}",
+          "$type": "fontFamily"
+        },
+        "fontweight": {
+          "$value": "{brands.text.weight.display.headline}",
+          "$type": "number"
+        },
+        "lineheight": {
+          "$value": "{primitives.font.ratio.120}",
+          "$type": "number"
+        }
+      },
+      "intro": {
+        "fontsize": {
+          "$value": "{devices.text.size.display.intro}",
+          "$type": "number"
+        },
+        "fontfamily": {
+          "$value": "{brands.text.family.display.intro}",
+          "$type": "fontFamily"
+        },
+        "fontweight": {
+          "$value": "{brands.text.weight.display.intro}",
+          "$type": "number"
+        },
+        "lineheight": {
+          "$value": "{primitives.font.ratio.160}",
+          "$type": "number"
+        }
+      },
+      "quote": {
+        "fontsize": {
+          "$value": "{devices.text.size.display.quote}",
+          "$type": "number"
+        },
+        "fontfamily": {
+          "$value": "{brands.text.family.display.quote}",
+          "$type": "fontFamily"
+        },
+        "fontweight": {
+          "$value": "{brands.text.weight.display.quote}",
+          "$type": "number"
+        },
+        "lineheight": {
+          "$value": "{primitives.font.ratio.140}",
+          "$type": "number"
+        }
+      },
+      "name": {
+        "fontsize": {
+          "$value": "{devices.text.size.display.name}",
+          "$type": "number"
+        },
+        "fontfamily": {
+          "$value": "{brands.text.family.display.name}",
+          "$type": "fontFamily"
+        },
+        "fontweight": {
+          "$value": "{brands.text.weight.display.name}",
+          "$type": "number"
+        },
+        "lineheight": {
+          "$value": "{primitives.font.ratio.100}",
+          "$type": "number"
+        }
+      }
+    },
+    "program": {
+      "sm": {
+        "fontsize": {
+          "$value": "{devices.text.size.program.sm}",
+          "$type": "number"
+        },
+        "fontfamily": {
+          "$value": "{brands.text.family.program}",
+          "$type": "fontFamily"
+        },
+        "fontweight": {
+          "$value": "{brands.text.weight.program}",
+          "$type": "number"
+        },
+        "lineheight": {
+          "$value": "{primitives.font.ratio.90}",
+          "$type": "number"
+        }
+      },
+      "lg": {
+        "fontsize": {
+          "$value": "{devices.text.size.program.lg}",
+          "$type": "number"
+        },
+        "fontfamily": {
+          "$value": "{brands.text.family.program}",
+          "$type": "fontFamily"
+        },
+        "fontweight": {
+          "$value": "{brands.text.weight.program}",
+          "$type": "number"
+        },
+        "lineheight": {
+          "$value": "{primitives.font.ratio.90}",
+          "$type": "number"
+        }
+      },
+      "xl": {
+        "fontsize": {
+          "$value": "{devices.text.size.program.xl}",
+          "$type": "number"
+        },
+        "fontfamily": {
+          "$value": "{brands.text.family.program}",
+          "$type": "fontFamily"
+        },
+        "fontweight": {
+          "$value": "{brands.text.weight.program}",
+          "$type": "number"
+        },
+        "lineheight": {
+          "$value": "{primitives.font.ratio.90}",
+          "$type": "number"
+        }
+      },
+      "xxl": {
+        "fontsize": {
+          "$value": "{devices.text.size.program.xxl}",
+          "$type": "number"
+        },
+        "fontfamily": {
+          "$value": "{brands.text.family.program}",
+          "$type": "fontFamily"
+        },
+        "fontweight": {
+          "$value": "{brands.text.weight.program}",
+          "$type": "number"
+        },
+        "lineheight": {
+          "$value": "{primitives.font.ratio.90}",
+          "$type": "number"
+        }
+      }
+    }
+  }
+}

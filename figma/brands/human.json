@@ -647,10 +647,82 @@
         }
       }
     },
-    "font": {
+    "text": {
+      "weight": {
+        "display": {
+          "headline": {
+            "$value": "{primitives.font.weight.bold}",
+            "$type": "number"
+          },
+          "intro": {
+            "$value": "{primitives.font.weight.medium}",
+            "$type": "number"
+          },
+          "quote": {
+            "$value": "{primitives.font.weight.medium}",
+            "$type": "number"
+          },
+          "name": {
+            "$value": "{primitives.font.weight.bold}",
+            "$type": "number"
+          }
+        },
+        "heading": {
+          "$value": "{primitives.font.weight.bold}",
+          "$type": "number"
+        },
+        "body": {
+          "$value": "{primitives.font.weight.regular}",
+          "$type": "number"
+        },
+        "utility": {
+          "$value": "{primitives.font.weight.regular}",
+          "$type": "number"
+        },
+        "program": {
+          "$value": "{primitives.font.weight.medium}",
+          "$type": "number"
+        }
+      },
       "family": {
-        "$value": "{primitives.font.family.riforma}",
-        "$type": "fontFamily"
+        "default": {
+          "$value": "{primitives.font.family.riforma}",
+          "$type": "fontFamily"
+        },
+        "heading": {
+          "$value": "{primitives.font.family.riforma}",
+          "$type": "fontFamily"
+        },
+        "body": {
+          "$value": "{primitives.font.family.riforma}",
+          "$type": "fontFamily"
+        },
+        "utility": {
+          "$value": "{primitives.font.family.riforma}",
+          "$type": "fontFamily"
+        },
+        "program": {
+          "$value": "{primitives.font.family.riforma}",
+          "$type": "fontFamily"
+        },
+        "display": {
+          "headline": {
+            "$value": "{primitives.font.family.riforma}",
+            "$type": "fontFamily"
+          },
+          "intro": {
+            "$value": "{primitives.font.family.riforma}",
+            "$type": "fontFamily"
+          },
+          "quote": {
+            "$value": "{primitives.font.family.riforma}",
+            "$type": "fontFamily"
+          },
+          "name": {
+            "$value": "{primitives.font.family.riforma}",
+            "$type": "fontFamily"
+          }
+        }
       }
     },
     "component": {

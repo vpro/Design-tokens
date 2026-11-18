@@ -243,6 +243,28 @@
         }
       }
     },
+    "device": {
+      "width": {
+        "$value": 1440,
+        "$type": "number"
+      },
+      "inline-6": {
+        "$value": 588,
+        "$type": "number"
+      },
+      "inline-12": {
+        "$value": 1200,
+        "$type": "number"
+      },
+      "columns": {
+        "$value": 12,
+        "$type": "number"
+      },
+      "height": {
+        "$value": 1024,
+        "$type": "number"
+      }
+    },
     "layout": {
       "padding": {
         "horizontal-sm": {
@@ -307,19 +329,19 @@
             "$type": "number"
           }
         },
-        "npoplayer": {
-          "img-width": {
-            "$value": 120,
+        "contentcaptionfigure": {
+          "text-width": {
+            "$value": 384,
+            "$type": "number"
+          },
+          "comp-width": {
+            "$value": 588,
             "$type": "number"
           }
         },
-        "reviewtile": {
-          "img-width": {
-            "$value": 282,
-            "$type": "number"
-          },
-          "img-width-min": {
-            "$value": 282,
+        "cardlink": {
+          "img-width-max": {
+            "$value": 136,
             "$type": "number"
           }
         },
@@ -333,31 +355,15 @@
             "$type": "number"
           }
         },
-        "slideshow": {
-          "bottom-margin": {
-            "$value": 64,
-            "$type": "number"
-          }
-        },
         "cinemamovie": {
           "credit-width": {
             "$value": 106,
             "$type": "number"
           }
         },
-        "contentcaptionfigure": {
-          "text-width": {
-            "$value": 384,
-            "$type": "number"
-          },
-          "comp-width": {
-            "$value": 588,
-            "$type": "number"
-          }
-        },
-        "embed": {
-          "img-width-spotify": {
-            "$value": 160,
+        "event": {
+          "img-width": {
+            "$value": 180,
             "$type": "number"
           }
         },
@@ -375,15 +381,9 @@
             "$type": "number"
           }
         },
-        "cardlink": {
-          "img-width-max": {
-            "$value": 136,
-            "$type": "number"
-          }
-        },
-        "event": {
-          "img-width": {
-            "$value": 180,
+        "slideshow": {
+          "bottom-margin": {
+            "$value": 64,
             "$type": "number"
           }
         },
@@ -398,6 +398,28 @@
           },
           "padding": {
             "$value": 40,
+            "$type": "number"
+          }
+        },
+        "npoplayer": {
+          "img-width": {
+            "$value": 120,
+            "$type": "number"
+          }
+        },
+        "embed": {
+          "img-width-spotify": {
+            "$value": 160,
+            "$type": "number"
+          }
+        },
+        "reviewtile": {
+          "img-width": {
+            "$value": 282,
+            "$type": "number"
+          },
+          "img-width-min": {
+            "$value": 282,
             "$type": "number"
           }
         },
@@ -427,28 +449,6 @@
           "$value": 480,
           "$type": "number"
         }
-      }
-    },
-    "device": {
-      "width": {
-        "$value": 1440,
-        "$type": "number"
-      },
-      "inline-6": {
-        "$value": 588,
-        "$type": "number"
-      },
-      "inline-12": {
-        "$value": 1200,
-        "$type": "number"
-      },
-      "columns": {
-        "$value": 12,
-        "$type": "number"
-      },
-      "height": {
-        "$value": 1024,
-        "$type": "number"
       }
     },
     "content": {

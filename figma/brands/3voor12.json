@@ -198,6 +198,10 @@
             "$value": "{brands.brandprimitives.secondary.muted}",
             "$type": "color"
           },
+          "title": {
+            "$value": "{brands.brandprimitives.primary.muted}",
+            "$type": "color"
+          },
           "hover": {
             "$value": "{brands.brandprimitives.primary.dark}",
             "$type": "color"

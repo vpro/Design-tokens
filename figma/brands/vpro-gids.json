@@ -689,10 +689,6 @@
         }
       },
       "family": {
-        "default": {
-          "$value": "{primitives.font.family.simplisticsans}",
-          "$type": "fontFamily"
-        },
         "heading": {
           "$value": "{primitives.font.family.simplisticsans}",
           "$type": "fontFamily"
@@ -785,12 +781,6 @@
     },
     "content": {
       "text": {
-        "navigation": {
-          "payoff": {
-            "$value": "Elke dag een nieuwe programmagids, elke week voor abonnees de nieuwste editie met interviews, artikelen en tips voor boeken, podcasts, documentaires en films en series.",
-            "$type": "string"
-          }
-        },
         "navigation-themes": {
           "cta-nav-r1": {
             "$value": "Word abonnee",

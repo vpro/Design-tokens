@@ -689,10 +689,6 @@
         }
       },
       "family": {
-        "default": {
-          "$value": "{primitives.font.family.simplisticsans}",
-          "$type": "fontFamily"
-        },
         "heading": {
           "$value": "{primitives.font.family.simplisticsans}",
           "$type": "fontFamily"
@@ -785,12 +781,6 @@
     },
     "content": {
       "text": {
-        "navigation": {
-          "payoff": {
-            "$value": "De grootste, meest complete Nederlandstalige website over films en series. Boordevol recensies, interviews, video's en verslagen van de belangrijkste filmfestivals in binnen- en buitenland.",
-            "$type": "string"
-          }
-        },
         "navigation-themes": {
           "cta-nav-r1": {
             "$value": "Nieuwsbrieven",

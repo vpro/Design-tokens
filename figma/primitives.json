@@ -2903,52 +2903,6 @@
         }
       },
       "lineheight": {
-        "100": {
-          "$value": 16,
-          "$type": "number"
-        },
-        "200": {
-          "$value": 24,
-          "$type": "number"
-        },
-        "300": {
-          "$value": 32,
-          "$type": "number"
-        },
-        "400": {
-          "$value": 40,
-          "$type": "number"
-        },
-        "500": {
-          "$value": 48,
-          "$type": "number"
-        },
-        "600": {
-          "$value": 56,
-          "$type": "number"
-        },
-        "700": {
-          "$value": 64,
-          "$type": "number"
-        },
-        "800": {
-          "$value": 72,
-          "$type": "number"
-        },
-        "900": {
-          "$value": 80,
-          "$type": "number"
-        },
-        "1000": {
-          "$value": 120,
-          "$type": "number"
-        },
-        "1100": {
-          "$value": 136,
-          "$type": "number"
-        }
-      },
-      "ratio": {
         "80": {
           "$value": 0.800000011920929,
           "$type": "number"

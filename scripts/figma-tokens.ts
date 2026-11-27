@@ -40,6 +40,7 @@ interface FigmaVariable {
   name: string;
   description: string;
   remote: boolean;
+  deletedButReferenced?: boolean;
   resolvedType: FigmaResolvedType;
   variableCollectionId: string;
   valuesByMode: Record<string, unknown>;
@@ -254,7 +255,9 @@ function validateResponse(response: unknown): ValidatedFigmaData {
   const variables = new Map(
     [...allVariables.entries()].filter(
       ([, variable]) =>
-        !variable.remote && collectionIds.has(variable.variableCollectionId),
+        !variable.remote &&
+        !variable.deletedButReferenced &&
+        collectionIds.has(variable.variableCollectionId),
     ),
   );
 
@@ -270,7 +273,7 @@ function validateResponse(response: unknown): ValidatedFigmaData {
     const expectedIds = new Set(
       collection.variableIds.filter((id) => {
         const variable = allVariables.get(id);
-        return variable && !variable.remote;
+        return variable && !variable.remote && !variable.deletedButReferenced;
       }),
     );
     const actualIds = new Set(

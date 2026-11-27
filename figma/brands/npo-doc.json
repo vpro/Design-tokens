@@ -689,10 +689,6 @@
         }
       },
       "family": {
-        "default": {
-          "$value": "{primitives.font.family.nposcandia}",
-          "$type": "fontFamily"
-        },
         "heading": {
           "$value": "{primitives.font.family.nposcandia}",
           "$type": "fontFamily"
@@ -785,12 +781,6 @@
     },
     "content": {
       "text": {
-        "navigation": {
-          "payoff": {
-            "$value": "De thuisbasis voor documentaireliefhebbers.",
-            "$type": "string"
-          }
-        },
         "navigation-themes": {
           "cta-nav-r1": {
             "$value": "Nieuwsbrieven",

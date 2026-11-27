@@ -117,130 +117,6 @@
             "$type": "number"
           }
         }
-      },
-      "lineheight": {
-        "heading": {
-          "xxs": {
-            "$value": "{primitives.font.lineheight.300}",
-            "$type": "number"
-          },
-          "xs": {
-            "$value": "{primitives.font.lineheight.300}",
-            "$type": "number"
-          },
-          "sm": {
-            "$value": "{primitives.font.lineheight.300}",
-            "$type": "number"
-          },
-          "md": {
-            "$value": "{primitives.font.lineheight.400}",
-            "$type": "number"
-          },
-          "lg": {
-            "$value": "{primitives.font.lineheight.500}",
-            "$type": "number"
-          },
-          "xl": {
-            "$value": "{primitives.font.lineheight.700}",
-            "$type": "number"
-          },
-          "xxl": {
-            "$value": "{primitives.font.lineheight.800}",
-            "$type": "number"
-          },
-          "xxxl": {
-            "$value": "{primitives.font.lineheight.900}",
-            "$type": "number"
-          }
-        },
-        "body": {
-          "sm": {
-            "$value": "{primitives.font.lineheight.200}",
-            "$type": "number"
-          },
-          "md": {
-            "$value": "{primitives.font.lineheight.200}",
-            "$type": "number"
-          },
-          "lg": {
-            "$value": "{primitives.font.lineheight.200}",
-            "$type": "number"
-          },
-          "xl": {
-            "$value": "{primitives.font.lineheight.200}",
-            "$type": "number"
-          }
-        },
-        "utility": {
-          "sm": {
-            "$value": "{primitives.font.lineheight.100}",
-            "$type": "number"
-          },
-          "md": {
-            "$value": "{primitives.font.lineheight.100}",
-            "$type": "number"
-          },
-          "lg": {
-            "$value": "{primitives.font.lineheight.100}",
-            "$type": "number"
-          },
-          "xl": {
-            "$value": "{primitives.font.lineheight.100}",
-            "$type": "number"
-          },
-          "xxl": {
-            "$value": "{primitives.font.lineheight.200}",
-            "$type": "number"
-          },
-          "xxxl": {
-            "$value": "{primitives.font.lineheight.200}",
-            "$type": "number"
-          }
-        },
-        "display": {
-          "headline": {
-            "$value": "{primitives.font.lineheight.500}",
-            "$type": "number"
-          },
-          "quote": {
-            "$value": "{primitives.font.lineheight.200}",
-            "$type": "number"
-          },
-          "name": {
-            "$value": "{primitives.font.lineheight.400}",
-            "$type": "number"
-          },
-          "intro": {
-            "$value": "{primitives.font.lineheight.200}",
-            "$type": "number"
-          }
-        },
-        "program": {
-          "sm": {
-            "$value": "{primitives.font.lineheight.300}",
-            "$type": "number"
-          },
-          "lg": {
-            "$value": "{primitives.font.lineheight.400}",
-            "$type": "number"
-          },
-          "xl": {
-            "$value": "{primitives.font.lineheight.1000}",
-            "$type": "number"
-          },
-          "xxl": {
-            "$value": "{primitives.font.lineheight.1100}",
-            "$type": "number"
-          }
-        }
-      },
-      "utility": {
-        "weight": {
-          "md": {
-            "$value": "{primitives.font.weight.regular}",
-            "$type": "number"
-          }
-        }
       }
     },
     "device": {
@@ -323,9 +199,15 @@
             "$type": "number"
           }
         },
-        "reviewblock": {
-          "img-width": {
-            "$value": 588,
+        "cinemamovie": {
+          "credit-width": {
+            "$value": 106,
+            "$type": "number"
+          }
+        },
+        "slideshow": {
+          "bottom-margin": {
+            "$value": 64,
             "$type": "number"
           }
         },
@@ -339,12 +221,6 @@
             "$type": "number"
           }
         },
-        "cardlink": {
-          "img-width-max": {
-            "$value": 136,
-            "$type": "number"
-          }
-        },
         "collection": {
           "img-width": {
             "$value": 384,
@@ -355,35 +231,21 @@
             "$type": "number"
           }
         },
-        "cinemamovie": {
-          "credit-width": {
-            "$value": 106,
+        "cardlink": {
+          "img-width-max": {
+            "$value": 136,
             "$type": "number"
           }
         },
-        "event": {
+        "embed": {
+          "img-width-spotify": {
+            "$value": 160,
+            "$type": "number"
+          }
+        },
+        "reviewblock": {
           "img-width": {
-            "$value": 180,
-            "$type": "number"
-          }
-        },
-        "gallery": {
-          "gallery-width-max": {
-            "$value": 1200,
-            "$type": "number"
-          },
-          "gallery-height-max": {
-            "$value": 1434,
-            "$type": "number"
-          },
-          "gallery-content-width": {
             "$value": 588,
-            "$type": "number"
-          }
-        },
-        "slideshow": {
-          "bottom-margin": {
-            "$value": 64,
             "$type": "number"
           }
         },
@@ -401,15 +263,29 @@
             "$type": "number"
           }
         },
+        "event": {
+          "img-width": {
+            "$value": 180,
+            "$type": "number"
+          }
+        },
         "npoplayer": {
           "img-width": {
             "$value": 120,
             "$type": "number"
           }
         },
-        "embed": {
-          "img-width-spotify": {
-            "$value": 160,
+        "gallery": {
+          "gallery-width-max": {
+            "$value": 1200,
+            "$type": "number"
+          },
+          "gallery-height-max": {
+            "$value": 1434,
+            "$type": "number"
+          },
+          "gallery-content-width": {
+            "$value": 588,
             "$type": "number"
           }
         },
